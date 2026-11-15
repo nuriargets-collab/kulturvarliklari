@@ -20,7 +20,7 @@ $API_KEY   = getenv('ANTHROPIC_API_KEY') ?: ($CONFIG['ANTHROPIC_API_KEY'] ?? '')
 $MODEL     = $CONFIG['MODEL']          ?? 'claude-haiku-5-5';
 $PER_IP    = (int)($CONFIG['LIMIT_PER_IP_10MIN'] ?? 15);   // IP başına 10 dakikada en fazla soru
 $PER_DAY   = (int)($CONFIG['LIMIT_PER_DAY'] ?? 2000);      // tüm site için günlük üst sınır
-$MAX_TOK   = (int)($CONFIG['MAX_TOKENS'] ?? 700);
+$MAX_TOK   = (int)($CONFIG['MAX_TOKENS'] ?? 900);
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') out(405, ['error' => 'method']);
 if ($API_KEY === '' || str_starts_with($API_KEY, 'BURAYA')) out(503, ['error' => 'not_configured']);
@@ -72,12 +72,13 @@ Kurallar:
 - Soruyu hangi dilde sorduysa o dilde yanıt ver.
 - Kısa ve net ol: çoğu yanıt 2-5 cümle. Liste istenirse en fazla 8 madde.
 - Önce aşağıdaki KATALOG'daki bilgilere dayan. Genel olarak bilinen, iyi yerleşmiş tarih bilgisini ekleyebilirsin; emin olmadığın tarih, sayı veya ayrıntıyı uydurma, bilmiyorsan söyle.
-- Ziyaret saatleri, bilet ücretleri, ulaşım gibi değişebilen bilgileri verme; bunlar için ziyaretçiyi resmî kaynaklara yönlendir.
+- Ziyaret saatleri, bilet ücretleri gibi değişebilen bilgileri verme; bunlar için ziyaretçiyi resmî kaynaklara yönlendir.
+- GEZİ PLANI istenirse (ör. \"Bodrum'da 2 gün\", \"Kapadokya rotası\"): katalogdaki koordinatlara bakarak birbirine yakın yerleri seç, gün gün yaz (\"1. gün:\" ile başlayan satırlar), her güne 2-5 yer koy, aynı gün içindeki yerler arasında yaklaşık uzaklığı \"~30 km\" gibi belirtebilirsin. Süreler ve uzaklıklar yaklaşık olduğu için bunu bir cümleyle belirt. Planı en fazla 12 satırda tut. İlgili hazır rota varsa sitedeki \"Rotalar\" sayfasını da önerebilirsin.
 - Katalogdaki bir yerden söz ettiğinde adını [[KOD|Ad]] biçiminde yaz (örnek: [[EFS01|Efes]]). Katalogda olmayan yer için bu biçimi kullanma.
-- Konu Türkiye'nin kültür mirası, müzeleri, antik kentleri ve tarihiyle ilgili değilse kibarca bu konularda yardımcı olabileceğini söyle.
+- Konu Türkiye'nin kültür mirası, müzeleri, antik kentleri, tarihi veya bunlara yönelik gezi planlaması değilse kibarca bu konularda yardımcı olabileceğini söyle.
 - Markdown başlık veya tablo kullanma; düz metin yaz.
 
-KATALOG (KOD | Ad | İl | Bölge | Tür | Dönem | UNESCO | Açıklama):
+KATALOG (KOD | Ad | İlçe/İl | Tür | Dönem | UNESCO | Enlem,Boylam | Açıklama):
 " . $catalog,
    'cache_control' => ['type' => 'ephemeral']]
 ];

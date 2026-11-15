@@ -6,5 +6,6 @@ return [
     'MODEL'              => 'claude-haiku-5-5',
     'LIMIT_PER_IP_10MIN' => 15,    // bir ziyaretçi 10 dakikada en fazla kaç soru sorabilir
     'LIMIT_PER_DAY'      => 2000,  // sitenin günlük toplam soru sınırı (bütçe koruması)
-    'MAX_TOKENS'         => 700,
+    'MAX_TOKENS'         => 900,
+    'TRANSLATE_PER_DAY'  => 400,   // sesli anlatım için günlük en fazla yeni çeviri (çeviriler bir kez yapılıp saklanır)
 ];

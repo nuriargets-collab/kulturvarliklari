@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" data-root="./" data-sw>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kültür Varlıkları — Türkiye'nin müzeleri ve antik kentleri</title>
-<meta name="description" content="Türkiye'deki 358 müze ve ören yerini tek yerden keşfedin: arama, il ve bölge filtreleri, fotoğraflar, Türkçe, İngilizce ve Almanca sesli anlatım.">
-<link rel="canonical" href="https://kulturvarliklari.com.tr/">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="description" content="Türkiye'deki 358 müze ve ören yerini tek yerden keşfedin: harita, hazır rotalar, il ve dönem filtreleri, fotoğraflar ve çok dilli sesli anlatım.">
+<link rel="canonical" href="https://kulturvarliklari.com.tr/"><link rel="alternate" hreflang="tr" href="https://kulturvarliklari.com.tr/"><link rel="alternate" hreflang="en" href="https://kulturvarliklari.com.tr/en/"><link rel="alternate" hreflang="de" href="https://kulturvarliklari.com.tr/de/"><link rel="alternate" hreflang="x-default" href="https://kulturvarliklari.com.tr/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="apple-touch-180.png"><link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#16120f">
-<meta property="og:type" content="website">
+
+<meta property="og:type" content="website"><meta property="og:locale" content="tr_TR">
 <meta property="og:site_name" content="Kültür Varlıkları">
 <meta property="og:title" content="Kültür Varlıkları — Türkiye'nin müzeleri ve antik kentleri">
 <meta property="og:description" content="Türkiye'deki müze ve ören yerlerini keşfedin, tarihçelerini farklı dillerde dinleyin.">
@@ -16,6 +17,8 @@
 <meta property="og:image" content="https://kulturvarliklari.com.tr/img/EFS01.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="fonts/fonts.css">
+<style>header nav a.lng{font-weight:700;font-size:12px;opacity:.7}footer .flinks{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}footer .flinks a{text-decoration:none;opacity:.8}
+@media(max-width:700px){header{flex-wrap:wrap}header nav{display:flex!important;width:100%;overflow-x:auto;gap:14px;font-size:13px;margin-top:8px;scrollbar-width:none}header nav a{white-space:nowrap}}</style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Kültür Varlıkları", "url": "https://kulturvarliklari.com.tr/", "inLanguage": "tr"}</script>
 <style>
   :root{
@@ -210,7 +213,7 @@
     <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12 16 5l12 7"/><path d="M5 12h22M7 12v12M12.5 12v12M19.5 12v12M25 12v12M4 26h24M3 28.5h26"/></svg>
     kulturvarliklari<small>.com.tr</small>
   </div>
-  <nav><a href="#kesfet">Keşfet</a><a href="#kesfet" data-type="Müze">Müzeler</a><a href="#kesfet" data-type="Ören Yeri">Ören Yerleri</a><a href="#ozellikler">Sesli Tur</a><a href="#rehber">Rehbere Sor</a></nav>
+  <nav><a href="#kesfet">Keşfet</a><a href="harita.html">Harita</a><a href="rotalar/">Rotalar</a><a href="zaman-cizelgesi.html">Zaman Çizelgesi</a><a href="listem.html">Listem</a><a href="#rehber">Rehbere Sor</a><a class="lng" href="en/" hreflang="en">EN</a><a class="lng" href="de/" hreflang="de">DE</a></nav>
 </header>
 
 <section class="slider" id="slider" aria-roledescription="carousel"></section>
@@ -263,13 +266,13 @@
       <h4>Müzeler ve antik kentler hakkında soru sorun</h4>
       <div class="chat" id="chat" aria-live="polite"></div>
       <form class="askform" id="askForm"><input id="askIn" autocomplete="off" placeholder="Örn. İzmir'de hangi ören yerleri var?"><button class="btn btn-terra" type="submit">Sor</button></form>
-      <div class="fchips" id="askChips"><button type="button" data-ask="Efes ne zaman UNESCO listesine girdi?">Efes ne zaman UNESCO listesine girdi?</button><button type="button" data-ask="Nevşehir'de hangi yeraltı şehirleri var?">Nevşehir'de hangi yeraltı şehirleri var?</button><button type="button" data-ask="Hitit dönemine ait yerler">Hitit dönemine ait yerler</button><button type="button" data-ask="Göbeklitepe nerede?">Göbeklitepe nerede?</button><button type="button" data-ask="Antalya'da kaç müze var?">Antalya'da kaç müze var?</button></div>
+      <div class="fchips" id="askChips"><button type="button" data-ask="Efes ne zaman UNESCO listesine girdi?">Efes ne zaman UNESCO listesine girdi?</button><button type="button" data-ask="Nevşehir'de hangi yeraltı şehirleri var?">Nevşehir'de hangi yeraltı şehirleri var?</button><button type="button" data-ask="Hitit dönemine ait yerler">Hitit dönemine ait yerler</button><button type="button" data-ask="Göbeklitepe nerede?">Göbeklitepe nerede?</button><button type="button" data-ask="Antalya'da kaç müze var?">Antalya'da kaç müze var?</button><button type="button" data-ask="Bodrum'da 2 günlük gezi planı yapar mısın?">Bodrum'da 2 günlük plan</button></div>
       <div class="gnote">Yapay zeka destekli rehber. Yanıtlar hatalı olabilir; ziyaret saatleri ve ücretler için resmî kaynakları kontrol edin. Sorularınız yanıt üretmek için yapay zeka hizmet sağlayıcısına iletilir; kişisel bilgi yazmayın.</div>
     </div>
   </section>
 </main>
 
-<footer>© 2026 kulturvarliklari.com.tr · Tüm hakları saklıdır.</footer>
+<footer><nav class="flinks"><a href="hakkimizda.html">Hakkımızda</a><a href="iletisim.html">İletişim</a><a href="kvkk.html">KVKK Aydınlatma Metni</a><a href="cerez.html">Çerez Politikası</a><a href="kaynaklar.html">Kaynaklar</a></nav><div>© 2026 kulturvarliklari.com.tr · Tüm hakları saklıdır.</div></footer><script>window.KV_I18N={"listen": "▶ Dinle", "stop": "■ Durdur", "translating": "Çeviri hazırlanıyor…", "trans_err": "Çeviri şu anda alınamadı. Lütfen daha sonra tekrar deneyin.", "approx": "Konum yaklaşık olarak gösterilmektedir.", "more": "Ayrıntılı sayfa →", "directions": "Yol tarifi al", "near_err": "Konumunuz alınamadı. Tarayıcı izinlerini kontrol edin.", "places": "yer", "loading": "Yükleniyor…", "no_photos": "Ek fotoğraf bulunamadı.", "retry": "Tekrar dene", "empty_fav": "Listeniz boş. Yer sayfalarındaki ☆ düğmesiyle ekleyebilirsiniz.", "empty_vis": "Henüz gezdiğiniz bir yer işaretlemediniz.", "prov_line": "{t} ilden {n} tanesinde en az bir yer gezdiniz.", "no_tts": "Bu tarayıcı sesli okumayı desteklemiyor. Siteyi Chrome veya Safari ile açın.", "no_voice": "Bu cihazda bu dil için ses paketi yüklü değil. Telefon ayarlarından metin okuma dil paketini yükleyebilirsiniz.", "tts_err": "Ses başlatılamadı; lütfen tekrar deneyin.", "default_voice": "Bu dil için ses bulunamadı; varsayılan ses kullanılıyor.", "ios": "Ses gelmiyorsa sessiz modu kapatın.", "types": {"Müze": "Müze", "Ören Yeri": "Ören Yeri", "Kale & Tarihi Yapı": "Kale & Tarihi Yapı", "Dini Yapı": "Dini Yapı", "Yeraltı Şehri": "Yeraltı Şehri", "Doğal Alan": "Doğal Alan"}, "regions": {"Marmara": "Marmara", "Ege": "Ege", "Akdeniz": "Akdeniz", "İç Anadolu": "İç Anadolu", "Karadeniz": "Karadeniz", "Doğu Anadolu": "Doğu Anadolu", "Güneydoğu Anadolu": "Güneydoğu Anadolu"}};</script><script src="app.js" defer></script>
 
 <div class="modal" id="modal" role="dialog" aria-modal="true">
   <div class="sheet" id="sheet"></div>

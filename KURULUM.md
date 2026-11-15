@@ -53,14 +53,41 @@ Bu klasör, sitenin yayına hazır statik hâlidir. Sunucuda veritabanı, PHP ve
 
 **Kişisel veri:** Ziyaretçi soruları yanıt üretmek için Anthropic'e (yurt dışındaki bir hizmet sağlayıcıya) iletilir. Sitede bu konuda bir uyarı var; KVKK açısından bir aydınlatma metni eklemeniz gerekip gerekmediğini bir hukukçuya danışın.
 
-## Yayından sonra
+## Ek dillerde sesli anlatım (Rusça, Fransızca, İspanyolca, Arapça)
 
-1. **Google Search Console**'a `kulturvarliklari.com.tr` alan adını ekleyin ve doğrulayın.
-2. "Site haritaları" bölümüne `sitemap.xml` yazıp gönderin.
+Yer sayfalarındaki "Diğer diller" menüsü, metni ilk istendiğinde yapay zekâ ile çevirir ve sunucuda saklar (`public_html`'in bir üst klasöründe `kv_cache` klasörü oluşur; oluşturulamazsa `api/cache` kullanılır). Aynı yerin aynı dildeki çevirisi bir daha API'ye gitmez. Tüm yerlerin dört dile çevirisi toplamda yaklaşık 1.400 çeviridir ve tek seferlik maliyeti birkaç dolar civarındadır. Günlük yeni çeviri sınırı `TRANSLATE_PER_DAY` ayarıyla (varsayılan 400) değiştirilebilir. API anahtarı yoksa bu menü "çeviri şu anda alınamadı" uyarısı verir; TR, EN ve DE her durumda çalışır.
+
+## Telefona uygulama gibi kurulum ve çevrimdışı kullanım
+
+Site bir PWA'dır: ziyaretçi telefonda tarayıcı menüsünden "Ana ekrana ekle" ile siteyi uygulama gibi kurabilir. Açılan sayfalar cihazda saklanır; yer ve rota sayfalarındaki "Çevrimdışı kaydet" düğmesi sayfayı ve fotoğrafını internet olmadan açılabilecek şekilde kaydeder. Bu özellik yalnızca HTTPS ile çalışır (cPanel'de ücretsiz AutoSSL'in açık olduğundan emin olun).
+
+## Google Search Console (arama motoru kaydı)
+
+1. search.google.com/search-console adresinde **"URL ön eki"** seçeneğiyle `https://kulturvarliklari.com.tr` ekleyin.
+2. Doğrulama yöntemi olarak **"HTML etiketi"**ni seçin. Size `<meta name="google-site-verification" content="XXXX">` gibi bir kod verilir. Bu koddaki `XXXX` değerini bana iletin (gizli bir bilgi değildir) ya da `sitegen/site_config.json` dosyasındaki `google_site_verification` alanına yazın; site yeniden oluşturulunca her sayfaya eklenir.
+   - Alternatif: Google'ın verdiği `googleXXXX.html` dosyasını indirip doğrudan `public_html` klasörüne yükleyebilirsiniz.
+3. Doğrulamadan sonra "Site haritaları" bölümüne `sitemap.xml` yazıp gönderin. Site haritası Türkçe, İngilizce ve Almanca sayfaları dil eşleştirmesiyle (hreflang) birlikte içerir.
+
+## Ziyaret istatistikleri (çerezsiz)
+
+Önerimiz **Cloudflare Web Analytics**: ücretsizdir, çerez kullanmaz ve kişiyi tanımlamaz; bu yüzden çerez onay penceresi gerektirmez.
+1. dash.cloudflare.com'da ücretsiz hesap açın → **Web Analytics** → **Add a site** → `kulturvarliklari.com.tr`.
+2. Size verilen kod parçasındaki `"token": "..."` değerini kopyalayın (gizli değildir) ve `sitegen/site_config.json` içindeki `cloudflare_analytics_token` alanına yazın ya da bana iletin. Site yeniden oluşturulduğunda tüm sayfalarda istatistik toplanmaya başlar.
+
+## Harita
+
+Harita altlığı OpenStreetMap'ten yüklenir; ücretsizdir, atıf (sağ alttaki yazı) kaldırılmamalıdır. Site çok yüksek trafiğe ulaşırsa OpenStreetMap'in kullanım politikası gereği ücretli bir harita sağlayıcısına (ör. MapTiler, Stadia) geçmek gerekebilir; bu durumda tek satırlık bir değişiklik yeterlidir. Konumların çoğu Wikidata'dan alınmıştır; bazılarında ilçe veya il merkezine göre yaklaşık konum kullanılır ve sayfada "yaklaşık" notu görünür.
+
+## QR kodlu sesli rehber
+
+`/qr/` sayfasında her il için yazdırılabilir QR kartları bulunur (arama motorlarına kapalıdır). Kod okutulduğunda yerin sayfası açılır ve "Dinle" düğmesi öne çıkar. Müzeler ve belediyelerle iş birliği yaparken bu kartları kullanabilirsiniz.
+
+## Kurumsal sayfalar
+
+Hakkımızda, İletişim, KVKK Aydınlatma Metni ve Çerez Politikası sayfaları hazırdır. İletişim adresi olarak `iletisim@kulturvarliklari.com.tr` kullanıldı; bu e-posta hesabını cPanel → E-posta Hesapları bölümünden açın (veya başka bir adres isterseniz bana söyleyin). KVKK metni genel bir şablondur; yayından önce bir hukukçuya göstermeniz önerilir.
 
 ## Bilmeniz gerekenler
 
-- **Fotoğraf lisansları:** Fotoğrafların çoğu CC BY / CC BY-SA lisanslıdır. Fotoğrafçı adının ve lisansın görünmesi lisansın şartıdır. Bu bilgiler her yerin detayında ve `kaynaklar.html`'de var; kaldırmayın.
-- **Sesli anlatım ve sesli tur:** Ziyaretçinin tarayıcısındaki yerleşik sesle okunur; ses kalitesi cihaza göre değişir.
-- **Çerez:** Site çerez kullanmıyor ve ziyaretçi takibi yapmıyor. İleride ölçüm aracı eklerseniz KVKK kapsamında aydınlatma metni ve çerez onayı gerekir (hukuki danışmanlık değildir).
-- **Metinler:** 8 yerin ayrıntılı tarihçesi var; diğerlerinde kısa bir tanıtım duruyor. Tarihsel metinlerin yayından önce bir uzman tarafından gözden geçirilmesi önerilir.
+- **Fotoğraf lisansları:** Fotoğrafların çoğu CC BY / CC BY-SA lisanslıdır. Fotoğrafçı adının ve lisansın görünmesi lisansın şartıdır. Bu bilgiler her yer sayfasında ve `kaynaklar.html`'de var; kaldırmayın. "Wikimedia Commons fotoğraflarını göster" düğmesiyle yüklenen ek fotoğraflar doğrudan Commons'tan, yazar ve lisans bilgisiyle gösterilir.
+- **Sesli anlatım:** Ziyaretçinin tarayıcısındaki yerleşik sesle okunur; ses kalitesi cihaza göre değişir.
+- **Metinler:** Tüm yerlerin tarihçeleri özgün olarak yazılmıştır; yayından önce bir uzmanın gözden geçirmesi önerilir.
