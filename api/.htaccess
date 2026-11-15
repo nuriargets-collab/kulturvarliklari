@@ -1,0 +1,5 @@
+# config ve katalog dosyalarına doğrudan erişimi engelle
+<FilesMatch "^(config\.php|config\.example\.php|catalog\.txt)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes

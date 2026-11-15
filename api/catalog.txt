@@ -1,0 +1,358 @@
+AAR01 | Adana Müzesi | Adana | Akdeniz | Müze
+ADK01 | Kuruköprü Anıt Müzesi ve Geleneksel Adana Evi | Adana | Akdeniz | Müze
+ADV01 | Anavarza Örenyeri | Adana | Akdeniz | Ören Yeri
+ATA01 | Adana Atatürk Evi Müzesi | Adana | Akdeniz | Müze
+ADM01 | Adıyaman Müzesi | Adıyaman | Güneydoğu Anadolu | Müze
+ADN01 | Nemrut Dağı | Adıyaman | Güneydoğu Anadolu | Ören Yeri | Helenistik | 1987 | Nemrut Dağı'nın yaklaşık iki bin yüz metrelik zirvesinde, Kommagene Kralı Birinci Antiochos'un milattan önce birinci yüzyılda yaptırdığı anıt mezar yer alır. Taş yığınından oluşan yapay tümülüsün terasları, tanrıları, kralı ve kartal ile aslanı betimleyen dev heykellerle çevrilidir. Gün doğumu ve gün batımı manzarasıyla ünlü olan alan, 1987'de UNESCO Dünya Mirası Listesi'ne girdi.
+ARS01 | Arsemeia Örenyeri | Adıyaman | Güneydoğu Anadolu | Ören Yeri
+ASO01 | Sofraz Anıt Mezarı | Adıyaman | Güneydoğu Anadolu | Ören Yeri
+AYE01 | Kahta Yenikale Örenyeri | Adıyaman | Güneydoğu Anadolu | Ören Yeri
+PRN02 | Perre Örenyeri | Adıyaman | Güneydoğu Anadolu | Ören Yeri
+AFM02 | Afyonkarahisar Müzesi | Afyonkarahisar | Ege | Müze
+ISH02 | İshak Paşa Sarayı | Ağrı | Doğu Anadolu | Kale & Tarihi Yapı
+IH101 | Ihlara Vadisi Örenyeri | Aksaray | İç Anadolu | Ören Yeri
+AAM01 | Aziz Mercurius Yeraltı Şehri | Aksaray | İç Anadolu | Yeraltı Şehri
+AHK01 | Aşıklı Höyük | Aksaray | İç Anadolu | Ören Yeri
+AKM02 | Aksaray Manastır Vadisi Örenyeri | Aksaray | İç Anadolu | Ören Yeri
+AKS01 | Saratlı Kırkgöz Yeraltı Şehri | Aksaray | İç Anadolu | Yeraltı Şehri
+AMU01 | Aksaray Müzesi | Aksaray | İç Anadolu | Müze
+AMS02 | Amasya Müzesi | Amasya | Karadeniz | Müze
+HAZ01 | Hazeranlar Konağı | Amasya | Karadeniz | Müze
+CUM01 | Cumhuriyet Müzesi | Ankara | İç Anadolu | Müze
+CUM02 | Kurtuluş Savaşı Müzesi | Ankara | İç Anadolu | Müze
+AMM01 | Anadolu Medeniyetleri Müzesi | Ankara | İç Anadolu | Müze | Çok Dönemli |  | Anadolu Medeniyetleri Müzesi, Ankara Kalesi'nin eteğinde, Osmanlı dönemine ait Mahmut Paşa Bedesteni ve Kurşunlu Han'da yer alır. Paleolitik Çağ'dan Roma dönemine kadar Anadolu'da yaşamış uygarlıkların eserlerini kronolojik bir düzenle sergiler. Çatalhöyük buluntuları, Hitit, Frig ve Urartu eserleri koleksiyonun öne çıkan parçalarıdır. Müze 1997'de Avrupa'da Yılın Müzesi seçildi.
+AET02 | Etnografya Müzesi | Ankara | İç Anadolu | Müze
+ARE02 | Resim Heykel Müzesi | Ankara | İç Anadolu | Müze
+GOR02 | Gordion Müzesi | Ankara | İç Anadolu | Müze
+OTS01 | Kahramankazan 15 Temmuz Şehitleri ve Demokrasi Müzesi | Ankara | İç Anadolu | Müze
+ROM02 | Roma Hamamı Örenyeri | Ankara | İç Anadolu | Ören Yeri
+TDM01 | 15 Temmuz Demokrasi Müzesi | Ankara | İç Anadolu | Müze
+ATM01 | Alanya Atatürk Evi Müzesi | Antalya | Akdeniz | Müze
+ALN01 | Alanya Kalesi | Antalya | Akdeniz | Kale & Tarihi Yapı
+STN01 | Aziz (St.) Nikolaos Anıt Müzesi | Antalya | Akdeniz | Müze
+ANT01 | Antalya Müzesi | Antalya | Akdeniz | Müze
+MYR01 | Myra Örenyeri | Antalya | Akdeniz | Ören Yeri
+OLY01 | Olympos Örenyeri | Antalya | Akdeniz | Ören Yeri
+PTR01 | Patara Örenyeri | Antalya | Akdeniz | Ören Yeri
+PRG01 | Perge Örenyeri | Antalya | Akdeniz | Ören Yeri
+PHS01 | Phaselis Örenyeri | Antalya | Akdeniz | Ören Yeri
+SDM01 | Side Müzesi | Antalya | Akdeniz | Müze
+SDO01 | Side Örenyeri | Antalya | Akdeniz | Ören Yeri
+ASP01 | Aspendos | Antalya | Akdeniz | Ören Yeri | Roma |  | Aspendos, Antik Çağ'ın en iyi korunmuş tiyatrolarından birine ev sahipliği yapar. Milattan sonra ikinci yüzyılda, Marcus Aurelius döneminde mimar Zenon tarafından inşa edilen tiyatro yaklaşık on beş bin seyirci alır ve güçlü akustiğiyle bilinir. Bugün hâlâ konser ve festivallere sahne olur. Kentte ayrıca Roma dönemine ait su kemerleri ile bazilika ve agora kalıntıları görülebilir.
+AAE01 | Antalya Atatürk Evi Müzesi | Antalya | Akdeniz | Müze
+AEL01 | Elmalı Müzesi | Antalya | Akdeniz | Müze
+AEN01 | Antalya Etnografya Müzesi | Antalya | Akdeniz | Müze
+ALM02 | Alanya Müzesi | Antalya | Akdeniz | Müze
+AME01 | Mevlevihane Müzesi | Antalya | Akdeniz | Müze
+ARY01 | Arykanda Örenyeri | Antalya | Akdeniz | Ören Yeri
+ASY03 | Antalya Syedra Antik Kenti | Antalya | Akdeniz | Ören Yeri
+DAL02 | Likya Uygarlıkları Müzesi ve Andrıake Örenyeri | Antalya | Akdeniz | Ören Yeri
+KRM01 | Karain Mağarası | Antalya | Akdeniz | Doğal Alan
+LMY02 | Limyra Örenyeri | Antalya | Akdeniz | Ören Yeri
+NKR02 | Antalya Nekropol Müzesi | Antalya | Akdeniz | Müze
+XAN02 | Xanthos Örenyeri | Antalya | Akdeniz | Ören Yeri
+SIO02 | Simena Örenyeri | Antalya | Akdeniz | Ören Yeri
+TRM02 | Termessos Örenyeri | Antalya | Akdeniz | Ören Yeri
+AFR01 | Afrodisias Müzesi ve Örenyeri | Aydın | Ege | Ören Yeri
+DDM01 | Didim Apollon Tapınağı | Aydın | Ege | Ören Yeri
+MLT01 | Milet Örenyeri | Aydın | Ege | Ören Yeri
+MLT02 | Milet Müzesi | Aydın | Ege | Müze
+AKE01 | Karacasu Etnografya Müzesi | Aydın | Ege | Müze
+ALA01 | Alabanda Örenyeri | Aydın | Ege | Ören Yeri
+ALI01 | Alinda Örenyeri | Aydın | Ege | Ören Yeri
+AMA02 | Magnesia Örenyeri | Aydın | Ege | Ören Yeri
+AYD02 | Aydın Arkeoloji Müzesi | Aydın | Ege | Müze
+AYO01 | Yörük Ali Efe Evi Müzesi | Aydın | Ege | Müze
+KDK01 | Kadıkalesi Örenyeri | Aydın | Ege | Ören Yeri
+NYS02 | Nysa Sultanhisar Örenyeri | Aydın | Ege | Ören Yeri
+PRI02 | Priene Örenyeri | Aydın | Ege | Ören Yeri
+BKU01 | Kuva-Yi Milliye Müzesi | Balıkesir | Marmara | Müze
+BND01 | Bandırma Müzesi | Balıkesir | Marmara | Müze
+TAM02 | Taksiyarhis Anıt Müzesi | Balıkesir | Marmara | Müze
+AMR02 | Amasra Müzesi | Bartın | Karadeniz | Müze
+BAT01 | Mehmet Cabir Alper Arkeoloji Müzesi | Batman | Güneydoğu Anadolu | Müze
+HKM02 | Hasankeyf Müzesi ve Örenyeri | Batman | Güneydoğu Anadolu | Ören Yeri
+BAM01 | Bayburt Baksı Müzesi | Bayburt | Karadeniz | Müze
+BLC01 | Bilecik Müzesi | Bilecik | Marmara | Müze
+BLS01 | Söğüt Ertuğrul Gazi Müzesi | Bilecik | Marmara | Müze
+AHM01 | Ahlat Müzesi | Bitlis | Doğu Anadolu | Müze
+BAS01 | Ahlat Selçuklu Mezarlığı | Bitlis | Doğu Anadolu | Ören Yeri
+BET01 | Bitlis Etnografya Müzesi | Bitlis | Doğu Anadolu | Müze
+BAK01 | Akşemsettin Türbesi | Bolu | Karadeniz | Dini Yapı
+BOL02 | Bolu Müzesi | Bolu | Karadeniz | Müze
+BKO02 | Kibyra Örenyeri | Burdur | Akdeniz | Ören Yeri
+BUR02 | Burdur Müzesi | Burdur | Akdeniz | Müze
+DTM02 | Doğa Tarihi Müzesi | Burdur | Akdeniz | Müze
+SAG01 | Sagalassos Örenyeri | Burdur | Akdeniz | Ören Yeri
+BAE01 | Bursa Atatürk Evi Müzesi | Bursa | Marmara | Müze
+BAR01 | Bursa Arkeoloji Müzesi | Bursa | Marmara | Müze
+BIG03 | Bursa İznik Göl Bazilikası | Bursa | Marmara | Dini Yapı
+BIM02 | İznik Müzesi | Bursa | Marmara | Müze
+BOS01 | Osmanlı Evi Müzesi | Bursa | Marmara | Müze
+BTI02 | Bursa Türk İslam Eserleri Müzesi | Bursa | Marmara | Müze
+BYS01 | Yenişehir Şemaki Evi Müzesi | Bursa | Marmara | Müze
+INH02 | Nilüfer Hatun İmareti Türk İslam Eserleri Müzesi | Bursa | Marmara | Müze
+MUD02 | Mudanya Mütareke Evi Müzesi | Bursa | Marmara | Müze
+ASS01 | Assos Örenyeri | Çanakkale | Marmara | Ören Yeri
+TRO01 | Troya Müzesi | Çanakkale | Marmara | Müze
+TRV01 | Troya | Çanakkale | Marmara | Ören Yeri | Tunç Çağı | 1998 | Troya, Homeros'un İlyada destanıyla ünlenen efsanevi kenttir. Hisarlık Tepesi'nde binlerce yıl boyunca üst üste kurulmuş dokuz ana yerleşim katmanı bulunur. İlk büyük kazıları 1870'lerde Heinrich Schliemann yaptı. 1998'de UNESCO Dünya Mirası Listesi'ne giren alanın hemen yakınında, 2018'de açılan Troya Müzesi bölgenin buluntularını sergiler.
+CAL01 | Alexandria Troas Örenyeri | Çanakkale | Marmara | Ören Yeri
+CDT01 | Çanakkale Destanı Tanıtım Merkezi | Çanakkale | Marmara | Müze
+CHC01 | Çanakkale Hilal-i Ahmer Canlandırma Alanı | Çanakkale | Marmara | Müze
+CHT01 | Hamidiye Tabyası ve Çanakkale Savaşları Tarihi Müzesi | Çanakkale | Marmara | Müze
+CKK01 | Kilitbahir Kale Müzesi | Çanakkale | Marmara | Müze
+CNT01 | Namazgâh Tabyası Müzesi | Çanakkale | Marmara | Müze
+CSM02 | Apollon Smintheion Örenyeri | Çanakkale | Marmara | Ören Yeri
+CNM01 | Çankırı Müzesi | Çankırı | İç Anadolu | Müze
+ALC02 | Alacahöyük Müzesi ve Örenyeri | Çorum | Karadeniz | Ören Yeri
+BGO02 | Hattuşa | Çorum | Karadeniz | Ören Yeri | Hitit | 1986 | Hattuşa, Tunç Çağı'nda Hitit İmparatorluğu'nun başkentiydi. Kent, Aslanlı Kapı, Kral Kapı ve Yerkapı gibi anıtsal girişlere sahip surlarla çevriliydi. Burada bulunan binlerce çivi yazılı tablet Hitit tarihini aydınlatmıştır; tarihin bilinen en eski barış antlaşmalarından Kadeş Antlaşması'nın bir nüshası da bunlar arasındadır. Hattuşa, 1986'da UNESCO Dünya Mirası Listesi'ne girdi.
+BOG02 | Boğazköy Müzesi | Çorum | Karadeniz | Müze
+COR02 | Çorum Müzesi | Çorum | Karadeniz | Müze
+PMK01 | Hierapolis (Pamukkale) Örenyeri | Denizli | Ege | Ören Yeri
+DHA01 | Hierapolis (Pamukkale) Arkeoloji Müzesi | Denizli | Ege | Müze
+DAT01 | Denizli Atatürk ve Etnografya Müzesi | Denizli | Ege | Müze
+DEK02 | Denizli Kent Müzesi | Denizli | Ege | Müze
+DLO01 | Laodikeia Örenyeri | Denizli | Ege | Ören Yeri
+DTO01 | Denizli Tripolis Örenyeri | Denizli | Ege | Ören Yeri
+DAE01 | Atatürk Evi Müzesi | Diyarbakır | Güneydoğu Anadolu | Müze
+DAM01 | Silvan Atatürk Evi Müzesi | Diyarbakır | Güneydoğu Anadolu | Müze
+DBA01 | Diyarbakır Arkeoloji Müzesi | Diyarbakır | Güneydoğu Anadolu | Müze
+DCS02 | Cahit Sıtkı Tarancı Evi Etnografya Müzesi | Diyarbakır | Güneydoğu Anadolu | Müze
+DZG02 | Ziya Gökalp Müzesi | Diyarbakır | Güneydoğu Anadolu | Müze
+DKM01 | Konuralp Müzesi | Düzce | Karadeniz | Müze
+EEM02 | Edirne Müzesi | Edirne | Marmara | Müze
+EIE02 | Türk İslam Eserleri Müzesi | Edirne | Marmara | Müze
+EMK02 | Edirne Makedonya Kulesi | Edirne | Marmara | Kale & Tarihi Yapı
+HTB02 | Edirne Hıdırlık Tabya Balkan Tarihi Müzesi | Edirne | Marmara | Müze
+NEM02 | Necmi İğe Evi Etnografya Müzesi | Edirne | Marmara | Müze
+ELM02 | Elazığ Müzesi | Elâzığ | Doğu Anadolu | Müze
+HPK01 | Harput Kalesi | Elâzığ | Doğu Anadolu | Kale & Tarihi Yapı
+ERM02 | Erzincan Müzesi | Erzincan | Doğu Anadolu | Müze
+EAR02 | Erzurum Müzesi | Erzurum | Doğu Anadolu | Müze
+EAT01 | Erzurum Atatürk Evi Müzesi | Erzurum | Doğu Anadolu | Müze
+ERE01 | Erzurum Resim Heykel Müzesi | Erzurum | Doğu Anadolu | Müze
+ERZ02 | Erzurum Kalesi | Erzurum | Doğu Anadolu | Kale & Tarihi Yapı
+YAK02 | Türk İslam Eserleri ve Etnografya Müzesi | Erzurum | Doğu Anadolu | Müze
+EMO01 | Midas Yazılıkaya Örenyeri | Eskişehir | İç Anadolu | Ören Yeri
+EPO01 | Pessinus Örenyeri | Eskişehir | İç Anadolu | Ören Yeri
+ETI02 | Eti Arkeoloji Müzesi | Eskişehir | İç Anadolu | Müze
+GZN01 | Zeugma Mozaik Müzesi | Gaziantep | Güneydoğu Anadolu | Müze
+GKL01 | Gaziantep Kalesi | Gaziantep | Güneydoğu Anadolu | Kale & Tarihi Yapı
+GRO01 | Rumkale Örenyeri | Gaziantep | Güneydoğu Anadolu | Ören Yeri
+GYO01 | Yesemek Örenyeri | Gaziantep | Güneydoğu Anadolu | Ören Yeri
+GZA02 | Gaziantep Arkeoloji Müzesi | Gaziantep | Güneydoğu Anadolu | Müze
+GZO02 | Zeugma Örenyeri | Gaziantep | Güneydoğu Anadolu | Ören Yeri
+GMA01 | Meryem Ana Manastırı | Giresun | Karadeniz | Dini Yapı
+GRS01 | Giresun Müzesi | Giresun | Karadeniz | Müze
+GMM01 | Gümüşhane Müzesi | Gümüşhane | Karadeniz | Müze
+HTY01 | Hatay Arkeoloji Müzesi | Hatay | Akdeniz | Müze
+CEV02 | Çevlik Örenyeri | Hatay | Akdeniz | Ören Yeri
+HSM01 | St. Simon Manastırı | Hatay | Akdeniz | Dini Yapı
+NAM01 | Hatay Necmi Asfuroğlu Arkeoloji Müzesi | Hatay | Akdeniz | Müze
+STP01 | St. Pierre Anıt Müzesi | Hatay | Akdeniz | Müze
+IPM01 | Isparta Müzesi | Isparta | Akdeniz | Müze
+ISP02 | Antiocheia Örenyeri | Isparta | Akdeniz | Ören Yeri
+ISU01 | Uluborlu Müzesi | Isparta | Akdeniz | Müze
+ISY01 | Yalvaç Müzesi | Isparta | Akdeniz | Müze
+IAR01 | İstanbul Arkeoloji Müzeleri | İstanbul | Marmara | Müze | Çok Dönemli |  | İstanbul Arkeoloji Müzeleri, Osman Hamdi Bey'in öncülüğünde kuruldu ve ana binası 1891'de ziyarete açıldı. Arkeoloji Müzesi, Eski Şark Eserleri Müzesi ve Çinili Köşk'ten oluşan kompleks, Topkapı Sarayı'nın yanında, Gülhane'de yer alır. Sayda'da bulunan İskender Lahdi, Kadeş Antlaşması tableti ve Siloam yazıtı en ünlü eserleri arasındadır.
+GLT04 | İstanbul Galata Kulesi | İstanbul | Marmara | Kale & Tarihi Yapı
+YSM01 | Ayasofya Tarih ve Deneyim Müzesi | İstanbul | Marmara | Müze
+MOZ01 | Büyük Saray Mozaikleri Müzesi | İstanbul | Marmara | Müze
+ATL01 | Atlas 1948 İstanbul Sinema Müzesi | İstanbul | Marmara | Müze
+FET01 | Fethiye Müzesi | İstanbul | Marmara | Müze
+GLT01 | Galata Mevlevihanesi Müzesi | İstanbul | Marmara | Müze
+HFZ01 | Hafıza 15 Temmuz Müzesi | İstanbul | Marmara | Müze
+HIS01 | Rumeli Hisarı | İstanbul | Marmara | Kale & Tarihi Yapı
+IBT01 | İslam Bilim ve Teknoloji Tarihi Müzesi | İstanbul | Marmara | Müze
+IDM01 | Adam Mickiewicz Müzesi | İstanbul | Marmara | Müze
+IHM01 | İstanbul Havalimanı Müzesi | İstanbul | Marmara | Müze
+KZK02 | Kız Kulesi | İstanbul | Marmara | Kale & Tarihi Yapı
+MAE01 | Mehmet Akif Ersoy Hatıra Evi | İstanbul | Marmara | Müze
+TIE01 | Türk ve İslam Eserleri Müzesi | İstanbul | Marmara | Müze
+EFS01 | Efes | İzmir | Ege | Ören Yeri | Roma | 2015 | Efes, Antik Çağ'ın en büyük liman kentlerinden biriydi. Dünyanın yedi harikasından sayılan Artemis Tapınağı burada yükseliyordu. Roma döneminde Asya eyaletinin en önemli merkezlerinden biri oldu. Milattan sonra ikinci yüzyılda yapılan Celsus Kütüphanesi'nin cephesi ve yaklaşık yirmi beş bin kişilik Büyük Tiyatro bugün kentin simgeleridir. Efes, 2015 yılında UNESCO Dünya Mirası Listesi'ne girdi.
+AKR01 | Bergama Akropolü | İzmir | Ege | Ören Yeri
+ASK01 | Bergama Asklepion Örenyeri | İzmir | Ege | Ören Yeri
+EFM01 | Efes Müzesi | İzmir | Ege | Müze
+EFS02 | Efes Örenyeri-Yamaçevler | İzmir | Ege | Ören Yeri
+EFS03 | Efes Deneyim Müzesi | İzmir | Ege | Müze
+AGR01 | Agora Örenyeri | İzmir | Ege | Ören Yeri
+BAZ01 | Bergama Kızılavlu | İzmir | Ege | Ören Yeri
+BRG02 | Bergama Müzesi | İzmir | Ege | Müze
+IAO01 | Ayasuluk Kalesi | İzmir | Ege | Kale & Tarihi Yapı
+IAT01 | İzmir Atatürk Müzesi | İzmir | Ege | Müze
+IBC02 | Birgi Çakırağa Konağı | İzmir | Ege | Müze
+ICM01 | Çeşme Müzesi | İzmir | Ege | Müze
+IKZ01 | Klazomenai Örenyeri | İzmir | Ege | Ören Yeri
+IME01 | Metropolis Örenyeri | İzmir | Ege | Ören Yeri
+IRE01 | İzmir Resim Heykel Müzesi | İzmir | Ege | Müze
+ITK01 | İzmir Kültür Sanat Fabrikası | İzmir | Ege | Müze
+ITM01 | Tire Müzesi | İzmir | Ege | Müze
+IZA02 | İzmir Arkeoloji Müzesi | İzmir | Ege | Müze
+KLA01 | Klaros Örenyeri | İzmir | Ege | Ören Yeri
+ODM02 | Ödemiş Müzesi | İzmir | Ege | Müze
+TEO02 | Teos Örenyeri | İzmir | Ege | Ören Yeri
+STJ01 | Ayasuluk - St.Jean Örenyeri | İzmir | Ege | Ören Yeri
+EKM02 | Elbistan Şehir Müzesi | Kahramanmaraş | Akdeniz | Müze
+KGM01 | Germanicia Mozaikli Alan | Kahramanmaraş | Akdeniz | Ören Yeri
+KMM02 | Kahramanmaraş Müzesi | Kahramanmaraş | Akdeniz | Müze
+HPO01 | Hadrianopolis Örenyeri | Karabük | Karadeniz | Ören Yeri
+KSF01 | Karabük Safranbolu Müzesi | Karabük | Karadeniz | Müze
+EMM01 | Ermenek Ahmet Keleşoğlu Arkeoloji ve Etnografya Müzesi | Karaman | İç Anadolu | Müze
+KRA01 | Karaman Müzesi | Karaman | İç Anadolu | Müze
+ANI01 | Ani Örenyeri | Kars | Doğu Anadolu | Ören Yeri
+KAS01 | Kars Müzesi | Kars | Doğu Anadolu | Müze
+KCH02 | Kars Kafkas Cephesi Harp Tarihi Müzesi | Kars | Doğu Anadolu | Müze
+KSL01 | Livapaşa Konağı Etnografya Müzesi | Kastamonu | Karadeniz | Müze
+KST01 | Kastamonu Müzesi | Kastamonu | Karadeniz | Müze
+KAR02 | Kayseri Arkeoloji Müzesi | Kayseri | İç Anadolu | Müze
+KAT01 | Kayseri Atatürk Evi Müzesi | Kayseri | İç Anadolu | Müze
+KGK02 | Güpgüpoğlu Konağı Etnografya Müzesi | Kayseri | İç Anadolu | Müze
+KKO01 | Kültepe Örenyeri | Kayseri | İç Anadolu | Ören Yeri
+KYS01 | Yeşilhisar Soğanlı Örenyeri | Kayseri | İç Anadolu | Ören Yeri
+KKS01 | Keskin Sulu Mağara Yeraltı Şehri | Kırıkkale | İç Anadolu | Yeraltı Şehri
+KRK01 | Kırklareli Müzesi | Kırklareli | Marmara | Müze
+KKK02 | Kaman Kalehöyük Arkeoloji Müzesi | Kırşehir | İç Anadolu | Ören Yeri
+KMU01 | Mucur Yeraltı Şehri | Kırşehir | İç Anadolu | Yeraltı Şehri
+KRU02 | Kırşehir Müzesi | Kırşehir | İç Anadolu | Müze
+AYM01 | Alaeddin Yavaşça Müze Evi | Kilis | Güneydoğu Anadolu | Müze
+KLS02 | Kilis Müzesi | Kilis | Güneydoğu Anadolu | Müze
+KCA01 | Atatürk, Redif ve Etnografya Müzesi | Kocaeli | Marmara | Müze
+KOC02 | Kocaeli Arkeoloji Müzesi | Kocaeli | Marmara | Müze
+KSM02 | Av Köşkü Saray Müzesi | Kocaeli | Marmara | Müze
+OHM01 | Osman Hamdi Bey Müzesi | Kocaeli | Marmara | Müze
+MEV01 | Mevlana Müzesi | Konya | İç Anadolu | Müze
+KAB01 | Batı Cephesi Karargahı Müzesi | Konya | İç Anadolu | Müze
+KAM01 | Konya Arkeoloji Müzesi | Konya | İç Anadolu | Müze
+KAN01 | Akşehir Nasreddin Hoca Arkeoloji ve Etnografya Müzesi | Konya | İç Anadolu | Müze
+KCO01 | Çatalhöyük Örenyeri | Konya | İç Anadolu | Ören Yeri
+KEM01 | Konya Etnografya Müzesi | Konya | İç Anadolu | Müze
+KOE01 | Ereğli Müzesi | Konya | İç Anadolu | Müze
+KRT02 | Karatay (Çini Eserler) Müzesi | Konya | İç Anadolu | Müze
+KTE01 | Konya Atatürk Evi Müzesi | Konya | İç Anadolu | Müze
+AIZ02 | Aizanoi Örenyeri | Kütahya | Ege | Ören Yeri
+KCM01 | Çini Müzesi | Kütahya | Ege | Müze
+KKH01 | Kossouth Evi Müzesi | Kütahya | Ege | Müze
+KUA02 | Kütahya Müzesi | Kütahya | Ege | Müze
+MAT01 | Malatya Atatürk Anı Evi ve Etnoğrafya Müzesi | Malatya | Doğu Anadolu | Müze
+MLA02 | Arslantepe Örenyeri | Malatya | Doğu Anadolu | Ören Yeri
+MLB01 | Beşkonaklar Etnografya Müzesi ve Geleneksel Malatya Evi | Malatya | Doğu Anadolu | Müze
+MLY02 | Malatya Müzesi | Malatya | Doğu Anadolu | Müze
+AKH02 | Manisa Akhisar Müzesi ve Akhisar Tepe Mezarlığı | Manisa | Ege | Ören Yeri
+ALS01 | Alaşehir Örenyeri | Manisa | Ege | Ören Yeri
+MAN02 | Manisa Müzesi | Manisa | Ege | Müze
+MNA01 | Aigai Örenyeri | Manisa | Ege | Ören Yeri
+SAR02 | Sardes Örenyeri | Manisa | Ege | Ören Yeri
+DRA01 | Dara Örenyeri | Mardin | Güneydoğu Anadolu | Ören Yeri
+MRD03 | Mardin Müzesi | Mardin | Güneydoğu Anadolu | Müze
+AST01 | Silifke Astım Mağarası | Mersin | Akdeniz | Doğal Alan
+CCO01 | Silifke Cennet Cehennem Obrukları | Mersin | Akdeniz | Doğal Alan
+ANM02 | Anemurium Örenyeri | Mersin | Akdeniz | Ören Yeri
+ANR01 | Anamur Müzesi | Mersin | Akdeniz | Müze
+GOZ02 | Gözne Kalesi | Mersin | Akdeniz | Kale & Tarihi Yapı
+KIZ02 | Mersin Kız Kalesi | Mersin | Akdeniz | Kale & Tarihi Yapı
+MER02 | Mersin Müzesi | Mersin | Akdeniz | Müze
+MKD02 | Kanlı Divane Örenyeri | Mersin | Akdeniz | Ören Yeri
+MMA02 | Mamure Kalesi | Mersin | Akdeniz | Kale & Tarihi Yapı
+MPK02 | Tarsus St. Paul Kuyusu | Mersin | Akdeniz | Dini Yapı
+MPM02 | Tarsus St. Paul Anıt Müzesi | Mersin | Akdeniz | Müze
+MRA01 | Mersin Atatürk Evi Müzesi | Mersin | Akdeniz | Müze
+MSA01 | Alahan Manastırı | Mersin | Akdeniz | Dini Yapı
+MSL01 | Silifke Atatürk Evi ve Etnografya Müzesi | Mersin | Akdeniz | Müze
+MSY01 | Silifke Ayatekla Örenyeri | Mersin | Akdeniz | Ören Yeri
+MTM02 | Mersin Tarsus Müzesi | Mersin | Akdeniz | Müze
+SIL02 | Silifke Müzesi | Mersin | Akdeniz | Müze
+SNM02 | Silifke Narlıkuyu Mozaik Müzesi | Mersin | Akdeniz | Müze
+SUO02 | Uzuncaburç Örenyeri | Mersin | Akdeniz | Ören Yeri
+BSA04 | Bodrum Sualtı Arkeoloji Müzesi | Muğla | Ege | Müze
+BSA05 | Bodrum Serçe Limanı Cam Batığı Sergi Salonu | Muğla | Ege | Müze
+KAU02 | Kaunos Örenyeri | Muğla | Ege | Ören Yeri
+KND01 | Muğla Knidos Örenyeri | Muğla | Ege | Ören Yeri
+KYK02 | Fethiye Kayaköy Örenyeri | Muğla | Ege | Ören Yeri
+MAU02 | Muğla Bodrum Mausoleium Anıt Müzesi | Muğla | Ege | Müze
+BCN02 | Milas Beçin Kalesi ve Örenyeri | Muğla | Ege | Ören Yeri
+LET02 | Fethiye Letoon Örenyeri | Muğla | Ege | Ören Yeri
+MBA01 | Bodrum Antik Tiyatrosu | Muğla | Ege | Ören Yeri
+MFA02 | Amintas Kaya Mezarı | Muğla | Ege | Ören Yeri
+MFG02 | Fethiye Gemile Adası | Muğla | Ege | Ören Yeri
+MFM01 | Fethiye Müzesi | Muğla | Ege | Müze
+MFP01 | Fethiye Pınara Örenyeri | Muğla | Ege | Ören Yeri
+MLG01 | Lagina Örenyeri | Muğla | Ege | Ören Yeri
+MME02 | Milas Euromos Örenyeri | Muğla | Ege | Ören Yeri
+MMI01 | Milas İassos Balık Pazarı Müzesi | Muğla | Ege | Müze
+MML01 | Labraunda Örenyeri | Muğla | Ege | Ören Yeri
+MMO01 | Iassos Örenyeri | Muğla | Ege | Ören Yeri
+MRM01 | Marmaris Müzesi | Muğla | Ege | Müze
+MST02 | Stratonikeia Örenyeri | Muğla | Ege | Ören Yeri
+MTE01 | Milas Taş Eserler Müzesi | Muğla | Ege | Müze
+MUA02 | Milas Uzunyuva Anıt Mezarı ve Müze Kompleksi | Muğla | Ege | Ören Yeri
+MUM01 | Muğla Müzesi | Muğla | Ege | Müze
+TLO02 | Fethiye Tlos Örenyeri | Muğla | Ege | Ören Yeri
+ZEK02 | Zeki Müren Sanat Müzesi | Muğla | Ege | Müze
+SDR01 | Sedir Adası Örenyeri | Muğla | Ege | Ören Yeri
+MAL01 | Malazgirt Müzesi | Muş | Doğu Anadolu | Müze
+MMU01 | Muş Müzesi | Muş | Doğu Anadolu | Müze
+DKY01 | Derinkuyu Yeraltı Şehri | Nevşehir | İç Anadolu | Yeraltı Şehri
+GRM01 | Göreme Örenyeri | Nevşehir | İç Anadolu | Ören Yeri
+GRM02 | Karanlık Kilise (Göreme) | Nevşehir | İç Anadolu | Dini Yapı
+KYY01 | Kaymaklı Yeraltı Şehri | Nevşehir | İç Anadolu | Yeraltı Şehri
+CAV01 | Çavuşin Örenyeri (Çavuşin Kilisesi) | Nevşehir | İç Anadolu | Ören Yeri
+ENK02 | El Nazar Kilisesi | Nevşehir | İç Anadolu | Dini Yapı
+HCB01 | Hacıbektaş Müzesi | Nevşehir | İç Anadolu | Müze
+MAZ02 | Mazı Yeraltı Şehri | Nevşehir | İç Anadolu | Yeraltı Şehri
+NGK02 | Gülşehir-St.Jean Kilisesi | Nevşehir | İç Anadolu | Dini Yapı
+NHA01 | Nevşehir Hacıbektaş Atatürk Evi Müzesi | Nevşehir | İç Anadolu | Müze
+NHC01 | Nevşehir Hacıbektaş Arkeoloji ve Etnografya Müzesi | Nevşehir | İç Anadolu | Müze
+NVM01 | Nevşehir Müzesi | Nevşehir | İç Anadolu | Müze
+NVT01 | Tatlarin Yeraltı Şehri | Nevşehir | İç Anadolu | Yeraltı Şehri
+NVU01 | Ürgüp Müzesi | Nevşehir | İç Anadolu | Müze
+SBS01 | Sobessos Örenyeri | Nevşehir | İç Anadolu | Ören Yeri
+OZK01 | Özkonak Yeraltı Şehri | Nevşehir | İç Anadolu | Yeraltı Şehri
+ZPO01 | Zelve - Paşabağlar Örenyeri | Nevşehir | İç Anadolu | Ören Yeri
+GMS02 | Gümüşler Manastırı ve Yeraltı Şehri | Niğde | İç Anadolu | Yeraltı Şehri
+NAO02 | Niğde Andaval Örenyeri | Niğde | İç Anadolu | Ören Yeri
+NIG01 | Niğde Müzesi | Niğde | İç Anadolu | Müze
+ORM01 | Ordu Müzesi | Ordu | Karadeniz | Müze
+OKA02 | Karatepe Aslantaş Müzesi ve Örenyeri | Osmaniye | Akdeniz | Ören Yeri
+OSK01 | Kastabala Örenyeri | Osmaniye | Akdeniz | Ören Yeri
+OSM01 | Osmaniye Müzesi | Osmaniye | Akdeniz | Müze
+RAM01 | Rize Atatürk Evi Müzesi | Rize | Karadeniz | Müze
+RZM01 | Rize Müzesi | Rize | Karadeniz | Müze
+SKM01 | Sakarya Müzesi | Sakarya | Marmara | Müze
+SAE02 | Samsun Müzesi | Samsun | Karadeniz | Müze
+SBM01 | Bafra Müzesi | Samsun | Karadeniz | Müze
+SGM01 | Gazi Müzesi | Samsun | Karadeniz | Müze
+SCE01 | Tarihi Cezaevi | Sinop | Karadeniz | Kale & Tarihi Yapı
+SET01 | Sinop Arslantorunlar Etnografya Müzesi | Sinop | Karadeniz | Müze
+SIN02 | Sinop Müzesi | Sinop | Karadeniz | Müze
+SAK03 | Sivas Atatürk ve Kongre Müzesi | Sivas | İç Anadolu | Müze
+SAV01 | Aşık Veysel Müzesi | Sivas | İç Anadolu | Müze
+SIV02 | Sivas Arkeoloji Müzesi | Sivas | İç Anadolu | Müze
+HAR01 | Harran Örenyeri | Şanlıurfa | Güneydoğu Anadolu | Ören Yeri
+KRH01 | Karahantepe Örenyeri | Şanlıurfa | Güneydoğu Anadolu | Ören Yeri
+SUK01 | Şanlıurfa Kalesi | Şanlıurfa | Güneydoğu Anadolu | Kale & Tarihi Yapı
+SGT01 | Göbeklitepe | Şanlıurfa | Güneydoğu Anadolu | Ören Yeri | Neolitik | 2018 | Göbeklitepe, yaklaşık on bir bin beş yüz yıl önce avcı-toplayıcılar tarafından inşa edilmiş anıtsal bir yapı topluluğudur. Tilki, yaban domuzu ve akbaba gibi hayvan kabartmalarıyla süslü T biçimli dikilitaşlar, insanlığın bilinen en eski tapınak benzeri yapıları arasında sayılır. Sistemli kazılar 1995'te Alman arkeolog Klaus Schmidt öncülüğünde başladı. Alan 2018'de UNESCO Dünya Mirası Listesi'ne alındı.
+SUM01 | Haleplibahçe Mozaik Müzesi | Şanlıurfa | Güneydoğu Anadolu | Müze
+SUM02 | Şanlıurfa Arkeoloji Müzesi | Şanlıurfa | Güneydoğu Anadolu | Müze
+TKM01 | Tekirdağ Müzesi | Tekirdağ | Marmara | Müze
+TMA01 | Tekirdağ Muratlı Atatürk Evi Müzesi | Tekirdağ | Marmara | Müze
+TAT01 | Tokat Atatürk Evi ve Etnografya Müzesi | Tokat | Karadeniz | Müze
+TKT01 | Tokat Müzesi | Tokat | Karadeniz | Müze
+TLK01 | Latifoğlu Konağı | Tokat | Karadeniz | Müze
+KOS02 | Trabzon Müzesi (Kostaki Konağı) | Trabzon | Karadeniz | Müze
+SML01 | Sümela Manastırı | Trabzon | Karadeniz | Dini Yapı
+TRK01 | Küçük Ayvasıl St. Anna Kilisesi | Trabzon | Karadeniz | Dini Yapı
+TUM02 | Tunceli Müzesi | Tunceli | Doğu Anadolu | Müze
+UAR02 | Uşak Müzesi | Uşak | Ege | Müze
+USA01 | Atatürk ve Etnografya Müzesi | Uşak | Ege | Müze
+USB01 | Blaundos Örenyeri | Uşak | Ege | Ören Yeri
+VAN01 | Akdamar Anıt Müzesi | Van | Doğu Anadolu | Müze
+VCK01 | Çavuştepe Kalesi | Van | Doğu Anadolu | Kale & Tarihi Yapı
+VHC01 | Hoşap Kalesi | Van | Doğu Anadolu | Kale & Tarihi Yapı
+VKA02 | Van Kalesi | Van | Doğu Anadolu | Kale & Tarihi Yapı
+VNM01 | Van Müzesi | Van | Doğu Anadolu | Müze
+RMH01 | Sarıkaya Roma Hamamı | Yozgat | İç Anadolu | Ören Yeri
+YZG01 | Yozgat Müzesi | Yozgat | İç Anadolu | Müze
+FLO01 | Filyos(Tios) Örenyeri | Zonguldak | Karadeniz | Ören Yeri
+ZCM02 | Cehennemağzı Mağaraları | Zonguldak | Karadeniz | Doğal Alan
+ZMM02 | Maden Müzesi | Zonguldak | Karadeniz | Müze
+ZNE01 | Karadeniz Ereğli Müzesi | Zonguldak | Karadeniz | Müze
