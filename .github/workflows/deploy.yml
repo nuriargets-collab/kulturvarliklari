@@ -17,7 +17,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps          # hosting FTPS desteklemiyorsa "ftp" yapın
-          server-dir: public_html/
+          server-dir: ./          # FTP hesabının klasörü public_html olarak ayarlandı
           exclude: |
             **/.git*
             **/.git*/**
