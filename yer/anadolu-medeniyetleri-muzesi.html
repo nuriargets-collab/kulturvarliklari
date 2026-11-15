@@ -30,15 +30,26 @@
 <section class="rel"><h2>Ankara ilinde diğer yerler</h2><ul><li><a href="cumhuriyet-muzesi.html">Cumhuriyet Müzesi<span>Müze</span></a></li><li><a href="kurtulus-savasi-muzesi.html">Kurtuluş Savaşı Müzesi<span>Müze</span></a></li><li><a href="etnografya-muzesi.html">Etnografya Müzesi<span>Müze</span></a></li><li><a href="resim-heykel-muzesi.html">Resim Heykel Müzesi<span>Müze</span></a></li><li><a href="gordion-muzesi.html">Gordion Müzesi<span>Müze</span></a></li><li><a href="kahramankazan-15-temmuz-sehitleri-ve-demokrasi-muzesi.html">Kahramankazan 15 Temmuz Şehitleri ve Demokrasi Müzesi<span>Müze</span></a></li><li><a href="roma-hamami-orenyeri.html">Roma Hamamı Örenyeri<span>Ören Yeri</span></a></li><li><a href="15-temmuz-demokrasi-muzesi.html">15 Temmuz Demokrasi Müzesi<span>Müze</span></a></li></ul></section>
 </main>
 <script>
-const T={"tr": "Anadolu Medeniyetleri Müzesi, Ankara Kalesi'nin eteğinde, Osmanlı dönemine ait Mahmut Paşa Bedesteni ve Kurşunlu Han'da yer alır. Paleolitik Çağ'dan Roma dönemine kadar Anadolu'da yaşamış uygarlıkların eserlerini kronolojik bir düzenle sergiler. Çatalhöyük buluntuları, Hitit, Frig ve Urartu eserleri koleksiyonun öne çıkan parçalarıdır. Müze 1997'de Avrupa'da Yılın Müzesi seçildi.", "en": "The Museum of Anatolian Civilizations stands at the foot of Ankara Castle, in two Ottoman buildings: the Mahmut Pasha Bazaar and the Kurşunlu Han. It presents the cultures of Anatolia in chronological order, from the Palaeolithic to the Roman period. Highlights include finds from Çatalhöyük and Hittite, Phrygian and Urartian works. In 1997 it was named European Museum of the Year.", "de": "Das Museum der anatolischen Zivilisationen liegt am Fuß der Zitadelle von Ankara, in zwei osmanischen Gebäuden: dem Mahmut-Pascha-Basar und dem Kurşunlu Han. Es zeigt die Kulturen Anatoliens in chronologischer Folge, von der Altsteinzeit bis zur Römerzeit. Zu den Höhepunkten gehören Funde aus Çatalhöyük sowie hethitische, phrygische und urartäische Werke. 1997 wurde es zum Europäischen Museum des Jahres gewählt."},L={tr:['tr-TR','Tarihçe'],en:['en-US','History'],de:['de-DE','Geschichte']};let cur='tr',on=false;
+const T={"tr": "Anadolu Medeniyetleri Müzesi, Ankara Kalesi'nin eteğinde, Osmanlı dönemine ait Mahmut Paşa Bedesteni ve Kurşunlu Han'da yer alır. Paleolitik Çağ'dan Roma dönemine kadar Anadolu'da yaşamış uygarlıkların eserlerini kronolojik bir düzenle sergiler. Çatalhöyük buluntuları, Hitit, Frig ve Urartu eserleri koleksiyonun öne çıkan parçalarıdır. Müze 1997'de Avrupa'da Yılın Müzesi seçildi.", "en": "The Museum of Anatolian Civilizations stands at the foot of Ankara Castle, in two Ottoman buildings: the Mahmut Pasha Bazaar and the Kurşunlu Han. It presents the cultures of Anatolia in chronological order, from the Palaeolithic to the Roman period. Highlights include finds from Çatalhöyük and Hittite, Phrygian and Urartian works. In 1997 it was named European Museum of the Year.", "de": "Das Museum der anatolischen Zivilisationen liegt am Fuß der Zitadelle von Ankara, in zwei osmanischen Gebäuden: dem Mahmut-Pascha-Basar und dem Kurşunlu Han. Es zeigt die Kulturen Anatoliens in chronologischer Folge, von der Altsteinzeit bis zur Römerzeit. Zu den Höhepunkten gehören Funde aus Çatalhöyük sowie hethitische, phrygische und urartäische Werke. 1997 wurde es zum Europäischen Museum des Jahres gewählt."},L={tr:['tr-TR','Türkçe'],en:['en-US','English'],de:['de-DE','Deutsch']};let cur='tr',on=false,tok=0;
 const s=window.speechSynthesis,st=document.getElementById('story'),btn=document.getElementById('listen'),note=document.getElementById('note');
-function stop(){if(s)s.cancel();on=false;btn.classList.remove('playing');btn.textContent='▶ Dinle';}
+const isIOS=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+if(s){try{s.getVoices();}catch(e){}}
+function stop(){tok++;try{if(s&&(s.speaking||s.pending))s.cancel();}catch(e){}on=false;btn.classList.remove('playing');btn.textContent='▶ Dinle';}
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{cur=t.dataset.lang;stop();document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===t));st.textContent=T[cur];st.lang=cur;note.textContent='';});
-btn.onclick=()=>{if(!s||typeof SpeechSynthesisUtterance==='undefined'){note.textContent='Bu tarayıcı sesli okumayı desteklemiyor.';return;}
- if(on){stop();return;}s.cancel();const u=new SpeechSynthesisUtterance(T[cur]);u.lang=L[cur][0];u.rate=.95;
- const v=s.getVoices().find(v=>v.lang===L[cur][0])||s.getVoices().find(v=>v.lang&&v.lang.toLowerCase().startsWith(cur));if(v)u.voice=v;
- u.onend=u.onerror=stop;s.speak(u);on=true;btn.classList.add('playing');btn.textContent='■ Durdur';
- note.textContent=v?'':'Cihazınızda bu dil için ses bulunamadı; varsayılan ses kullanılıyor.';};
+btn.onclick=()=>{
+ if(!s||typeof SpeechSynthesisUtterance==='undefined'){note.textContent='Bu tarayıcı sesli okumayı desteklemiyor. Siteyi Chrome veya Safari ile açın; uygulama içi tarayıcılar desteklemeyebilir.';return;}
+ if(on){stop();return;}
+ const my=++tok,code=L[cur][0];try{if(s.speaking||s.pending)s.cancel();}catch(e){}try{s.resume();}catch(e){}
+ const v=s.getVoices().find(v=>v.lang===code)||s.getVoices().find(v=>v.lang&&v.lang.toLowerCase().startsWith(cur));
+ const parts=(T[cur].match(/[^.!?;]+[.!?;]*/g)||[T[cur]]).map(x=>x.trim()).filter(Boolean);
+ parts.forEach((p,i)=>{const u=new SpeechSynthesisUtterance(p);u.lang=code;if(v)u.voice=v;u.rate=.95;
+  if(i===parts.length-1)u.onend=()=>{if(my===tok)stop();};
+  u.onerror=e=>{if(my!==tok||e.error==='interrupted'||e.error==='canceled')return;stop();
+   note.textContent=(e.error==='language-unavailable'||e.error==='voice-unavailable')?'Bu cihazda '+L[cur][1]+' ses paketi yüklü değil. Telefonun ayarlarından metin okuma (TTS) dil paketini yükleyebilirsiniz.':'Ses başlatılamadı; lütfen tekrar deneyin.';};
+  s.speak(u);});
+ on=true;btn.classList.add('playing');btn.textContent='■ Durdur';
+ note.textContent=(v?'':'Cihazınızda bu dil için ses bulunamadı; varsayılan ses kullanılıyor. ')+(isIOS?'Ses gelmiyorsa telefonun sessiz modunu kapatın.':'');
+};
 </script>
 <footer>© 2026 kulturvarliklari.com.tr · Tüm hakları saklıdır.</footer>
 </body>

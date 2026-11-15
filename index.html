@@ -510,19 +510,38 @@ function voiceFor(code){
   return vs.find(v=>v.lang===code)||vs.find(v=>v.lang&&v.lang.toLowerCase().startsWith(pre))||null;
 }
 if(synth) synth.onvoiceschanged=()=>{};
-function stopSpeech(){ if(synth) synth.cancel(); speaking=false; const b=sheet.querySelector('.listen'); if(b){b.classList.remove('playing');b.querySelector('.lbl').textContent='Dinle';} }
+const isIOS=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+const UNSUP='Bu tarayıcı sesli okumayı desteklemiyor. Siteyi Chrome veya Safari ile açın; uygulama içi tarayıcılar (Instagram, WhatsApp vb.) desteklemeyebilir.';
+let sayTok=0;
+if(synth){try{synth.getVoices();}catch(e){} document.addEventListener('pointerdown',()=>{try{synth.getVoices();}catch(e){}},{once:true});}
+function sayStop(){sayTok++;try{if(synth&&(synth.speaking||synth.pending))synth.cancel();}catch(e){}}
+function sayErr(err,L){return (err==='language-unavailable'||err==='voice-unavailable')?`Bu cihazda ${L.label} ses paketi yüklü değil. Telefonun ayarlarından metin okuma (TTS) dil paketini yükleyebilirsiniz.`:err==='not-allowed'?'Tarayıcı sesli okumaya izin vermedi; Dinle düğmesine tekrar dokunun.':'Ses başlatılamadı; lütfen tekrar deneyin.';}
+// Long texts are split into sentences: some mobile engines cut off or refuse long utterances.
+function say(text,code,onDone,onErr){
+  const my=++sayTok;
+  try{if(synth.speaking||synth.pending)synth.cancel();}catch(e){}
+  try{synth.resume();}catch(e){}
+  const parts=(text.match(/[^.!?;]+[.!?;]*/g)||[text]).map(s=>s.trim()).filter(Boolean);
+  const v=voiceFor(code);
+  parts.forEach((p,i)=>{
+    const u=new SpeechSynthesisUtterance(p); u.lang=code; if(v)u.voice=v; u.rate=.95;
+    if(i===parts.length-1) u.onend=()=>{if(my===sayTok&&onDone)onDone();};
+    u.onerror=e=>{if(my!==sayTok||e.error==='interrupted'||e.error==='canceled')return;sayTok++;try{synth.cancel();}catch(_){}onErr&&onErr(e.error);};
+    synth.speak(u);
+  });
+  return v;
+}
+
+function stopSpeech(){ if(synth) sayStop(); speaking=false; const b=sheet.querySelector('.listen'); if(b){b.classList.remove('playing');b.querySelector('.lbl').textContent='Dinle';} }
 let speak=function(){
   const note=sheet.querySelector('.note'), btn=sheet.querySelector('.listen');
-  if(!synth||typeof SpeechSynthesisUtterance==='undefined'){note.textContent='Bu tarayıcı sesli okumayı desteklemiyor.';return;}
+  if(!synth||typeof SpeechSynthesisUtterance==='undefined'){note.textContent=UNSUP;return;}
   if(speaking){stopSpeech();return;}
+  const L=LANGS[curLang];
   try{
-    synth.cancel();
-    const L=LANGS[curLang], u=new SpeechSynthesisUtterance(curPlace.text[curLang]);
-    u.lang=L.code; const v=voiceFor(L.code); if(v)u.voice=v;
-    u.rate=.95;
-    u.onend=u.onerror=()=>stopSpeech();
-    synth.speak(u); speaking=true; btn.classList.add('playing'); btn.querySelector('.lbl').textContent='Durdur';
-    note.textContent = v?`Ses: ${v.name}`:`Cihazınızda ${L.label} ses bulunamadı; varsayılan ses kullanılıyor.`;
+    const v=say(curPlace.text[curLang],L.code,()=>stopSpeech(),err=>{stopSpeech();note.textContent=sayErr(err,L);});
+    speaking=true; btn.classList.add('playing'); btn.querySelector('.lbl').textContent='Durdur';
+    note.textContent=(v?'':`Cihazınızda ${L.label} ses bulunamadı; varsayılan ses kullanılıyor. `)+(isIOS?'Ses gelmiyorsa telefonun sessiz modunu kapatın.':'');
   }catch(e){note.textContent='Ses başlatılamadı.';}
 }
 function openPlace(id,autoplay){
@@ -641,14 +660,15 @@ const bar=document.createElement('div');bar.className='tourbar';bar.innerHTML=`<
 document.body.appendChild(bar);
 function tourPaint(){const it=TOUR[tourIdx];const ph=bar.firstElementChild;ph.outerHTML=it.img?`<img src="${it.img}" alt="">`:'<span class="ph"></span>';bar.querySelector('b').textContent=it.name;bar.querySelector('small').textContent=`Sesli tur · ${tourIdx+1}/${TOUR.length} · ${LANGS[tourLang].label}`;bar.querySelector('.main').textContent=tourOn?'❚❚':'▶';}
 function tourPlay(i){
-  if(!synth||typeof SpeechSynthesisUtterance==='undefined'){alertBox('Bu tarayıcı sesli okumayı desteklemiyor.');return;}
-  tourIdx=(i+TOUR.length)%TOUR.length; const my=++tourTok; stopSpeech(); synth.cancel(); tourOn=true;
-  const it=TOUR[tourIdx], code=LANGS[tourLang].code, u=new SpeechSynthesisUtterance(it.name+'. '+it.text[tourLang]);
-  u.lang=code; const v=voiceFor(code); if(v)u.voice=v; u.rate=.95;
-  u.onend=()=>{if(my!==tourTok||!tourOn)return; if(tourIdx<TOUR.length-1)tourPlay(tourIdx+1); else {tourOn=false;tourPaint();}};
-  synth.speak(u); bar.classList.add('show'); tourPaint();
+  if(!synth||typeof SpeechSynthesisUtterance==='undefined'){alertBox(UNSUP);document.getElementById('rehber').scrollIntoView({behavior:'smooth',block:'center'});return;}
+  tourIdx=(i+TOUR.length)%TOUR.length; const my=++tourTok; stopSpeech(); tourOn=true;
+  const it=TOUR[tourIdx], L=LANGS[tourLang];
+  say(it.name+'. '+it.text[tourLang],L.code,()=>{if(my!==tourTok||!tourOn)return; if(tourIdx<TOUR.length-1)tourPlay(tourIdx+1); else {tourOn=false;tourPaint();}},
+      err=>{tourOn=false;tourPaint();bar.querySelector('small').textContent=sayErr(err,L);});
+  bar.classList.add('show'); tourPaint();
+  if(isIOS) bar.querySelector('small').textContent+=' · Ses yoksa sessiz modu kapatın';
 }
-function tourStop(hide){tourTok++;tourOn=false;if(synth)synth.cancel();if(hide)bar.classList.remove('show');else if(bar.classList.contains('show'))tourPaint();}
+function tourStop(hide){tourTok++;tourOn=false;if(synth)sayStop();if(hide)bar.classList.remove('show');else if(bar.classList.contains('show'))tourPaint();}
 function alertBox(t){const n=document.createElement('div');n.className='msg bot';n.textContent=t;document.getElementById('chat').appendChild(n);}
 bar.addEventListener('click',e=>{const b=e.target.closest('[data-t]');if(!b)return;const t=b.dataset.t;
   if(t==='prev')tourPlay(tourIdx-1); else if(t==='next')tourPlay(tourIdx+1); else if(t==='close')tourStop(true);

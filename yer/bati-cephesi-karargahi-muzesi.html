@@ -30,15 +30,26 @@
 <section class="rel"><h2>Konya ilinde diğer yerler</h2><ul><li><a href="mevlana-muzesi.html">Mevlana Müzesi<span>Müze</span></a></li><li><a href="konya-arkeoloji-muzesi.html">Konya Arkeoloji Müzesi<span>Müze</span></a></li><li><a href="aksehir-nasreddin-hoca-arkeoloji-ve-etnografya-muzesi.html">Akşehir Nasreddin Hoca Arkeoloji ve Etnografya Müzesi<span>Müze</span></a></li><li><a href="catalhoyuk-orenyeri.html">Çatalhöyük Örenyeri<span>Ören Yeri</span></a></li><li><a href="konya-etnografya-muzesi.html">Konya Etnografya Müzesi<span>Müze</span></a></li><li><a href="eregli-muzesi.html">Ereğli Müzesi<span>Müze</span></a></li><li><a href="karatay-cini-eserler-muzesi.html">Karatay (Çini Eserler) Müzesi<span>Müze</span></a></li><li><a href="konya-ataturk-evi-muzesi.html">Konya Atatürk Evi Müzesi<span>Müze</span></a></li></ul></section>
 </main>
 <script>
-const T={"tr": "Batı Cephesi Karargahı Müzesi, Konya ilinde, İç Anadolu Bölgesi'nde yer alan bir müze. Kültür ve Turizm Bakanlığı'na bağlı, ziyarete açık kültür varlıkları arasında bulunur. Ayrıntılı tarihçe ve sesli anlatım yakında eklenecek.", "en": "Batı Cephesi Karargahı Müzesi is a museum in Konya province, in Türkiye's Central Anatolia region. It is one of the heritage sites open to visitors under the Ministry of Culture and Tourism. A detailed history and audio guide will be added soon.", "de": "Batı Cephesi Karargahı Müzesi ist ein Museum in der Provinz Konya in der Region Zentralanatolien der Türkei. Die Stätte gehört zu den vom Ministerium für Kultur und Tourismus betreuten, für Besucher geöffneten Kulturgütern. Eine ausführliche Geschichte und ein Audioguide folgen in Kürze."},L={tr:['tr-TR','Tarihçe'],en:['en-US','History'],de:['de-DE','Geschichte']};let cur='tr',on=false;
+const T={"tr": "Batı Cephesi Karargahı Müzesi, Konya ilinde, İç Anadolu Bölgesi'nde yer alan bir müze. Kültür ve Turizm Bakanlığı'na bağlı, ziyarete açık kültür varlıkları arasında bulunur. Ayrıntılı tarihçe ve sesli anlatım yakında eklenecek.", "en": "Batı Cephesi Karargahı Müzesi is a museum in Konya province, in Türkiye's Central Anatolia region. It is one of the heritage sites open to visitors under the Ministry of Culture and Tourism. A detailed history and audio guide will be added soon.", "de": "Batı Cephesi Karargahı Müzesi ist ein Museum in der Provinz Konya in der Region Zentralanatolien der Türkei. Die Stätte gehört zu den vom Ministerium für Kultur und Tourismus betreuten, für Besucher geöffneten Kulturgütern. Eine ausführliche Geschichte und ein Audioguide folgen in Kürze."},L={tr:['tr-TR','Türkçe'],en:['en-US','English'],de:['de-DE','Deutsch']};let cur='tr',on=false,tok=0;
 const s=window.speechSynthesis,st=document.getElementById('story'),btn=document.getElementById('listen'),note=document.getElementById('note');
-function stop(){if(s)s.cancel();on=false;btn.classList.remove('playing');btn.textContent='▶ Dinle';}
+const isIOS=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+if(s){try{s.getVoices();}catch(e){}}
+function stop(){tok++;try{if(s&&(s.speaking||s.pending))s.cancel();}catch(e){}on=false;btn.classList.remove('playing');btn.textContent='▶ Dinle';}
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{cur=t.dataset.lang;stop();document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===t));st.textContent=T[cur];st.lang=cur;note.textContent='';});
-btn.onclick=()=>{if(!s||typeof SpeechSynthesisUtterance==='undefined'){note.textContent='Bu tarayıcı sesli okumayı desteklemiyor.';return;}
- if(on){stop();return;}s.cancel();const u=new SpeechSynthesisUtterance(T[cur]);u.lang=L[cur][0];u.rate=.95;
- const v=s.getVoices().find(v=>v.lang===L[cur][0])||s.getVoices().find(v=>v.lang&&v.lang.toLowerCase().startsWith(cur));if(v)u.voice=v;
- u.onend=u.onerror=stop;s.speak(u);on=true;btn.classList.add('playing');btn.textContent='■ Durdur';
- note.textContent=v?'':'Cihazınızda bu dil için ses bulunamadı; varsayılan ses kullanılıyor.';};
+btn.onclick=()=>{
+ if(!s||typeof SpeechSynthesisUtterance==='undefined'){note.textContent='Bu tarayıcı sesli okumayı desteklemiyor. Siteyi Chrome veya Safari ile açın; uygulama içi tarayıcılar desteklemeyebilir.';return;}
+ if(on){stop();return;}
+ const my=++tok,code=L[cur][0];try{if(s.speaking||s.pending)s.cancel();}catch(e){}try{s.resume();}catch(e){}
+ const v=s.getVoices().find(v=>v.lang===code)||s.getVoices().find(v=>v.lang&&v.lang.toLowerCase().startsWith(cur));
+ const parts=(T[cur].match(/[^.!?;]+[.!?;]*/g)||[T[cur]]).map(x=>x.trim()).filter(Boolean);
+ parts.forEach((p,i)=>{const u=new SpeechSynthesisUtterance(p);u.lang=code;if(v)u.voice=v;u.rate=.95;
+  if(i===parts.length-1)u.onend=()=>{if(my===tok)stop();};
+  u.onerror=e=>{if(my!==tok||e.error==='interrupted'||e.error==='canceled')return;stop();
+   note.textContent=(e.error==='language-unavailable'||e.error==='voice-unavailable')?'Bu cihazda '+L[cur][1]+' ses paketi yüklü değil. Telefonun ayarlarından metin okuma (TTS) dil paketini yükleyebilirsiniz.':'Ses başlatılamadı; lütfen tekrar deneyin.';};
+  s.speak(u);});
+ on=true;btn.classList.add('playing');btn.textContent='■ Durdur';
+ note.textContent=(v?'':'Cihazınızda bu dil için ses bulunamadı; varsayılan ses kullanılıyor. ')+(isIOS?'Ses gelmiyorsa telefonun sessiz modunu kapatın.':'');
+};
 </script>
 <footer>© 2026 kulturvarliklari.com.tr · Tüm hakları saklıdır.</footer>
 </body>
