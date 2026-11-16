@@ -82,6 +82,41 @@ Harita altlığı OpenStreetMap'ten yüklenir; ücretsizdir, atıf (sağ alttaki
 
 `/qr/` sayfasında her il için yazdırılabilir QR kartları bulunur (arama motorlarına kapalıdır). Kod okutulduğunda yerin sayfası açılır ve "Dinle" düğmesi öne çıkar. Müzeler ve belediyelerle iş birliği yaparken bu kartları kullanabilirsiniz.
 
+## Reklam alanı (yakında konaklama ve yemek)
+
+Her yer sayfasında "🏨 Yakında konaklama ve yemek" düğmesi vardır (ana sayfadaki yer penceresinde de bağlantısı bulunur). Düğmeye basılınca o yerle eşleşen reklamlar "Reklam" etiketiyle gösterilir; reklam yoksa Google Haritalar'da yakındaki otel ve restoranlara bağlantı ve "Reklam verin" sayfasına yönlendirme görünür.
+
+**Reklam eklemek:** cPanel Dosya Yöneticisi'nde `public_html/reklamlar.json` dosyasını düzenleyin (siteyi yeniden yüklemeye gerek yoktur). Her reklam bir satırdır:
+
+```json
+[
+  {
+    "id": "ornek-otel-selcuk",
+    "ad": "Örnek Otel",
+    "tur": "Otel",
+    "yerler": ["EFS01", "EFM01"],
+    "lat": 37.9478, "lng": 27.3685, "mesafe_km": 10,
+    "telefon": "+90 232 000 00 00",
+    "web": "https://ornekotel.com",
+    "aciklama": {"tr": "Efes'e 5 dakika, bahçeli butik otel.", "en": "Boutique hotel 5 minutes from Ephesus."},
+    "gorsel": "img/reklam/ornek-otel.jpg",
+    "baslangic": "2026-12-01", "bitis": "2027-05-31",
+    "oncelik": 1
+  }
+]
+```
+
+- `yerler`: Reklamın kesin görüneceği yerlerin kodları (yer sayfasının adresindeki değil, kataloğdaki kod; örneğin Efes = EFS01). Kodları `data.json` dosyasında `sid` alanında bulabilirsiniz.
+- `lat`, `lng`, `mesafe_km`: İşletmenin konumu; bu mesafedeki tüm yerlerde de gösterilir (varsayılan 15 km). Konumu Google Haritalar'da işletmeye sağ tıklayıp kopyalayabilirsiniz.
+- `baslangic` / `bitis`: Reklamın yayın tarihleri. `"aktif": false` yazarak geçici olarak durdurabilirsiniz.
+- `oncelik`: Büyük sayı üstte gösterilir (ör. üst paket = 2).
+- `gorsel`: `public_html/img/reklam/` klasörüne yüklediğiniz fotoğraf (yaklaşık 400×300 piksel, JPG).
+- Bir yer sayfasında en fazla 6 reklam gösterilir. JSON'da virgül ve tırnak hatası olursa reklamlar görünmez; düzenledikten sonra jsonlint.com gibi bir araçla kontrol edebilirsiniz.
+
+**İstatistik:** Görüntülenme, web sitesi, telefon ve yol tarifi tıklamaları ay ay sayılır (kişisel veri tutulmaz). Görmek için `kv_config.php` dosyasına `'REKLAM_RAPOR_ANAHTARI' => 'uzun-bir-parola'` satırını ekleyin ve `https://kulturvarliklari.com.tr/api/reklam.php?rapor=uzun-bir-parola` adresini açın. Bu tabloyu reklamverenlere aylık rapor olarak gönderebilirsiniz.
+
+**Yasal not:** Reklamlar "Reklam" etiketiyle ve sponsorlu bağlantı olarak işaretlenir. Reklam verenlerle fatura ve sözleşme konularında mali müşavirinize danışın.
+
 ## Kurumsal sayfalar
 
 Hakkımızda, İletişim, KVKK Aydınlatma Metni ve Çerez Politikası sayfaları hazırdır. İletişim adresi olarak `iletisim@kulturvarliklari.com.tr` kullanıldı; bu e-posta hesabını cPanel → E-posta Hesapları bölümünden açın (veya başka bir adres isterseniz bana söyleyin). KVKK metni genel bir şablondur; yayından önce bir hukukçuya göstermeniz önerilir.

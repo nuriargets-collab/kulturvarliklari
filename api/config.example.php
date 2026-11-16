@@ -8,4 +8,5 @@ return [
     'LIMIT_PER_DAY'      => 2000,  // sitenin günlük toplam soru sınırı (bütçe koruması)
     'MAX_TOKENS'         => 900,
     'TRANSLATE_PER_DAY'  => 400,   // sesli anlatım için günlük en fazla yeni çeviri (çeviriler bir kez yapılıp saklanır)
+    'REKLAM_RAPOR_ANAHTARI' => '',  // reklam istatistiklerini görmek için kendi belirlediğiniz uzun bir parola: /api/reklam.php?rapor=PAROLA
 ];

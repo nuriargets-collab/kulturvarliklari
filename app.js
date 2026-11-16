@@ -129,6 +129,38 @@
     if (/[?&]qr=1/.test(location.search)) { btn.classList.add('pulse'); btn.scrollIntoView({ block: 'center' }); }
   }
 
+
+  /* ---------- Reklam alanı: yakında konaklama ve yemek ---------- */
+  var bizBtn = $('#bizbtn'), bizSec = $('#yakinda');
+  function openBiz() {
+    if (!bizSec) return;
+    bizSec.hidden = false; bizSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (bizSec.getAttribute('data-loaded')) return; bizSec.setAttribute('data-loaded', '1');
+    var me = [parseFloat(bizBtn.getAttribute('data-lat')), parseFloat(bizBtn.getAttribute('data-lng'))], sid = H.getAttribute('data-sid');
+    var today = new Date().toISOString().slice(0, 10), box = $('#bizlist');
+    fetch(ROOT + 'reklamlar.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (ads) {
+      var list = (ads || []).filter(function (a) {
+        if (a.aktif === false || (a.bitis && a.bitis < today) || (a.baslangic && a.baslangic > today)) return false;
+        if (a.yerler && a.yerler.indexOf(sid) >= 0) return true;
+        if (a.lat && a.lng) { a._d = km(me, [a.lat, a.lng]); return a._d <= (a.mesafe_km || 15); }
+        return false;
+      }).sort(function (a, b) { return (b.oncelik || 0) - (a.oncelik || 0) || (a._d || 0) - (b._d || 0); }).slice(0, 6);
+      if (!list.length) { box.innerHTML = '<p class="note">' + esc(I.no_ads) + '</p>'; return; }
+      var go = function (a, kind, url) { return ROOT + 'api/reklam.php?id=' + encodeURIComponent(a.id) + '&t=' + kind + '&sid=' + sid + '&u=' + encodeURIComponent(url); };
+      box.innerHTML = list.map(function (a) {
+        var dir = a.lat ? 'https://www.google.com/maps/dir/?api=1&destination=' + a.lat + ',' + a.lng : '';
+        var desc = (a.aciklama && (a.aciklama[LANG] || a.aciklama.tr)) || '';
+        return '<div class="bizc">' + (a.gorsel ? '<img loading="lazy" src="' + esc(/^https?:/.test(a.gorsel) ? a.gorsel : ROOT + a.gorsel) + '" alt="">' : '<span class="noimg"></span>') +
+          '<div class="b"><span class="tag">' + esc(I.ad) + '</span><b>' + esc(a.ad) + '</b>' + (a.tur ? ' <small>· ' + esc(a.tur) + '</small>' : '') + (a._d != null ? ' <small>· ~' + Math.max(1, Math.round(a._d)) + ' km</small>' : '') +
+          (desc ? '<div>' + esc(desc) + '</div>' : '') + '<div class="lk">' +
+          (a.web ? '<a target="_blank" rel="sponsored noopener" href="' + esc(go(a, 'web', a.web)) + '">' + esc(I.website) + ' ↗</a>' : '') +
+          (a.telefon ? '<a href="' + esc(go(a, 'tel', 'tel:' + a.telefon.replace(/[^+\d]/g, ''))) + '">📞 ' + esc(I.call) + '</a>' : '') +
+          (dir ? '<a target="_blank" rel="sponsored noopener" href="' + esc(go(a, 'yol', dir)) + '">🧭 ' + esc(I.directions) + '</a>' : '') + '</div></div></div>';
+      }).join('');
+      try { navigator.sendBeacon && navigator.sendBeacon(ROOT + 'api/reklam.php?gor=' + list.map(function (a) { return encodeURIComponent(a.id); }).join(',') + '&sid=' + sid); } catch (e) {}
+    }).catch(function () { box.innerHTML = '<p class="note">' + esc(I.no_ads) + '</p>'; });
+  }
+  if (bizBtn) { bizBtn.addEventListener('click', openBiz); if (location.hash === '#yakinda') openBiz(); }
   /* ---------- Ek fotoğraflar (Wikimedia Commons, isteğe bağlı) ---------- */
   var gbtn = $('#moreph');
   if (gbtn) gbtn.addEventListener('click', function () {
