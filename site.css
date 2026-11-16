@@ -32,6 +32,8 @@ main{max-width:900px;margin:0 auto;padding:28px clamp(16px,4vw,32px) 70px}main.w
 .box h2{font-size:26px;margin-bottom:10px}.box dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:14px}.box dt{font-weight:700;color:var(--terra)}
 .minimap{height:300px;border-radius:14px;margin-top:14px;border:1px solid var(--line);z-index:1}
 .credit{font-size:12px;color:var(--stone);margin-top:18px}
+.phinfo{position:absolute;top:14px;right:16px;z-index:3;width:26px;height:26px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;font-size:15px;line-height:26px;text-align:center;text-decoration:none;opacity:.85}.phinfo:hover{opacity:1}
+:target{background:#fff3c4}
 .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-top:12px}.gallery figure{margin:0}.gallery img{width:100%;height:150px;object-fit:cover;border-radius:10px;display:block}.gallery figcaption{font-size:11px;color:var(--stone);margin-top:3px}
 .rel{margin-top:36px}.rel h2{font-size:28px;margin-bottom:12px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
