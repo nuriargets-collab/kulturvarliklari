@@ -104,25 +104,35 @@
         .then(function (txt) { try { sessionStorage.setItem(key, txt); } catch (e) {} show(l, txt, true); sel.value = l; })
         .catch(function () { note.textContent = I.trans_err; sel.value = ''; });
     });
+    var KEEP = [], ANDROID = /Android/i.test(navigator.userAgent);
+    if (s && isIOS) document.addEventListener('touchend', function () { try { var u = new SpeechSynthesisUtterance(' '); u.volume = 0; s.speak(u); } catch (e) {} }, { once: true, capture: true });
+    var fail = function (err) {
+      stop();
+      if (err === 'language-unavailable' || err === 'voice-unavailable') note.textContent = I.no_voice + (ANDROID ? ' ' + I.android_help : isIOS ? ' ' + I.ios_help : '');
+      else if (err === 'no-start' || err === 'synthesis-failed' || err === 'synthesis-unavailable' || err === 'audio-busy') note.textContent = ANDROID ? I.android_help : isIOS ? I.ios_help : I.tts_err;
+      else note.textContent = I.tts_err;
+    };
     btn.addEventListener('click', function () {
       if (!s || typeof SpeechSynthesisUtterance === 'undefined') { note.textContent = I.no_tts; return; }
       if (on) { stop(); return; }
-      var my = ++tok, code = VO[cur] || cur;
-      try { if (s.speaking || s.pending) s.cancel(); } catch (e) {}
-      try { s.resume(); } catch (e) {}
+      var my = ++tok, code = VO[cur] || cur, busy = false;
+      try { if (s.speaking || s.pending) { s.cancel(); busy = true; } } catch (e) {}
       var vs = s.getVoices();
-      var v = vs.filter(function (x) { return x.lang === code; })[0] || vs.filter(function (x) { return x.lang && x.lang.toLowerCase().indexOf(cur) === 0; })[0];
-      var txt = story.textContent;
+      var v = vs.filter(function (x) { return x.lang === code || x.lang === code.replace('-', '_'); })[0] || vs.filter(function (x) { return x.lang && x.lang.toLowerCase().indexOf(cur) === 0; })[0];
+      var txt = story.textContent, i = 0, started = false;
       var parts = (txt.match(/[^.!?;。؟]+[.!?;。؟]*/g) || [txt]).map(function (x) { return x.trim(); }).filter(Boolean);
-      parts.forEach(function (p, i) {
-        var u = new SpeechSynthesisUtterance(p); u.lang = code; if (v) u.voice = v; u.rate = 0.95;
-        if (i === parts.length - 1) u.onend = function () { if (my === tok) stop(); };
-        u.onerror = function (e) {
-          if (my !== tok || e.error === 'interrupted' || e.error === 'canceled') return; stop();
-          note.textContent = (e.error === 'language-unavailable' || e.error === 'voice-unavailable') ? I.no_voice : I.tts_err;
-        };
-        s.speak(u);
-      });
+      KEEP = [];
+      var next = function () {
+        if (my !== tok) return;
+        if (i >= parts.length) { KEEP = []; stop(); return; }
+        var u = new SpeechSynthesisUtterance(parts[i++]); u.lang = code; if (v) u.voice = v; u.rate = 0.95;
+        u.onstart = function () { started = true; };
+        u.onend = function () { started = true; next(); };
+        u.onerror = function (e) { if (my !== tok || e.error === 'interrupted' || e.error === 'canceled') return; fail(e.error); };
+        KEEP.push(u); s.speak(u);
+      };
+      if (busy) setTimeout(next, 150); else next();
+      setTimeout(function () { if (my === tok && !started && !s.speaking) fail('no-start'); }, 4500);
       on = true; btn.classList.add('playing'); btn.textContent = I.stop;
       note.textContent = (v ? '' : I.default_voice + ' ') + (isIOS ? I.ios : '');
     });
