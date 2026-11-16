@@ -86,7 +86,7 @@ Harita altlığı OpenStreetMap'ten yüklenir; ücretsizdir, atıf (sağ alttaki
 
 Her yer sayfasında "🏨 Yakında konaklama ve yemek" düğmesi vardır (ana sayfadaki yer penceresinde de bağlantısı bulunur). Düğmeye basılınca o yerle eşleşen reklamlar "Reklam" etiketiyle gösterilir; reklam yoksa Google Haritalar'da yakındaki otel ve restoranlara bağlantı ve "Reklam verin" sayfasına yönlendirme görünür.
 
-**Reklam eklemek:** cPanel Dosya Yöneticisi'nde `public_html/reklamlar.json` dosyasını düzenleyin (siteyi yeniden yüklemeye gerek yoktur). Her reklam bir satırdır:
+**Reklam eklemek:** cPanel Dosya Yöneticisi'nde `public_html` içinde `reklamlar.json` adında bir dosya oluşturun (yoksa) ve düzenleyin. Bu dosya site paketinde yer almaz; böylece siteyi her güncellediğinizde reklamlarınızın üzerine yazılmaz. Her reklam bir satırdır:
 
 ```json
 [
