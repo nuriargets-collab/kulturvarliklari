@@ -1,6 +1,6 @@
 /* kulturvarliklari.com.tr — çevrimdışı destek */
-const V = 'kv-751516359c';
-const A = 'kv-assets-751516359c';
+const V = 'kv-3aaac25890';
+const A = 'kv-assets-3aaac25890';
 const CORE = ['./', 'index.html', 'site.css', 'app.js', 'data.json', 'fonts/fonts.css', 'favicon.svg', 'offline.html', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
@@ -12,7 +12,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const r = e.request, u = new URL(r.url);
   if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/api/')) return;
-  const isPage = r.mode === 'navigate' || (r.headers.get('accept') || '').includes('text/html');
+  const isPage = r.mode === 'navigate' || (r.headers.get('accept') || '').includes('text/html') || u.pathname.endsWith('.json');
   if (isPage) {
     // Önce ağ; olmazsa önbellek; o da yoksa çevrimdışı sayfası
     e.respondWith(fetch(r).then(res => {

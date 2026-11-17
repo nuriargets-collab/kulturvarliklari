@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - name: Ayarları kontrol et
         id: ayar
         env:
@@ -73,3 +75,29 @@ jobs:
             echo "Bekleniyor… canlı: ${canli:-yok}, beklenen: $beklenen"; sleep 10
           done
           echo "::error::Yükleme bitti ama canlı site yeni sürümü göstermiyor (yanlış klasör ya da önbellek)."; exit 1
+      - name: Arama motorlarına bildir (IndexNow - Bing, Yandex)
+        continue-on-error: true
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+        run: |
+          KEY=$(ls *.txt | grep -E '^[0-9a-f]{32}\.txt$' | head -1 | sed 's/\.txt$//')
+          [ -z "$KEY" ] && { echo "IndexNow anahtarı yok"; exit 0; }
+          B=https://kulturvarliklari.com.tr
+          if echo "$MSG" | grep -q "\[tum-indeks\]"; then
+            grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's#</\?loc>##g' > urls.txt
+          else
+            git diff --name-only HEAD~1 HEAD -- '*.html' | grep -v '^\.github' | grep -v -E '^(404|offline)\.html$' \
+              | sed -E 's#(^|/)index\.html$#\1#' | sed "s#^#$B/#" > urls.txt || true
+          fi
+          N=$(wc -l < urls.txt); echo "Bildirilecek adres: $N"
+          [ "$N" -eq 0 ] && exit 0
+          python3 - "$KEY" <<'PY'
+          import json,sys,urllib.request
+          key=sys.argv[1];urls=[u.strip() for u in open("urls.txt") if u.strip()][:10000]
+          body=json.dumps({"host":"kulturvarliklari.com.tr","key":key,"keyLocation":f"https://kulturvarliklari.com.tr/{key}.txt","urlList":urls}).encode()
+          for ep in ["https://api.indexnow.org/indexnow","https://yandex.com/indexnow"]:
+              try:
+                  r=urllib.request.urlopen(urllib.request.Request(ep,data=body,headers={"Content-Type":"application/json; charset=utf-8"}),timeout=60)
+                  print(ep,r.status)
+              except Exception as e: print(ep,"hata:",e)
+          PY
