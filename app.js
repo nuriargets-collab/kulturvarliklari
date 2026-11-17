@@ -197,6 +197,12 @@
   });
 
   /* ---------- Harita (Leaflet) ---------- */
+  function keepSized(map, el, after) {
+    var fix = function () { map.invalidateSize(); if (after) after(); };
+    setTimeout(fix, 200); setTimeout(fix, 900);
+    window.addEventListener('load', fix);
+    if (window.ResizeObserver) { var t; new ResizeObserver(function () { clearTimeout(t); t = setTimeout(function () { map.invalidateSize(); }, 120); }).observe(el); }
+  }
   function tiles(map) {
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
   }
@@ -208,6 +214,9 @@
   var mapEl = $('#bigmap');
   if (mapEl && window.L) data().then(function (D) {
     var map = L.map(mapEl, { scrollWheelZoom: true }).setView([39, 35], 6); tiles(map);
+    var TR = L.latLngBounds([35.8, 25.6], [42.1, 44.8]), moved = false;
+    map.on('movestart', function () { moved = true; });
+    keepSized(map, mapEl, function () { if (!moved && !location.hash) map.fitBounds(TR); });
     var cl = L.markerClusterGroup ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 }) : L.layerGroup();
     var mk = {};
     var ic = function (p) { return L.divIcon({ className: 'pin pin-' + (p.type === 'Müze' ? 'm' : p.type === 'Ören Yeri' ? 'o' : 'a'), iconSize: [18, 18] }); };
@@ -247,7 +256,8 @@
       (lines[p[3] || 0] = lines[p[3] || 0] || []).push([p[0], p[1]]);
     });
     if (el.hasAttribute('data-route')) Object.keys(lines).forEach(function (k) { L.polyline(lines[k], { color: colors[k % 5], weight: 3, opacity: .7, dashArray: '6 6' }).addTo(map); });
-    if (pts.length === 1) map.setView([pts[0][0], pts[0][1]], 13); else map.fitBounds(L.latLngBounds(pts.map(function (p) { return [p[0], p[1]]; })).pad(0.15));
+    var fitAll = function () { if (pts.length === 1) map.setView([pts[0][0], pts[0][1]], 13); else map.fitBounds(L.latLngBounds(pts.map(function (p) { return [p[0], p[1]]; })).pad(0.15)); };
+    fitAll(); keepSized(map, el, fitAll);
   });
 
   /* ---------- Listem sayfası ---------- */

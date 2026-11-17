@@ -1,12 +1,13 @@
 /* kulturvarliklari.com.tr — çevrimdışı destek */
-const V = 'kv-202611162124';
+const V = 'kv-202611171538';
+const A = 'kv-assets-202611171538';
 const CORE = ['./', 'index.html', 'site.css', 'app.js', 'data.json', 'fonts/fonts.css', 'favicon.svg', 'offline.html', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(V).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('kv-') && k !== V && k !== 'kv-pages' && k !== 'kv-assets').map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('kv-') && k !== V && k !== 'kv-pages' && k !== A).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener('fetch', e => {
   const r = e.request, u = new URL(r.url);
@@ -22,7 +23,7 @@ self.addEventListener('fetch', e => {
   }
   // Görseller, yazı tipleri, betikler: önbellekten hızlı, arka planda yenile
   e.respondWith(caches.match(r).then(m => {
-    const net = fetch(r).then(res => { if (res.ok) { const cp = res.clone(); caches.open('kv-assets').then(c => c.put(r, cp)); } return res; }).catch(() => m);
+    const net = fetch(r).then(res => { if (res.ok) { const cp = res.clone(); caches.open(A).then(c => c.put(r, cp)); } return res; }).catch(() => m);
     return m || net;
   }));
 });
