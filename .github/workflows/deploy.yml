@@ -54,6 +54,7 @@ jobs:
           protocol: ftp           # hosting şifreli FTP (FTPS) desteklemiyor
           server-dir: ./          # FTP hesabının klasörü public_html olarak ayarlandı
           timeout: 180000         # yavaş sunucuda bağlantı zaman aşımını önler
+          state-name: .ftp-deploy-sync-state-v2.json   # yeni durum dosyası: tüm dosyalar yeniden karşılaştırılıp yüklenir
           exclude: |
             **/.git*
             **/.git*/**
