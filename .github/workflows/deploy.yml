@@ -52,9 +52,9 @@ jobs:
           username: ${{ steps.ayar.outputs.user }}
           password: ${{ steps.ayar.outputs.pass }}
           protocol: ftp           # hosting şifreli FTP (FTPS) desteklemiyor
-          server-dir: ./          # FTP hesabının klasörü public_html olarak ayarlandı
+          server-dir: public_html/   # FTP hesabı /home/kulturva'ya açılıyor; site kökü public_html
           timeout: 180000         # yavaş sunucuda bağlantı zaman aşımını önler
-          state-name: .ftp-deploy-sync-state-v2.json   # yeni durum dosyası: tüm dosyalar yeniden karşılaştırılıp yüklenir
+          state-name: .ftp-deploy-sync-state-v3.json   # public_html için yeni durum dosyası
           exclude: |
             **/.git*
             **/.git*/**
@@ -64,3 +64,12 @@ jobs:
             KURULUM.md
             api/config.php
             ses/**
+      - name: Canlı sitede yeni sürümü doğrula
+        run: |
+          beklenen=$(grep -o "const V = '[^']*'" sw.js)
+          for i in 1 2 3 4 5 6; do
+            canli=$(curl -s "https://kulturvarliklari.com.tr/sw.js?t=$(date +%s)" | grep -o "const V = '[^']*'" || true)
+            [ "$canli" = "$beklenen" ] && { echo "Canlı site güncel: $canli"; exit 0; }
+            echo "Bekleniyor… canlı: ${canli:-yok}, beklenen: $beklenen"; sleep 10
+          done
+          echo "::error::Yükleme bitti ama canlı site yeni sürümü göstermiyor (yanlış klasör ya da önbellek)."; exit 1
