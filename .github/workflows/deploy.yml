@@ -1,6 +1,8 @@
 # Depoya her gönderimde siteyi FTP ile hosting'e yükler.
-# Gerekli gizli ayarlar (GitHub > Settings > Secrets and variables > Actions):
-#   FTP_SERVER, FTP_USERNAME, FTP_PASSWORD
+# Gerekli gizli ayarlar (GitHub > Settings > Secrets and variables > Actions > Repository secrets):
+#   Sunucu:       FTP_SERVER veya SERVER      (ör. ftp.kulturvarliklari.com.tr  — başına ftp:// yazmayın)
+#   Kullanıcı:    FTP_USERNAME veya USERNAME
+#   Şifre:        FTP_PASSWORD veya PASSWORD
 name: Siteyi yayınla
 on:
   push:
@@ -12,23 +14,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Ayarları kontrol et
+        id: ayar
         env:
-          S: ${{ secrets.FTP_SERVER || secrets.SERVER || vars.FTP_SERVER }}
+          S1: ${{ secrets.FTP_SERVER || vars.FTP_SERVER }}
+          S2: ${{ secrets.SERVER || vars.SERVER }}
           U: ${{ secrets.FTP_USERNAME || secrets.USERNAME || vars.FTP_USERNAME }}
           P: ${{ secrets.FTP_PASSWORD || secrets.PASSWORD || vars.FTP_PASSWORD }}
         run: |
-          eksik=""
-          [ -z "$S" ] && eksik="$eksik FTP_SERVER"
-          [ -z "$U" ] && eksik="$eksik FTP_USERNAME"
-          [ -z "$P" ] && eksik="$eksik FTP_PASSWORD"
-          if [ -n "$eksik" ]; then
-            echo "::error::Eksik ayar:$eksik  -> Settings > Secrets and variables > Actions > Repository secrets bolumune tam bu adlarla ekleyin."
-            exit 1
-          fi
-          echo "Uc ayar da bulundu."
+          temizle() { echo "$1" | tr -d '[:space:]' | sed -E 's#^[a-zA-Z]+://##; s#/.*$##; s#:[0-9]+$##'; }
+          [ -z "$U" ] && { echo "::error::Kullanıcı adı ayarı yok (FTP_USERNAME veya USERNAME)."; exit 1; }
+          [ -z "$P" ] && { echo "::error::Şifre ayarı yok (FTP_PASSWORD veya PASSWORD)."; exit 1; }
+          HOST=""
+          for aday in "$S1" "$S2" "ftp.kulturvarliklari.com.tr" "kulturvarliklari.com.tr"; do
+            h=$(temizle "$aday"); [ -z "$h" ] && continue
+            if getent hosts "$h" >/dev/null; then HOST="$h"; break; else echo "Bulunamadı: bir sunucu adresi çözülemedi, sıradakine geçiliyor."; fi
+          done
+          [ -z "$HOST" ] && { echo "::error::Sunucu adresi bulunamadı. FTP_SERVER / SERVER değerini kontrol edin (ör. ftp.kulturvarliklari.com.tr)."; exit 1; }
+          echo "::add-mask::$HOST"
+          echo "host=$HOST" >> "$GITHUB_OUTPUT"
+          echo "Ayarlar tamam."
       - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER || secrets.SERVER || vars.FTP_SERVER }}
+          server: ${{ steps.ayar.outputs.host }}
           username: ${{ secrets.FTP_USERNAME || secrets.USERNAME || vars.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD || secrets.PASSWORD || vars.FTP_PASSWORD }}
           protocol: ftps          # hosting FTPS desteklemiyorsa "ftp" yapın
