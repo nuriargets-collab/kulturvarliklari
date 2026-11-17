@@ -10,7 +10,7 @@ header('Content-Type: application/json; charset=utf-8');
 header('X-Content-Type-Options: nosniff');
 function out(int $code, array $data): void { http_response_code($code); if ($code === 200) header('Cache-Control: public, max-age=604800'); else header('Cache-Control: no-store'); echo json_encode($data, JSON_UNESCAPED_UNICODE); exit; }
 
-$LANGS = ['ru' => 'Russian', 'fr' => 'French', 'es' => 'Spanish', 'ar' => 'Modern Standard Arabic'];
+$LANGS = ['ru' => 'Russian', 'fr' => 'French', 'it' => 'Italian', 'ja' => 'Japanese'];
 $sid = strtoupper(preg_replace('/[^A-Za-z0-9]/', '', (string)($_GET['sid'] ?? '')));
 $lang = (string)($_GET['lang'] ?? '');
 if ($_SERVER['REQUEST_METHOD'] !== 'GET') out(405, ['error' => 'method']);

@@ -3,7 +3,7 @@
   'use strict';
   var H = document.documentElement;
   var ROOT = H.getAttribute('data-root') || './';       // site köküne göreli yol
-  var LANG = H.getAttribute('lang') || 'tr';
+  var LANG = H.getAttribute('data-lang') || H.getAttribute('lang') || 'tr';
   var LBASE = ROOT + (LANG === 'tr' ? '' : LANG + '/'); // dil köküne göreli yol
   var I = window.KV_I18N || {};
   var $ = function (s, r) { return (r || document).querySelector(s); };
@@ -32,6 +32,7 @@
   }
   KV.data = data;
   function nm(p) { return (p.n && (p.n[LANG] || p.n.tr)) || p.name; }
+  function cn(p) { return (p.c && p.c[LANG]) || p.city; }
   function km(a, b) {
     var t = function (x) { return x * Math.PI / 180; }, dl = t(b[0] - a[0]), dn = t(b[1] - a[1]);
     var h = Math.sin(dl / 2) * Math.sin(dl / 2) + Math.cos(t(a[0])) * Math.cos(t(b[0])) * Math.sin(dn / 2) * Math.sin(dn / 2);
@@ -42,7 +43,7 @@
   function card(p, extra) {
     return '<a class="pcard" href="' + placeUrl(p) + '">' +
       (p.img ? '<img loading="lazy" src="' + ROOT + p.img + '" alt="" width="320" height="200">' : '<span class="noimg"></span>') +
-      '<span class="pc-b"><b>' + esc(nm(p)) + '</b><span>' + esc(p.city) + ' · ' + esc(p.typeL || p.type) + (extra ? ' · ' + extra : '') + '</span></span></a>';
+      '<span class="pc-b"><b>' + esc(nm(p)) + '</b><span>' + esc(cn(p)) + ' · ' + esc(p.typeL || p.type) + (extra ? ' · ' + extra : '') + '</span></span></a>';
   }
   KV.card = card;
 
@@ -79,7 +80,7 @@
   var story = $('#story');
   if (story && window.KV_TEXT) {
     var T = window.KV_TEXT, SID = H.getAttribute('data-sid');
-    var VO = { tr: 'tr-TR', en: 'en-US', de: 'de-DE', ru: 'ru-RU', fr: 'fr-FR', es: 'es-ES', ar: 'ar-SA', it: 'it-IT' };
+    var VO = { tr: 'tr-TR', en: 'en-US', de: 'de-DE', zh: 'zh-CN', hi: 'hi-IN', es: 'es-ES', ar: 'ar-SA', ru: 'ru-RU', fr: 'fr-FR', it: 'it-IT', ja: 'ja-JP' };
     var cur = LANG, on = false, tok = 0, s = window.speechSynthesis;
     var btn = $('#listen'), note = $('#note'), aiNote = $('#ainote');
     var isIOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
@@ -93,12 +94,12 @@
       on = false; btn.classList.remove('playing'); btn.textContent = I.listen;
     };
     var show = function (lang, txt, ai) {
-      cur = lang; story.textContent = txt; story.lang = lang; story.dir = lang === 'ar' ? 'rtl' : 'ltr';
+      cur = lang; story.textContent = txt; story.lang = lang === 'zh' ? 'zh-Hans' : lang; story.dir = lang === 'ar' ? 'rtl' : 'ltr';
       if (aiNote) aiNote.hidden = !ai; note.textContent = '';
       $$('.tab').forEach(function (x) { x.classList.toggle('on', x.getAttribute('data-lang') === lang); });
       var sel = $('#moreLang'); if (sel && !ai) sel.value = '';
     };
-    $$('.tab').forEach(function (t) { t.addEventListener('click', function () { stop(); var l = t.getAttribute('data-lang'); show(l, T[l], false); }); });
+    $$('.tab').forEach(function (t) { if (t.tagName === 'A') return; t.addEventListener('click', function () { stop(); var l = t.getAttribute('data-lang'); show(l, T[l], false); }); });
     var sel = $('#moreLang');
     if (sel) sel.addEventListener('change', function () {
       var l = sel.value; if (!l) return; stop();
@@ -262,7 +263,7 @@
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
   }
   function popup(p) {
-    return '<div class="pop">' + (p.img ? '<img src="' + ROOT + p.img + '" alt="">' : '') + '<b>' + esc(nm(p)) + '</b><span>' + esc(p.city) + ' · ' + esc(p.typeL) + '</span>' +
+    return '<div class="pop">' + (p.img ? '<img src="' + ROOT + p.img + '" alt="">' : '') + '<b>' + esc(nm(p)) + '</b><span>' + esc(cn(p)) + ' · ' + esc(p.typeL) + '</span>' +
       (p.ap ? '<em>' + esc(I.approx) + '</em>' : '') +
       '<a href="' + placeUrl(p) + '">' + esc(I.more) + '</a> · <a target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=' + p.lat + ',' + p.lng + '">' + esc(I.directions) + '</a></div>';
   }

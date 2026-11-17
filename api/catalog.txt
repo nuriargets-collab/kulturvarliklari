@@ -356,3 +356,28 @@ FLO01 | Filyos(Tios) Örenyeri | Çaycuma/Zonguldak | Ören Yeri | Helenistik �
 ZCM02 | Cehennemağzı Mağaraları | Kdz. Ereğli/Zonguldak | Doğal Alan | Antik / Doğal Alan |  | 41.32,31.45 | Cehennemağzı Mağaraları, Karadeniz Ereğli'de, antik Herakleia Pontike kentinin yakınında yer alan üç mağaradan oluşur.
 ZMM02 | Maden Müzesi | Merkez/Zonguldak | Müze | 19.–20. yy |  | 41.45,31.81 | Zonguldak Maden Müzesi, Türkiye'nin taşkömürü madenciliğinin başladığı Zonguldak'ta, kentin kömürle şekillenen kimliğini anlatır.
 ZNE01 | Karadeniz Ereğli Müzesi | Kdz. Ereğli/Zonguldak | Müze | Çok Dönemli |  | 41.28,31.42 | Karadeniz Ereğli Müzesi, antik Herakleia Pontike kentinin mirasını tanıtır.
+QSL01 | Salamis Örenyeri | Tuzla/Gazimağusa | Ören Yeri | Tunç Çağı / Roma / Bizans |  | 35.19,33.90 | Salamis, Gazimağusa'nın yaklaşık 8 km kuzeyinde, denize uzanan kumullar ve çam ağaçları arasında Kıbrıs'ın en büyük antik kentlerinden biridir.
+QKM01 | Kral Mezarları Müzesi ve Örenyeri | Tuzla/Gazimağusa | Ören Yeri | Demir Çağı (MÖ 8–7. yy) |  | 35.18,33.89 | Kral Mezarları, Salamis antik kentinin batısında, kentin MÖ 8.
+QBR01 | St. Barnabas Manastırı | Tuzla/Gazimağusa | Dini Yapı | Erken Hristiyanlık / Osmanlı |  | 35.17,33.89 | St.
+QEN01 | Enkomi (Alasya) Örenyeri | Tuzla/Gazimağusa | Ören Yeri | Tunç Çağı |  | 35.16,33.88 | Enkomi (Alasya) Örenyeri, Tuzla köyü yakınında, Geç Tunç Çağı'nın Kıbrıs'taki en önemli kentlerinden birinin kalıntılarını barındırır.
+QOT01 | Othello Kalesi | Kaleiçi/Gazimağusa | Kale & Tarihi Yapı | Lüzinyan / Venedik |  | 35.13,33.94 | Othello Kalesi, Gazimağusa'nın surlarla çevrili Kaleiçi bölgesinde limanı korumak için yapılmış bir iç kaledir.
+QLM01 | Lala Mustafa Paşa Camii | Kaleiçi/Gazimağusa | Dini Yapı | Lüzinyan / Osmanlı |  | 35.12,33.94 | Lala Mustafa Paşa Camii, Gazimağusa Kaleiçi'nin simgesidir.
+QNK01 | Namık Kemal Zindanı ve Müzesi | Kaleiçi/Gazimağusa | Müze | Venedik / Osmanlı |  | 35.12,33.94 | Namık Kemal Zindanı ve Müzesi, Gazimağusa Kaleiçi'nde, 'Vatan Şairi' Namık Kemal'in 1873'te sahnelenen 'Vatan yahut Silistre' oyununun ardından…
+QKN01 | Kantara Kalesi | Kantara/İskele | Kale & Tarihi Yapı | Bizans / Lüzinyan |  | 35.41,33.92 | Kantara Kalesi, Beşparmak Dağları'nın doğu ucunda, yaklaşık 630 metre yükseklikte, St.
+QIK01 | İskele İkon Müzesi | İskele/İskele | Müze | Bizans (12. yy) |  | 35.28,33.89 | İskele İkon Müzesi, İskele kasabasındaki Panagia Theotokos Kilisesi'nde yer alır.
+QAA01 | Apostolos Andreas Manastırı | Dipkarpaz/İskele | Dini Yapı | Bizans / Osmanlı |  | 35.66,34.57 | Apostolos Andreas Manastırı, Karpaz Yarımadası'nın ucunda, denize bakan ıssız bir kıyıda yer alır.
+QAT01 | Ayia Trias Bazilikası | Sipahi/İskele | Dini Yapı | Erken Hristiyanlık |  | 35.63,34.37 | Ayia Trias Bazilikası, Karpaz Yarımadası'ndaki Sipahi köyünde, 5.–6.
+QGK01 | Girne Kalesi ve Batık Gemi Müzesi | Girne/Girne | Kale & Tarihi Yapı | Bizans / Venedik |  | 35.34,33.32 | Girne Kalesi, Girne'nin tarihî limanının doğu ucunda yükselir.
+QBP01 | Bellapais Manastırı | Beylerbeyi/Girne | Dini Yapı | Lüzinyan |  | 35.31,33.36 | Bellapais Manastırı, Girne'nin güneydoğusunda, Beylerbeyi köyünde, Beşparmak Dağları'nın eteğinde denize bakan bir teras üzerindedir.
+QSH01 | St. Hilarion Kalesi | Girne/Girne | Kale & Tarihi Yapı | Bizans / Lüzinyan |  | 35.31,33.28 | St.
+QBF01 | Buffavento Kalesi | Beşparmak Dağları/Girne | Kale & Tarihi Yapı | Bizans / Lüzinyan |  | 35.29,33.41 | Buffavento Kalesi, Beşparmak Dağları'nda yaklaşık 950 metre yükseklikte, Kuzey Kıbrıs'ın üç dağ kalesinin en yükseğidir.
+QAN01 | Antiphonitis Kilisesi | Esentepe/Girne | Dini Yapı | Bizans (12. yy) |  | 35.35,33.56 | Antiphonitis Kilisesi, Esentepe yakınında, Beşparmak Dağları'nın kuzey yamacında, ormanlık ve ıssız bir vadide yer alır.
+QGI01 | Girne İkon Müzesi | Girne/Girne | Müze | Osmanlı (19. yy) |  | 35.34,33.32 | Girne İkon Müzesi, Girne limanının üzerindeki kayalık tepede, 1860'ta inşa edilen Başmelek Mikail Kilisesi'nde yer alır.
+QSM01 | Selimiye Camii | Suriçi/Lefkoşa | Dini Yapı | Lüzinyan / Osmanlı |  | 35.18,33.36 | Selimiye Camii, Lefkoşa surlarının içindeki eski şehrin kalbinde yükselir.
+QBH01 | Büyük Han | Suriçi/Lefkoşa | Kale & Tarihi Yapı | Osmanlı (16. yy) |  | 35.18,33.36 | Büyük Han, Lefkoşa'nın eski şehrinde, 1572'de adanın ilk Osmanlı valisi Lala Mustafa Paşa tarafından yaptırılan iki katlı bir kervansaraydır.
+QMT01 | Mevlevi Tekke Müzesi | Suriçi/Lefkoşa | Müze | Osmanlı (17. yy) |  | 35.18,33.36 | Mevlevi Tekke Müzesi, Lefkoşa'da Girne Kapısı'nın yakınında, 17.
+QDP01 | Derviş Paşa Konağı | Suriçi/Lefkoşa | Müze | Osmanlı (19. yy) |  | 35.18,33.36 | Derviş Paşa Konağı, Lefkoşa'nın Arabahmet bölgesinde, 19.
+QLP01 | Lapidari Müzesi | Suriçi/Lefkoşa | Müze | Lüzinyan / Venedik |  | 35.18,33.37 | Lapidari Müzesi, Lefkoşa'da Selimiye Camii'nin hemen yanında, 15.
+QGZ01 | Güzelyurt Arkeoloji ve Doğa Tarihi Müzesi | Güzelyurt/Güzelyurt | Müze | Çok Dönemli |  | 35.20,32.99 | Güzelyurt Arkeoloji ve Doğa Tarihi Müzesi, Güzelyurt'ta Aziz Mamas Kilisesi'nin hemen yanındaki eski piskoposluk binasında yer alır.
+QSO01 | Soli Örenyeri | Gemikonağı/Lefke | Ören Yeri | Arkaik / Roma |  | 35.14,32.81 | Soli Örenyeri, Lefke yakınında, Güzelyurt Körfezi'ne bakan yamaçta, Kıbrıs'ın antik krallıklarından birinin kentidir.
+QVO01 | Vouni Sarayı | Yeşilırmak/Lefke | Ören Yeri | Klasik (MÖ 5. yy) |  | 35.16,32.77 | Vouni Sarayı, Lefke'nin batısında, denizden yaklaşık 250 metre yükselen bir tepenin üzerinde yer alır.

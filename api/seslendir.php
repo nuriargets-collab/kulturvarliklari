@@ -40,8 +40,8 @@ $ADMIN = (string)($CONFIG['TTS_TOPLU_PAROLA'] ?? '');
 // Google Chirp 3 HD sesleri; ElevenLabs için ses kimliği ayarlardan değiştirilebilir
 $GVOICE = $CONFIG['GOOGLE_TTS_VOICE'] ?? 'Charon';
 $LANGS = [
-    'tr' => 'tr-TR', 'en' => 'en-US', 'de' => 'de-DE',
-    'ru' => 'ru-RU', 'fr' => 'fr-FR', 'es' => 'es-ES', 'ar' => 'ar-XA',
+    'tr' => 'tr-TR', 'en' => 'en-US', 'de' => 'de-DE', 'zh' => 'cmn-CN', 'hi' => 'hi-IN',
+    'es' => 'es-ES', 'ar' => 'ar-XA', 'ru' => 'ru-RU', 'fr' => 'fr-FR', 'it' => 'it-IT', 'ja' => 'ja-JP',
 ];
 $EVOICE = (string)($CONFIG['ELEVENLABS_VOICE_ID'] ?? '');
 $EMODEL = (string)($CONFIG['ELEVENLABS_MODEL'] ?? 'eleven_multilingual_v2');
@@ -68,7 +68,7 @@ function text_for(string $sid, string $lang): ?string {
 
 /** Cümle sınırlarından, bayt sınırını aşmayan parçalara böl. */
 function chunks(string $t, int $maxBytes): array {
-    $parts = preg_split('/(?<=[.!?;؟])\s+/u', trim($t)) ?: [$t];
+    $parts = preg_split('/(?<=[.!?;؟。！？।])\s*/u', trim($t), -1, PREG_SPLIT_NO_EMPTY) ?: [$t];
     $out = []; $cur = '';
     foreach ($parts as $p) {
         if ($cur !== '' && strlen($cur) + 1 + strlen($p) > $maxBytes) { $out[] = $cur; $cur = $p; }
@@ -106,7 +106,7 @@ function synth(string $text, string $lang): ?string {
         return $mp3;
     }
     $lc = $LANGS[$lang];
-    foreach (chunks($text, 3800) as $c) {
+    foreach (chunks($text, $lang === 'hi' || $lang === 'zh' ? 1500 : 3800) as $c) {
         [$code, $res] = http_post(
             'https://texttospeech.googleapis.com/v1/text:synthesize',
             ['Content-Type: application/json; charset=utf-8', 'X-Goog-Api-Key: ' . $GKEY],
@@ -172,7 +172,7 @@ if (isset($_GET['toplu'])) {
     if ($ADMIN === '' || !hash_equals($ADMIN, (string)$_GET['toplu'])) out(403, ['error' => 'parola']);
     if (!configured()) out(503, ['error' => 'not_configured']);
     $only = (string)($_GET['lang'] ?? '');
-    $langs = $only !== '' && isset($LANGS[$only]) ? [$only] : ['tr', 'en', 'de'];
+    $langs = $only !== '' && isset($LANGS[$only]) ? [$only] : array_values(array_filter(['tr', 'en', 'de', 'zh', 'hi', 'es', 'ar'], fn($l) => isset(reset($texts)[$l])));
     $t0 = microtime(true); $made = 0; $errors = []; $left = 0;
     foreach ($langs as $l) foreach (array_keys($texts) as $sid) {
         $n = name_for($sid, $l);
