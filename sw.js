@@ -1,6 +1,6 @@
 /* kulturvarliklari.com.tr — çevrimdışı destek */
-const V = 'kv-202611171640';
-const A = 'kv-assets-202611171640';
+const V = 'kv-2e297a6ac9';
+const A = 'kv-assets-2e297a6ac9';
 const CORE = ['./', 'index.html', 'site.css', 'app.js', 'data.json', 'fonts/fonts.css', 'favicon.svg', 'offline.html', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
@@ -23,7 +23,7 @@ self.addEventListener('fetch', e => {
   }
   // Görseller, yazı tipleri, betikler: önbellekten hızlı, arka planda yenile
   e.respondWith(caches.match(r).then(m => {
-    const net = fetch(r).then(res => { if (res.ok) { const cp = res.clone(); caches.open(A).then(c => c.put(r, cp)); } return res; }).catch(() => m);
+    const net = fetch(r).then(res => { if (res.ok) { const cp = res.clone(); caches.open(A).then(c => c.put(r, cp)); } return res; }).catch(() => m || caches.match(r, { ignoreSearch: true }));
     return m || net;
   }));
 });
