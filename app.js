@@ -353,6 +353,35 @@
     b.addEventListener('click', function () { var t = document.getElementById('era-' + b.getAttribute('data-era')); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   });
 
+  /* ---------- Ziyaretçi sayacı (çerezsiz; IP saklanmaz) ---------- */
+  (function () {
+    if (!navigator.sendBeacon || location.protocol === 'file:' || /^(localhost|127\.)/.test(location.hostname)) return;
+    var URL_ = ROOT + 'api/sayac.php', k;
+    try { k = sessionStorage.getItem('kv_o'); if (!k) { k = Math.random().toString(36).slice(2) + Date.now().toString(36); sessionStorage.setItem('kv_o', k); } }
+    catch (e) { k = Math.random().toString(36).slice(2); }
+    var path = location.pathname, sid = H.getAttribute('data-sid') || '';
+    function send(o) { o.k = k; o.p = path; if (sid && !o.s) o.s = sid;
+      try { navigator.sendBeacon(URL_, new Blob([JSON.stringify(o)], { type: 'application/json' })); } catch (e) {} }
+    var ref = ''; try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (e) {}
+    send({ t: 'pv', l: LANG, r: ref, m: /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) ? 1 : 0 });
+    var hb = setInterval(function () { if (document.visibilityState === 'visible') send({ t: 'hb' }); }, 15000);
+    setTimeout(function () { clearInterval(hb); }, 3600000);
+    document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') send({ t: 'hb' }); });
+    KV.track = function (e, s) { send({ t: 'ev', e: e, s: s || sid }); };
+    document.addEventListener('click', function (ev) {
+      var a = ev.target.closest && ev.target.closest('a,button'); if (!a) return;
+      var h = a.getAttribute('href') || '', e = '';
+      if (a.id === 'listen' || a.classList.contains('listen')) e = 'dinle';
+      else if (/google\.com\/maps\/dir|maps\.apple\.com/.test(h)) e = 'yol';
+      else if (/google\.com\/maps\/search/.test(h)) e = 'harita';
+      else if (a.getAttribute('data-k') === 'kv_fav') e = 'liste';
+      else if (a.getAttribute('data-k') === 'kv_vis') e = 'gezdim';
+      else if (/#yakinda$/.test(h)) e = 'konaklama';
+      else if (a.classList.contains('ask-btn')) e = 'rehber';
+      if (e) KV.track(e, a.getAttribute('data-sid') || (window._kvCur && window._kvCur.sid) || sid);
+    }, true);
+  })();
+
   /* ---------- İstatistik (yalnızca ayarlandıysa) ---------- */
   var tokn = H.getAttribute('data-cf');
   if (tokn) { var sc = document.createElement('script'); sc.defer = true; sc.src = 'https://static.cloudflareinsights.com/beacon.min.js'; sc.setAttribute('data-cf-beacon', JSON.stringify({ token: tokn })); document.head.appendChild(sc); }
