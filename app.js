@@ -84,7 +84,14 @@
     var btn = $('#listen'), note = $('#note'), aiNote = $('#ainote');
     var isIOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
     if (s) { try { s.getVoices(); } catch (e) {} }
-    var stop = function () { tok++; try { if (s && (s.speaking || s.pending)) s.cancel(); } catch (e) {} on = false; btn.classList.remove('playing'); btn.textContent = I.listen; };
+    var player = $('#player'), MP3 = {}, curUrl = null;
+    try { MP3 = JSON.parse(btn.getAttribute('data-mp3') || '{}'); } catch (e) {}
+    var ttsOff = function () { try { return +localStorage.getItem('kv_tts_off') > Date.now(); } catch (e) { return false; } };
+    var stop = function () {
+      tok++; try { if (s && (s.speaking || s.pending)) s.cancel(); } catch (e) {}
+      if (player && !player.paused) { try { player.pause(); } catch (e) {} }
+      on = false; btn.classList.remove('playing'); btn.textContent = I.listen;
+    };
     var show = function (lang, txt, ai) {
       cur = lang; story.textContent = txt; story.lang = lang; story.dir = lang === 'ar' ? 'rtl' : 'ltr';
       if (aiNote) aiNote.hidden = !ai; note.textContent = '';
@@ -112,9 +119,42 @@
       else if (err === 'no-start' || err === 'synthesis-failed' || err === 'synthesis-unavailable' || err === 'audio-busy') note.textContent = ANDROID ? I.android_help : isIOS ? I.ios_help : I.tts_err;
       else note.textContent = I.tts_err;
     };
+    /* Gerçek ses kaydı (MP3): varsa onu çal, yoksa arka planda üretilmesini iste ve tarayıcı sesine geç */
+    var askServer = function (lang, then) {
+      if (ttsOff()) { then(null); return; }
+      fetch(ROOT + 'api/seslendir.php?sid=' + encodeURIComponent(SID) + '&lang=' + lang, { headers: { 'Accept': 'application/json' } })
+        .then(function (r) { return r.json().then(function (j) { if (r.status === 503) { try { localStorage.setItem('kv_tts_off', Date.now() + 864e5); } catch (e) {} } return r.ok && j.url ? ROOT + j.url : null; }); })
+        .catch(function () { return null; }).then(then);
+    };
+    var playUrl = function (url, my, onFail) {
+      if (url !== curUrl) { player.src = url; curUrl = url; }
+      player.hidden = false;
+      var failed = false, fail1 = function () { if (failed || my !== tok) return; failed = true; player.hidden = true; curUrl = null; onFail(); };
+      player.onerror = fail1;
+      player.onended = function () { if (my === tok) { on = false; btn.classList.remove('playing'); btn.textContent = I.listen; } };
+      player.onplay = function () { if (my !== tok) return; on = true; btn.classList.add('playing'); btn.textContent = I.stop; note.textContent = ''; };
+      player.onpause = function () { if (my === tok && !player.ended) { on = false; btn.classList.remove('playing'); btn.textContent = I.listen; } };
+      var p = player.play();
+      if (p && p.catch) p.catch(function (e) { if (e && e.name === 'NotAllowedError') { note.textContent = I.tap_play || '▶'; } else fail1(); });
+    };
     btn.addEventListener('click', function () {
-      if (!s || typeof SpeechSynthesisUtterance === 'undefined') { note.textContent = I.no_tts; return; }
       if (on) { stop(); return; }
+      if (player && !(btn.getAttribute('data-nomp3'))) {
+        var my = ++tok, lang = cur;
+        if (MP3[lang]) {
+          playUrl(ROOT + MP3[lang], my, function () { askServer(lang, function () {}); speak(); });
+          return;
+        }
+        if (!T[lang] && !ttsOff()) {           // yapay zekâ çevirisi (ru, fr, es, ar)
+          note.textContent = I.loading;
+          askServer(lang, function (url) { if (my !== tok) return; if (url) playUrl(url, my, speak); else speak(); });
+          return;
+        }
+      }
+      speak();
+    });
+    function speak() {
+      if (!s || typeof SpeechSynthesisUtterance === 'undefined') { note.textContent = I.no_tts; return; }
       var my = ++tok, code = VO[cur] || cur, busy = false;
       try { if (s.speaking || s.pending) { s.cancel(); busy = true; } } catch (e) {}
       var vs = s.getVoices();
@@ -135,10 +175,25 @@
       setTimeout(function () { if (my === tok && !started && !s.speaking) fail('no-start'); }, 4500);
       on = true; btn.classList.add('playing'); btn.textContent = I.stop;
       note.textContent = (v ? '' : I.default_voice + ' ') + (isIOS ? I.ios : '');
-    });
+    }
     if (/[?&]qr=1/.test(location.search)) { btn.classList.add('pulse'); btn.scrollIntoView({ block: 'center' }); }
   }
 
+
+  /* ---------- Engelsiz erişim bildirimi ---------- */
+  var accf = $('#accform');
+  if (accf) accf.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var msg = $('#accmsg'), b = accf.querySelector('button[type=submit]');
+    if (!accf.onay.checked) { accf.onay.focus(); return; }
+    var d = { sid: accf.getAttribute('data-sid'), onay: true };
+    Array.prototype.forEach.call(accf.elements, function (el) { if (el.name && el.name !== 'onay' && el.value) d[el.name] = el.value; });
+    b.disabled = true; msg.textContent = I.loading || '…';
+    fetch(ROOT + 'api/erisim.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(d) })
+      .then(function (r) { if (!r.ok) throw 0; msg.textContent = accf.getAttribute('data-ok'); accf.reset(); })
+      .catch(function () { msg.textContent = accf.getAttribute('data-err'); })
+      .then(function () { b.disabled = false; });
+  });
 
   /* ---------- Reklam alanı: yakında konaklama ve yemek ---------- */
   var bizBtn = $('#bizbtn'), bizSec = $('#yakinda');

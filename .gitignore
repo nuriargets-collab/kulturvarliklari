@@ -4,3 +4,4 @@ kv_config.php
 .DS_Store
 api/cache/
 reklamlar.json
+ses/

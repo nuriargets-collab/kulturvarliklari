@@ -5,6 +5,7 @@
  * Her metin yalnızca BİR KEZ çevrilir ve sunucuda saklanır; sonraki istekler API'ye gitmez.
  */
 declare(strict_types=1);
+require_once __DIR__ . '/_ip.php';
 header('Content-Type: application/json; charset=utf-8');
 header('X-Content-Type-Options: nosniff');
 function out(int $code, array $data): void { http_response_code($code); if ($code === 200) header('Cache-Control: public, max-age=604800'); else header('Cache-Control: no-store'); echo json_encode($data, JSON_UNESCAPED_UNICODE); exit; }
@@ -45,7 +46,7 @@ if ($API_KEY === '' || str_starts_with($API_KEY, 'BURAYA')) out(503, ['error' =>
 $tmp = sys_get_temp_dir() . '/kv_rehber';
 if (!is_dir($tmp)) @mkdir($tmp, 0700, true);
 $now = time();
-$ipFile = $tmp . '/tr_' . hash('sha256', ($_SERVER['REMOTE_ADDR'] ?? '0') . 'kv') . '.json';
+$ipFile = $tmp . '/tr_' . hash('sha256', (kv_client_ip()) . 'kv') . '.json';
 $hits = is_file($ipFile) ? (json_decode((string)file_get_contents($ipFile), true) ?: []) : [];
 $hits = array_values(array_filter($hits, fn($t) => $t > $now - 600));
 if (count($hits) >= 12) out(429, ['error' => 'rate_ip']);

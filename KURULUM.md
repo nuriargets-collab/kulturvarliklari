@@ -57,6 +57,55 @@ Bu klasör, sitenin yayına hazır statik hâlidir. Sunucuda veritabanı, PHP ve
 
 Yer sayfalarındaki "Diğer diller" menüsü, metni ilk istendiğinde yapay zekâ ile çevirir ve sunucuda saklar (`public_html`'in bir üst klasöründe `kv_cache` klasörü oluşur; oluşturulamazsa `api/cache` kullanılır). Aynı yerin aynı dildeki çevirisi bir daha API'ye gitmez. Tüm yerlerin dört dile çevirisi toplamda yaklaşık 1.400 çeviridir ve tek seferlik maliyeti birkaç dolar civarındadır. Günlük yeni çeviri sınırı `TRANSLATE_PER_DAY` ayarıyla (varsayılan 400) değiştirilebilir. API anahtarı yoksa bu menü "çeviri şu anda alınamadı" uyarısı verir; TR, EN ve DE her durumda çalışır.
 
+## Gerçek sesli anlatım (MP3)
+
+Her yer sayfasındaki "Dinle" düğmesi önce sunucudaki gerçek ses kaydını (`ses/<dil>/<SID>-<özet>.mp3`) çalar. Kayıt yoksa tarayıcının kendi sesine geçer ve arka planda kaydın üretilmesini ister. Metin düzeltildiğinde dosya adı değişir, yeni kayıt kendiliğinden üretilir.
+
+1. **Google Cloud hesabı (önerilen):** console.cloud.google.com → yeni proje → "Cloud Text-to-Speech API"yi etkinleştirin → faturalandırmayı açın → *API ve Hizmetler › Kimlik bilgileri › API anahtarı oluştur*. Anahtarı **yalnızca Text-to-Speech API** ile kısıtlayın.
+2. `kv_config.php` dosyasına (public_html'in bir üst klasörü) şunları ekleyin. Anahtarı yalnızca bu dosyaya yazın; sohbete veya depoya yazmayın:
+   ```php
+   'TTS_PROVIDER'     => 'google',
+   'GOOGLE_TTS_KEY'   => 'anahtarınız',
+   'GOOGLE_TTS_VOICE' => 'Charon',       // erkek; kadın ses için 'Kore' veya 'Aoede'
+   'TTS_TOPLU_PAROLA' => 'uzun-bir-parola',
+   ```
+3. Tüm kayıtları bir kerede üretmek için tarayıcıda `https://kulturvarliklari.com.tr/api/seslendir.php?toplu=PAROLA` adresini açın. Her açılış yaklaşık 25 saniye çalışır; `"kalan": 0` görünene kadar sayfayı yenileyin.
+4. Maliyet: 358 yerin Türkçe, İngilizce ve Almanca metinleri toplam yaklaşık 516.000 karakterdir. Chirp 3 HD fiyatıyla (1 milyon karakter 30 ABD doları) bütün site **bir kerelik yaklaşık 16 ABD doları** tutar. Sonraki dinlemeler ücretsizdir; dosyalar sunucuda kalır.
+5. ElevenLabs tercih ederseniz: `'TTS_PROVIDER' => 'elevenlabs'`, `'ELEVENLABS_KEY'` ve `'ELEVENLABS_VOICE_ID'` yazın. Maliyeti bugünkü fiyatla yaklaşık 3 kat yüksektir.
+6. Rusça, Fransızca, İspanyolca ve Arapça için önce yapay zekâ çevirisi gerekir; çevirisi yapılmış metinlerin sesi de aynı yöntemle üretilir.
+
+Ses dosyaları `ses/` klasöründe durur. GitHub yayını bu klasöre dokunmaz.
+
+## Engelsiz erişim rehberi
+
+- Her yer sayfasında "♿ Engelsiz erişim" bölümü ve ziyaretçilerin bilgi gönderebileceği bir form vardır. Genel bilgi sayfası `engelsiz.html` adresindedir.
+- Gönderilen bildirimler web kökünün dışındaki `kv_cache/erisim/bildirimler.jsonl` dosyasında saklanır. Listelemek için `kv_config.php` içine `'ERISIM_RAPOR_ANAHTARI' => 'parola'` yazın ve `/api/erisim.php?rapor=parola` adresini açın.
+- **Yayımlama:** Doğruladığınız bilgiler `erisim.json` dosyasına işlenir ve site yeniden üretilir. Alanların değeri `var`, `kismen` veya `yok` olabilir:
+  ```json
+  {"EFS01": {"tekerlekli": "kismen", "yol": "kismen", "wc": "var", "otopark": "var",
+             "not": {"tr": "Ana cadde boyunca düz yol; tiyatroya basamaklı çıkış."},
+             "tarih": "2026-11", "kaynak": "Müze müdürlüğü"}}
+  ```
+  Alanlar: tekerlekli, yol, asansor, wc, otopark, sandalye, dinlenme, dokunsal, sesli, isaret.
+- Tahmine dayalı bilgi yayımlamayın. Müze müdürlüklerinden yazılı bilgi istemek en güvenilir yoldur.
+
+## Cloudflare (hız ve güvenlik)
+
+Ücretsiz plan yeterlidir. **Sıra önemlidir; e-posta ve FTP kesintisi yaşamamak için adımları atlamayın.**
+
+1. dash.cloudflare.com → *Add a site* → `kulturvarliklari.com.tr` → **Free** planı seçin.
+2. Cloudflare mevcut DNS kayıtlarını tarar. cPanel'deki *Zone Editor* ile karşılaştırın; özellikle **MX, SPF/DKIM (TXT), mail, webmail, cpanel, ftp** kayıtlarının hepsinin listede olduğundan emin olun.
+3. Turuncu bulut (proxy) **yalnızca** `kulturvarliklari.com.tr` ve `www` kayıtlarında açık olsun. `ftp`, `mail`, `webmail`, `cpanel`, `cpcalendars` ve benzeri kayıtları **gri bulut (DNS only)** yapın. Aksi hâlde FTP yayını ve e-posta çalışmaz.
+4. GitHub'daki `SERVER` gizli değerini `ftp.kulturvarliklari.com.tr` (gri bulutlu kayıt) ya da hostinginizin verdiği sunucu adı yapın, ana alan adını kullanmayın.
+5. Alan adını aldığınız firmanın panelinde ad sunucularını (nameserver) Cloudflare'in verdiği iki adresle değiştirin. Geçiş birkaç saat sürebilir.
+6. **SSL/TLS → Overview → Full (strict).** "Flexible" seçmeyin; site sonsuz yönlendirmeye girer. cPanel'de AutoSSL sertifikasının etkin olduğunu kontrol edin.
+7. **SSL/TLS → Edge Certificates:** *Always Use HTTPS* açık, *Automatic HTTPS Rewrites* açık. HSTS'yi her şey sorunsuz çalıştıktan birkaç hafta sonra açın.
+8. **Speed:** Brotli, HTTP/3 ve Early Hints açık. **Rocket Loader kapalı** (sitenin betiklerini bozabilir).
+9. **Caching → Configuration:** *Browser Cache TTL: Respect Existing Headers*. Görseller, MP3 ve betikler varsayılan olarak Cloudflare'de önbelleğe alınır. Sayfalar ve `api/` önbelleğe alınmaz, bu doğrudur.
+10. **Security:** *Bot Fight Mode* açılabilir (Google gibi doğrulanmış botlar engellenmez). *Security → WAF → Rate limiting rules* ile `/api/` yolu için "10 saniyede 20 istekten fazlası → engelle" kuralı ekleyin.
+11. **Web Analytics:** *Analytics & Logs → Web Analytics* → siteyi ekleyin ve verilen jetonu bize iletin; `site_config.json` dosyasına eklenecek. Bu istatistik çerez kullanmaz.
+12. Site Cloudflare arkasına geçtiğinde PHP dosyaları ziyaretçinin gerçek IP adresini `CF-Connecting-IP` başlığından alır. Başlığa yalnızca istek gerçekten Cloudflare'den geliyorsa güvenilir; ek ayar gerekmez.
+
 ## Telefona uygulama gibi kurulum ve çevrimdışı kullanım
 
 Site bir PWA'dır: ziyaretçi telefonda tarayıcı menüsünden "Ana ekrana ekle" ile siteyi uygulama gibi kurabilir. Açılan sayfalar cihazda saklanır; yer ve rota sayfalarındaki "Çevrimdışı kaydet" düğmesi sayfayı ve fotoğrafını internet olmadan açılabilecek şekilde kaydeder. Bu özellik yalnızca HTTPS ile çalışır (cPanel'de ücretsiz AutoSSL'in açık olduğundan emin olun).

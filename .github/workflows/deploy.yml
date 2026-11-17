@@ -57,3 +57,4 @@ jobs:
             README.md
             KURULUM.md
             api/config.php
+            ses/**

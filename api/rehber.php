@@ -5,6 +5,7 @@
  * API anahtarı tarayıcıya asla gönderilmez.
  */
 declare(strict_types=1);
+require_once __DIR__ . '/_ip.php';
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store');
 header('X-Content-Type-Options: nosniff');
@@ -50,7 +51,7 @@ $msgs[] = ['role' => 'user', 'content' => $q];
 // ---------- Kötüye kullanım sınırı (dosya tabanlı) ----------
 $dir = sys_get_temp_dir() . '/kv_rehber';
 if (!is_dir($dir)) @mkdir($dir, 0700, true);
-$ip = $_SERVER['REMOTE_ADDR'] ?? '0';
+$ip = kv_client_ip();
 $now = time();
 $ipFile = $dir . '/ip_' . hash('sha256', $ip . 'kv') . '.json';
 $hits = is_file($ipFile) ? (json_decode((string)file_get_contents($ipFile), true) ?: []) : [];
