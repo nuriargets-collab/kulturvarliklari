@@ -11,6 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Ayarları kontrol et
+        env:
+          S: ${{ secrets.FTP_SERVER || vars.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME || vars.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD || vars.FTP_PASSWORD }}
+        run: |
+          eksik=""
+          [ -z "$S" ] && eksik="$eksik FTP_SERVER"
+          [ -z "$U" ] && eksik="$eksik FTP_USERNAME"
+          [ -z "$P" ] && eksik="$eksik FTP_PASSWORD"
+          if [ -n "$eksik" ]; then
+            echo "::error::Eksik ayar:$eksik  -> Settings > Secrets and variables > Actions > Repository secrets bolumune tam bu adlarla ekleyin."
+            exit 1
+          fi
+          echo "Uc ayar da bulundu."
       - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER || vars.FTP_SERVER }}
