@@ -1,0 +1,1452 @@
+{
+ "QSL01": {
+  "wd": {
+   "qid": "Q767089",
+   "label": "Salamis",
+   "desc": "historical state on Cyprus and archaeological site",
+   "lat": 35.183333333333,
+   "lng": 33.9,
+   "p18": [
+    "Salamis.jpg"
+   ],
+   "cat": "Salamis (Cyprus)"
+  },
+  "cands": [
+   {
+    "file": "(1878) MAP OF RUINS OF SALAMIS.jpg",
+    "w": 1120,
+    "h": 999,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9d/%281878%29_MAP_OF_RUINS_OF_SALAMIS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:(1878)_MAP_OF_RUINS_OF_SALAMIS.jpg",
+    "a": "",
+    "l": "Public domain",
+    "n": 1
+   },
+   {
+    "file": "Arheologicheski-12a.jpg",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Arheologicheski-12a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-12a.jpg",
+    "a": "Молли",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Arheologicheski-Aphrodite.jpg",
+    "w": 1131,
+    "h": 1837,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/23/Arheologicheski-Aphrodite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-Aphrodite.jpg",
+    "a": "Молли",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Arheologicheski-Dionysos.jpg",
+    "w": 1268,
+    "h": 1708,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/33/Arheologicheski-Dionysos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-Dionysos.jpg",
+    "a": "Молли",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Arheologicheski-Golden jewelry.jpg",
+    "w": 1814,
+    "h": 1348,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Arheologicheski-Golden_jewelry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-Golden_jewelry.jpg",
+    "a": "Молли",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Arheologicheski-Isis 2.jpg",
+    "w": 1920,
+    "h": 2560,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Arheologicheski-Isis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-Isis_2.jpg",
+    "a": "Молли",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QKM01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Arheologicheski-Salamis bronze.jpg",
+    "w": 2118,
+    "h": 1686,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Arheologicheski-Salamis_bronze.jpg/1920px-Arheologicheski-Salamis_bronze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-Salamis_bronze.jpg",
+    "a": "Молли",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Arheologicheski-Salamis bronze-2.jpg",
+    "w": 2048,
+    "h": 1630,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Arheologicheski-Salamis_bronze-2.jpg/1920px-Arheologicheski-Salamis_bronze-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-Salamis_bronze-2.jpg",
+    "a": "Ismoon (talk) 18:23, 2 January 2022 (UTC)",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Arheologicheski-Golden jewelry.jpg",
+    "w": 1814,
+    "h": 1348,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Arheologicheski-Golden_jewelry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Arheologicheski-Golden_jewelry.jpg",
+    "a": "Молли",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   }
+  ]
+ },
+ "QBR01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Saint Barnabas Monastery - Tomb of the saint 02.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Saint_Barnabas_Monastery_-_Tomb_of_the_saint_02.jpg/1920px-Saint_Barnabas_Monastery_-_Tomb_of_the_saint_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barnabas_Monastery_-_Tomb_of_the_saint_02.jpg",
+    "a": "Ukdamian",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Saint Barnabas Monastery - Tomb of the saint 01.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Saint_Barnabas_Monastery_-_Tomb_of_the_saint_01.jpg/1920px-Saint_Barnabas_Monastery_-_Tomb_of_the_saint_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barnabas_Monastery_-_Tomb_of_the_saint_01.jpg",
+    "a": "Ukdamian",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Church of Panagia tou Arakos, sanctuary, apse, wall paintings, Lagoudera, Cyprus - Apse wall, between windows, lower zone, Sts. Epiphanius and Barnabus (Cypriotes) - MSBZ004 BF T Lag B 3 5 - Dumbarton Oaks.jpg",
+    "w": 1800,
+    "h": 2287,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Church_of_Panagia_tou_Arakos%2C_sanctuary%2C_apse%2C_wall_paintings%2C_Lagoudera%2C_Cyprus_-_Apse_wall%2C_between_windows%2C_lower_zone%2C_Sts._Epiphanius_and_Barnabus_%28Cypriotes%29_-_MSBZ004_BF_T_Lag_B_3_5_-_Dumbarton_Oaks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_Panagia_tou_Arakos,_sanctuary,_apse,_wall_paintings,_Lagoudera,_Cyprus_-_Apse_wall,_between_windows,_lower_zone,_Sts._Epiphanius_and_Barnabus_(Cypriotes)_-_MSBZ004_BF_T_Lag_B_3_5_-_Dumbarton_Oaks.jpg",
+    "a": "Byzantine Institute staff",
+    "l": "CC0",
+    "n": 2
+   }
+  ]
+ },
+ "QEN01": {
+  "wd": {
+   "qid": "Q1343280",
+   "label": "Egkomi Ammochostou",
+   "desc": "human settlement in Famagusta, Cyprus",
+   "lat": 35.16200602,
+   "lng": 33.88318429,
+   "p18": [
+    "Three nude female figurines - Medelhavsmuseet - NM Ant 1740.JPG"
+   ],
+   "cat": "Enkomi"
+  },
+  "cands": [
+   {
+    "file": "Three nude female figurines - Medelhavsmuseet - NM Ant 1740.JPG",
+    "w": 2848,
+    "h": 4288,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Three_nude_female_figurines_-_Medelhavsmuseet_-_NM_Ant_1740.JPG/1920px-Three_nude_female_figurines_-_Medelhavsmuseet_-_NM_Ant_1740.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Three_nude_female_figurines_-_Medelhavsmuseet_-_NM_Ant_1740.JPG",
+    "a": "Lokal Profil",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "Enkomi Flygfoto 2019.jpg",
+    "w": 1621,
+    "h": 1232,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/58/Enkomi_Flygfoto_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Enkomi_Flygfoto_2019.jpg",
+    "a": "Cypern20",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Mouthpiece Gold Enkomi Cyprus Neues Museum 26042018.jpg",
+    "w": 4546,
+    "h": 1784,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mouthpiece_Gold_Enkomi_Cyprus_Neues_Museum_26042018.jpg/1920px-Mouthpiece_Gold_Enkomi_Cyprus_Neues_Museum_26042018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mouthpiece_Gold_Enkomi_Cyprus_Neues_Museum_26042018.jpg",
+    "a": "Vassil",
+    "l": "CC0",
+    "n": 2
+   },
+   {
+    "file": "Jordgrav. Enkomi. skelett - SMVK - C02488.tif",
+    "w": 3543,
+    "h": 2578,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Jordgrav._Enkomi._skelett_-_SMVK_-_C02488.tif/lossy-page1-1920px-Jordgrav._Enkomi._skelett_-_SMVK_-_C02488.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Jordgrav._Enkomi._skelett_-_SMVK_-_C02488.tif",
+    "a": "John Lindros",
+    "l": "CC0",
+    "n": 3
+   }
+  ]
+ },
+ "QOT01": {
+  "wd": {
+   "qid": "Q7108569",
+   "label": "Othello Castle",
+   "desc": "castle in Famagusta, Cyprus",
+   "lat": 35.127688,
+   "lng": 33.943239,
+   "p18": [
+    "Famagusta 01-2017 img26 city walls Othello Tower.jpg"
+   ],
+   "cat": "Othello Castle"
+  },
+  "cands": [
+   {
+    "file": "Famagusta 01-2017 img26 city walls Othello Tower.jpg",
+    "w": 5217,
+    "h": 3261,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Famagusta_01-2017_img26_city_walls_Othello_Tower.jpg/1920px-Famagusta_01-2017_img26_city_walls_Othello_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Famagusta_01-2017_img26_city_walls_Othello_Tower.jpg",
+    "a": "A.Savin",
+    "l": "FAL",
+    "n": 0
+   },
+   {
+    "file": "401Zypern Famagusta Wall (14028210688).jpg",
+    "w": 3861,
+    "h": 2519,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/401Zypern_Famagusta_Wall_%2814028210688%29.jpg/1920px-401Zypern_Famagusta_Wall_%2814028210688%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:401Zypern_Famagusta_Wall_(14028210688).jpg",
+    "a": "Rüdiger Stehn from Kiel, Deutschland",
+    "l": "CC BY-SA 2.0",
+    "n": 1
+   },
+   {
+    "file": "Bust of William Shakespeare.jpg",
+    "w": 5139,
+    "h": 3379,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Bust_of_William_Shakespeare.jpg/1920px-Bust_of_William_Shakespeare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bust_of_William_Shakespeare.jpg",
+    "a": "Blcksprt",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Cipro-Famagosta7.jpg",
+    "w": 1600,
+    "h": 1200,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Cipro-Famagosta7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Cipro-Famagosta7.jpg",
+    "a": "dolanh",
+    "l": "CC BY 2.0",
+    "n": 3
+   },
+   {
+    "file": "Desdemona's Tower, Famagusta (1900) - TIMEA.jpg",
+    "w": 1024,
+    "h": 824,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/38/Desdemona%27s_Tower%2C_Famagusta_%281900%29_-_TIMEA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Desdemona%27s_Tower,_Famagusta_(1900)_-_TIMEA.jpg",
+    "a": "Unknown authorUnknown author",
+    "l": "CC BY-SA 2.5",
+    "n": 5
+   },
+   {
+    "file": "Desdemonas Tower, Famagusta - A winter pilgrimage - (1901) (14780792412).jpg",
+    "w": 2126,
+    "h": 1590,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Desdemonas_Tower%2C_Famagusta_-_A_winter_pilgrimage_-_%281901%29_%2814780792412%29.jpg/1920px-Desdemonas_Tower%2C_Famagusta_-_A_winter_pilgrimage_-_%281901%29_%2814780792412%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Desdemonas_Tower,_Famagusta_-_A_winter_pilgrimage_-_(1901)_(14780792412).jpg",
+    "a": "Internet Archive Book Images",
+    "l": "No restrictions",
+    "n": 6
+   }
+  ]
+ },
+ "QLM01": {
+  "wd": {
+   "qid": "Q2047700",
+   "label": "Lala Mustafa Pasha Mosque",
+   "desc": "mosque in Northern Cyprus, former catholic cathedral",
+   "lat": 35.124889,
+   "lng": 33.942727,
+   "p18": [
+    "Famagusta 01-2017 img14 Lala Mustafa Pasha Mosque.jpg"
+   ],
+   "cat": "Lala Mustafa Pasha Mosque (Saint Nicholas Cathedral, Famagusta)"
+  },
+  "cands": [
+   {
+    "file": "Famagusta 01-2017 img14 Lala Mustafa Pasha Mosque.jpg",
+    "w": 5144,
+    "h": 3429,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Famagusta_01-2017_img14_Lala_Mustafa_Pasha_Mosque.jpg/1920px-Famagusta_01-2017_img14_Lala_Mustafa_Pasha_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Famagusta_01-2017_img14_Lala_Mustafa_Pasha_Mosque.jpg",
+    "a": "A.Savin",
+    "l": "FAL",
+    "n": 0
+   },
+   {
+    "file": "(Chypre) St. Nicolas, cathédrale ancienne de Famagusta (Κύπρος) Ἄγ. Νικόλαος, ἀρχαῖος καθεδρικὸς ναὸς ἐν Άμμοχωστῳ - DPLA - 378251e8779bce4ce503b82a6fb4cf83 (page 1).jpg",
+    "w": 6253,
+    "h": 4037,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%28Chypre%29_St._Nicolas%2C_cath%C3%A9drale_ancienne_de_Famagusta_%28%CE%9A%CF%8D%CF%80%CF%81%CE%BF%CF%82%29_%E1%BC%8C%CE%B3._%CE%9D%CE%B9%CE%BA%CF%8C%CE%BB%CE%B1%CE%BF%CF%82%2C_%E1%BC%80%CF%81%CF%87%CE%B1%E1%BF%96%CE%BF%CF%82_%CE%BA%CE%B1%CE%B8%CE%B5%CE%B4%CF%81%CE%B9%CE%BA%E1%BD%B8%CF%82_%CE%BD%CE%B1%E1%BD%B8%CF%82_%E1%BC%90%CE%BD_%CE%86%CE%BC%CE%BC%CE%BF%CF%87%CF%89%CF%83%CF%84%E1%BF%B3_-_DPLA_-_378251e8779bce4ce503b82a6fb4cf83_%28page_1%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:(Chypre)_St._Nicolas,_cath%C3%A9drale_ancienne_de_Famagusta_(%CE%9A%CF%8D%CF%80%CF%81%CE%BF%CF%82)_%E1%BC%8C%CE%B3._%CE%9D%CE%B9%CE%BA%CF%8C%CE%BB%CE%B1%CE%BF%CF%82,_%E1%BC%80%CF%81%CF%87%CE%B1%E1%BF%96%CE%BF%CF%82_%CE%BA%CE%B1%CE%B8%CE%B5%CE%B4%CF%81%CE%B9%CE%BA%E1%BD%B8%CF%82_%CE%BD%CE%B1%E1%BD%B8%CF%82_%E1%BC%90%CE%BD_%CE%86%CE%BC%CE%BC%CE%BF%CF%87%CF%89%CF%83%CF%84%E1%BF%B3_-_DPLA_-_378251e8779bce4ce503b82a6fb4cf83_(page_1).jpg",
+    "a": "Catsimpoolas, Nicholas",
+    "l": "Public domain",
+    "n": 1
+   },
+   {
+    "file": "AMONG THE RUINS OF FAMAGUSTA.jpg",
+    "w": 2052,
+    "h": 1372,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/AMONG_THE_RUINS_OF_FAMAGUSTA.jpg/1920px-AMONG_THE_RUINS_OF_FAMAGUSTA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:AMONG_THE_RUINS_OF_FAMAGUSTA.jpg",
+    "a": "",
+    "l": "Public domain",
+    "n": 2
+   },
+   {
+    "file": "200709 Cyprus 1.jpg",
+    "w": 1024,
+    "h": 736,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/54/200709_Cyprus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:200709_Cyprus_1.jpg",
+    "a": "Franco Pecchio",
+    "l": "CC BY 2.0",
+    "n": 3
+   },
+   {
+    "file": "2018 02 28 Famagusta 502DSC 0148 (45871909305).jpg",
+    "w": 1618,
+    "h": 1081,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/2018_02_28_Famagusta_502DSC_0148_%2845871909305%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:2018_02_28_Famagusta_502DSC_0148_(45871909305).jpg",
+    "a": "János Korom Dr.  &gt;17 Million views from Wien, Austria",
+    "l": "CC BY-SA 2.0",
+    "n": 4
+   },
+   {
+    "file": "406Zypern Famagusta Lala Mustafa Pascha Moschee (14210395235).jpg",
+    "w": 3828,
+    "h": 2508,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/406Zypern_Famagusta_Lala_Mustafa_Pascha_Moschee_%2814210395235%29.jpg/1920px-406Zypern_Famagusta_Lala_Mustafa_Pascha_Moschee_%2814210395235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:406Zypern_Famagusta_Lala_Mustafa_Pascha_Moschee_(14210395235).jpg",
+    "a": "Rüdiger Stehn from Kiel, Deutschland",
+    "l": "CC BY-SA 2.0",
+    "n": 5
+   },
+   {
+    "file": "407Zypern Famagusta Lala Mustafa Pascha Moschee (14210269734).jpg",
+    "w": 4032,
+    "h": 2688,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/407Zypern_Famagusta_Lala_Mustafa_Pascha_Moschee_%2814210269734%29.jpg/1920px-407Zypern_Famagusta_Lala_Mustafa_Pascha_Moschee_%2814210269734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:407Zypern_Famagusta_Lala_Mustafa_Pascha_Moschee_(14210269734).jpg",
+    "a": "Rüdiger Stehn from Kiel, Deutschland",
+    "l": "CC BY-SA 2.0",
+    "n": 6
+   }
+  ]
+ },
+ "QNK01": {
+  "wd": {
+   "qid": "Q24913435",
+   "label": "Namık Kemal Dungeon",
+   "desc": null,
+   "lat": 35.1244545,
+   "lng": 33.9416466,
+   "p18": [],
+   "cat": "Namık Kemal Dungeon"
+  },
+  "cands": [
+   {
+    "file": "Inside of Namık Kemal Dungeon.jpg",
+    "w": 3853,
+    "h": 2304,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Inside_of_Nam%C4%B1k_Kemal_Dungeon.jpg/1920px-Inside_of_Nam%C4%B1k_Kemal_Dungeon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Inside_of_Nam%C4%B1k_Kemal_Dungeon.jpg",
+    "a": "ToprakM",
+    "l": "CC BY 4.0",
+    "n": 0
+   },
+   {
+    "file": "Namık Kemal Dungeon and Museum 01.jpg",
+    "w": 5760,
+    "h": 3840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Nam%C4%B1k_Kemal_Dungeon_and_Museum_01.jpg/1920px-Nam%C4%B1k_Kemal_Dungeon_and_Museum_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nam%C4%B1k_Kemal_Dungeon_and_Museum_01.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Namık Kemal Dungeon and Museum 02.jpg",
+    "w": 5760,
+    "h": 3840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nam%C4%B1k_Kemal_Dungeon_and_Museum_02.jpg/1920px-Nam%C4%B1k_Kemal_Dungeon_and_Museum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nam%C4%B1k_Kemal_Dungeon_and_Museum_02.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Namık Kemal Dungeon and Museum 03.jpg",
+    "w": 3840,
+    "h": 5760,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Nam%C4%B1k_Kemal_Dungeon_and_Museum_03.jpg/1920px-Nam%C4%B1k_Kemal_Dungeon_and_Museum_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nam%C4%B1k_Kemal_Dungeon_and_Museum_03.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Namık Kemal Dungeon and Museum 04.jpg",
+    "w": 3840,
+    "h": 5760,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Nam%C4%B1k_Kemal_Dungeon_and_Museum_04.jpg/1920px-Nam%C4%B1k_Kemal_Dungeon_and_Museum_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nam%C4%B1k_Kemal_Dungeon_and_Museum_04.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Namık Kemal Dungeon and Museum 05.jpg",
+    "w": 3840,
+    "h": 5760,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Nam%C4%B1k_Kemal_Dungeon_and_Museum_05.jpg/1920px-Nam%C4%B1k_Kemal_Dungeon_and_Museum_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nam%C4%B1k_Kemal_Dungeon_and_Museum_05.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Namık Kemal Dungeon and Museum 13.jpg",
+    "w": 5760,
+    "h": 3840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Nam%C4%B1k_Kemal_Dungeon_and_Museum_13.jpg/1920px-Nam%C4%B1k_Kemal_Dungeon_and_Museum_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nam%C4%B1k_Kemal_Dungeon_and_Museum_13.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QKN01": {
+  "wd": {
+   "qid": "Q1271457",
+   "label": "Kantara Castle",
+   "desc": "fortification",
+   "lat": 35.4064,
+   "lng": 33.9233,
+   "p18": [
+    "Kantara castle 8.JPG"
+   ],
+   "cat": "Kantara Castle"
+  },
+  "cands": [
+   {
+    "file": "Kantara castle 8.JPG",
+    "w": 4416,
+    "h": 3312,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Kantara_castle_8.JPG/1920px-Kantara_castle_8.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kantara_castle_8.JPG",
+    "a": "Dickelbers",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "Cantara Castle - panoramio (1).jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cantara_Castle_-_panoramio_%281%29.jpg/1920px-Cantara_Castle_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cantara_Castle_-_panoramio_(1).jpg",
+    "a": "Александр Чудновский",
+    "l": "CC BY 3.0",
+    "n": 1
+   },
+   {
+    "file": "Cantara Castle - panoramio (2).jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Cantara_Castle_-_panoramio_%282%29.jpg/1920px-Cantara_Castle_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cantara_Castle_-_panoramio_(2).jpg",
+    "a": "Александр Чудновский",
+    "l": "CC BY 3.0",
+    "n": 2
+   },
+   {
+    "file": "Cantara Castle - panoramio (3).jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Cantara_Castle_-_panoramio_%283%29.jpg/1920px-Cantara_Castle_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cantara_Castle_-_panoramio_(3).jpg",
+    "a": "Александр Чудновский",
+    "l": "CC BY 3.0",
+    "n": 3
+   },
+   {
+    "file": "Cantara Castle - panoramio (4).jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cantara_Castle_-_panoramio_%284%29.jpg/1920px-Cantara_Castle_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cantara_Castle_-_panoramio_(4).jpg",
+    "a": "Александр Чудновский",
+    "l": "CC BY 3.0",
+    "n": 4
+   },
+   {
+    "file": "Cantara Castle - panoramio (6).jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cantara_Castle_-_panoramio_%286%29.jpg/1920px-Cantara_Castle_-_panoramio_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cantara_Castle_-_panoramio_(6).jpg",
+    "a": "Александр Чудновский",
+    "l": "CC BY 3.0",
+    "n": 5
+   },
+   {
+    "file": "Cantara Castle - panoramio.jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Cantara_Castle_-_panoramio.jpg/1920px-Cantara_Castle_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cantara_Castle_-_panoramio.jpg",
+    "a": "Александр Чудновский",
+    "l": "CC BY 3.0",
+    "n": 6
+   }
+  ]
+ },
+ "QIK01": {
+  "wd": {},
+  "cands": []
+ },
+ "QAA01": {
+  "wd": {
+   "qid": "Q2578745",
+   "label": "Apostolos Andreas Monastery",
+   "desc": "holy building in Northern Cyprus",
+   "lat": 35.659444444444,
+   "lng": 34.571388888889,
+   "p18": [
+    "Apostolos Andreas Monastery seaside.jpg"
+   ],
+   "cat": "Apostolos Andreas Monastery"
+  },
+  "cands": [
+   {
+    "file": "Apostolos Andreas Monastery seaside.jpg",
+    "w": 3072,
+    "h": 2304,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Apostolos_Andreas_Monastery_seaside.jpg/1920px-Apostolos_Andreas_Monastery_seaside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Apostolos_Andreas_Monastery_seaside.jpg",
+    "a": "Julez A.",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "058 IMGA0046 Andreaskloster.jpg",
+    "w": 2560,
+    "h": 1440,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/058_IMGA0046_Andreaskloster.jpg/1920px-058_IMGA0046_Andreaskloster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:058_IMGA0046_Andreaskloster.jpg",
+    "a": "CabrioTop",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Apostel-Andreas-Kloster-1-CTH.jpg",
+    "w": 3216,
+    "h": 2136,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Apostel-Andreas-Kloster-1-CTH.jpg/1920px-Apostel-Andreas-Kloster-1-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Apostel-Andreas-Kloster-1-CTH.jpg",
+    "a": "CTHOE",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Apostel-Andreas-Kloster-10-CTH.jpg",
+    "w": 3216,
+    "h": 2136,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Apostel-Andreas-Kloster-10-CTH.jpg/1920px-Apostel-Andreas-Kloster-10-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Apostel-Andreas-Kloster-10-CTH.jpg",
+    "a": "CTHOE",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Apostel-Andreas-Kloster-2-CTH.jpg",
+    "w": 3216,
+    "h": 2136,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Apostel-Andreas-Kloster-2-CTH.jpg/1920px-Apostel-Andreas-Kloster-2-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Apostel-Andreas-Kloster-2-CTH.jpg",
+    "a": "CTHOE",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Apostel-Andreas-Kloster-3-CTH.jpg",
+    "w": 3216,
+    "h": 2136,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Apostel-Andreas-Kloster-3-CTH.jpg/1920px-Apostel-Andreas-Kloster-3-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Apostel-Andreas-Kloster-3-CTH.jpg",
+    "a": "CTHOE",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Apostel-Andreas-Kloster-4-CTH.jpg",
+    "w": 3216,
+    "h": 2136,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Apostel-Andreas-Kloster-4-CTH.jpg/1920px-Apostel-Andreas-Kloster-4-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Apostel-Andreas-Kloster-4-CTH.jpg",
+    "a": "CTHOE",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QAT01": {
+  "wd": {},
+  "cands": []
+ },
+ "QGK01": {
+  "wd": {
+   "qid": "Q1408931",
+   "label": "Kyrenia Castle",
+   "desc": "building in De jure Cyprus , De facto Northern Cyprus",
+   "lat": 35.34161,
+   "lng": 33.32236,
+   "p18": [
+    "Kyrenia Castle aerial view, Turkish Republic of North Cyprus 6.png"
+   ],
+   "cat": "Kyrenia castle"
+  },
+  "cands": [
+   {
+    "file": "Kyrenia Castle aerial view, Turkish Republic of North Cyprus 6.png",
+    "w": 2878,
+    "h": 1564,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Kyrenia_Castle_aerial_view%2C_Turkish_Republic_of_North_Cyprus_6.png/1920px-Kyrenia_Castle_aerial_view%2C_Turkish_Republic_of_North_Cyprus_6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyrenia_Castle_aerial_view,_Turkish_Republic_of_North_Cyprus_6.png",
+    "a": "Nikolaos Sakellaris",
+    "l": "CC BY 3.0",
+    "n": 0
+   },
+   {
+    "file": "STEVENSON(1880) p136 KYRENIA.jpg",
+    "w": 2069,
+    "h": 1347,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/STEVENSON%281880%29_p136_KYRENIA.jpg/1920px-STEVENSON%281880%29_p136_KYRENIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:STEVENSON(1880)_p136_KYRENIA.jpg",
+    "a": "",
+    "l": "Public domain",
+    "n": 1
+   },
+   {
+    "file": "361Zypern Kyrenia Kastell (14259522193).jpg",
+    "w": 3860,
+    "h": 2542,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/361Zypern_Kyrenia_Kastell_%2814259522193%29.jpg/1920px-361Zypern_Kyrenia_Kastell_%2814259522193%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:361Zypern_Kyrenia_Kastell_(14259522193).jpg",
+    "a": "Rüdiger Stehn from Kiel, Deutschland",
+    "l": "CC BY-SA 2.0",
+    "n": 2
+   },
+   {
+    "file": "362Zypern Kyrenia Kastell (14239082644).jpg",
+    "w": 3804,
+    "h": 2519,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/362Zypern_Kyrenia_Kastell_%2814239082644%29.jpg/1920px-362Zypern_Kyrenia_Kastell_%2814239082644%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:362Zypern_Kyrenia_Kastell_(14239082644).jpg",
+    "a": "Rüdiger Stehn from Kiel, Deutschland",
+    "l": "CC BY-SA 2.0",
+    "n": 3
+   },
+   {
+    "file": "363Zypern Kyrenia Hafen (14052792590).jpg",
+    "w": 3718,
+    "h": 2524,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/363Zypern_Kyrenia_Hafen_%2814052792590%29.jpg/1920px-363Zypern_Kyrenia_Hafen_%2814052792590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:363Zypern_Kyrenia_Hafen_(14052792590).jpg",
+    "a": "Rüdiger Stehn from Kiel, Deutschland",
+    "l": "CC BY-SA 2.0",
+    "n": 4
+   },
+   {
+    "file": "A winter pilgrimage - being an account of travels through Palestine, Italy, and the island of Cyprus, accomplished in the year 1900 (1901) (14780825612).jpg",
+    "w": 2106,
+    "h": 1528,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/A_winter_pilgrimage_-_being_an_account_of_travels_through_Palestine%2C_Italy%2C_and_the_island_of_Cyprus%2C_accomplished_in_the_year_1900_%281901%29_%2814780825612%29.jpg/1920px-A_winter_pilgrimage_-_being_an_account_of_travels_through_Palestine%2C_Italy%2C_and_the_island_of_Cyprus%2C_accomplished_in_the_year_1900_%281901%29_%2814780825612%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:A_winter_pilgrimage_-_being_an_account_of_travels_through_Palestine,_Italy,_and_the_island_of_Cyprus,_accomplished_in_the_year_1900_(1901)_(14780825612).jpg",
+    "a": "Internet Archive Book Images",
+    "l": "No restrictions",
+    "n": 5
+   },
+   {
+    "file": "Archaeological artefacts, Kyrenia Castle, Kyrenia, Northen Cyprus.jpg",
+    "w": 4048,
+    "h": 3283,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Archaeological_artefacts%2C_Kyrenia_Castle%2C_Kyrenia%2C_Northen_Cyprus.jpg/1920px-Archaeological_artefacts%2C_Kyrenia_Castle%2C_Kyrenia%2C_Northen_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Archaeological_artefacts,_Kyrenia_Castle,_Kyrenia,_Northen_Cyprus.jpg",
+    "a": "Michal Klajban",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QBP01": {
+  "wd": {
+   "qid": "Q3014390",
+   "label": "Bellapais Abbey",
+   "desc": "13th-century monastery in Northern Cyprus",
+   "lat": 35.30740329,
+   "lng": 33.35537195,
+   "p18": [
+    "Bellapais Monastery - Abbey church (10).JPG"
+   ],
+   "cat": "Bellapais Monastery"
+  },
+  "cands": [
+   {
+    "file": "Bellapais Monastery - Abbey church (10).JPG",
+    "w": 1879,
+    "h": 1357,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Bellapais_Monastery_-_Abbey_church_%2810%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Bellapais_Monastery_-_Abbey_church_(10).JPG",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "The north view of the Grand Commandery Dela Pays - Drummond Alexander - 1754.jpg",
+    "w": 1500,
+    "h": 1044,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fb/The_north_view_of_the_Grand_Commandery_Dela_Pays_-_Drummond_Alexander_-_1754.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:The_north_view_of_the_Grand_Commandery_Dela_Pays_-_Drummond_Alexander_-_1754.jpg",
+    "a": "Alexander Drummond",
+    "l": "Public domain",
+    "n": 1
+   },
+   {
+    "file": "SMITH(1887) p177 RUINED MONASTERY AT BELLAPAIS.jpg",
+    "w": 2099,
+    "h": 1349,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/SMITH%281887%29_p177_RUINED_MONASTERY_AT_BELLAPAIS.jpg/1920px-SMITH%281887%29_p177_RUINED_MONASTERY_AT_BELLAPAIS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:SMITH(1887)_p177_RUINED_MONASTERY_AT_BELLAPAIS.jpg",
+    "a": "",
+    "l": "Public domain",
+    "n": 2
+   },
+   {
+    "file": "2016 Bellapais Monastery (1) Abbey church.jpg",
+    "w": 1853,
+    "h": 1288,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/2016_Bellapais_Monastery_%281%29_Abbey_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_Bellapais_Monastery_(1)_Abbey_church.jpg",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "2016 Bellapais Monastery (2).jpg",
+    "w": 1799,
+    "h": 1519,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2016_Bellapais_Monastery_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_Bellapais_Monastery_(2).jpg",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "2016 Bellapais Monastery (3).jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/2016_Bellapais_Monastery_%283%29.jpg/1920px-2016_Bellapais_Monastery_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_Bellapais_Monastery_(3).jpg",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "2016 Bellapais Monastery (4).jpg",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/2016_Bellapais_Monastery_%284%29.jpg/1920px-2016_Bellapais_Monastery_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_Bellapais_Monastery_(4).jpg",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QSH01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Saint Hilarion Castle (01).JPG",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Saint_Hilarion_Castle_%2801%29.JPG/1920px-Saint_Hilarion_Castle_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Hilarion_Castle_(01).JPG",
+    "a": "Chris06",
+    "l": "CC0",
+    "n": 0
+   },
+   {
+    "file": "Hilarion kasteel.jpg",
+    "w": 4416,
+    "h": 3312,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Hilarion_kasteel.jpg/1920px-Hilarion_kasteel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hilarion_kasteel.jpg",
+    "a": "Dickelbers",
+    "l": "CC BY-SA 3.0",
+    "n": 1
+   },
+   {
+    "file": "Saint Hilarion Castle (15).JPG",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Saint_Hilarion_Castle_%2815%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Hilarion_Castle_(15).JPG",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Saint Hilarion Castle (07).JPG",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Saint_Hilarion_Castle_%2807%29.JPG/1920px-Saint_Hilarion_Castle_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Hilarion_Castle_(07).JPG",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   }
+  ]
+ },
+ "QBF01": {
+  "wd": {
+   "qid": "Q301376",
+   "label": "Buffavento Castle",
+   "desc": "castle in Northern Cyprus",
+   "lat": 35.2875,
+   "lng": 33.41,
+   "p18": [
+    "Voufavento castle.jpg"
+   ],
+   "cat": "Buffavento castle"
+  },
+  "cands": [
+   {
+    "file": "Voufavento castle.jpg",
+    "w": 4416,
+    "h": 3312,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Voufavento_castle.jpg/1920px-Voufavento_castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Voufavento_castle.jpg",
+    "a": "Dickelbers",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "Buffavento 1 C.jpg",
+    "w": 1944,
+    "h": 2592,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Buffavento_1_C.jpg/1920px-Buffavento_1_C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_1_C.jpg",
+    "a": "Gerhard Haubold",
+    "l": "CC BY-SA 3.0",
+    "n": 1
+   },
+   {
+    "file": "Buffavento 2 C.jpg",
+    "w": 2592,
+    "h": 1944,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Buffavento_2_C.jpg/1920px-Buffavento_2_C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_2_C.jpg",
+    "a": "Gerhard Haubold",
+    "l": "CC BY-SA 3.0",
+    "n": 2
+   },
+   {
+    "file": "Buffavento Ausblick Unterburg Nov 2018.jpg",
+    "w": 3456,
+    "h": 4608,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Buffavento_Ausblick_Unterburg_Nov_2018.jpg/1920px-Buffavento_Ausblick_Unterburg_Nov_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_Ausblick_Unterburg_Nov_2018.jpg",
+    "a": "Josef Moser",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Buffavento Eingangstor.jpg",
+    "w": 3456,
+    "h": 4608,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Buffavento_Eingangstor.jpg/1920px-Buffavento_Eingangstor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_Eingangstor.jpg",
+    "a": "Josef Moser",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Buffavento Felshänge Ri Osten.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Buffavento_Felsh%C3%A4nge_Ri_Osten.jpg/1920px-Buffavento_Felsh%C3%A4nge_Ri_Osten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_Felsh%C3%A4nge_Ri_Osten.jpg",
+    "a": "Josef Moser",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Buffavento Informationstafel Nov 2018.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Buffavento_Informationstafel_Nov_2018.jpg/1920px-Buffavento_Informationstafel_Nov_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_Informationstafel_Nov_2018.jpg",
+    "a": "Josef Moser",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QAN01": {
+  "wd": {},
+  "cands": []
+ },
+ "QGI01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Kyrenia 01-2017 img13 StMichael Church.jpg",
+    "w": 3594,
+    "h": 2696,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Kyrenia_01-2017_img13_StMichael_Church.jpg/1920px-Kyrenia_01-2017_img13_StMichael_Church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyrenia_01-2017_img13_StMichael_Church.jpg",
+    "a": "A.Savin",
+    "l": "FAL",
+    "n": 0
+   },
+   {
+    "file": "Archangelos Church and Icon Museum.jpg",
+    "w": 3008,
+    "h": 4512,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Archangelos_Church_and_Icon_Museum.jpg/1920px-Archangelos_Church_and_Icon_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Archangelos_Church_and_Icon_Museum.jpg",
+    "a": "Antrugeon",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "2022 Archangelos Church and Icon Museum.jpg",
+    "w": 2448,
+    "h": 2448,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2022_Archangelos_Church_and_Icon_Museum.jpg/1920px-2022_Archangelos_Church_and_Icon_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2022_Archangelos_Church_and_Icon_Museum.jpg",
+    "a": "Basak",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   }
+  ]
+ },
+ "QSM01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Nicosia 01-2017 img20 View from Shacolas Tower.jpg",
+    "w": 4563,
+    "h": 3042,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Nicosia_01-2017_img20_View_from_Shacolas_Tower.jpg/1920px-Nicosia_01-2017_img20_View_from_Shacolas_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicosia_01-2017_img20_View_from_Shacolas_Tower.jpg",
+    "a": "A.Savin",
+    "l": "FAL",
+    "n": 0
+   },
+   {
+    "file": "Detail of Selimiye Mosque, North Nicosia, Cyprus.jpg",
+    "w": 3586,
+    "h": 5379,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Detail_of_Selimiye_Mosque%2C_North_Nicosia%2C_Cyprus.jpg/1920px-Detail_of_Selimiye_Mosque%2C_North_Nicosia%2C_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Detail_of_Selimiye_Mosque,_North_Nicosia,_Cyprus.jpg",
+    "a": "Michal Klajban",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Selimiye Mosque, Nicosia, Cyprus 02.jpg",
+    "w": 3519,
+    "h": 5110,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Selimiye_Mosque%2C_Nicosia%2C_Cyprus_02.jpg/1920px-Selimiye_Mosque%2C_Nicosia%2C_Cyprus_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Selimiye_Mosque,_Nicosia,_Cyprus_02.jpg",
+    "a": "Michal Klajban",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Café by Selimiye Mosque, North Nicosia, Cyprus.jpg",
+    "w": 5472,
+    "h": 3648,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Caf%C3%A9_by_Selimiye_Mosque%2C_North_Nicosia%2C_Cyprus.jpg/1920px-Caf%C3%A9_by_Selimiye_Mosque%2C_North_Nicosia%2C_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_by_Selimiye_Mosque,_North_Nicosia,_Cyprus.jpg",
+    "a": "Michal Klajban",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   }
+  ]
+ },
+ "QBH01": {
+  "wd": {
+   "qid": "Q2332172",
+   "label": "Büyük Han",
+   "desc": "caravan resting place in Nicosia, Northern Cyprus",
+   "lat": 35.1763,
+   "lng": 33.3625,
+   "p18": [
+    "Gran Posada, Nicosia Norte, Chipre del Norte, 2021-12-13, DD 37-39 HDR.jpg"
+   ],
+   "cat": "Büyük Han"
+  },
+  "cands": [
+   {
+    "file": "Gran Posada, Nicosia Norte, Chipre del Norte, 2021-12-13, DD 37-39 HDR.jpg",
+    "w": 8560,
+    "h": 4433,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Gran_Posada%2C_Nicosia_Norte%2C_Chipre_del_Norte%2C_2021-12-13%2C_DD_37-39_HDR.jpg/1920px-Gran_Posada%2C_Nicosia_Norte%2C_Chipre_del_Norte%2C_2021-12-13%2C_DD_37-39_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gran_Posada,_Nicosia_Norte,_Chipre_del_Norte,_2021-12-13,_DD_37-39_HDR.jpg",
+    "a": "Diego Delso",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "1234512-Büyük Han.jpg",
+    "w": 1200,
+    "h": 797,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/1234512-B%C3%BCy%C3%BCk_Han.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:1234512-B%C3%BCy%C3%BCk_Han.jpg",
+    "a": "Nicosia Turkish Municipality",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "NIVOSIA(1881) p085 BEJUK KHAN.jpg",
+    "w": 2328,
+    "h": 1756,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/NIVOSIA%281881%29_p085_BEJUK_KHAN.jpg/1920px-NIVOSIA%281881%29_p085_BEJUK_KHAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:NIVOSIA(1881)_p085_BEJUK_KHAN.jpg",
+    "a": "Archduke Ludwig Salvator of Austria",
+    "l": "Public domain",
+    "n": 2
+   },
+   {
+    "file": "2010-04-14 North Nicosia 07.JPG",
+    "w": 3648,
+    "h": 2736,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2010-04-14_North_Nicosia_07.JPG/1920px-2010-04-14_North_Nicosia_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2010-04-14_North_Nicosia_07.JPG",
+    "a": "Gareth Wyn Jones",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "2010-04-14 North Nicosia 08.JPG",
+    "w": 2736,
+    "h": 3648,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/2010-04-14_North_Nicosia_08.JPG/1920px-2010-04-14_North_Nicosia_08.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2010-04-14_North_Nicosia_08.JPG",
+    "a": "Gareth Wyn Jones",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "2010-04-14 North Nicosia 09.JPG",
+    "w": 2736,
+    "h": 3648,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2010-04-14_North_Nicosia_09.JPG/1920px-2010-04-14_North_Nicosia_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2010-04-14_North_Nicosia_09.JPG",
+    "a": "Gareth Wyn Jones",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "2010-04-14 North Nicosia 10.JPG",
+    "w": 2736,
+    "h": 3648,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/2010-04-14_North_Nicosia_10.JPG/1920px-2010-04-14_North_Nicosia_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2010-04-14_North_Nicosia_10.JPG",
+    "a": "Gareth Wyn Jones",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QMT01": {
+  "wd": {
+   "qid": "Q24915591",
+   "label": "Mevlevi Tekke Museum",
+   "desc": null,
+   "lat": 35.180688,
+   "lng": 33.361872,
+   "p18": [
+    "Lefkoşa Mevlevihanesi.jpg"
+   ],
+   "cat": "Lefkoşa Mevlevihanesi"
+  },
+  "cands": [
+   {
+    "file": "Lefkoşa Mevlevihanesi.jpg",
+    "w": 4032,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lefko%C5%9Fa_Mevlevihanesi.jpg/1920px-Lefko%C5%9Fa_Mevlevihanesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lefko%C5%9Fa_Mevlevihanesi.jpg",
+    "a": "ToprakM",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Lefkoşa Mevlevihanesi 5.jpg",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Lefko%C5%9Fa_Mevlevihanesi_5.jpg/1920px-Lefko%C5%9Fa_Mevlevihanesi_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lefko%C5%9Fa_Mevlevihanesi_5.jpg",
+    "a": "Satirdan kahraman",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Lefkoşa Mevlevihanesi 6.jpg",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Lefko%C5%9Fa_Mevlevihanesi_6.jpg/1920px-Lefko%C5%9Fa_Mevlevihanesi_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lefko%C5%9Fa_Mevlevihanesi_6.jpg",
+    "a": "Satirdan kahraman",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Lefkoşa Mevlevihanesi1 01.jpg",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Lefko%C5%9Fa_Mevlevihanesi1_01.jpg/1920px-Lefko%C5%9Fa_Mevlevihanesi1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lefko%C5%9Fa_Mevlevihanesi1_01.jpg",
+    "a": "Satirdan kahraman",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Lefkoşa Mevlevihanesi1 02.jpg",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lefko%C5%9Fa_Mevlevihanesi1_02.jpg/1920px-Lefko%C5%9Fa_Mevlevihanesi1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lefko%C5%9Fa_Mevlevihanesi1_02.jpg",
+    "a": "Satirdan kahraman",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   }
+  ]
+ },
+ "QDP01": {
+  "wd": {
+   "qid": "Q21005832",
+   "label": "Dervish Pasha Mansion",
+   "desc": "Ottoman house and ethnographic museum in North Nicosia",
+   "lat": 35.1764,
+   "lng": 33.3585,
+   "p18": [
+    "Nicosia 01-2017 img27 Dervish Pasha Mansion.jpg"
+   ],
+   "cat": "Dervish Pasha Mansion"
+  },
+  "cands": [
+   {
+    "file": "Nicosia 01-2017 img27 Dervish Pasha Mansion.jpg",
+    "w": 3491,
+    "h": 3491,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nicosia_01-2017_img27_Dervish_Pasha_Mansion.jpg/1920px-Nicosia_01-2017_img27_Dervish_Pasha_Mansion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicosia_01-2017_img27_Dervish_Pasha_Mansion.jpg",
+    "a": "A.Savin",
+    "l": "FAL",
+    "n": 0
+   },
+   {
+    "file": "A building at North Nicosia.jpg",
+    "w": 3264,
+    "h": 1840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/A_building_at_North_Nicosia.jpg/1920px-A_building_at_North_Nicosia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:A_building_at_North_Nicosia.jpg",
+    "a": "ToprakM",
+    "l": "CC BY 4.0",
+    "n": 1
+   },
+   {
+    "file": "Dervis Pasa Mansion 2.jpg",
+    "w": 1840,
+    "h": 1232,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/25/Dervis_Pasa_Mansion_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Dervis_Pasa_Mansion_2.jpg",
+    "a": "Anjadora",
+    "l": "CC BY-SA 2.0",
+    "n": 2
+   },
+   {
+    "file": "Dervis Pasa Mansion.jpg",
+    "w": 1840,
+    "h": 1232,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Dervis_Pasa_Mansion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Dervis_Pasa_Mansion.jpg",
+    "a": "Anjadora",
+    "l": "CC BY-SA 2.0",
+    "n": 3
+   },
+   {
+    "file": "Dervish Pasha Mansion Ethnographic Museum 01.jpg",
+    "w": 3840,
+    "h": 5760,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dervish_Pasha_Mansion_Ethnographic_Museum_01.jpg/1920px-Dervish_Pasha_Mansion_Ethnographic_Museum_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dervish_Pasha_Mansion_Ethnographic_Museum_01.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Dervish Pasha Mansion Ethnographic Museum 02.jpg",
+    "w": 5760,
+    "h": 3840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dervish_Pasha_Mansion_Ethnographic_Museum_02.jpg/1920px-Dervish_Pasha_Mansion_Ethnographic_Museum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dervish_Pasha_Mansion_Ethnographic_Museum_02.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Dervish Pasha Mansion Ethnographic Museum 03.jpg",
+    "w": 5760,
+    "h": 3840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Dervish_Pasha_Mansion_Ethnographic_Museum_03.jpg/1920px-Dervish_Pasha_Mansion_Ethnographic_Museum_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dervish_Pasha_Mansion_Ethnographic_Museum_03.jpg",
+    "a": "Biologg",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "QLP01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Lapidary Museum, Nicosia (4).JPG",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Lapidary_Museum%2C_Nicosia_%284%29.JPG/1920px-Lapidary_Museum%2C_Nicosia_%284%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lapidary_Museum,_Nicosia_(4).JPG",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Lapidary Museum, Nicosia (3).JPG",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Lapidary_Museum%2C_Nicosia_%283%29.JPG/1920px-Lapidary_Museum%2C_Nicosia_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lapidary_Museum,_Nicosia_(3).JPG",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Lapidary Museum, Nicosia (5).JPG",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lapidary_Museum%2C_Nicosia_%285%29.JPG/1920px-Lapidary_Museum%2C_Nicosia_%285%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lapidary_Museum,_Nicosia_(5).JPG",
+    "a": "Chris06",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Lapidary Museum 2025 009.jpg",
+    "w": 3456,
+    "h": 5184,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lapidary_Museum_2025_009.jpg/1920px-Lapidary_Museum_2025_009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lapidary_Museum_2025_009.jpg",
+    "a": "İlo04",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   }
+  ]
+ },
+ "QGZ01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Agios Mamas (Morphou) 01.jpg",
+    "w": 2592,
+    "h": 1944,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Agios_Mamas_%28Morphou%29_01.jpg/1920px-Agios_Mamas_%28Morphou%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Agios_Mamas_(Morphou)_01.jpg",
+    "a": "Xxlstier",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Agios Mamas (Morphou) 05.jpg",
+    "w": 2592,
+    "h": 1944,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Agios_Mamas_%28Morphou%29_05.jpg/1920px-Agios_Mamas_%28Morphou%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Agios_Mamas_(Morphou)_05.jpg",
+    "a": "Xxlstier",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Agios Mamas (Morphou) 04.jpg",
+    "w": 1944,
+    "h": 2592,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Agios_Mamas_%28Morphou%29_04.jpg/1920px-Agios_Mamas_%28Morphou%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Agios_Mamas_(Morphou)_04.jpg",
+    "a": "Xxlstier",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Agios Mamas (Morphou) 10.jpg",
+    "w": 1944,
+    "h": 2592,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Agios_Mamas_%28Morphou%29_10.jpg/1920px-Agios_Mamas_%28Morphou%29_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Agios_Mamas_(Morphou)_10.jpg",
+    "a": "Xxlstier",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   }
+  ]
+ },
+ "QSO01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Amphitheater Soli C.jpg",
+    "w": 2592,
+    "h": 1944,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Amphitheater_Soli_C.jpg/1920px-Amphitheater_Soli_C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amphitheater_Soli_C.jpg",
+    "a": "Gerhard Haubold",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "Wieliczka, Jana Matejki; Kopalnia soli- kierat konny węgierski; A-580; 01.jpg",
+    "w": 3845,
+    "h": 2841,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg/1920px-Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wieliczka,_Jana_Matejki;_Kopalnia_soli-_kierat_konny_w%C4%99gierski;_A-580;_01.jpg",
+    "a": "Kriskros",
+    "l": "CC BY-SA 3.0 pl",
+    "n": 1
+   },
+   {
+    "file": "Soli Harabeler.jpg",
+    "w": 1600,
+    "h": 1200,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/71/Soli_Harabeler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Soli_Harabeler.jpg",
+    "a": "Monoskolaggi",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   }
+  ]
+ },
+ "QVO01": {
+  "wd": {
+   "qid": "Q22988546",
+   "label": "Vouni palace",
+   "desc": "ruins of a palace on Cyprus",
+   "lat": 35.15937,
+   "lng": 32.77312,
+   "p18": [
+    "7. Vouni palace.jpg"
+   ],
+   "cat": "Vouni archaeological site"
+  },
+  "cands": [
+   {
+    "file": "7. Vouni palace.jpg",
+    "w": 1440,
+    "h": 1080,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2f/7._Vouni_palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:7._Vouni_palace.jpg",
+    "a": "Cypern20",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Avlu Courtyard House (Morphou) in 2020.01.jpg",
+    "w": 4032,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Avlu_Courtyard_House_%28Morphou%29_in_2020.01.jpg/1920px-Avlu_Courtyard_House_%28Morphou%29_in_2020.01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Avlu_Courtyard_House_(Morphou)_in_2020.01.jpg",
+    "a": "CAPTAIN RAJU",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Avlu Courtyard House (Morphou) in 2020.02.jpg",
+    "w": 4032,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Avlu_Courtyard_House_%28Morphou%29_in_2020.02.jpg/1920px-Avlu_Courtyard_House_%28Morphou%29_in_2020.02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Avlu_Courtyard_House_(Morphou)_in_2020.02.jpg",
+    "a": "CAPTAIN RAJU",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Avlu Courtyard House (Morphou) in 2020.03.jpg",
+    "w": 4032,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Avlu_Courtyard_House_%28Morphou%29_in_2020.03.jpg/1920px-Avlu_Courtyard_House_%28Morphou%29_in_2020.03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Avlu_Courtyard_House_(Morphou)_in_2020.03.jpg",
+    "a": "CAPTAIN RAJU",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Avlu Courtyard House (Morphou) in 2020.04.jpg",
+    "w": 4032,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Avlu_Courtyard_House_%28Morphou%29_in_2020.04.jpg/1920px-Avlu_Courtyard_House_%28Morphou%29_in_2020.04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Avlu_Courtyard_House_(Morphou)_in_2020.04.jpg",
+    "a": "CAPTAIN RAJU",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Vouni ana meydan.jpg",
+    "w": 1600,
+    "h": 1200,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Vouni_ana_meydan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Vouni_ana_meydan.jpg",
+    "a": "Monoskolaggi",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Vouni-Palace-1.jpg",
+    "w": 1200,
+    "h": 800,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Vouni-Palace-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Vouni-Palace-1.jpg",
+    "a": "Monoskolaggi",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ }
+}
