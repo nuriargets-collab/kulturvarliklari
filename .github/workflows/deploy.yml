@@ -8,6 +8,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+# Aynı anda tek yayın: yeni gönderim, süren yüklemenin bitmesini bekler
+concurrency:
+  group: ftp-yayin
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
