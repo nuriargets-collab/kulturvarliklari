@@ -38,7 +38,7 @@ jobs:
           server: ${{ steps.ayar.outputs.host }}
           username: ${{ secrets.FTP_USERNAME || secrets.USERNAME || vars.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD || secrets.PASSWORD || vars.FTP_PASSWORD }}
-          protocol: ftps          # hosting FTPS desteklemiyorsa "ftp" yapın
+          protocol: ftp           # hosting şifreli FTP (FTPS) desteklemiyor
           server-dir: ./          # FTP hesabının klasörü public_html olarak ayarlandı
           exclude: |
             **/.git*
