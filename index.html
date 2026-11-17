@@ -47,7 +47,7 @@
 
   /* Header */
   header{position:absolute;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:20px clamp(16px,4vw,48px);color:var(--white)}
-  .logo{display:flex;align-items:center;gap:10px;font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:700;letter-spacing:.3px}
+  .logo{color:inherit;text-decoration:none;display:flex;align-items:center;gap:10px;font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:700;letter-spacing:.3px}
   .logo svg{width:30px;height:30px}
   .logo small{font-family:Manrope;font-weight:500;font-size:12px;opacity:.7;margin-left:4px}
   nav{display:flex;gap:22px;font-size:14px;font-weight:500}
@@ -227,10 +227,10 @@
 <body>
 
 <header>
-  <div class="logo">
+  <a class="logo" href="./" aria-label="Kültür Varlıkları ana sayfa">
     <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12 16 5l12 7"/><path d="M5 12h22M7 12v12M12.5 12v12M19.5 12v12M25 12v12M4 26h24M3 28.5h26"/></svg>
     kulturvarliklari<small>.com.tr</small>
-  </div>
+  </a>
   <nav><a href="#kesfet">Keşfet</a><a href="harita.html">Harita</a><a href="rotalar/">Rotalar</a><a href="zaman-cizelgesi.html">Zaman Çizelgesi</a><a href="listem.html">Listem</a><a href="#rehber">Rehbere Sor</a><a class="lng" href="en/" hreflang="en" lang="en" title="English">EN</a><a class="lng" href="zh/" hreflang="zh-Hans" lang="zh-Hans" title="中文">中文</a><a class="lng" href="hi/" hreflang="hi" lang="hi" title="हिन्दी">हिन्दी</a><a class="lng" href="es/" hreflang="es" lang="es" title="Español">ES</a><a class="lng" href="ar/" hreflang="ar" lang="ar" title="العربية">عربي</a><a class="lng" href="de/" hreflang="de" lang="de" title="Deutsch">DE</a></nav>
 </header>
 
