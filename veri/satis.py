@@ -6,7 +6,7 @@ def get(u, data=None, hdr={}):
 out = {}
 for cat in ["KRT-MZA01-08-008"]:
     page = get(f"https://muze.gov.tr/satis-noktasi?CatalogNo={cat}")
-    tok = re.search(r"token\s*=\s*['\"]([^'\"]+)", page) or re.search(r'name="__RequestVerificationToken"[^>]*value="([^"]+)"', page)
+    tok = re.search(r'name="csrf-token"\s+content="([^"]+)"', page) or re.search(r'content="([^"]+)"\s+name="csrf-token"', page) or re.search(r'name="__RequestVerificationToken"[^>]*value="([^"]+)"', page)
     tok = tok.group(1) if tok else ""
     sel = page[page.find('id="city"'):]; sel = sel[:sel.find("</select>")]
     cities = [(v, html.unescape(n).strip()) for v, n in re.findall(r'<option value="([^"]+)"[^>]*>([^<]+)</option>', sel) if v]
