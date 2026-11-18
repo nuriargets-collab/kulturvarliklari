@@ -2,7 +2,7 @@ name: Veri topla (gecici)
 on:
   push:
     branches: [veri-topla]
-    paths: [veri/istek.txt]
+    paths: [veri/istek.txt, veri/satis.py]
 permissions:
   contents: write
 jobs:
@@ -19,6 +19,7 @@ jobs:
             curl -sL -A "$UA" --max-time 60 "$url" -o "veri/cikti/$n.html" -w "$n %{http_code} %{size_download} $url\n" >> veri/cikti/ozet.txt || echo "$n HATA $url" >> veri/cikti/ozet.txt
             sleep 1
           done < veri/istek.txt
+          python3 veri/satis.py || true
       - run: |
           git config user.name github-actions; git config user.email actions@github.com
           git add veri && git commit -m "veri [skip ci]" && git push
