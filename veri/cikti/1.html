@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>T. C. Ministry of Culture and Tourism - Point of Sales</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link href="/css/bundle.min.css?v1.0.0+b261116_14443" rel="stylesheet">
+    <style>
+        header .top-bar {
+        background: #00a4c3;
+        }
+
+        .main-padder .heading-with-photo .slider-figure {
+        height: 250px;
+        }
+    </style>
+        <link rel="icon" href="/img/logo.png" />
+    <script>
+        var mysGaId = 'G-FTR8605NSC';
+        var mysCookiePolicyVersion = '1';
+        var mysConsentPrompted = /(?:^|; )cookie_consent_prompt=1(?:;|$)/.test(document.cookie);
+        window.mysConsentValid = function () {
+            if (mysConsentPrompted) {
+                return null;
+            }
+            try {
+                var m = document.cookie.match(/(?:^|; )cookie_consent=([^;]*)/);
+                var c = m ? JSON.parse(decodeURIComponent(m[1])) : null;
+                return c && c.v === mysCookiePolicyVersion ? c : null;
+            } catch (e) {
+                return null;
+            }
+        };
+        window.mysConsentSaved = function () {
+            mysConsentPrompted = false;
+        };
+        window.mysLoadAnalytics = function () {
+            if (location.hostname !== 'muze.gov.tr' && location.hostname !== 'www.muze.gov.tr') {
+                return;
+            }
+            window['ga-disable-' + mysGaId] = false;
+            if (window.__gaLoaded) {
+                return;
+            }
+            window.__gaLoaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + mysGaId;
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () { dataLayer.push(arguments); };
+            gtag('js', new Date());
+            var referrer = '';
+            try {
+                if (document.referrer) {
+                    var r = new URL(document.referrer);
+                    referrer = r.origin + r.pathname;
+                }
+            } catch (e) {
+            }
+            gtag('config', mysGaId, {
+                page_location: location.origin + location.pathname,
+                page_referrer: referrer
+            });
+        };
+        window.mysUnloadAnalytics = function () {
+            window['ga-disable-' + mysGaId] = true;
+            var names = document.cookie.split(';');
+            for (var i = 0; i < names.length; i++) {
+                var n = names[i].split('=')[0].trim();
+                if (n === '_ga' || n.indexOf('_ga_') === 0) {
+                    document.cookie = n + '=; path=/; domain=' + location.hostname + '; max-age=0';
+                    document.cookie = n + '=; path=/; domain=.' + location.hostname.replace(/^www\./, '') + '; max-age=0';
+                    document.cookie = n + '=; path=/; max-age=0';
+                }
+            }
+        };
+        (function () {
+            var c = window.mysConsentValid();
+            if (c && c.analitik === true) {
+                window.mysLoadAnalytics();
+            }
+        })();
+    </script>
+    
+    <meta name="csrf-token" content="CfDJ8BIP2gpX-ktLiRxqaqivv107_tZU2_2qQQFa43Qv0pUrtG5d3vV_QHFeB-cRdtYT70tB8CYEmGswkv6pOi8UKk5taLU50TriDaDZmGOl01jaUoUKilV0plGvbjhxaWfzHxyO_ZfOekM7ksD8y0HTTf0" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="float-right mr-lg-4 mr-md-2 ">
+                        <a class="shopping-cart" href="/sepet">
+                            <img src="/img/cart.svg" alt="Cart">
+                        </a>
+                    </div>
+
+                    <div class="float-right lang-selector">
+                        <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="/" id="lang-selector"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="/img/en.png"
+                                    alt="English"> EN
+                                </a>
+                            <div class="dropdown-menu" aria-labelledby="lang-selector">
+
+                                    <a class="dropdown-item" href="/Language/Index/EN?url=%2Fsatis-noktasi%3FCatalogNo%3DKRT-MZA01-08-008"><img src="/img/en.png" alt="English"> EN</a>
+                                    <a class="dropdown-item" href="/Language/Index/TR?url=%2Fsatis-noktasi%3FCatalogNo%3DKRT-MZA01-08-008"><img src="/img/tr.png" alt="Türkçe"> TR</a>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="search-bar float-right">
+                            <div class="search-wrapper">
+                                <div class="md-form form-sm">
+                                    <form action="/ara" method="post">
+                                        <input type="text" id="search-input" name="keyword" class="form-control form-control-sm" required>
+                                        <label for="search-input">Search</label>
+                                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BIP2gpX-ktLiRxqaqivv107_tZU2_2qQQFa43Qv0pUrtG5d3vV_QHFeB-cRdtYT70tB8CYEmGswkv6pOi8UKk5taLU50TriDaDZmGOl01jaUoUKilV0plGvbjhxaWfzHxyO_ZfOekM7ksD8y0HTTf0" /></form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <span class='muzelogo py-2 col-2 col-lg-1 membership'>
+                            <a href="/">
+                                <img src="/img/logo.png" alt="Müze Kart" height="60" />
+                            </a>
+                    </span>
+                    <button class="navbar-toggler navbar-toggler-right align-self-center" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class='collapse navbar-collapse col-12 col-lg-9' id="navbarCollapse">
+                        <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/hakkimizda">
+                                        ABOUT US
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: #00a4c3 !important;" href="/MuseumPass">
+                                        MuseumPass
+                                    </a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/NightMuseum">
+                                            Museum Night Experience
+                                        </a>
+                                    </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: #d1873e !important; " href="/ETicket">
+                                        E-Ticket
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/muzeler">
+                                        Museums
+                                    </a>
+                                </li>
+                                        <li class="d-md-block d-lg-none d-xl-none d-sm-block border-top nav-item dropdown">
+                                            <a class="btn btn-outline-default" href="/giris-yap">
+                                                Sign In
+
+                                            </a>
+                                            <a class="btn btn-default" href="/kayit-ol">
+                                                Sign Up
+                                            </a>
+                                        </li>
+                        </ul>
+                    </div>
+                                <ul class="d-none d-lg-block user-menu col-2 text-right">
+                                    <li class="login-items">
+                                        <a class="btn btn-outline-default" href="/giris-yap">
+                                            Sign In
+
+                                        </a>
+                                        <a class="btn btn-default" href="/kayit-ol">
+                                            Sign Up
+                                        </a>
+                                    </li>
+
+                                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+<div class="main-padder">
+    <div class="heading-with-background">
+        <div class="slider-figure"> <img src="/s3/SectionPicture/SP_93cca9b4-588f-4760-b5e0-67a353bedc1b.jpg" alt="M&#xFC;zekart&#x2B; (YBS)"></div>
+        <span class="h1-responsive text-uppercase">M&#xFC;zekart&#x2B; (YBS) Point Of Sales</span>
+    </div>
+</div>
+
+
+<!--Main layout-->
+<main class="mt-5">
+    <div class="container">
+        <article class="static-page detail-page text-center">
+            <h1 class="text-uppercase detail-heading">M&#xFC;zekart&#x2B; (YBS) Point Of Sales</h1>
+            <p>
+M&#xFC;zekart&#x2B; (YBS)You can buy  by visiting a sales point with your identity card.            </p>
+        </article>
+        <div class="row my-4 text-center">
+            <div class="col-sm-4 offset-sm-4">
+                <div class="card">
+                        <div class="select-museums point-of-sales">
+                            <label>City</label>
+                            <div class="md-form form-sm">
+                                <select class="browser-default custom-select" id="city" onchange="submitData()">
+                                    <option value="">Select Item</option>
+                                <option value="1">Adana</option>
+<option value="2">Ad&#x131;yaman</option>
+<option value="3">Afyonkarahisar</option>
+<option value="4">A&#x11F;r&#x131;</option>
+<option value="68">Aksaray</option>
+<option value="5">Amasya</option>
+<option value="6">Ankara</option>
+<option value="7">Antalya</option>
+<option value="75">Ardahan</option>
+<option value="8">Artvin</option>
+<option value="9">Ayd&#x131;n</option>
+<option value="10">Bal&#x131;kesir</option>
+<option value="74">Bart&#x131;n</option>
+<option value="72">Batman</option>
+<option value="69">Bayburt</option>
+<option value="11">Bilecik</option>
+<option value="12">Bing&#xF6;l</option>
+<option value="13">Bitlis</option>
+<option value="14">Bolu</option>
+<option value="15">Burdur</option>
+<option value="16">Bursa</option>
+<option value="17">&#xC7;anakkale</option>
+<option value="18">&#xC7;ank&#x131;r&#x131;</option>
+<option value="19">&#xC7;orum</option>
+<option value="20">Denizli</option>
+<option value="21">Diyarbak&#x131;r</option>
+<option value="81">D&#xFC;zce</option>
+<option value="22">Edirne</option>
+<option value="23">El&#xE2;z&#x131;&#x11F;</option>
+<option value="24">Erzincan</option>
+<option value="25">Erzurum</option>
+<option value="26">Eski&#x15F;ehir</option>
+<option value="27">Gaziantep</option>
+<option value="28">Giresun</option>
+<option value="29">G&#xFC;m&#xFC;&#x15F;hane</option>
+<option value="30">Hakk&#xE2;ri</option>
+<option value="31">Hatay</option>
+<option value="76">I&#x11F;d&#x131;r</option>
+<option value="32">Isparta</option>
+<option value="34">&#x130;stanbul</option>
+<option value="35">&#x130;zmir</option>
+<option value="46">Kahramanmara&#x15F;</option>
+<option value="78">Karab&#xFC;k</option>
+<option value="70">Karaman</option>
+<option value="36">Kars</option>
+<option value="37">Kastamonu</option>
+<option value="38">Kayseri</option>
+<option value="71">K&#x131;r&#x131;kkale</option>
+<option value="39">K&#x131;rklareli</option>
+<option value="40">K&#x131;r&#x15F;ehir</option>
+<option value="79">Kilis</option>
+<option value="41">Kocaeli</option>
+<option value="42">Konya</option>
+<option value="43">K&#xFC;tahya</option>
+<option value="44">Malatya</option>
+<option value="45">Manisa</option>
+<option value="47">Mardin</option>
+<option value="33">Mersin</option>
+<option value="48">Mu&#x11F;la</option>
+<option value="49">Mu&#x15F;</option>
+<option value="50">Nev&#x15F;ehir</option>
+<option value="51">Ni&#x11F;de</option>
+<option value="52">Ordu</option>
+<option value="80">Osmaniye</option>
+<option value="53">Rize</option>
+<option value="54">Sakarya</option>
+<option value="55">Samsun</option>
+<option value="56">Siirt</option>
+<option value="57">Sinop</option>
+<option value="58">Sivas</option>
+<option value="63">&#x15E;anl&#x131;urfa</option>
+<option value="73">&#x15E;&#x131;rnak</option>
+<option value="59">Tekirda&#x11F;</option>
+<option value="60">Tokat</option>
+<option value="61">Trabzon</option>
+<option value="62">Tunceli</option>
+<option value="64">U&#x15F;ak</option>
+<option value="65">Van</option>
+<option value="77">Yalova</option>
+<option value="66">Yozgat</option>
+<option value="67">Zonguldak</option>
+</select>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+            <div class="GetPointData_"></div>
+                <hr />
+                <h2 class="mb-3 text-uppercase">Sales Points</h2>
+                <div class="card">
+                    <div id="bigMap"></div>
+                </div>
+    </div>
+</main>
+<div id="loading">
+    <div class="center">
+        <img src="/img/ajax-loader.gif" />
+    </div>
+</div>
+
+
+
+    <div class="modal fade" id="deleteAccountModal" tabindex="-1" role="dialog" aria-labelledby="aydinlatmaModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-uppercase">
+                        Are you sure you want to delete your account?
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <article class="static-page detail-page">
+                        <p>
+                            <strong>Do you want to continue all your membership information will be deleted?</strong>
+                        </p>
+                        <p>
+                            A verification link will be sent to your email address to delete your account.
+                        </p>
+                    </article>
+                </div>
+                <div class="modal-footer">
+                    <a href="/hesabimi-sil" class="btn btn-danger">
+                        Delete My Account
+                    </a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <hr class="mb-4">
+            <div class="text-center footer-nav">
+                <nav>
+                        <a href="/iletisim">
+                            Contact Us
+                        </a>
+                        <a href="/document/bakanlik_yonergesi_en.pdf" target="_blank" rel="noreferrer noopener">
+                            Government Legislation
+                        </a>
+                    <a href="https://acente.muze.gov.tr" target="_blank" rel="noreferrer noopener">
+                        Corporate
+                    </a>
+                    <a href="/kisisel-verilerin-islenmesi">
+                        Processing of Personal Data
+                    </a>
+                    <a href="/cerezpolitikasi">
+                        Cookie Policy
+                    </a>
+                </nav>
+            </div>
+            <hr class="my-4 w-75">
+            <div class="text-center">
+                <a href="https://goturkey.com/" target="_blank" class="no-border" rel="noreferrer noopener">
+                    <img src="/img/turkiye-logo.png" alt="Home Turkey" style="width:100px;">
+                </a>
+                <a href="http://www.kultur.gov.tr/" target="_blank" class="no-border mr-5" rel="noreferrer noopener">
+                    <img src="/img/bakanlik-logo.png" style="margin-left:30px" alt="Kültür Bakanlığı">
+                </a>
+                <a href="http://www.dosimm.gov.tr/" target="_blank" class="no-border" rel="noreferrer noopener">
+                    <img src="/img/dosimm-logo.png" alt="DÖSİMM">
+                </a>
+            </div>
+            <hr class="my-4 w-50">
+        </div>
+        <div class="text-center social-icons mb-4">
+                <a href="https://www.facebook.com/Muzekart/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/Muzekart/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/Muzekart/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-instagram"></i>
+                </a>
+        </div>
+        <div class="footer-copyright text-center py-3">
+            <a href="http://www.kulturturizm.gov.tr" target="_blank" rel="noreferrer noopener">www.kulturturizm.gov.tr </a>
+            <a href="http://www.dosim.gov.tr" target="_blank" rel="noreferrer noopener">www.dosim.gov.tr </a>
+            <a href="https://www.goturkiye.com" target="_blank" rel="noreferrer noopener">www.goturkiye.com </a>
+        </div>
+    </footer>
+    
+<div id="cookieConsentRoot" data-policy-version="1" data-save-url="/CookieConsent/Save" data-save-error="Your choice could not be saved. Please try again." data-map-consent-note="By clicking the button you give your consent to functional cookies." data-suppress-banner="false">
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BIP2gpX-ktLiRxqaqivv107_tZU2_2qQQFa43Qv0pUrtG5d3vV_QHFeB-cRdtYT70tB8CYEmGswkv6pOi8UKk5taLU50TriDaDZmGOl01jaUoUKilV0plGvbjhxaWfzHxyO_ZfOekM7ksD8y0HTTf0" />
+
+    <div id="cookieConsentBanner" class="cookie-consent-banner" role="dialog" aria-modal="false" aria-label="This site uses cookies">
+        <div class="cookie-consent-banner-body">
+            <h3 class="cookie-consent-title">This site uses cookies</h3>
+            <p class="cookie-consent-text">We use cookies to provide you with the best possible experience on our website. Analytics and functional cookies are off by default and are not loaded until you save your choice. For details, see our <a href="/cerezpolitikasi">Cookie Policy</a>.</p>
+        </div>
+        <div class="cookie-consent-actions">
+            <button type="button" class="btn btn-default cookie-btn" data-cookie-action="accept-all">Accept All</button>
+            <button type="button" class="btn btn-default cookie-btn" data-cookie-action="reject-all">Reject All</button>
+            <button type="button" class="btn btn-outline-default cookie-btn" data-cookie-action="manage">Manage Preferences</button>
+        </div>
+        <p class="cookie-consent-error" role="alert"></p>
+    </div>
+
+    <div id="cookieConsentPanel" class="cookie-consent-panel" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Cookie Preferences">
+        <div class="cookie-consent-panel-card">
+            <div class="cookie-consent-panel-header">
+                <h3>Cookie Preferences</h3>
+                <button type="button" class="cookie-consent-close" data-cookie-action="close" aria-label="Close">&times;</button>
+            </div>
+            <div class="cookie-consent-panel-body">
+                <div class="cookie-category">
+                    <div class="cookie-category-head">
+                        <span class="cookie-category-name">Strictly necessary cookies</span>
+                        <span class="cookie-category-always">Always on</span>
+                    </div>
+                    <p class="cookie-category-desc">Required for core site functions such as login, filling in forms and remembering your privacy choices, as well as security. These cannot be switched off.</p>
+                </div>
+
+                <div class="cookie-category">
+                    <div class="cookie-category-head">
+                        <span class="cookie-category-name">Analytics / performance cookies</span>
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="cookiePrefAnalitik">
+                            <span class="cookie-slider"></span>
+                        </label>
+                    </div>
+                    <p class="cookie-category-desc">Visit and performance statistics. Third party; data is transferred abroad.</p>
+                </div>
+
+                <div class="cookie-category">
+                    <div class="cookie-category-head">
+                        <span class="cookie-category-name">Functional cookies</span>
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="cookiePrefIslevsel">
+                            <span class="cookie-slider"></span>
+                        </label>
+                    </div>
+                    <p class="cookie-category-desc">Map display. Third party. If not allowed, the map stays passive and is only loaded when you click it.</p>
+                </div>
+            </div>
+            <div class="cookie-consent-panel-footer">
+                <button type="button" class="btn btn-default cookie-btn" data-cookie-action="reject-all">Reject All</button>
+                <button type="button" class="btn btn-outline-default cookie-btn" data-cookie-action="save">Save Choices</button>
+                <button type="button" class="btn btn-default cookie-btn" data-cookie-action="accept-all">Accept All</button>
+                <p class="cookie-consent-error" role="alert"></p>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" id="cookieConsentIcon" class="cookie-consent-icon" data-cookie-action="manage" title="Cookie settings" aria-label="Cookie settings">
+        <i class="fas fa-cookie-bite"></i>
+    </button>
+</div>
+
+<style>
+    .cookie-consent-banner {
+        position: fixed;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+        width: 92%;
+        max-width: 640px;
+        background: #fff;
+        border: 1px solid #d9e2e6;
+        border-radius: 8px;
+        box-shadow: 0 8px 28px rgba(0,0,0,.18);
+        padding: 20px 22px;
+        z-index: 20000;
+        display: none;
+    }
+    .cookie-consent-banner.is-visible {
+        display: block;
+    }
+    .cookie-consent-title {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 8px;
+        color: #1b2a30;
+    }
+    .cookie-consent-text {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 0 16px;
+        color: #44555c;
+    }
+    .cookie-consent-text a {
+        color: #00a4c3;
+        text-decoration: underline;
+    }
+    .cookie-consent-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .cookie-consent-actions .cookie-btn,
+    .cookie-consent-panel-footer .cookie-btn {
+        flex: 1 1 auto;
+        min-width: 140px;
+        margin: 0;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: none;
+    }
+    .cookie-consent-panel {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.45);
+        z-index: 20001;
+        display: none;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 16px 16px 74px 18px;
+    }
+    .cookie-consent-panel.is-visible {
+        display: flex;
+    }
+    .cookie-consent-panel-card {
+        background: #fff;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 420px;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 12px 40px rgba(0,0,0,.3);
+    }
+    .cookie-consent-panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 22px;
+        border-bottom: 1px solid #eef2f4;
+    }
+    .cookie-consent-panel-header h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        color: #1b2a30;
+    }
+    .cookie-consent-close {
+        background: none;
+        border: none;
+        font-size: 26px;
+        line-height: 1;
+        color: #8a9aa1;
+        cursor: pointer;
+    }
+    .cookie-consent-panel-body {
+        padding: 8px 22px;
+    }
+    .cookie-category {
+        padding: 16px 0;
+        border-bottom: 1px solid #f0f4f6;
+    }
+    .cookie-category:last-child {
+        border-bottom: none;
+    }
+    .cookie-category-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+    .cookie-category-name {
+        font-size: 15px;
+        font-weight: 600;
+        color: #1b2a30;
+    }
+    .cookie-category-always {
+        font-size: 12px;
+        font-weight: 600;
+        color: #00a4c3;
+        white-space: nowrap;
+    }
+    .cookie-category-desc {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #5a6b72;
+        margin: 8px 0 0;
+    }
+    .cookie-switch {
+        position: relative;
+        display: inline-block;
+        width: 46px;
+        height: 24px;
+        margin: 0;
+        flex: 0 0 auto;
+    }
+    .cookie-switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .cookie-slider {
+        position: absolute;
+        cursor: pointer;
+        inset: 0;
+        background: #c5ced2;
+        border-radius: 24px;
+        transition: background .2s;
+    }
+    .cookie-slider::before {
+        content: "";
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        left: 3px;
+        bottom: 3px;
+        background: #fff;
+        border-radius: 50%;
+        transition: transform .2s;
+    }
+    .cookie-switch input:checked + .cookie-slider {
+        background: #00a4c3;
+    }
+    .cookie-switch input:checked + .cookie-slider::before {
+        transform: translateX(22px);
+    }
+    .cookie-consent-panel-footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 18px 22px;
+        border-top: 1px solid #eef2f4;
+    }
+    .cookie-consent-error {
+        display: none;
+        flex: 1 1 100%;
+        margin: 12px 0 0;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: #c0392b;
+    }
+    .cookie-consent-error.is-visible {
+        display: block;
+    }
+    .cookie-consent-icon {
+        position: fixed;
+        left: 18px;
+        bottom: 18px;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        border: none;
+        background: #00a4c3;
+        color: #fff;
+        font-size: 20px;
+        box-shadow: 0 4px 14px rgba(0,0,0,.25);
+        z-index: 19999;
+        cursor: pointer;
+        display: none;
+    }
+    .cookie-consent-icon.is-visible {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cookie-map-overlay {
+        position: absolute;
+        inset: 0;
+        background: #eef2f4 url('/img/noimage.png') center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 5;
+    }
+    .cookie-map-overlay-inner {
+        background: rgba(255,255,255,.92);
+        padding: 18px 22px;
+        border-radius: 8px;
+        max-width: 380px;
+    }
+    .cookie-map-overlay-inner p {
+        font-size: 14px;
+        margin: 0 0 12px;
+        color: #1b2a30;
+    }
+    .cookie-map-overlay-inner .cookie-map-overlay-note {
+        font-size: 12px;
+        margin: 10px 0 0;
+        color: #5a6b72;
+    }
+    .cookie-map-overlay-inner .cookie-map-overlay-error {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 8px 0 0;
+        color: #c0392b;
+    }
+</style>
+
+
+    <script type="text/javascript" src="/js/bundle.min.js"></script>
+    <script type="text/javascript" src="/js/cookie-consent.js?v1.0.0+b261116_14443"></script>
+    <script>
+        $(document).ajaxError(function (event, xhr) {
+            if (!xhr || xhr.status !== 403) return;
+            var data = xhr.responseJSON;
+            if (!data && xhr.responseText) {
+                try { data = JSON.parse(xhr.responseText); } catch (e) { return; }
+            }
+            if (data && data.kvkkRequired) {
+                window.location.href = '/Kvkk/Consent?returnUrl=' +
+                    encodeURIComponent(window.location.pathname + window.location.search);
+            }
+        });
+    </script>
+    
+
+    <script type="text/javascript">
+        const token = document.querySelector('meta[name="csrf-token"]').content;
+        $(document).ajaxStart(function () {
+            $('#loading').show();
+        }).ajaxStop(function () {
+            $('#loading').hide();
+        });
+        submitData();
+        function submitData() {
+            var city = $('#city').val();
+            var cityName = $("#city option:selected").text();
+            var _sectionId = 'KRT-MZA01-08-008';
+            $.ajax({
+                url: '/PointOfSales/GetPointData',
+                type: 'POST',
+                headers: {
+                    'RequestVerificationToken': token
+                },
+                dataType: 'html',
+                data: { 'provinceId': city, 'provinceName': cityName ,'catalogNo': _sectionId },
+                success: function (data) {
+                    $('.GetPointData_').html(data);
+                    $('.featured-carousel').owlCarousel({
+                        margin: 30,
+                        responsiveClass: true,
+                        nav: true,
+                        responsive: {
+                            0: {
+                                items: 1,
+                            },
+                            600: {
+                                items: 2,
+                            },
+                            1000: {
+                                items: 3,
+                            }
+                        }
+                    })
+
+                }
+            });
+        }
+    </script>
+
+        <script type="text/javascript" src="/js/yandex-consent.js"></script>
+        <script>
+     function init() {
+         let myMap = new ymaps.Map('bigMap', {
+         center: [38.734802, 35.467987],
+         zoom: 6,
+         controls:["zoomControl", "fullscreenControl"],
+         }, {
+             searchControlProvider: 'yandex#search'
+         }),
+             objectManager = new ymaps.ObjectManager({
+                 // Setting an option to make placemarks start clusterizing.
+                 clusterize: true,
+                 // ObjectManager accepts the same options as the clusterer.
+                 gridSize: 32,
+                 clusterDisableClickZoom: true
+             });
+
+         objectManager.objects.options.set('preset', 'islands#blackLeisureCircleIcon');
+         objectManager.clusters.options.set('preset', 'islands#blackClusterIcons');
+         myMap.geoObjects.add(objectManager);
+
+         objectManager.add({"type":"FeatureCollection","features":[{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":["37.709379","28.727088"]},"properties":{"clusterCaption":"APHRODISIAS MUSEUM AND ARCHAELOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.709379,28.727088'>Open on map</a>","hintContent":"APHRODISIAS MUSEUM AND ARCHAELOGICAL SITE"}},{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":["39.135284","27.181920"]},"properties":{"clusterCaption":"BERGAMA ACROPOLIS ARCHAELOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.135284,27.181920'>Open on map</a>","hintContent":"BERGAMA ACROPOLIS ARCHAELOGICAL SITE"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":["36.533380","31.990432"]},"properties":{"clusterCaption":"ALANYA CASTLE (CITADEL)","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.533380,31.990432'>Open on map</a>","hintContent":"ALANYA CASTLE (CITADEL)"}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":["39.938229","32.861906"]},"properties":{"clusterCaption":"MUSEUM OF ANATOLIAN CIVILIZATIONS","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.938229,32.861906'>Open on map</a>","hintContent":"MUSEUM OF ANATOLIAN CIVILIZATIONS"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":["40.511229","43.572549"]},"properties":{"clusterCaption":"Kars Ani Örenyeri","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=40.511229,43.572549'>Open on map</a>","hintContent":"Kars Ani Örenyeri"}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":["39.118899","27.165551"]},"properties":{"clusterCaption":"BERGAMA ASKLEPION ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.118899,27.165551'>Open on map</a>","hintContent":"BERGAMA ASKLEPION ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":["36.939236","31.172589"]},"properties":{"clusterCaption":"ASPENDOS ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.939236,31.172589'>Open on map</a>","hintContent":"ASPENDOS ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":["39.491887","26.336867"]},"properties":{"clusterCaption":"ASSOS ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.491887,26.336867'>Open on map</a>","hintContent":"ASSOS ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":["37.032270","27.428290"]},"properties":{"clusterCaption":"BODRUM UNDERWATER ARCHAEOLOGY MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.032270,27.428290'>Open on map</a>","hintContent":"BODRUM UNDERWATER ARCHAEOLOGY MUSEUM"}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":["36.453009","34.104466"]},"properties":{"clusterCaption":"SİLİFKE CHASM OF HEAVEN AND HELL","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.453009,34.104466'>Open on map</a>","hintContent":"SİLİFKE CHASM OF HEAVEN AND HELL"}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":["41.038380","28.997080"]},"properties":{"clusterCaption":"Dolmabahçe Sarayı Satış Noktası","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.038380,28.997080'>Open on map</a>","hintContent":"Dolmabahçe Sarayı Satış Noktası"}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":["37.385242","27.256657"]},"properties":{"clusterCaption":"DIDIM ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.385242,27.256657'>Open on map</a>","hintContent":"DIDIM ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":["38.373570","34.735098"]},"properties":{"clusterCaption":"DERİNKUYU UNDERGROUND CITY","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.373570,34.735098'>Open on map</a>","hintContent":"DERİNKUYU UNDERGROUND CITY"}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":["37.949027","27.367859"]},"properties":{"clusterCaption":"EPHESUS MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.949027,27.367859'>Open on map</a>","hintContent":"EPHESUS MUSEUM"}},{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":["37.940972","27.341466"]},"properties":{"clusterCaption":"EPHESUS ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.940972,27.341466'>Open on map</a>","hintContent":"EPHESUS ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":["37.945620","27.341980"]},"properties":{"clusterCaption":"EPHESUS  ARCHAEOLOGICAL  SITE THE TERRACE HOUSES","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.945620,27.341980'>Open on map</a>","hintContent":"EPHESUS  ARCHAEOLOGICAL  SITE THE TERRACE HOUSES"}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":["38.642704","34.845032"]},"properties":{"clusterCaption":"GÖREME ARCHAELOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.642704,34.845032'>Open on map</a>","hintContent":"GÖREME ARCHAELOGICAL SITE"}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":["37.075314","37.386271"]},"properties":{"clusterCaption":"ZEUGMA MOSAIC MUSEUM ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.075314,37.386271'>Open on map</a>","hintContent":"ZEUGMA MOSAIC MUSEUM "}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":["41.010583","28.979035"]},"properties":{"clusterCaption":"İSTANBUL ARCHAEOLOGICAL MUSEUMS","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.010583,28.979035'>Open on map</a>","hintContent":"İSTANBUL ARCHAEOLOGICAL MUSEUMS"}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":["41.011171","28.980454"]},"properties":{"clusterCaption":"İstanbul Arkeoloji Müzesi Üst Gişe","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.011171,28.980454'>Open on map</a>","hintContent":"İstanbul Arkeoloji Müzesi Üst Gişe"}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":["38.242971","34.307889"]},"properties":{"clusterCaption":"IHLARA VALLEY","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.242971,34.307889'>Open on map</a>","hintContent":"IHLARA VALLEY"}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":["38.264319","34.290567"]},"properties":{"clusterCaption":"Aksaray Ihlara Vadisi Örenyeri - Belisırma Girişi","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.264319,34.290567'>Open on map</a>","hintContent":"Aksaray Ihlara Vadisi Örenyeri - Belisırma Girişi"}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":["38.298731","34.263492"]},"properties":{"clusterCaption":"Aksaray Ihlara Vadisi Örenyeri - Selime Girişi","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.298731,34.263492'>Open on map</a>","hintContent":"Aksaray Ihlara Vadisi Örenyeri - Selime Girişi"}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":["36.826343","28.622106"]},"properties":{"clusterCaption":"KAUNOS ANCIENT CITY","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.826343,28.622106'>Open on map</a>","hintContent":"KAUNOS ANCIENT CITY"}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":["36.685916","27.373687"]},"properties":{"clusterCaption":"KNIDOS ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.685916,27.373687'>Open on map</a>","hintContent":"KNIDOS ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":["36.685665","27.373846"]},"properties":{"clusterCaption":"Muğla Marmaris Knidos Örenyeri","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.685665,27.373846'>Open on map</a>","hintContent":"Muğla Marmaris Knidos Örenyeri"}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":["36.575755","29.092005"]},"properties":{"clusterCaption":"FETHİYE KAYAKÖY ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.575755,29.092005'>Open on map</a>","hintContent":"FETHİYE KAYAKÖY ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":["38.459960","34.752235"]},"properties":{"clusterCaption":"KAYMAKLI UNDERGROUND CITY","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.459960,34.752235'>Open on map</a>","hintContent":"KAYMAKLI UNDERGROUND CITY"}},{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":["37.038132","27.424385"]},"properties":{"clusterCaption":"Muğla Bodrum Mausoleium Anıt Müzesi","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.038132,27.424385'>Open on map</a>","hintContent":"Muğla Bodrum Mausoleium Anıt Müzesi"}},{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":["37.870776","32.504991"]},"properties":{"clusterCaption":"MEVLANA MUSEUM ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.870776,32.504991'>Open on map</a>","hintContent":"MEVLANA MUSEUM "}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":["37.530747","27.276099"]},"properties":{"clusterCaption":"MILETUS ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.530747,27.276099'>Open on map</a>","hintContent":"MILETUS ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":31,"geometry":{"type":"Point","coordinates":["37.525640","27.274660"]},"properties":{"clusterCaption":"MILETUS MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.525640,27.274660'>Open on map</a>","hintContent":"MILETUS MUSEUM"}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":["41.004295","28.977410"]},"properties":{"clusterCaption":"Great Palace Mosaics Museums","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.004295,28.977410'>Open on map</a>","hintContent":"Great Palace Mosaics Museums"}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":["38.419040","27.137720"]},"properties":{"clusterCaption":"İzmir Agora Örenyeri","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.419040,27.137720'>Open on map</a>","hintContent":"İzmir Agora Örenyeri"}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":["39.941240","32.851717"]},"properties":{"clusterCaption":"MUSEUM OF REPUBLIC OF ANKARA","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.941240,32.851717'>Open on map</a>","hintContent":"MUSEUM OF REPUBLIC OF ANKARA"}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":["39.942259","32.853828"]},"properties":{"clusterCaption":"Independence War Museum","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.942259,32.853828'>Open on map</a>","hintContent":"Independence War Museum"}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":["37.915110","40.241585"]},"properties":{"clusterCaption":"Diyarbakır Museum ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.915110,40.241585'>Open on map</a>","hintContent":"Diyarbakır Museum "}},{"type":"Feature","id":37,"geometry":{"type":"Point","coordinates":["37.833566","29.116859"]},"properties":{"clusterCaption":"LAODIKEIA ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.833566,29.116859'>Open on map</a>","hintContent":"LAODIKEIA ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":38,"geometry":{"type":"Point","coordinates":["41.028145","28.974462"]},"properties":{"clusterCaption":"Galata Mevlevihouse ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.028145,28.974462'>Open on map</a>","hintContent":"Galata Mevlevihouse "}},{"type":"Feature","id":39,"geometry":{"type":"Point","coordinates":["41.025577","28.974128"]},"properties":{"clusterCaption":"GALATA TOWER","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.025577,28.974128'>Open on map</a>","hintContent":"GALATA TOWER"}},{"type":"Feature","id":40,"geometry":{"type":"Point","coordinates":["41.084800","29.056700"]},"properties":{"clusterCaption":"RUMELI FORTRESS MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.084800,29.056700'>Open on map</a>","hintContent":"RUMELI FORTRESS MUSEUM"}},{"type":"Feature","id":41,"geometry":{"type":"Point","coordinates":["41.014027","28.979586"]},"properties":{"clusterCaption":"MUSEUM OF THE HISTORY OF SCIENCE AND TECHNOLOGY IN ISLAM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.014027,28.979586'>Open on map</a>","hintContent":"MUSEUM OF THE HISTORY OF SCIENCE AND TECHNOLOGY IN ISLAM"}},{"type":"Feature","id":42,"geometry":{"type":"Point","coordinates":["38.323741","26.303179"]},"properties":{"clusterCaption":"ÇEŞME MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.323741,26.303179'>Open on map</a>","hintContent":"ÇEŞME MUSEUM"}},{"type":"Feature","id":43,"geometry":{"type":"Point","coordinates":["41.261248","28.741311"]},"properties":{"clusterCaption":"İstanbul Airport Museum","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.261248,28.741311'>Open on map</a>","hintContent":"İstanbul Airport Museum"}},{"type":"Feature","id":44,"geometry":{"type":"Point","coordinates":["38.436286","27.147657"]},"properties":{"clusterCaption":"İZMİR ART AND CULTURE FACTORY","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.436286,27.147657'>Open on map</a>","hintContent":"İZMİR ART AND CULTURE FACTORY"}},{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":["36.685782","27.373449"]},"properties":{"clusterCaption":"Muğla Marmaris Knidos Örenyeri","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.685782,27.373449'>Open on map</a>","hintContent":"Muğla Marmaris Knidos Örenyeri"}},{"type":"Feature","id":46,"geometry":{"type":"Point","coordinates":["37.038130","27.424380"]},"properties":{"clusterCaption":"BODRUM MAUSOLEUM MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.038130,27.424380'>Open on map</a>","hintContent":"BODRUM MAUSOLEUM MUSEUM"}},{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":["36.850580","28.274232"]},"properties":{"clusterCaption":"MARMARİS MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.850580,28.274232'>Open on map</a>","hintContent":"MARMARİS MUSEUM"}},{"type":"Feature","id":48,"geometry":{"type":"Point","coordinates":["41.290751","36.337713"]},"properties":{"clusterCaption":"SAMSUN MUSEUM ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.290751,36.337713'>Open on map</a>","hintContent":"SAMSUN MUSEUM "}},{"type":"Feature","id":49,"geometry":{"type":"Point","coordinates":["41.016624","29.009991"]},"properties":{"clusterCaption":"Üsküdar Tanıtma Mkart Satış Noktası","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.016624,29.009991'>Open on map</a>","hintContent":"Üsküdar Tanıtma Mkart Satış Noktası"}},{"type":"Feature","id":50,"geometry":{"type":"Point","coordinates":["36.258008","29.986036"]},"properties":{"clusterCaption":"MYRA ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.258008,29.986036'>Open on map</a>","hintContent":"MYRA ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":51,"geometry":{"type":"Point","coordinates":["36.400526","30.475733"]},"properties":{"clusterCaption":"OLYMPOS ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.400526,30.475733'>Open on map</a>","hintContent":"OLYMPOS ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":52,"geometry":{"type":"Point","coordinates":["38.806737","34.840591"]},"properties":{"clusterCaption":"ÖZKONAK UNDERGROUND CITY","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.806737,34.840591'>Open on map</a>","hintContent":"ÖZKONAK UNDERGROUND CITY"}},{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":["36.530147","30.541416"]},"properties":{"clusterCaption":"PHASELIS ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.530147,30.541416'>Open on map</a>","hintContent":"PHASELIS ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":54,"geometry":{"type":"Point","coordinates":["37.941111","29.118527"]},"properties":{"clusterCaption":"Hierapolis Pamukkale Travertine Archeological Site","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.941111,29.118527'>Open on map</a>","hintContent":"Hierapolis Pamukkale Travertine Archeological Site"}},{"type":"Feature","id":55,"geometry":{"type":"Point","coordinates":["36.960493","30.854047"]},"properties":{"clusterCaption":"PERGE ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.960493,30.854047'>Open on map</a>","hintContent":"PERGE ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":56,"geometry":{"type":"Point","coordinates":["36.957947","30.850607"]},"properties":{"clusterCaption":"Perge Archeological Site Theater Section","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.957947,30.850607'>Open on map</a>","hintContent":"Perge Archeological Site Theater Section"}},{"type":"Feature","id":57,"geometry":{"type":"Point","coordinates":["38.679596","34.850712"]},"properties":{"clusterCaption":"Paşabağlar Örenyeri","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.679596,34.850712'>Open on map</a>","hintContent":"Paşabağlar Örenyeri"}},{"type":"Feature","id":58,"geometry":{"type":"Point","coordinates":["36.269000","29.318186"]},"properties":{"clusterCaption":"PATARA ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.269000,29.318186'>Open on map</a>","hintContent":"PATARA ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":59,"geometry":{"type":"Point","coordinates":["37.677513","30.516991"]},"properties":{"clusterCaption":"Burdur Sagalassos Örenyeri","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.677513,30.516991'>Open on map</a>","hintContent":"Burdur Sagalassos Örenyeri"}},{"type":"Feature","id":60,"geometry":{"type":"Point","coordinates":["36.774453","31.401149"]},"properties":{"clusterCaption":"SIDE MUSEUM ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.774453,31.401149'>Open on map</a>","hintContent":"SIDE MUSEUM "}},{"type":"Feature","id":61,"geometry":{"type":"Point","coordinates":["36.770628","31.393063"]},"properties":{"clusterCaption":"Side Karşılama Merkezi","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.770628,31.393063'>Open on map</a>","hintContent":"Side Karşılama Merkezi"}},{"type":"Feature","id":62,"geometry":{"type":"Point","coordinates":["36.771992","31.394541"]},"properties":{"clusterCaption":"SIDE THEATRE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.771992,31.394541'>Open on map</a>","hintContent":"SIDE THEATRE"}},{"type":"Feature","id":63,"geometry":{"type":"Point","coordinates":["37.218803","38.914212"]},"properties":{"clusterCaption":"GÖBEKLİTEPE ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.218803,38.914212'>Open on map</a>","hintContent":"GÖBEKLİTEPE ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":64,"geometry":{"type":"Point","coordinates":["36.191636","29.863600"]},"properties":{"clusterCaption":"SIMENA ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.191636,29.863600'>Open on map</a>","hintContent":"SIMENA ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":65,"geometry":{"type":"Point","coordinates":["40.690060","39.658430"]},"properties":{"clusterCaption":"Trabzon Sümela Manastırı","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=40.690060,39.658430'>Open on map</a>","hintContent":"Trabzon Sümela Manastırı"}},{"type":"Feature","id":66,"geometry":{"type":"Point","coordinates":["37.952920","27.366970"]},"properties":{"clusterCaption":"BASILICA OF ST. JOHN","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.952920,27.366970'>Open on map</a>","hintContent":"BASILICA OF ST. JOHN"}},{"type":"Feature","id":67,"geometry":{"type":"Point","coordinates":["36.244912","29.985436"]},"properties":{"clusterCaption":"ST. NICHOLAS MUSEUM ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=36.244912,29.985436'>Open on map</a>","hintContent":"ST. NICHOLAS MUSEUM "}},{"type":"Feature","id":68,"geometry":{"type":"Point","coordinates":["37.151013","38.782915"]},"properties":{"clusterCaption":"HALEPLİBAHÇE MOSAIC MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.151013,38.782915'>Open on map</a>","hintContent":"HALEPLİBAHÇE MOSAIC MUSEUM"}},{"type":"Feature","id":69,"geometry":{"type":"Point","coordinates":["37.153799","38.781884"]},"properties":{"clusterCaption":"ŞANLIURFA MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.153799,38.781884'>Open on map</a>","hintContent":"ŞANLIURFA MUSEUM"}},{"type":"Feature","id":70,"geometry":{"type":"Point","coordinates":["41.006265","28.974710"]},"properties":{"clusterCaption":"MUSEUM OF TURKISH AND ISLAMIC ARTS ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.006265,28.974710'>Open on map</a>","hintContent":"MUSEUM OF TURKISH AND ISLAMIC ARTS "}},{"type":"Feature","id":71,"geometry":{"type":"Point","coordinates":["41.011244","28.983039"]},"properties":{"clusterCaption":"TOPKAPI PALACE MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.011244,28.983039'>Open on map</a>","hintContent":"TOPKAPI PALACE MUSEUM"}},{"type":"Feature","id":72,"geometry":{"type":"Point","coordinates":["41.012992","28.982710"]},"properties":{"clusterCaption":"TOPKAPI PALACE MUSEUM HAREM APARTMENTS ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.012992,28.982710'>Open on map</a>","hintContent":"TOPKAPI PALACE MUSEUM HAREM APARTMENTS "}},{"type":"Feature","id":73,"geometry":{"type":"Point","coordinates":["41.009300","28.982000"]},"properties":{"clusterCaption":"HAGİA IRENE MONUMENT MUSEUM ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=41.009300,28.982000'>Open on map</a>","hintContent":"HAGİA IRENE MONUMENT MUSEUM "}},{"type":"Feature","id":74,"geometry":{"type":"Point","coordinates":["37.018467","30.508141"]},"properties":{"clusterCaption":"TERMESSOS ARCHAEOLOGICAL SITE ","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=37.018467,30.508141'>Open on map</a>","hintContent":"TERMESSOS ARCHAEOLOGICAL SITE "}},{"type":"Feature","id":75,"geometry":{"type":"Point","coordinates":["39.959420","26.250150"]},"properties":{"clusterCaption":"TROY MUSEUM","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.959420,26.250150'>Open on map</a>","hintContent":"TROY MUSEUM"}},{"type":"Feature","id":76,"geometry":{"type":"Point","coordinates":["39.955406","26.249509"]},"properties":{"clusterCaption":"THE ARCHAEOLOGICAL SITE OF TROY","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=39.955406,26.249509'>Open on map</a>","hintContent":"THE ARCHAEOLOGICAL SITE OF TROY"}},{"type":"Feature","id":77,"geometry":{"type":"Point","coordinates":["38.669174","34.863368"]},"properties":{"clusterCaption":"ZELVE-PAŞABAĞLAR ARCHAEOLOGICAL SITE","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.669174,34.863368'>Open on map</a>","hintContent":"ZELVE-PAŞABAĞLAR ARCHAEOLOGICAL SITE"}},{"type":"Feature","id":78,"geometry":{"type":"Point","coordinates":["38.691060","34.867660"]},"properties":{"clusterCaption":"Nevşehir Paşabağlar Örenyeri","balloonContentBody":"<a target='_blank' href='https://www.google.com/maps/search/?api=1&query=38.691060,34.867660'>Open on map</a>","hintContent":"Nevşehir Paşabağlar Örenyeri"}}]});
+     }
+     document.addEventListener('DOMContentLoaded', function () {
+         mysYandexMap({
+             container: 'bigMap',
+             lang: 'en',
+             text: "To view the map you need to allow functional cookies. Click to load.",
+             btn: "Load Map",
+             init: init
+         });
+     });
+        </script>
+
+    <script>
+        $('#responseModal').modal('show');
+    </script>
+    <script src="/js/email-suggest.js"></script>
+</body>
+</html>
