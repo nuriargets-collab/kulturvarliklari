@@ -1,0 +1,24 @@
+name: Veri topla (gecici)
+on:
+  push:
+    branches: [veri-topla]
+    paths: [veri/istek.txt]
+permissions:
+  contents: write
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p veri/cikti
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+          n=0
+          while read -r url; do
+            [ -z "$url" ] && continue; n=$((n+1))
+            curl -sL -A "$UA" --max-time 60 "$url" -o "veri/cikti/$n.html" -w "$n %{http_code} %{size_download} $url\n" >> veri/cikti/ozet.txt || echo "$n HATA $url" >> veri/cikti/ozet.txt
+            sleep 1
+          done < veri/istek.txt
+      - run: |
+          git config user.name github-actions; git config user.email actions@github.com
+          git add veri && git commit -m "veri [skip ci]" && git push
