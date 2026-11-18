@@ -381,3 +381,31 @@ QLP01 | Lapidari Müzesi | Suriçi/Lefkoşa | Müze | Lüzinyan / Venedik |  | 3
 QGZ01 | Güzelyurt Arkeoloji ve Doğa Tarihi Müzesi | Güzelyurt/Güzelyurt | Müze | Çok Dönemli |  | 35.20,32.99 | Güzelyurt Arkeoloji ve Doğa Tarihi Müzesi, Güzelyurt'ta Aziz Mamas Kilisesi'nin hemen yanındaki eski piskoposluk binasında yer alır.
 QSO01 | Soli Örenyeri | Gemikonağı/Lefke | Ören Yeri | Arkaik / Roma |  | 35.14,32.81 | Soli Örenyeri, Lefke yakınında, Güzelyurt Körfezi'ne bakan yamaçta, Kıbrıs'ın antik krallıklarından birinin kentidir.
 QVO01 | Vouni Sarayı | Yeşilırmak/Lefke | Ören Yeri | Klasik (MÖ 5. yy) |  | 35.16,32.77 | Vouni Sarayı, Lefke'nin batısında, denizden yaklaşık 250 metre yükselen bir tepenin üzerinde yer alır.
+WSU01 | Süleymaniye Camii | Fatih/İstanbul | Dini Yapı | Osmanlı (16. yy) |  | 41.02,28.96 | Süleymaniye Camii, İstanbul'un yedi tepesinden birinde, Haliç'e hâkim bir noktada yükselir.
+WSA01 | Sultanahmet Camii (Mavi Cami) | Fatih/İstanbul | Dini Yapı | Osmanlı (17. yy) |  | 41.01,28.98 | Sultanahmet Camii, Ayasofya'nın karşısında, eski Hipodrom'un kıyısında yer alır.
+WAY01 | Ayasofya-i Kebir Cami-i Şerifi | Fatih/İstanbul | Dini Yapı | Bizans / Osmanlı |  | 41.01,28.98 | Ayasofya-i Kebir Cami-i Şerifi, 532–537 yıllarında İmparator Justinianus döneminde inşa edildi ve dev kubbesiyle bin yıl boyunca dünyanın en büyük…
+WKR01 | Kariye Camii (Khora) | Fatih/İstanbul | Dini Yapı | Bizans / Osmanlı |  | 41.03,28.94 | Kariye Camii, İstanbul surlarının yakınındaki eski Khora Manastırı'nın kilisesidir.
+WEY01 | Eyüp Sultan Camii | Eyüpsultan/İstanbul | Dini Yapı | Osmanlı |  | 41.05,28.93 | Eyüp Sultan Camii, Haliç'in kıyısında, Hz.
+WAI01 | Aya İrini Anıt Müzesi | Fatih/İstanbul | Dini Yapı | Bizans (6. yy) |  | 41.01,28.98 | Aya İrini, Topkapı Sarayı'nın birinci avlusunda, İstanbul'un en eski kilise yapılarından biridir.
+WAN01 | St. Antuan Kilisesi | Beyoğlu/İstanbul | Dini Yapı | Osmanlı (20. yy) |  | 41.03,28.98 | St.
+WFP01 | Fener Rum Patrikhanesi ve Aya Yorgi Kilisesi | Fatih/İstanbul | Dini Yapı | Osmanlı (18. yy) |  | 41.03,28.95 | Fener Rum Patrikhanesi, Haliç kıyısındaki Fener semtinde, 17.
+WBD01 | Bulgar Sveti Stefan (Demir) Kilisesi | Fatih/İstanbul | Dini Yapı | Osmanlı (19. yy) |  | 41.03,28.95 | Bulgar Sveti Stefan Kilisesi, Haliç kıyısında, halk arasında 'Demir Kilise' olarak bilinir.
+WAH01 | Ahrida Sinagogu | Fatih/İstanbul | Dini Yapı | Osmanlı (15. yy) |  | 41.03,28.95 | Ahrida Sinagogu, Balat'ta, İstanbul'un en eski sinagoglarından biridir.
+WES01 | Edirne Selimiye Camii | Merkez/Edirne | Dini Yapı | Osmanlı (16. yy) |  | 41.68,26.56 | Edirne Selimiye Camii, Mimar Sinan'ın Sultan II.
+WEB01 | Edirne Büyük Sinagog | Merkez/Edirne | Dini Yapı | Osmanlı (20. yy) |  | 41.67,26.55 | Edirne Büyük Sinagog, 1905'teki büyük yangının ardından şehrin Yahudi cemaati için 1907'de inşa edildi ve Avrupa'nın büyük sinagogları arasında…
+WBU01 | Bursa Ulu Camii | Osmangazi/Bursa | Dini Yapı | Osmanlı (14. yy) |  | 40.18,29.06 | Bursa Ulu Camii, Sultan Yıldırım Bayezid tarafından 1396–1399 yılları arasında yaptırıldı.
+WYC01 | Bursa Yeşil Cami ve Yeşil Türbe | Yıldırım/Bursa | Dini Yapı | Osmanlı (15. yy) |  | 40.18,29.07 | Yeşil Cami, Sultan I.
+WDV01 | Divriği Ulu Camii ve Darüşşifası | Divriği/Sivas | Dini Yapı | Selçuklu (13. yy) |  | 39.37,38.12 | Divriği Ulu Camii ve Darüşşifası, Sivas'ın Divriği ilçesinde, Mengücekli Beyi Ahmed Şah ve eşi Turan Melek Sultan tarafından 1228–1229'da yaptırıldı.
+WMA01 | Meryem Ana Evi | Selçuk/İzmir | Dini Yapı | Bizans |  | 37.91,27.33 | Meryem Ana Evi, Efes yakınındaki Bülbül Dağı'nın ormanlık yamacında, Hristiyan geleneğine göre Meryem Ana'nın son yıllarını geçirdiği yer olarak…
+WDZ01 | Deyrulzafaran Manastırı | Artuklu/Mardin | Dini Yapı | Erken Hristiyanlık / Bizans |  | 37.30,40.79 | Deyrulzafaran Manastırı, Mardin'in yaklaşık 5 km doğusunda, Süryani Ortodoks Kilisesi'nin en önemli manastırlarından biridir.
+WMG01 | Mor Gabriel Manastırı | Midyat/Mardin | Dini Yapı | Erken Hristiyanlık |  | 37.32,41.54 | Mor Gabriel Manastırı (Deyrulumur), Midyat yakınında, Tur Abdin bölgesinde 397 yılında kurulan ve dünyada hâlâ faaliyette olan en eski…
+WDU01 | Diyarbakır Ulu Camii | Sur/Diyarbakır | Dini Yapı | Selçuklu |  | 37.91,40.24 | Diyarbakır Ulu Camii, Sur ilçesinde, Anadolu'nun en eski camilerinden biri sayılır.
+WSG01 | Surp Giragos Ermeni Kilisesi | Sur/Diyarbakır | Dini Yapı | Osmanlı (19. yy) |  | 37.91,40.24 | Surp Giragos Ermeni Kilisesi, Diyarbakır'ın Sur ilçesinde, Orta Doğu'nun en büyük Ermeni kiliseleri arasında sayılır.
+WBG01 | Balıklıgöl ve Halil-ür Rahman Camii | Eyyübiye/Şanlıurfa | Dini Yapı | Ortaçağ / Osmanlı |  | 37.15,38.78 | Balıklıgöl, Şanlıurfa'nın kalbinde, İbrahim Peygamber'e ilişkin geleneklerle özdeşleşmiş kutsal bir alandır.
+WTP01 | Topkapı Sarayı | Fatih/İstanbul | Kale & Tarihi Yapı | Osmanlı (15.–19. yy) |  | 41.01,28.98 | Topkapı Sarayı, Sarayburnu'nda, İstanbul'un fethinden sonra Fatih Sultan Mehmed tarafından yaptırıldı ve yaklaşık dört yüzyıl boyunca Osmanlı…
+WDB01 | Dolmabahçe Sarayı | Beşiktaş/İstanbul | Kale & Tarihi Yapı | Osmanlı (19. yy) |  | 41.04,29.00 | Dolmabahçe Sarayı, Boğaz kıyısında, Sultan Abdülmecid için 1843–1856 yılları arasında inşa edildi ve Osmanlı'nın son döneminde yönetim merkezi oldu.
+WYS01 | Yerebatan Sarnıcı | Fatih/İstanbul | Kale & Tarihi Yapı | Bizans (6. yy) |  | 41.01,28.98 | Yerebatan Sarnıcı, Ayasofya'nın yakınında, 6.
+WPE01 | Pera Müzesi | Beyoğlu/İstanbul | Müze | Çok Dönemli |  | 41.03,28.98 | Pera Müzesi, Suna ve İnan Kıraç Vakfı tarafından 2005'te, Tepebaşı'ndaki tarihî Bristol Oteli binasında açıldı.
+WIM01 | İstanbul Modern | Beyoğlu/İstanbul | Müze | Cumhuriyet / Çağdaş |  | 41.03,28.98 | İstanbul Modern, 2004'te Türkiye'nin ilk modern ve çağdaş sanat müzesi olarak açıldı.
+WRK01 | Rahmi M. Koç Müzesi | Beyoğlu/İstanbul | Müze | Yakın Dönem |  | 41.04,28.95 | Rahmi M.
+WSS01 | Sakıp Sabancı Müzesi | Sarıyer/İstanbul | Müze | Osmanlı / Çağdaş |  | 41.10,29.05 | Sakıp Sabancı Müzesi, Emirgan'da Boğaz'a bakan tarihî Atlı Köşk'te 2002'de açıldı.
