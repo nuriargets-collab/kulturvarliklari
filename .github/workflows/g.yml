@@ -1,0 +1,16 @@
+name: Gorsel topla 2
+on:
+  push:
+    branches: [gorsel-2]
+    paths: [kktc/liste.tsv]
+permissions:
+  contents: write
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 kktc/getir.py
+      - run: |
+          git config user.name github-actions; git config user.email actions@github.com
+          git add kktc && git commit -m "gorsel [skip ci]" && git push
