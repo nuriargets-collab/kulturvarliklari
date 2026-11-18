@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>T. C. Ministry of Culture and Tourism - MuseumPass</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link href="/css/bundle.min.css?v1.0.0+b261116_14443" rel="stylesheet">
+    <style>
+        header .top-bar {
+        background: #00a4c3;
+        }
+
+        .main-padder .heading-with-photo .slider-figure {
+        height: 250px;
+        }
+    </style>
+        <link rel="icon" href="/img/logo.png" />
+    <script>
+        var mysGaId = 'G-FTR8605NSC';
+        var mysCookiePolicyVersion = '1';
+        var mysConsentPrompted = /(?:^|; )cookie_consent_prompt=1(?:;|$)/.test(document.cookie);
+        window.mysConsentValid = function () {
+            if (mysConsentPrompted) {
+                return null;
+            }
+            try {
+                var m = document.cookie.match(/(?:^|; )cookie_consent=([^;]*)/);
+                var c = m ? JSON.parse(decodeURIComponent(m[1])) : null;
+                return c && c.v === mysCookiePolicyVersion ? c : null;
+            } catch (e) {
+                return null;
+            }
+        };
+        window.mysConsentSaved = function () {
+            mysConsentPrompted = false;
+        };
+        window.mysLoadAnalytics = function () {
+            if (location.hostname !== 'muze.gov.tr' && location.hostname !== 'www.muze.gov.tr') {
+                return;
+            }
+            window['ga-disable-' + mysGaId] = false;
+            if (window.__gaLoaded) {
+                return;
+            }
+            window.__gaLoaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + mysGaId;
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () { dataLayer.push(arguments); };
+            gtag('js', new Date());
+            var referrer = '';
+            try {
+                if (document.referrer) {
+                    var r = new URL(document.referrer);
+                    referrer = r.origin + r.pathname;
+                }
+            } catch (e) {
+            }
+            gtag('config', mysGaId, {
+                page_location: location.origin + location.pathname,
+                page_referrer: referrer
+            });
+        };
+        window.mysUnloadAnalytics = function () {
+            window['ga-disable-' + mysGaId] = true;
+            var names = document.cookie.split(';');
+            for (var i = 0; i < names.length; i++) {
+                var n = names[i].split('=')[0].trim();
+                if (n === '_ga' || n.indexOf('_ga_') === 0) {
+                    document.cookie = n + '=; path=/; domain=' + location.hostname + '; max-age=0';
+                    document.cookie = n + '=; path=/; domain=.' + location.hostname.replace(/^www\./, '') + '; max-age=0';
+                    document.cookie = n + '=; path=/; max-age=0';
+                }
+            }
+        };
+        (function () {
+            var c = window.mysConsentValid();
+            if (c && c.analitik === true) {
+                window.mysLoadAnalytics();
+            }
+        })();
+    </script>
+    
+    <meta property='title' content="Museum Pass Turkey " />
+    <meta property='og:title' content="Museum Pass Turkey " />
+    <meta property='og:description' content="M&#xFC;zeKart: Valid exclusively for Republic of T&#xFC;rkiye citizens, the M&#xFC;zeKart grants one-year access to more than 350 museums and archaeological sites affiliated with the Republic of T&#xFC;rkiye Ministry of Culture and Tourism, National Palaces, and the &#xC7;anakkale Site Presidency.You can obtain a Mobile M&#xFC;zeKart via the T&#xFC;rkiye&#x2019;s Museums application and enter museums and archaeological sites using a QR code." />
+    <meta property='og:url' content="https://muze.gov.tr/MuseumPass" />
+    <meta property="og:image:width" content="1900" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:image" content="https://muze.gov.tr/img/cover_about-us.jpg" />
+    <meta property="og:site_name" content="T.C. Kültür ve Turizm Bakanlığı" />
+    <meta property="og:type" content="website" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="float-right mr-lg-4 mr-md-2 ">
+                        <a class="shopping-cart" href="/sepet">
+                            <img src="/img/cart.svg" alt="Cart">
+                        </a>
+                    </div>
+
+                    <div class="float-right lang-selector">
+                        <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="/" id="lang-selector"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="/img/en.png"
+                                    alt="English"> EN
+                                </a>
+                            <div class="dropdown-menu" aria-labelledby="lang-selector">
+
+                                    <a class="dropdown-item" href="/Language/Index/EN?url=%2FMuseumPass%3Fculture%3Dtr"><img src="/img/en.png" alt="English"> EN</a>
+                                    <a class="dropdown-item" href="/Language/Index/TR?url=%2FMuseumPass%3Fculture%3Dtr"><img src="/img/tr.png" alt="Türkçe"> TR</a>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="search-bar float-right">
+                            <div class="search-wrapper">
+                                <div class="md-form form-sm">
+                                    <form action="/ara" method="post">
+                                        <input type="text" id="search-input" name="keyword" class="form-control form-control-sm" required>
+                                        <label for="search-input">Search</label>
+                                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BIP2gpX-ktLiRxqaqivv10jZJTIf_mfL94xNOoradutCGmAmvS0iBR_cmk-nPOCVrjzpUkH0g83D0J523w3lZfK357_gKTCTTvNVGKPWB6Q7LaX0xt_-qT2lLQeslatUTd8Uzvxih1-oyCw8f7yIH8" /></form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <span class='muzelogo py-2 col-2 col-lg-1 membership'>
+                            <a href="/">
+                                <img src="/img/logo.png" alt="Müze Kart" height="60" />
+                            </a>
+                    </span>
+                    <button class="navbar-toggler navbar-toggler-right align-self-center" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class='collapse navbar-collapse col-12 col-lg-9' id="navbarCollapse">
+                        <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/hakkimizda">
+                                        ABOUT US
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" style="color: #00a4c3 !important;" href="/MuseumPass">
+                                        MuseumPass
+                                    </a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/NightMuseum">
+                                            Museum Night Experience
+                                        </a>
+                                    </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: #d1873e !important; " href="/ETicket">
+                                        E-Ticket
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/muzeler">
+                                        Museums
+                                    </a>
+                                </li>
+                                        <li class="d-md-block d-lg-none d-xl-none d-sm-block border-top nav-item dropdown">
+                                            <a class="btn btn-outline-default" href="/giris-yap">
+                                                Sign In
+
+                                            </a>
+                                            <a class="btn btn-default" href="/kayit-ol">
+                                                Sign Up
+                                            </a>
+                                        </li>
+                        </ul>
+                    </div>
+                                <ul class="d-none d-lg-block user-menu col-2 text-right">
+                                    <li class="login-items">
+                                        <a class="btn btn-outline-default" href="/giris-yap">
+                                            Sign In
+
+                                        </a>
+                                        <a class="btn btn-default" href="/kayit-ol">
+                                            Sign Up
+                                        </a>
+                                    </li>
+
+                                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<!--Padder Layout-->
+<div class="main-padder">
+    <div class="heading-with-photo">
+        <div class="view">
+            <div class="slider-figure" style="background-image:url(/img/cover_about-us.jpg)"></div>
+            <div class="mask rgba-teal-slight"></div>
+            <span class="h1-responsive text-uppercase">MuseumPass</span>
+        </div>
+    </div>
+</div>
+<!--Padder Layout-->
+<!--Main layout-->
+<main class="mt-5 pt-3">
+    <div class="container">
+        <section class="static-page">
+            <h1 class="text-uppercase">
+                MuseumPass
+            </h1>
+            <hr class="mb-5">
+            <div class="row">
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=KRT-MBL01-08-008">
+                                    <img data-progressive="/s3/SectionPicture/SP_bc754b0e-e97b-40fb-b39c-05b43deb1c1c.jpg" src="/img/loader-for-image.gif" alt="Mobil M&#xFC;zeKart" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=KRT-MBL01-08-008">
+                                <h1 class="text-uppercase">Mobile M&#xFC;zeKart</h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=KRT-MBL01-08-008" class="detail">More details</a>
+                            </p>
+                            <a href="/urun-ekle?catalogNo=KRT-MBL01-08-008" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=WEB-HDY01-01-008">
+                                    <img data-progressive="/s3/SectionPicture/SP_59e265ef-db2f-41e1-943e-ad2862ba8ebd.jpg" src="/img/loader-for-image.gif" alt="Hediye Mobil M&#xFC;zeKart" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=WEB-HDY01-01-008">
+                                <h1 class="text-uppercase">Gift Mobile M&#xFC;zeKart</h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=WEB-HDY01-01-008" class="detail">More details</a>
+                            </p>
+                            <a href="/urun-ekle?catalogNo=WEB-HDY01-01-008" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=KRT-MBL01-99-008">
+                                    <img data-progressive="/s3/SectionPicture/SP_88e0097c-b57d-45a8-a662-47cc7955a71b.png" src="/img/loader-for-image.gif" alt="Mobil M&#xFC;zeKart 99" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=KRT-MBL01-99-008">
+                                <h1 class="text-uppercase"></h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=KRT-MBL01-99-008" class="detail">More details</a>
+                            </p>
+                                <p>
+                                    <a href="/satis-noktasi?CatalogNo=KRT-MBL01-99-008" class="point-of-sales text-uppercase">Point of sales</a>
+                                </p>
+                            <a href="/urun-ekle?catalogNo=KRT-MBL01-99-008" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-27-009">
+                                    <img data-progressive="/s3/SectionPicture/SP_3edbc74c-4a48-474b-aec3-13303573120d.png" src="/img/loader-for-image.gif" alt="MuseumPass T&#xFC;rkiye E-Kart" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=WEB-MSP01-27-009">
+                                <h1 class="text-uppercase">MuseumPass T&#xFC;rkiye E-Card</h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-27-009" class="detail">More details</a>
+                            </p>
+                                <p>
+                                    <a href="/satis-noktasi?CatalogNo=WEB-MSP01-27-009" class="point-of-sales text-uppercase">Point of sales</a>
+                                </p>
+                            <a href="/urun-ekle?catalogNo=WEB-MSP01-27-009" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-05-009">
+                                    <img data-progressive="/s3/SectionPicture/SP_6001ceeb-2ae5-4e40-b720-6b820ebc5bcf.jpg" src="/img/loader-for-image.gif" alt="MuseumPass &#x130;stanbul E-Kart" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=WEB-MSP01-05-009">
+                                <h1 class="text-uppercase">MuseumPass &#x130;stanbul E-Card</h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-05-009" class="detail">More details</a>
+                            </p>
+                                <p>
+                                    <a href="/satis-noktasi?CatalogNo=WEB-MSP01-05-009" class="point-of-sales text-uppercase">Point of sales</a>
+                                </p>
+                            <a href="/urun-ekle?catalogNo=WEB-MSP01-05-009" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-19-009">
+                                    <img data-progressive="/s3/SectionPicture/SP_342a5799-5320-429f-b1e0-be1b0eff9a0f.jpg" src="/img/loader-for-image.gif" alt="MuseumPass Cappadoc&#x131;a E-Kart" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=WEB-MSP01-19-009">
+                                <h1 class="text-uppercase">MuseumPass Cappadoc&#x131;a E-Card</h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-19-009" class="detail">More details</a>
+                            </p>
+                                <p>
+                                    <a href="/satis-noktasi?CatalogNo=WEB-MSP01-19-009" class="point-of-sales text-uppercase">Point of sales</a>
+                                </p>
+                            <a href="/urun-ekle?catalogNo=WEB-MSP01-19-009" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-25-009">
+                                    <img data-progressive="/s3/SectionPicture/SP_75ec4200-759d-492c-9474-54e7e784c0ab.jpg" src="/img/loader-for-image.gif" alt="MuseumPass Akdeniz E-Kart" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=WEB-MSP01-25-009">
+                                <h1 class="text-uppercase">MuseumPass The Mediterranean E-Card</h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-25-009" class="detail">More details</a>
+                            </p>
+                                <p>
+                                    <a href="/satis-noktasi?CatalogNo=WEB-MSP01-25-009" class="point-of-sales text-uppercase">Point of sales</a>
+                                </p>
+                            <a href="/urun-ekle?catalogNo=WEB-MSP01-25-009" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card card-listing">
+                            <figure>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-26-009">
+                                    <img data-progressive="/s3/SectionPicture/SP_f8d4a921-5030-408d-9354-6b6545756a75.jpg" src="/img/loader-for-image.gif" alt="MuseumPass Ege E-Kart" class="progressive__img progressive--not-loaded">
+                                </a>
+                            </figure>
+                            <a href="/urun-detay?CatalogNo=WEB-MSP01-26-009">
+                                <h1 class="text-uppercase">MuseumPass The Aegean E-Card</h1>
+                            </a>
+                            <p>
+                                <a href="/urun-detay?CatalogNo=WEB-MSP01-26-009" class="detail">More details</a>
+                            </p>
+                                <p>
+                                    <a href="/satis-noktasi?CatalogNo=WEB-MSP01-26-009" class="point-of-sales text-uppercase">Point of sales</a>
+                                </p>
+                            <a href="/urun-ekle?catalogNo=WEB-MSP01-26-009" class="purchase text-uppercase">Purchase</a>
+                        </div>
+                    </article>
+            </div>
+        </section>
+        <hr class="my-0">
+    </div>
+</main>
+<!--Main layout-->
+
+
+
+    <div class="modal fade" id="deleteAccountModal" tabindex="-1" role="dialog" aria-labelledby="aydinlatmaModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-uppercase">
+                        Are you sure you want to delete your account?
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <article class="static-page detail-page">
+                        <p>
+                            <strong>Do you want to continue all your membership information will be deleted?</strong>
+                        </p>
+                        <p>
+                            A verification link will be sent to your email address to delete your account.
+                        </p>
+                    </article>
+                </div>
+                <div class="modal-footer">
+                    <a href="/hesabimi-sil" class="btn btn-danger">
+                        Delete My Account
+                    </a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <hr class="mb-4">
+            <div class="text-center footer-nav">
+                <nav>
+                        <a href="/iletisim">
+                            Contact Us
+                        </a>
+                        <a href="/document/bakanlik_yonergesi_en.pdf" target="_blank" rel="noreferrer noopener">
+                            Government Legislation
+                        </a>
+                    <a href="https://acente.muze.gov.tr" target="_blank" rel="noreferrer noopener">
+                        Corporate
+                    </a>
+                    <a href="/kisisel-verilerin-islenmesi">
+                        Processing of Personal Data
+                    </a>
+                    <a href="/cerezpolitikasi">
+                        Cookie Policy
+                    </a>
+                </nav>
+            </div>
+            <hr class="my-4 w-75">
+            <div class="text-center">
+                <a href="https://goturkey.com/" target="_blank" class="no-border" rel="noreferrer noopener">
+                    <img src="/img/turkiye-logo.png" alt="Home Turkey" style="width:100px;">
+                </a>
+                <a href="http://www.kultur.gov.tr/" target="_blank" class="no-border mr-5" rel="noreferrer noopener">
+                    <img src="/img/bakanlik-logo.png" style="margin-left:30px" alt="Kültür Bakanlığı">
+                </a>
+                <a href="http://www.dosimm.gov.tr/" target="_blank" class="no-border" rel="noreferrer noopener">
+                    <img src="/img/dosimm-logo.png" alt="DÖSİMM">
+                </a>
+            </div>
+            <hr class="my-4 w-50">
+        </div>
+        <div class="text-center social-icons mb-4">
+                <a href="https://www.facebook.com/Muzekart/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/Muzekart/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/Muzekart/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-instagram"></i>
+                </a>
+        </div>
+        <div class="footer-copyright text-center py-3">
+            <a href="http://www.kulturturizm.gov.tr" target="_blank" rel="noreferrer noopener">www.kulturturizm.gov.tr </a>
+            <a href="http://www.dosim.gov.tr" target="_blank" rel="noreferrer noopener">www.dosim.gov.tr </a>
+            <a href="https://www.goturkiye.com" target="_blank" rel="noreferrer noopener">www.goturkiye.com </a>
+        </div>
+    </footer>
+    
+<div id="cookieConsentRoot" data-policy-version="1" data-save-url="/CookieConsent/Save" data-save-error="Your choice could not be saved. Please try again." data-map-consent-note="By clicking the button you give your consent to functional cookies." data-suppress-banner="false">
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BIP2gpX-ktLiRxqaqivv10jZJTIf_mfL94xNOoradutCGmAmvS0iBR_cmk-nPOCVrjzpUkH0g83D0J523w3lZfK357_gKTCTTvNVGKPWB6Q7LaX0xt_-qT2lLQeslatUTd8Uzvxih1-oyCw8f7yIH8" />
+
+    <div id="cookieConsentBanner" class="cookie-consent-banner" role="dialog" aria-modal="false" aria-label="This site uses cookies">
+        <div class="cookie-consent-banner-body">
+            <h3 class="cookie-consent-title">This site uses cookies</h3>
+            <p class="cookie-consent-text">We use cookies to provide you with the best possible experience on our website. Analytics and functional cookies are off by default and are not loaded until you save your choice. For details, see our <a href="/cerezpolitikasi">Cookie Policy</a>.</p>
+        </div>
+        <div class="cookie-consent-actions">
+            <button type="button" class="btn btn-default cookie-btn" data-cookie-action="accept-all">Accept All</button>
+            <button type="button" class="btn btn-default cookie-btn" data-cookie-action="reject-all">Reject All</button>
+            <button type="button" class="btn btn-outline-default cookie-btn" data-cookie-action="manage">Manage Preferences</button>
+        </div>
+        <p class="cookie-consent-error" role="alert"></p>
+    </div>
+
+    <div id="cookieConsentPanel" class="cookie-consent-panel" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Cookie Preferences">
+        <div class="cookie-consent-panel-card">
+            <div class="cookie-consent-panel-header">
+                <h3>Cookie Preferences</h3>
+                <button type="button" class="cookie-consent-close" data-cookie-action="close" aria-label="Close">&times;</button>
+            </div>
+            <div class="cookie-consent-panel-body">
+                <div class="cookie-category">
+                    <div class="cookie-category-head">
+                        <span class="cookie-category-name">Strictly necessary cookies</span>
+                        <span class="cookie-category-always">Always on</span>
+                    </div>
+                    <p class="cookie-category-desc">Required for core site functions such as login, filling in forms and remembering your privacy choices, as well as security. These cannot be switched off.</p>
+                </div>
+
+                <div class="cookie-category">
+                    <div class="cookie-category-head">
+                        <span class="cookie-category-name">Analytics / performance cookies</span>
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="cookiePrefAnalitik">
+                            <span class="cookie-slider"></span>
+                        </label>
+                    </div>
+                    <p class="cookie-category-desc">Visit and performance statistics. Third party; data is transferred abroad.</p>
+                </div>
+
+                <div class="cookie-category">
+                    <div class="cookie-category-head">
+                        <span class="cookie-category-name">Functional cookies</span>
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="cookiePrefIslevsel">
+                            <span class="cookie-slider"></span>
+                        </label>
+                    </div>
+                    <p class="cookie-category-desc">Map display. Third party. If not allowed, the map stays passive and is only loaded when you click it.</p>
+                </div>
+            </div>
+            <div class="cookie-consent-panel-footer">
+                <button type="button" class="btn btn-default cookie-btn" data-cookie-action="reject-all">Reject All</button>
+                <button type="button" class="btn btn-outline-default cookie-btn" data-cookie-action="save">Save Choices</button>
+                <button type="button" class="btn btn-default cookie-btn" data-cookie-action="accept-all">Accept All</button>
+                <p class="cookie-consent-error" role="alert"></p>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" id="cookieConsentIcon" class="cookie-consent-icon" data-cookie-action="manage" title="Cookie settings" aria-label="Cookie settings">
+        <i class="fas fa-cookie-bite"></i>
+    </button>
+</div>
+
+<style>
+    .cookie-consent-banner {
+        position: fixed;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+        width: 92%;
+        max-width: 640px;
+        background: #fff;
+        border: 1px solid #d9e2e6;
+        border-radius: 8px;
+        box-shadow: 0 8px 28px rgba(0,0,0,.18);
+        padding: 20px 22px;
+        z-index: 20000;
+        display: none;
+    }
+    .cookie-consent-banner.is-visible {
+        display: block;
+    }
+    .cookie-consent-title {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 8px;
+        color: #1b2a30;
+    }
+    .cookie-consent-text {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 0 16px;
+        color: #44555c;
+    }
+    .cookie-consent-text a {
+        color: #00a4c3;
+        text-decoration: underline;
+    }
+    .cookie-consent-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .cookie-consent-actions .cookie-btn,
+    .cookie-consent-panel-footer .cookie-btn {
+        flex: 1 1 auto;
+        min-width: 140px;
+        margin: 0;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: none;
+    }
+    .cookie-consent-panel {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.45);
+        z-index: 20001;
+        display: none;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 16px 16px 74px 18px;
+    }
+    .cookie-consent-panel.is-visible {
+        display: flex;
+    }
+    .cookie-consent-panel-card {
+        background: #fff;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 420px;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 12px 40px rgba(0,0,0,.3);
+    }
+    .cookie-consent-panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 22px;
+        border-bottom: 1px solid #eef2f4;
+    }
+    .cookie-consent-panel-header h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        color: #1b2a30;
+    }
+    .cookie-consent-close {
+        background: none;
+        border: none;
+        font-size: 26px;
+        line-height: 1;
+        color: #8a9aa1;
+        cursor: pointer;
+    }
+    .cookie-consent-panel-body {
+        padding: 8px 22px;
+    }
+    .cookie-category {
+        padding: 16px 0;
+        border-bottom: 1px solid #f0f4f6;
+    }
+    .cookie-category:last-child {
+        border-bottom: none;
+    }
+    .cookie-category-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+    .cookie-category-name {
+        font-size: 15px;
+        font-weight: 600;
+        color: #1b2a30;
+    }
+    .cookie-category-always {
+        font-size: 12px;
+        font-weight: 600;
+        color: #00a4c3;
+        white-space: nowrap;
+    }
+    .cookie-category-desc {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #5a6b72;
+        margin: 8px 0 0;
+    }
+    .cookie-switch {
+        position: relative;
+        display: inline-block;
+        width: 46px;
+        height: 24px;
+        margin: 0;
+        flex: 0 0 auto;
+    }
+    .cookie-switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .cookie-slider {
+        position: absolute;
+        cursor: pointer;
+        inset: 0;
+        background: #c5ced2;
+        border-radius: 24px;
+        transition: background .2s;
+    }
+    .cookie-slider::before {
+        content: "";
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        left: 3px;
+        bottom: 3px;
+        background: #fff;
+        border-radius: 50%;
+        transition: transform .2s;
+    }
+    .cookie-switch input:checked + .cookie-slider {
+        background: #00a4c3;
+    }
+    .cookie-switch input:checked + .cookie-slider::before {
+        transform: translateX(22px);
+    }
+    .cookie-consent-panel-footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 18px 22px;
+        border-top: 1px solid #eef2f4;
+    }
+    .cookie-consent-error {
+        display: none;
+        flex: 1 1 100%;
+        margin: 12px 0 0;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: #c0392b;
+    }
+    .cookie-consent-error.is-visible {
+        display: block;
+    }
+    .cookie-consent-icon {
+        position: fixed;
+        left: 18px;
+        bottom: 18px;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        border: none;
+        background: #00a4c3;
+        color: #fff;
+        font-size: 20px;
+        box-shadow: 0 4px 14px rgba(0,0,0,.25);
+        z-index: 19999;
+        cursor: pointer;
+        display: none;
+    }
+    .cookie-consent-icon.is-visible {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cookie-map-overlay {
+        position: absolute;
+        inset: 0;
+        background: #eef2f4 url('/img/noimage.png') center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 5;
+    }
+    .cookie-map-overlay-inner {
+        background: rgba(255,255,255,.92);
+        padding: 18px 22px;
+        border-radius: 8px;
+        max-width: 380px;
+    }
+    .cookie-map-overlay-inner p {
+        font-size: 14px;
+        margin: 0 0 12px;
+        color: #1b2a30;
+    }
+    .cookie-map-overlay-inner .cookie-map-overlay-note {
+        font-size: 12px;
+        margin: 10px 0 0;
+        color: #5a6b72;
+    }
+    .cookie-map-overlay-inner .cookie-map-overlay-error {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 8px 0 0;
+        color: #c0392b;
+    }
+</style>
+
+
+    <script type="text/javascript" src="/js/bundle.min.js"></script>
+    <script type="text/javascript" src="/js/cookie-consent.js?v1.0.0+b261116_14443"></script>
+    <script>
+        $(document).ajaxError(function (event, xhr) {
+            if (!xhr || xhr.status !== 403) return;
+            var data = xhr.responseJSON;
+            if (!data && xhr.responseText) {
+                try { data = JSON.parse(xhr.responseText); } catch (e) { return; }
+            }
+            if (data && data.kvkkRequired) {
+                window.location.href = '/Kvkk/Consent?returnUrl=' +
+                    encodeURIComponent(window.location.pathname + window.location.search);
+            }
+        });
+    </script>
+    
+    <script src="/js/progressively.js"></script>
+    <script>
+        $("html, body").animate({ scrollTop: 280 }, "slow");
+    </script>
+
+    <script>
+        $('#responseModal').modal('show');
+    </script>
+    <script src="/js/email-suggest.js"></script>
+</body>
+</html>
