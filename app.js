@@ -353,6 +353,28 @@
     b.addEventListener('click', function () { var t = document.getElementById('era-' + b.getAttribute('data-era')); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   });
 
+  /* ---------- Bilgi yarışması (uygarlık rehberleri) ---------- */
+  $$('.quiz').forEach(function (qz) {
+    var qs = $$('.qq', qz), res = $('.qres', qz), again = $('.qagain', qz);
+    function upd() {
+      var done = qs.filter(function (q) { return q.classList.contains('done'); }), ok = qs.filter(function (q) { return q.getAttribute('data-ok') === '1'; }).length;
+      if (done.length === qs.length) { res.textContent = (qz.getAttribute('data-score') || '{n}/{m}').replace('{n}', ok).replace('{m}', qs.length) + (ok === qs.length ? ' 🎉' : ''); again.hidden = false; }
+    }
+    qs.forEach(function (q) {
+      var a = +q.getAttribute('data-a');
+      $$('.qo', q).forEach(function (b) {
+        b.addEventListener('click', function () {
+          if (q.classList.contains('done')) return;
+          q.classList.add('done'); var i = +b.getAttribute('data-i');
+          q.setAttribute('data-ok', i === a ? '1' : '0');
+          b.classList.add(i === a ? 'ok' : 'no'); $$('.qo', q)[a].classList.add('ok');
+          upd();
+        });
+      });
+    });
+    again.addEventListener('click', function () { qs.forEach(function (q) { q.classList.remove('done'); q.removeAttribute('data-ok'); $$('.qo', q).forEach(function (b) { b.classList.remove('ok', 'no'); }); }); res.textContent = ''; again.hidden = true; });
+  });
+
   /* ---------- Ziyaretçi sayacı (çerezsiz; IP saklanmaz) ---------- */
   (function () {
     if (!navigator.sendBeacon || location.protocol === 'file:' || /^(localhost|127\.)/.test(location.hostname)) return;

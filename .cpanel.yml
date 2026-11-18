@@ -1,6 +1,0 @@
-# cPanel > Git Version Control ile kullanılırsa: "Deploy HEAD Commit" dosyaları public_html'e kopyalar.
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=$HOME/public_html/
-    - /bin/rsync -a --exclude='.git' --exclude='.github' --exclude='.cpanel.yml' --exclude='README.md' --exclude='KURULUM.md' ./ $DEPLOYPATH
