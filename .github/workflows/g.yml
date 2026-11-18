@@ -1,4 +1,4 @@
-name: Gorsel topla 2
+name: Eser gorsel
 on:
   push:
     branches: [gorsel-2]
