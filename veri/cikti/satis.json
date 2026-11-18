@@ -1,0 +1,405 @@
+{
+ "Adana": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Adıyaman": {
+  "names": [],
+  "raw_len": 340
+ },
+ "Afyonkarahisar": {
+  "names": [],
+  "raw_len": 340
+ },
+ "Ağrı": {
+  "names": [],
+  "raw_len": 342
+ },
+ "Aksaray": {
+  "names": [
+   "IHLARA VALLEY"
+  ],
+  "raw_len": 2521
+ },
+ "Amasya": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Ankara": {
+  "names": [
+   "MUSEUM OF REPUBLIC OF ANKARA",
+   "Independence War Museum",
+   "MUSEUM OF ANATOLIAN CIVILIZATIONS"
+  ],
+  "raw_len": 3471
+ },
+ "Antalya": {
+  "names": [
+   "SIDE THEATRE",
+   "SIDE MUSEUM",
+   "PATARA ARCHAEOLOGICAL SITE",
+   "OLYMPOS ARCHAEOLOGICAL SITE",
+   "ALANYA CASTLE (CITADEL)",
+   "PHASELIS ARCHAEOLOGICAL SITE",
+   "ST. NICHOLAS MUSEUM",
+   "MYRA ARCHAEOLOGICAL SITE",
+   "ASPENDOS ARCHAEOLOGICAL SITE",
+   "PERGE ARCHAEOLOGICAL SITE",
+   "Perge Archeological Site Theater Section",
+   "TERMESSOS ARCHAEOLOGICAL SITE",
+   "SIMENA ARCHAEOLOGICAL SITE"
+  ],
+  "raw_len": 11461
+ },
+ "Ardahan": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Artvin": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Aydın": {
+  "names": [
+   "MILETUS ARCHAEOLOGICAL SITE",
+   "MILETUS MUSEUM",
+   "DIDIM ARCHAEOLOGICAL SITE",
+   "APHRODISIAS MUSEUM AND ARCHAELOGICAL SITE"
+  ],
+  "raw_len": 3575
+ },
+ "Balıkesir": {
+  "names": [],
+  "raw_len": 341
+ },
+ "Bartın": {
+  "names": [],
+  "raw_len": 338
+ },
+ "Batman": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Bayburt": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Bilecik": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Bingöl": {
+  "names": [],
+  "raw_len": 337
+ },
+ "Bitlis": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Bolu": {
+  "names": [],
+  "raw_len": 330
+ },
+ "Burdur": {
+  "names": [],
+  "raw_len": 1081
+ },
+ "Bursa": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Çanakkale": {
+  "names": [
+   "TROY MUSEUM",
+   "ASSOS ARCHAEOLOGICAL SITE",
+   "THE ARCHAEOLOGICAL SITE OF TROY"
+  ],
+  "raw_len": 2742
+ },
+ "Çankırı": {
+  "names": [],
+  "raw_len": 350
+ },
+ "Çorum": {
+  "names": [],
+  "raw_len": 336
+ },
+ "Denizli": {
+  "names": [
+   "Hierapolis Pamukkale Travertine Archeological Site",
+   "LAODIKEIA ARCHAEOLOGICAL SITE"
+  ],
+  "raw_len": 2003
+ },
+ "Diyarbakır": {
+  "names": [
+   "Diyarbakır Museum"
+  ],
+  "raw_len": 1849
+ },
+ "Düzce": {
+  "names": [],
+  "raw_len": 336
+ },
+ "Edirne": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Elâzığ": {
+  "names": [],
+  "raw_len": 349
+ },
+ "Erzincan": {
+  "names": [],
+  "raw_len": 334
+ },
+ "Erzurum": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Eskişehir": {
+  "names": [],
+  "raw_len": 341
+ },
+ "Gaziantep": {
+  "names": [
+   "ZEUGMA MOSAIC MUSEUM"
+  ],
+  "raw_len": 1133
+ },
+ "Giresun": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Gümüşhane": {
+  "names": [],
+  "raw_len": 351
+ },
+ "Hakkâri": {
+  "names": [],
+  "raw_len": 338
+ },
+ "Hatay": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Iğdır": {
+  "names": [],
+  "raw_len": 343
+ },
+ "Isparta": {
+  "names": [],
+  "raw_len": 333
+ },
+ "İstanbul": {
+  "names": [
+   "İSTANBUL ARCHAEOLOGICAL MUSEUMS",
+   "TOPKAPI PALACE MUSEUM",
+   "Great Palace Mosaics Museums",
+   "MUSEUM OF TURKISH AND ISLAMIC ARTS",
+   "RUMELI FORTRESS MUSEUM",
+   "Galata Mevlevihouse",
+   "TOPKAPI PALACE MUSEUM HAREM APARTMENTS",
+   "HAGİA IRENE MONUMENT MUSEUM",
+   "İstanbul Airport Museum",
+   "MUSEUM OF THE HISTORY OF SCIENCE AND TECHNOLOGY IN ISLAM",
+   "GALATA TOWER"
+  ],
+  "raw_len": 14152
+ },
+ "İzmir": {
+  "names": [
+   "BERGAMA ASKLEPION ARCHAEOLOGICAL SITE",
+   "BERGAMA ACROPOLIS ARCHAELOGICAL SITE",
+   "EPHESUS ARCHAEOLOGICAL SITE",
+   "EPHESUS ARCHAEOLOGICAL SITE THE TERRACE HOUSES",
+   "ÇEŞME MUSEUM",
+   "BASILICA OF ST. JOHN",
+   "EPHESUS MUSEUM",
+   "İZMİR ART AND CULTURE FACTORY"
+  ],
+  "raw_len": 7580
+ },
+ "Kahramanmaraş": {
+  "names": [],
+  "raw_len": 345
+ },
+ "Karabük": {
+  "names": [],
+  "raw_len": 338
+ },
+ "Karaman": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Kars": {
+  "names": [],
+  "raw_len": 1033
+ },
+ "Kastamonu": {
+  "names": [],
+  "raw_len": 335
+ },
+ "Kayseri": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Kırıkkale": {
+  "names": [],
+  "raw_len": 347
+ },
+ "Kırklareli": {
+  "names": [],
+  "raw_len": 342
+ },
+ "Kırşehir": {
+  "names": [],
+  "raw_len": 346
+ },
+ "Kilis": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Kocaeli": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Konya": {
+  "names": [
+   "MEVLANA MUSEUM"
+  ],
+  "raw_len": 1117
+ },
+ "Kütahya": {
+  "names": [],
+  "raw_len": 338
+ },
+ "Malatya": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Manisa": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Mardin": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Mersin": {
+  "names": [
+   "SİLİFKE CHASM OF HEAVEN AND HELL"
+  ],
+  "raw_len": 1176
+ },
+ "Muğla": {
+  "names": [
+   "KNIDOS ARCHAEOLOGICAL SITE",
+   "MARMARİS MUSEUM",
+   "BODRUM UNDERWATER ARCHAEOLOGY MUSEUM",
+   "FETHİYE KAYAKÖY ARCHAEOLOGICAL SITE",
+   "KAUNOS ANCIENT CITY"
+  ],
+  "raw_len": 6614
+ },
+ "Muş": {
+  "names": [],
+  "raw_len": 335
+ },
+ "Nevşehir": {
+  "names": [
+   "GÖREME ARCHAELOGICAL SITE",
+   "ZELVE-PAŞABAĞLAR ARCHAEOLOGICAL SITE",
+   "ÖZKONAK UNDERGROUND CITY",
+   "DERİNKUYU UNDERGROUND CITY",
+   "KAYMAKLI UNDERGROUND CITY"
+  ],
+  "raw_len": 5900
+ },
+ "Niğde": {
+  "names": [],
+  "raw_len": 337
+ },
+ "Ordu": {
+  "names": [],
+  "raw_len": 330
+ },
+ "Osmaniye": {
+  "names": [],
+  "raw_len": 334
+ },
+ "Rize": {
+  "names": [],
+  "raw_len": 330
+ },
+ "Sakarya": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Samsun": {
+  "names": [
+   "SAMSUN MUSEUM"
+  ],
+  "raw_len": 1116
+ },
+ "Siirt": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Sinop": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Sivas": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Şanlıurfa": {
+  "names": [
+   "HALEPLİBAHÇE MOSAIC MUSEUM",
+   "ŞANLIURFA MUSEUM",
+   "GÖBEKLİTEPE ARCHAEOLOGICAL SITE"
+  ],
+  "raw_len": 2817
+ },
+ "Şırnak": {
+  "names": [],
+  "raw_len": 344
+ },
+ "Tekirdağ": {
+  "names": [],
+  "raw_len": 340
+ },
+ "Tokat": {
+  "names": [],
+  "raw_len": 331
+ },
+ "Trabzon": {
+  "names": [],
+  "raw_len": 1036
+ },
+ "Tunceli": {
+  "names": [],
+  "raw_len": 333
+ },
+ "Uşak": {
+  "names": [],
+  "raw_len": 336
+ },
+ "Van": {
+  "names": [],
+  "raw_len": 329
+ },
+ "Yalova": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Yozgat": {
+  "names": [],
+  "raw_len": 332
+ },
+ "Zonguldak": {
+  "names": [],
+  "raw_len": 335
+ }
+}
