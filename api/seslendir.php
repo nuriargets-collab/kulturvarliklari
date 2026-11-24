@@ -53,8 +53,8 @@ if (!is_dir($cacheRoot)) $cacheRoot = __DIR__ . '/cache';
 
 function configured(): bool {
     global $PROVIDER, $GKEY, $EKEY, $EVOICE;
-    if ($PROVIDER === 'elevenlabs') return $EKEY !== '' && $EVOICE !== '' && !str_starts_with($EKEY, 'BURAYA');
-    return $GKEY !== '' && !str_starts_with($GKEY, 'BURAYA');
+    if ($PROVIDER === 'elevenlabs') return $EKEY !== '' && $EVOICE !== '' && !(strncmp($EKEY, 'BURAYA', 6) === 0);
+    return $GKEY !== '' && !(strncmp($GKEY, 'BURAYA', 6) === 0);
 }
 
 /** Metin: tr/en/de sitenin kendi metni; ru/fr/es/ar daha önce yapılmış ve saklanmış çeviri. */

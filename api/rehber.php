@@ -24,7 +24,7 @@ $PER_DAY   = (int)($CONFIG['LIMIT_PER_DAY'] ?? 2000);      // tüm site için g�
 $MAX_TOK   = (int)($CONFIG['MAX_TOKENS'] ?? 900);
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') out(405, ['error' => 'method']);
-if ($API_KEY === '' || str_starts_with($API_KEY, 'BURAYA')) out(503, ['error' => 'not_configured']);
+if ($API_KEY === '' || (strncmp($API_KEY, 'BURAYA', 6) === 0)) out(503, ['error' => 'not_configured']);
 
 // Yalnızca kendi sitemizden gelen istekleri kabul et
 $host = preg_replace('/:\d+$/', '', $_SERVER['HTTP_HOST'] ?? '');

@@ -40,7 +40,7 @@ foreach ([dirname(__DIR__, 2) . '/kv_config.php', __DIR__ . '/config.php'] as $f
 $API_KEY = getenv('ANTHROPIC_API_KEY') ?: ($CONFIG['ANTHROPIC_API_KEY'] ?? '');
 $MODEL   = $CONFIG['MODEL'] ?? 'claude-haiku-5-5';
 $PER_DAY = (int)($CONFIG['TRANSLATE_PER_DAY'] ?? 400);
-if ($API_KEY === '' || str_starts_with($API_KEY, 'BURAYA')) out(503, ['error' => 'not_configured']);
+if ($API_KEY === '' || (strncmp($API_KEY, 'BURAYA', 6) === 0)) out(503, ['error' => 'not_configured']);
 
 // ---------- sınırlar (yalnızca yeni çeviriler sayılır) ----------
 $tmp = sys_get_temp_dir() . '/kv_rehber';
