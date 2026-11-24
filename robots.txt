@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /qr/
-Disallow: /api/
-
-Sitemap: https://kulturvarliklari.com.tr/sitemap.xml
