@@ -16,7 +16,7 @@ def wd(label):
         c=e.get("claims",{})
         try: v=c["P625"][0]["mainsnak"]["datavalue"]["value"]; la,lo=v["latitude"],v["longitude"]
         except Exception: continue
-        if not CY(la,lo): continue
+        if not (CY(la,lo) or (34.4<la<35.8 and 32.2<lo<34.7)): continue
         p18=[x["mainsnak"]["datavalue"]["value"] for x in c.get("P18",[]) if "datavalue" in x["mainsnak"]]
         cc=[x["mainsnak"]["datavalue"]["value"] for x in c.get("P373",[]) if "datavalue" in x["mainsnak"]]
         return {"qid":s["id"],"label":s.get("label"),"desc":s.get("description"),"lat":la,"lng":lo,"p18":p18,"cat":cc[0] if cc else None}
