@@ -404,6 +404,46 @@
     }, true);
   })();
 
+
+  /* ---------- Google AdSense + çerez onayı ---------- */
+  (function () {
+    var A = window.KV_ADS; if (!A || !A.pub) return;
+    var K = 'kv_cerez', st = null;
+    try { st = localStorage.getItem(K); } catch (x) {}
+    function load(np) {
+      if (window._kvAds) return; window._kvAds = 1;
+      var q = (window.adsbygoogle = window.adsbygoogle || []);
+      if (np) q.requestNonPersonalizedAds = 1;
+      var s = document.createElement('script'); s.async = true; s.crossOrigin = 'anonymous';
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + A.pub;
+      document.head.appendChild(s);
+    }
+    function save(v) { try { localStorage.setItem(K, v); } catch (x) {} }
+    /* AB/AEA/İngiltere/İsviçre: onay Google'ın kendi onay penceresiyle (AdSense > Gizlilik ve mesajlaşma) alınır */
+    var tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (x) {}
+    var eu = /^(Europe\/|Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe))/.test(tz) && !/Istanbul|Moscow|Kiev|Kyiv|Minsk|Simferopol|Volgograd|Kirov|Samara|Ulyanovsk|Astrakhan|Saratov|Kaliningrad|Chisinau|Belgrade|Sarajevo|Skopje|Tirane|Podgorica/.test(tz);
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('[data-cerez-sifirla]');
+      if (a) { e.preventDefault(); try { localStorage.removeItem(K); } catch (x) {} location.reload(); }
+    });
+    if (st === 'kabul') return load(false);
+    if (st === 'red') return load(true);
+    if (eu) return load(false);
+    var b = A.bar, d = document.createElement('div');
+    d.setAttribute('role', 'dialog'); d.setAttribute('aria-live', 'polite');
+    d.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:9999;max-width:760px;margin:0 auto;background:#16120f;color:#f4ede1;border-radius:14px;padding:14px 16px;box-shadow:0 8px 30px rgba(0,0,0,.35);font:14px/1.45 system-ui,sans-serif;display:flex;flex-wrap:wrap;gap:10px;align-items:center';
+    var p = document.createElement('p'); p.style.cssText = 'margin:0;flex:1 1 320px'; p.textContent = b[0] + ' ';
+    var l = document.createElement('a'); l.href = A.cerez; l.textContent = b[3]; l.style.color = '#c9a24a'; p.appendChild(l);
+    function btn(t, main, v) {
+      var x = document.createElement('button'); x.type = 'button'; x.textContent = t;
+      x.style.cssText = 'border:0;border-radius:99px;padding:9px 16px;font:600 14px system-ui,sans-serif;cursor:pointer;' + (main ? 'background:#c9a24a;color:#16120f' : 'background:transparent;color:#f4ede1;outline:1px solid #6b5d4c');
+      x.onclick = function () { save(v); d.remove(); load(v === 'red'); };
+      return x;
+    }
+    d.appendChild(p); d.appendChild(btn(b[2], false, 'red')); d.appendChild(btn(b[1], true, 'kabul'));
+    (document.body ? Promise.resolve() : new Promise(function (r) { document.addEventListener('DOMContentLoaded', r); })).then(function () { document.body.appendChild(d); });
+  })();
+
   /* ---------- İstatistik (yalnızca ayarlandıysa) ---------- */
   var tokn = H.getAttribute('data-cf');
   if (tokn) { var sc = document.createElement('script'); sc.defer = true; sc.src = 'https://static.cloudflareinsights.com/beacon.min.js'; sc.setAttribute('data-cf-beacon', JSON.stringify({ token: tokn })); document.head.appendChild(sc); }
