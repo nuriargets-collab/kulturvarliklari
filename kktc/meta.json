@@ -1,1705 +1,228 @@
 {
- "NER01": {
+ "NUC01": {
   "wd": {
-   "qid": "Q6031333",
-   "label": "Tatlıca Waterfalls",
-   "desc": "waterfalls in Sinop Province, Turkey",
-   "lat": 41.83621,
-   "lng": 34.77889,
-   "p18": [],
-   "cat": "Tatlıca Nature Park"
+   "qid": "Q2674113",
+   "label": "Harbiye",
+   "desc": "mahalle (administrative quarter) in Defne, Hatay, south-central Turkey",
+   "lat": 36.1454464,
+   "lng": 36.1414181,
+   "p18": [
+    "IMG 0221 Harbiye - Hatay province - Turkey.jpg"
+   ],
+   "cat": null
   },
   "cands": [
    {
-    "file": "Bir ağaç ve harika yaprakları.jpg",
-    "w": 3472,
-    "h": 4624,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Bir_a%C4%9Fa%C3%A7_ve_harika_yapraklar%C4%B1.jpg/1920px-Bir_a%C4%9Fa%C3%A7_ve_harika_yapraklar%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bir_a%C4%9Fa%C3%A7_ve_harika_yapraklar%C4%B1.jpg",
-    "a": "Nuri0855",
+    "file": "IMG 0221 Harbiye - Hatay province - Turkey.jpg",
+    "w": 1600,
+    "h": 1200,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/IMG_0221_Harbiye_-_Hatay_province_-_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:IMG_0221_Harbiye_-_Hatay_province_-_Turkey.jpg",
+    "a": "Maarten Sepp",
     "l": "CC BY-SA 4.0",
     "n": 0
-   },
-   {
-    "file": "Erfelek tatlıca şelaleleri (uzun pozlama).jpg",
-    "w": 5100,
-    "h": 2869,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Erfelek_tatl%C4%B1ca_%C5%9Felaleleri_%28uzun_pozlama%29.jpg/1920px-Erfelek_tatl%C4%B1ca_%C5%9Felaleleri_%28uzun_pozlama%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Erfelek_tatl%C4%B1ca_%C5%9Felaleleri_(uzun_pozlama).jpg",
-    "a": "Erturkercin",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Erfelek tatlıca şelaleleri.jpg",
-    "w": 5100,
-    "h": 2869,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Erfelek_tatl%C4%B1ca_%C5%9Felaleleri.jpg/1920px-Erfelek_tatl%C4%B1ca_%C5%9Felaleleri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Erfelek_tatl%C4%B1ca_%C5%9Felaleleri.jpg",
-    "a": "Erturkercin",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Erfelek Tatlıca Şelalesi (drone görüntüsü).jpg",
-    "w": 5100,
-    "h": 2869,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_%28drone_g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%29.jpg/1920px-Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_%28drone_g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_(drone_g%C3%B6r%C3%BCnt%C3%BCs%C3%BC).jpg",
-    "a": "Erturkercin",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Erfelek Tatlıca Şelalesi ve Köprü.jpg",
-    "w": 5100,
-    "h": 3009,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_ve_K%C3%B6pr%C3%BC.jpg/1920px-Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_ve_K%C3%B6pr%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_ve_K%C3%B6pr%C3%BC.jpg",
-    "a": "Erturkercin",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Erfelek Tatlıca Şelalesi ve Ormanları.jpg",
-    "w": 5100,
-    "h": 2869,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_ve_Ormanlar%C4%B1.jpg/1920px-Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_ve_Ormanlar%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Erfelek_Tatl%C4%B1ca_%C5%9Eelalesi_ve_Ormanlar%C4%B1.jpg",
-    "a": "Erturkercin",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Yağmurlu bir günde Erfelek Tatlıca Şelaleleri.jpg",
-    "w": 1080,
-    "h": 720,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ya%C4%9Fmurlu_bir_g%C3%BCnde_Erfelek_Tatl%C4%B1ca_%C5%9Eelaleleri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Ya%C4%9Fmurlu_bir_g%C3%BCnde_Erfelek_Tatl%C4%B1ca_%C5%9Eelaleleri.jpg",
-    "a": "Defneseteney",
-    "l": "CC BY-SA 4.0",
-    "n": 6
    }
   ]
  },
  "NTZ01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Köprülü-Canyon 04 05 1998 Tazi -Canyon.jpg",
+    "w": 1740,
+    "h": 2728,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/K%C3%B6pr%C3%BCl%C3%BC-Canyon_04_05_1998_Tazi_-Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6pr%C3%BCl%C3%BC-Canyon_04_05_1998_Tazi_-Canyon.jpg",
+    "a": "Volker Höhfeld",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   }
+  ]
+ },
+ "NDA01": {
   "wd": {
-   "qid": "Q117319159",
-   "label": "Tazı kanyonu",
-   "desc": null,
-   "lat": 37.148,
-   "lng": 31.1896,
+   "qid": "Q31526370",
+   "label": "Davraz Tepe",
+   "desc": "mountain in Turkey",
+   "lat": 37.75436,
+   "lng": 30.7237,
    "p18": [],
    "cat": null
   },
   "cands": []
  },
- "NSA01": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "SARIKAMIŞ KAYAK MERKEZİ - panoramio.jpg",
-    "w": 1024,
-    "h": 768,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/SARIKAMI%C5%9E_KAYAK_MERKEZ%C4%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:SARIKAMI%C5%9E_KAYAK_MERKEZ%C4%B0_-_panoramio.jpg",
-    "a": "hüseyin yeşil",
-    "l": "CC BY 3.0",
-    "n": 1
-   },
-   {
-    "file": "Sarıkamışkayakmerkezi.jpg",
-    "w": 1440,
-    "h": 958,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sar%C4%B1kam%C4%B1%C5%9Fkayakmerkezi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Sar%C4%B1kam%C4%B1%C5%9Fkayakmerkezi.jpg",
-    "a": "Teskilatorg",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   }
-  ]
- },
- "NDA01": {
-  "wd": {},
-  "cands": []
- },
- "NRD01": {
+ "NHY01": {
   "wd": {
-   "qid": "Q18676664",
-   "label": "Dalaman Brook",
-   "desc": "river in Burdur, southwestern Turkey",
-   "lat": 36.708333333333,
-   "lng": 28.726111111111,
+   "qid": "Q181007",
+   "label": "Hattusa",
+   "desc": "capital of Hittite empire",
+   "lat": 40.019722222222,
+   "lng": 34.615277777778,
    "p18": [
-    "Near Dalaman (2832413875).jpg"
+    "Lion Gate, Hattusa 13 (cropped).jpg"
    ],
-   "cat": "Dalaman River"
+   "cat": "Hattusa"
   },
   "cands": [
    {
-    "file": "Near Dalaman (2832413875).jpg",
-    "w": 1280,
-    "h": 960,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Near_Dalaman_%282832413875%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Near_Dalaman_(2832413875).jpg",
-    "a": "mwanasimba from La Réunion",
+    "file": "Lion Gate, Hattusa 13 (cropped).jpg",
+    "w": 3649,
+    "h": 2462,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg/1920px-Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_13_(cropped).jpg",
+    "a": "Carole Raddato from FRANKFURT, Germany",
     "l": "CC BY-SA 2.0",
     "n": 0
    },
    {
-    "file": "Akköprü 10 1995 byzantinische Brücke über den Dalaman Çayı von Akköprü aus.jpg",
-    "w": 2740,
-    "h": 1804,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Akk%C3%B6pr%C3%BC_10_1995_byzantinische_Br%C3%BCcke_%C3%BCber_den_Dalaman_%C3%87ay%C4%B1_von_Akk%C3%B6pr%C3%BC_aus.jpg/1920px-Akk%C3%B6pr%C3%BC_10_1995_byzantinische_Br%C3%BCcke_%C3%BCber_den_Dalaman_%C3%87ay%C4%B1_von_Akk%C3%B6pr%C3%BC_aus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akk%C3%B6pr%C3%BC_10_1995_byzantinische_Br%C3%BCcke_%C3%BCber_den_Dalaman_%C3%87ay%C4%B1_von_Akk%C3%B6pr%C3%BC_aus.jpg",
-    "a": "Volker Höhfeld",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Akköprü 10 1995 Tal des Dalaman Çayı unweit der historischen Brücke.jpg",
-    "w": 2740,
-    "h": 1804,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Akk%C3%B6pr%C3%BC_10_1995_Tal_des_Dalaman_%C3%87ay%C4%B1_unweit_der_historischen_Br%C3%BCcke.jpg/1920px-Akk%C3%B6pr%C3%BC_10_1995_Tal_des_Dalaman_%C3%87ay%C4%B1_unweit_der_historischen_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akk%C3%B6pr%C3%BC_10_1995_Tal_des_Dalaman_%C3%87ay%C4%B1_unweit_der_historischen_Br%C3%BCcke.jpg",
-    "a": "Volker Höhfeld",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Akköprü 10 1995 Talweitung des Dalaman Çayı bei Akköprü.jpg",
-    "w": 2740,
-    "h": 1800,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Akk%C3%B6pr%C3%BC_10_1995_Talweitung_des_Dalaman_%C3%87ay%C4%B1_bei_Akk%C3%B6pr%C3%BC.jpg/1920px-Akk%C3%B6pr%C3%BC_10_1995_Talweitung_des_Dalaman_%C3%87ay%C4%B1_bei_Akk%C3%B6pr%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akk%C3%B6pr%C3%BC_10_1995_Talweitung_des_Dalaman_%C3%87ay%C4%B1_bei_Akk%C3%B6pr%C3%BC.jpg",
-    "a": "Volker Höhfeld",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Akköprü am Dalaman Çayı.jpg",
-    "w": 1548,
-    "h": 1046,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akk%C3%B6pr%C3%BC_am_Dalaman_%C3%87ay%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Akk%C3%B6pr%C3%BC_am_Dalaman_%C3%87ay%C4%B1.jpg",
-    "a": "Volker Höhfeld",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Dalaman Akköprü OCT2011 IMG 3444.jpg",
-    "w": 3264,
-    "h": 2448,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Dalaman_Akk%C3%B6pr%C3%BC_OCT2011_IMG_3444.jpg/1920px-Dalaman_Akk%C3%B6pr%C3%BC_OCT2011_IMG_3444.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dalaman_Akk%C3%B6pr%C3%BC_OCT2011_IMG_3444.jpg",
-    "a": "Dietmar Adrian",
-    "l": "CC BY-SA 3.0",
-    "n": 6
-   }
-  ]
- },
- "NAP01": {
-  "wd": {},
-  "cands": []
- },
- "GVA01": {
-  "wd": {
-   "qid": "Q126307",
-   "label": "Lake Van",
-   "desc": "largest lake in Turkey",
-   "lat": 38.633333333333,
-   "lng": 42.816666666667,
-   "p18": [
-    "Lakevanlandsat.jpeg"
-   ],
-   "cat": "Lake Van"
-  },
-  "cands": [
-   {
-    "file": "Lakevanlandsat.jpeg",
-    "w": 1024,
-    "h": 768,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Lakevanlandsat.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Lakevanlandsat.jpeg",
-    "a": "",
-    "l": "Public domain",
-    "n": 0
-   },
-   {
-    "file": "Ahtamara Kilisesi.jpg",
-    "w": 6000,
-    "h": 4000,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ahtamara_Kilisesi.jpg/1920px-Ahtamara_Kilisesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ahtamara_Kilisesi.jpg",
-    "a": "Varilci",
-    "l": "CC0",
-    "n": 1
-   },
-   {
-    "file": "Akdamar Island on Lake Van with the Armenian Church of the Holy Cross and Mount Artos in the background.jpg",
-    "w": 2592,
-    "h": 1944,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Akdamar_Island_on_Lake_Van_with_the_Armenian_Church_of_the_Holy_Cross_and_Mount_Artos_in_the_background.jpg/1920px-Akdamar_Island_on_Lake_Van_with_the_Armenian_Church_of_the_Holy_Cross_and_Mount_Artos_in_the_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akdamar_Island_on_Lake_Van_with_the_Armenian_Church_of_the_Holy_Cross_and_Mount_Artos_in_the_background.jpg",
-    "a": "Bryce Edwards",
-    "l": "CC BY 2.0",
-    "n": 2
-   },
-   {
-    "file": "Akdamar island.jpg",
-    "w": 4128,
-    "h": 3096,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Akdamar_island.jpg/1920px-Akdamar_island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akdamar_island.jpg",
-    "a": "Armenmir",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Akhtamar Island and Lake Van 001.jpg",
-    "w": 14652,
-    "h": 3748,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Akhtamar_Island_and_Lake_Van_001.jpg/1920px-Akhtamar_Island_and_Lake_Van_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akhtamar_Island_and_Lake_Van_001.jpg",
-    "a": "Ben Men Lyun",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Lake Van and cathedral of the Holy Cross.jpg",
-    "w": 4949,
-    "h": 3299,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Lake_Van_and_cathedral_of_the_Holy_Cross.jpg/1920px-Lake_Van_and_cathedral_of_the_Holy_Cross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Van_and_cathedral_of_the_Holy_Cross.jpg",
-    "a": "Armenak Margarian",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Akdamar island Van lake.jpg",
-    "w": 5964,
-    "h": 3978,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Akdamar_island_Van_lake.jpg/1920px-Akdamar_island_Van_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akdamar_island_Van_lake.jpg",
-    "a": "Liselottediehl",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "00 3385 Akdamar Island - Lake Van.jpg",
-    "w": 3300,
-    "h": 2200,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/00_3385_Akdamar_Island_-_Lake_Van.jpg/1920px-00_3385_Akdamar_Island_-_Lake_Van.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:00_3385_Akdamar_Island_-_Lake_Van.jpg",
-    "a": "W. Bulach",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GSA01": {
-  "wd": {
-   "qid": "Q3234128",
-   "label": "Lake Salda",
-   "desc": "lake in Burdur Province, Turkey",
-   "lat": 37.5508,
-   "lng": 29.6833,
-   "p18": [
-    "Lake Salda in June 2020.jpg"
-   ],
-   "cat": "Lake Salda"
-  },
-  "cands": [
-   {
-    "file": "Aerial photo of Lake Salda.jpg",
-    "w": 4000,
-    "h": 2252,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Aerial_photo_of_Lake_Salda.jpg/1920px-Aerial_photo_of_Lake_Salda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aerial_photo_of_Lake_Salda.jpg",
-    "a": "Yair-haklai",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Beyaz kumlar muhteşem gün batımına karşı.jpg",
-    "w": 3405,
-    "h": 2092,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Beyaz_kumlar_muhte%C5%9Fem_g%C3%BCn_bat%C4%B1m%C4%B1na_kar%C5%9F%C4%B1.jpg/1920px-Beyaz_kumlar_muhte%C5%9Fem_g%C3%BCn_bat%C4%B1m%C4%B1na_kar%C5%9F%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Beyaz_kumlar_muhte%C5%9Fem_g%C3%BCn_bat%C4%B1m%C4%B1na_kar%C5%9F%C4%B1.jpg",
-    "a": "Dilaratbrl",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Burdura giderken (Salda gölü) - panoramio.jpg",
-    "w": 2272,
-    "h": 1704,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Burdura_giderken_%28Salda_g%C3%B6l%C3%BC%29_-_panoramio.jpg/1920px-Burdura_giderken_%28Salda_g%C3%B6l%C3%BC%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Burdura_giderken_(Salda_g%C3%B6l%C3%BC)_-_panoramio.jpg",
-    "a": "Nihat1988",
-    "l": "CC BY 3.0",
-    "n": 4
-   },
-   {
-    "file": "Lake Salda .jpg",
-    "w": 3506,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Lake_Salda_.jpg/1920px-Lake_Salda_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Salda_.jpg",
-    "a": "Iamozlem",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Lake Salda Nature Park 1.jpg",
-    "w": 1920,
-    "h": 1281,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lake_Salda_Nature_Park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Salda_Nature_Park_1.jpg",
-    "a": "Shanti Alex",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Salda gölü.jpg",
-    "w": 2913,
-    "h": 4032,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Salda_g%C3%B6l%C3%BC.jpg/1920px-Salda_g%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Salda_g%C3%B6l%C3%BC.jpg",
-    "a": "Ensarseker1",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GAB01": {
-  "wd": {
-   "qid": "Q305501",
-   "label": "Lake Abant",
-   "desc": "lake in Turkey",
-   "lat": 40.60545,
-   "lng": 31.28033,
-   "p18": [
-    "Abant Panorama.JPG"
-   ],
-   "cat": "Lake Abant"
-  },
-  "cands": [
-   {
-    "file": "Abant Panorama.JPG",
-    "w": 11285,
-    "h": 2074,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Abant_Panorama.JPG/1920px-Abant_Panorama.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_Panorama.JPG",
-    "a": "Acar54",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Abant - panoramio - Halit Edip Özcan.jpg",
-    "w": 3488,
-    "h": 2616,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Abant_-_panoramio_-_Halit_Edip_%C3%96zcan.jpg/1920px-Abant_-_panoramio_-_Halit_Edip_%C3%96zcan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_-_panoramio_-_Halit_Edip_%C3%96zcan.jpg",
-    "a": "Halit Edip Özcan",
+    "file": "Bogazkale sign.jpg",
+    "w": 5027,
+    "h": 3351,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Bogazkale_sign.jpg/1920px-Bogazkale_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bogazkale_sign.jpg",
+    "a": "Bernard Gagnon",
     "l": "CC BY-SA 3.0",
     "n": 1
    },
    {
-    "file": "Abant 1.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Abant_1.JPG/1920px-Abant_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_1.JPG",
-    "a": "Vikiçizer",
-    "l": "CC BY-SA 4.0",
+    "file": "Bogazköy (Hattusas Turkey 1993) 13 v. 1.jpg",
+    "w": 3599,
+    "h": 2400,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Bogazk%C3%B6y_%28Hattusas_Turkey_1993%29_13_v._1.jpg/1920px-Bogazk%C3%B6y_%28Hattusas_Turkey_1993%29_13_v._1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bogazk%C3%B6y_(Hattusas_Turkey_1993)_13_v._1.jpg",
+    "a": "Carl Campbell",
+    "l": "CC BY-SA 2.0",
     "n": 2
    },
    {
-    "file": "Abant 10.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Abant_10.JPG/1920px-Abant_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_10.JPG",
-    "a": "Vikiçizer",
+    "file": "Bogazköy in 1994 116.jpg",
+    "w": 6384,
+    "h": 4095,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Bogazk%C3%B6y_in_1994_116.jpg/1920px-Bogazk%C3%B6y_in_1994_116.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bogazk%C3%B6y_in_1994_116.jpg",
+    "a": "Dosseman",
     "l": "CC BY-SA 4.0",
     "n": 3
    },
    {
-    "file": "Abant 11.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Abant_11.JPG/1920px-Abant_11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_11.JPG",
-    "a": "Vikiçizer",
+    "file": "Bogazköy in 1994 117.jpg",
+    "w": 6336,
+    "h": 3855,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Bogazk%C3%B6y_in_1994_117.jpg/1920px-Bogazk%C3%B6y_in_1994_117.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bogazk%C3%B6y_in_1994_117.jpg",
+    "a": "Dosseman",
     "l": "CC BY-SA 4.0",
     "n": 4
    },
    {
-    "file": "Abant lake snowy.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Abant_lake_snowy.jpg/1920px-Abant_lake_snowy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_lake_snowy.jpg",
-    "a": "Antoloji",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Abant lake frozen.jpg",
-    "w": 3872,
-    "h": 2904,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Abant_lake_frozen.jpg/1920px-Abant_lake_frozen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_lake_frozen.jpg",
-    "a": "Antoloji",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Abant Lake, Bolu July.jpg",
-    "w": 1818,
-    "h": 1228,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Abant_Lake%2C_Bolu_July.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Abant_Lake,_Bolu_July.jpg",
-    "a": "Coskunme97",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GUZ01": {
-  "wd": {
-   "qid": "Q12808476",
-   "label": "Uzungöl",
-   "desc": "mahalle (administrative quarter) in Çaykara, Trabzon, northeastern Turkey",
-   "lat": 40.6206081,
-   "lng": 40.2901928,
-   "p18": [
-    "Uzungöl lake and town.jpg"
-   ],
-   "cat": "Uzungöl, Çaykara"
-  },
-  "cands": [
-   {
-    "file": "Uzungöl lake and town.jpg",
-    "w": 3456,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Uzung%C3%B6l_lake_and_town.jpg/1920px-Uzung%C3%B6l_lake_and_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Uzung%C3%B6l_lake_and_town.jpg",
-    "a": "İhsan Deniz Kılıçoğlu",
-    "l": "CC BY-SA 3.0",
-    "n": 0
-   },
-   {
-    "file": "61940 Uzungöl-Çaykara-Trabzon, Turkey - panoramio (1).jpg",
-    "w": 4317,
-    "h": 2428,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/61940_Uzung%C3%B6l-%C3%87aykara-Trabzon%2C_Turkey_-_panoramio_%281%29.jpg/1920px-61940_Uzung%C3%B6l-%C3%87aykara-Trabzon%2C_Turkey_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:61940_Uzung%C3%B6l-%C3%87aykara-Trabzon,_Turkey_-_panoramio_(1).jpg",
-    "a": "Yılmaz Kilim",
-    "l": "CC BY 3.0",
-    "n": 3
-   },
-   {
-    "file": "61940 Uzungöl-Çaykara-Trabzon, Turkey - panoramio (2).jpg",
-    "w": 3746,
-    "h": 2107,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/61940_Uzung%C3%B6l-%C3%87aykara-Trabzon%2C_Turkey_-_panoramio_%282%29.jpg/1920px-61940_Uzung%C3%B6l-%C3%87aykara-Trabzon%2C_Turkey_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:61940_Uzung%C3%B6l-%C3%87aykara-Trabzon,_Turkey_-_panoramio_(2).jpg",
-    "a": "Yılmaz Kilim",
-    "l": "CC BY 3.0",
-    "n": 4
-   },
-   {
-    "file": "Uzungöl, Trabzon 2014.jpg",
+    "file": "Lion Gate, Hattusa 01.jpg",
     "w": 5184,
     "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Uzung%C3%B6l%2C_Trabzon_2014.jpg/1920px-Uzung%C3%B6l%2C_Trabzon_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Uzung%C3%B6l,_Trabzon_2014.jpg",
-    "a": "Hamdigumus",
-    "l": "CC0",
-    "n": 5
-   },
-   {
-    "file": "Trabzon uzungöl cami.jpg",
-    "w": 4272,
-    "h": 2848,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Trabzon_uzung%C3%B6l_cami.jpg/1920px-Trabzon_uzung%C3%B6l_cami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Trabzon_uzung%C3%B6l_cami.jpg",
-    "a": "Caglasenn",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "TRABZON-UZUNGOL.jpg",
-    "w": 4096,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/TRABZON-UZUNGOL.jpg/1920px-TRABZON-UZUNGOL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:TRABZON-UZUNGOL.jpg",
-    "a": "Muhammed Raşit Kızılkaya",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GEG01": {
-  "wd": {
-   "qid": "Q1334148",
-   "label": "Lake Eğirdir",
-   "desc": "lake in Turkey",
-   "lat": 37.9936,
-   "lng": 30.8884,
-   "p18": [
-    "Lake Egirdir.jpg"
-   ],
-   "cat": "Lake Eğirdir"
-  },
-  "cands": [
-   {
-    "file": "Lake Egirdir.jpg",
-    "w": 3406,
-    "h": 1468,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lake_Egirdir.jpg/1920px-Lake_Egirdir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Egirdir.jpg",
-    "a": "Ingo Mehling",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lion_Gate%2C_Hattusa_01.jpg/1920px-Lion_Gate%2C_Hattusa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_01.jpg",
+    "a": "Bernard Gagnon",
     "l": "CC BY-SA 3.0",
-    "n": 0
+    "n": 5
    },
    {
-    "file": "Aerial view of Eğirdir Gölü.JPG",
-    "w": 2848,
-    "h": 2136,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Aerial_view_of_E%C4%9Firdir_G%C3%B6l%C3%BC.JPG/1920px-Aerial_view_of_E%C4%9Firdir_G%C3%B6l%C3%BC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_E%C4%9Firdir_G%C3%B6l%C3%BC.JPG",
-    "a": "Pilettes",
+    "file": "Lion Gate, Hattusa 06.jpg",
+    "w": 4934,
+    "h": 3384,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lion_Gate%2C_Hattusa_06.jpg/1920px-Lion_Gate%2C_Hattusa_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_06.jpg",
+    "a": "Bernard Gagnon",
     "l": "CC BY-SA 3.0",
-    "n": 1
-   },
-   {
-    "file": "Barla Dağı 20 05 1997 Egirdirsee.jpg",
-    "w": 5060,
-    "h": 3224,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Barla_Da%C4%9F%C4%B1_20_05_1997_Egirdirsee.jpg/1920px-Barla_Da%C4%9F%C4%B1_20_05_1997_Egirdirsee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Barla_Da%C4%9F%C4%B1_20_05_1997_Egirdirsee.jpg",
-    "a": "Volker Höhfeld",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Car and caravan trailer on the shore of Lake Eğirdir, March 2024 01.jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Car_and_caravan_trailer_on_the_shore_of_Lake_E%C4%9Firdir%2C_March_2024_01.jpg/1920px-Car_and_caravan_trailer_on_the_shore_of_Lake_E%C4%9Firdir%2C_March_2024_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Car_and_caravan_trailer_on_the_shore_of_Lake_E%C4%9Firdir,_March_2024_01.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Car and caravan trailer on the shore of Lake Eğirdir, March 2024 02.jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Car_and_caravan_trailer_on_the_shore_of_Lake_E%C4%9Firdir%2C_March_2024_02.jpg/1920px-Car_and_caravan_trailer_on_the_shore_of_Lake_E%C4%9Firdir%2C_March_2024_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Car_and_caravan_trailer_on_the_shore_of_Lake_E%C4%9Firdir,_March_2024_02.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Lake Eğirdir waterfront in Eğirdir, March 2024 01.jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir%2C_March_2024_01.jpg/1920px-Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir%2C_March_2024_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir,_March_2024_01.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Lake Eğirdir waterfront in Eğirdir, March 2024 04.jpg",
-    "w": 4608,
-    "h": 2592,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir%2C_March_2024_04.jpg/1920px-Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir%2C_March_2024_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir,_March_2024_04.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
     "n": 6
    },
    {
-    "file": "Lake Eğirdir waterfront in Eğirdir, March 2024 03.jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir%2C_March_2024_03.jpg/1920px-Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir%2C_March_2024_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir,_March_2024_03.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GTU01": {
-  "wd": {
-   "qid": "Q211823",
-   "label": "Lake Tuz",
-   "desc": "endorheic basin",
-   "lat": 38.833333333333336,
-   "lng": 33.333333333333336,
-   "p18": [
-    "Lake Tuz.jpg"
-   ],
-   "cat": "Lake Tuz"
-  },
-  "cands": [
-   {
-    "file": "\"Lago\" salato - panoramio.jpg",
-    "w": 3264,
-    "h": 2448,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/%22Lago%22_salato_-_panoramio.jpg/1920px-%22Lago%22_salato_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%22Lago%22_salato_-_panoramio.jpg",
-    "a": "polutropon_95",
-    "l": "CC BY 3.0",
-    "n": 1
-   },
-   {
-    "file": "06950 Acıöz-Şereflikoçhisar-Ankara, Turkey - panoramio.jpg",
-    "w": 2048,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/06950_Ac%C4%B1%C3%B6z-%C5%9Eerefliko%C3%A7hisar-Ankara%2C_Turkey_-_panoramio.jpg/1920px-06950_Ac%C4%B1%C3%B6z-%C5%9Eerefliko%C3%A7hisar-Ankara%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:06950_Ac%C4%B1%C3%B6z-%C5%9Eerefliko%C3%A7hisar-Ankara,_Turkey_-_panoramio.jpg",
-    "a": "ilhan turun",
-    "l": "CC BY 3.0",
-    "n": 2
-   },
-   {
-    "file": "20180108 LakeTuz 2854 (28088852369).jpg",
-    "w": 7952,
-    "h": 5304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/20180108_LakeTuz_2854_%2828088852369%29.jpg/1920px-20180108_LakeTuz_2854_%2828088852369%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:20180108_LakeTuz_2854_(28088852369).jpg",
-    "a": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
-    "l": "CC BY-SA 2.0",
-    "n": 3
-   },
-   {
-    "file": "20180108 LakeTuz 2855 (25995241818).jpg",
-    "w": 7952,
-    "h": 5304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/20180108_LakeTuz_2855_%2825995241818%29.jpg/1920px-20180108_LakeTuz_2855_%2825995241818%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:20180108_LakeTuz_2855_(25995241818).jpg",
-    "a": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
-    "l": "CC BY-SA 2.0",
-    "n": 4
-   },
-   {
-    "file": "Ethiopia - Lake Assale.jpg",
-    "w": 6643,
-    "h": 4429,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ethiopia_-_Lake_Assale.jpg/1920px-Ethiopia_-_Lake_Assale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ethiopia_-_Lake_Assale.jpg",
-    "a": "Thomas Fuhrmann",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Salt Lake Temple UT2.jpg",
-    "w": 2525,
-    "h": 3525,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Salt_Lake_Temple_UT2.jpg/1920px-Salt_Lake_Temple_UT2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Temple_UT2.jpg",
-    "a": "Acroterion",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Temple Square, Salt Lake City, 1899 retouched.jpg",
-    "w": 3484,
-    "h": 2794,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Temple_Square%2C_Salt_Lake_City%2C_1899_retouched.jpg/1920px-Temple_Square%2C_Salt_Lake_City%2C_1899_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Temple_Square,_Salt_Lake_City,_1899_retouched.jpg",
-    "a": "William Henry Jackson",
-    "l": "Public domain",
+    "file": "Lion Gate, Hattusa 05.jpg",
+    "w": 3456,
+    "h": 5184,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Lion_Gate%2C_Hattusa_05.jpg/1920px-Lion_Gate%2C_Hattusa_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_05.jpg",
+    "a": "Bernard Gagnon",
+    "l": "CC BY-SA 3.0",
     "n": 7
    }
   ]
  },
  "GNE01": {
   "wd": {},
-  "cands": []
- },
- "GKO01": {
-  "wd": {
-   "qid": "Q2661366",
-   "label": "Lake Köyceğiz",
-   "desc": "lake in Turkey",
-   "lat": 36.91224,
-   "lng": 28.65534,
-   "p18": [
-    "Lac de Köycegiz (2838926571).jpg"
-   ],
-   "cat": "Lake Köyceğiz"
-  },
   "cands": [
    {
-    "file": "Lac de Köycegiz (2838926571).jpg",
-    "w": 1280,
-    "h": 960,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/Lac_de_K%C3%B6ycegiz_%282838926571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Lac_de_K%C3%B6ycegiz_(2838926571).jpg",
-    "a": "mwanasimba from La Réunion",
-    "l": "CC BY-SA 2.0",
-    "n": 0
-   },
-   {
-    "file": "Blue Lagoon.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Blue_Lagoon.jpg/1920px-Blue_Lagoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon.jpg",
-    "a": "PinarKarayilan",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Dalyan (5637432485).jpg",
-    "w": 4592,
-    "h": 3056,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dalyan_%285637432485%29.jpg/1920px-Dalyan_%285637432485%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dalyan_(5637432485).jpg",
-    "a": "rob Stoeltje from loenen, netherlands",
-    "l": "CC BY 2.0",
-    "n": 2
-   },
-   {
-    "file": "Dalyan deltası.jpg",
-    "w": 8750,
-    "h": 5679,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Dalyan_deltas%C4%B1.jpg/1920px-Dalyan_deltas%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dalyan_deltas%C4%B1.jpg",
-    "a": "Rotadefterim",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Dalyan kıvrımları.jpg",
-    "w": 7931,
-    "h": 4830,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dalyan_k%C4%B1vr%C4%B1mlar%C4%B1.jpg/1920px-Dalyan_k%C4%B1vr%C4%B1mlar%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dalyan_k%C4%B1vr%C4%B1mlar%C4%B1.jpg",
-    "a": "Rotadefterim",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Lake and town 2019 G01.jpg",
-    "w": 6000,
-    "h": 3600,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lake_and_town_2019_G01.jpg/1920px-Lake_and_town_2019_G01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_and_town_2019_G01.jpg",
-    "a": "George Chernilevsky",
-    "l": "Public domain",
-    "n": 5
-   },
-   {
-    "file": "Köyceğiz Gölü.jpg",
-    "w": 1024,
-    "h": 768,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b9/K%C3%B6yce%C4%9Fiz_G%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6yce%C4%9Fiz_G%C3%B6l%C3%BC.jpg",
-    "a": "AbdurrahmanMugla",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Köyceğiz Gölü - panoramio.jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/K%C3%B6yce%C4%9Fiz_G%C3%B6l%C3%BC_-_panoramio.jpg/1920px-K%C3%B6yce%C4%9Fiz_G%C3%B6l%C3%BC_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6yce%C4%9Fiz_G%C3%B6l%C3%BC_-_panoramio.jpg",
-    "a": "Tutku Çetinel",
-    "l": "CC BY 3.0",
-    "n": 7
-   }
-  ]
- },
- "GBA01": {
-  "wd": {
-   "qid": "Q799781",
-   "label": "Lake Bafa",
-   "desc": "lake in Aydın and Muğla Provinces, Turkey",
-   "lat": 37.5013,
-   "lng": 27.437,
-   "p18": [
-    "Bafa lake1.JPG"
-   ],
-   "cat": "Lake Bafa"
-  },
-  "cands": [
-   {
-    "file": "Bafa lake1.JPG",
+    "file": "Bitlis- Nemrut Gölü.jpg",
     "w": 1600,
-    "h": 1200,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bafa_lake1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Bafa_lake1.JPG",
-    "a": "Vikimach",
-    "l": "CC BY-SA 3.0",
+    "h": 1196,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/33/Bitlis-_Nemrut_G%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Bitlis-_Nemrut_G%C3%B6l%C3%BC.jpg",
+    "a": "Nursena Doğan",
+    "l": "CC BY-SA 4.0",
     "n": 0
    },
    {
-    "file": "48230 Pınarcık-Milas-Muğla, Turkey - panoramio (1).jpg",
-    "w": 2272,
-    "h": 1704,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%281%29.jpg/1920px-48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla,_Turkey_-_panoramio_(1).jpg",
-    "a": "Bir_Ege_Hikayesi ©",
-    "l": "CC BY 3.0",
+    "file": "The Nemrut Crater Lake.jpg",
+    "w": 5184,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/The_Nemrut_Crater_Lake.jpg/1920px-The_Nemrut_Crater_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Nemrut_Crater_Lake.jpg",
+    "a": "Nur Çağlar",
+    "l": "CC BY-SA 4.0",
     "n": 1
    },
    {
-    "file": "48230 Pınarcık-Milas-Muğla, Turkey - panoramio (10).jpg",
-    "w": 2272,
-    "h": 1704,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%2810%29.jpg/1920px-48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla,_Turkey_-_panoramio_(10).jpg",
-    "a": "Bir_Ege_Hikayesi ©",
-    "l": "CC BY 3.0",
-    "n": 2
-   },
-   {
-    "file": "48230 Pınarcık-Milas-Muğla, Turkey - panoramio (11).jpg",
-    "w": 3648,
-    "h": 2048,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%2811%29.jpg/1920px-48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla,_Turkey_-_panoramio_(11).jpg",
-    "a": "Bir_Ege_Hikayesi ©",
-    "l": "CC BY 3.0",
-    "n": 3
-   },
-   {
-    "file": "48230 Pınarcık-Milas-Muğla, Turkey - panoramio (12).jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%2812%29.jpg/1920px-48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla%2C_Turkey_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:48230_P%C4%B1narc%C4%B1k-Milas-Mu%C4%9Fla,_Turkey_-_panoramio_(12).jpg",
-    "a": "nurettingülay(from T…",
-    "l": "CC BY-SA 3.0",
-    "n": 4
-   },
-   {
-    "file": "Herakleia Bafa lake 5148.jpg",
-    "w": 4288,
-    "h": 2848,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Herakleia_Bafa_lake_5148.jpg/1920px-Herakleia_Bafa_lake_5148.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Herakleia_Bafa_lake_5148.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Herakleia Bafa lake 5134.jpg",
-    "w": 4288,
-    "h": 2848,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Herakleia_Bafa_lake_5134.jpg/1920px-Herakleia_Bafa_lake_5134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Herakleia_Bafa_lake_5134.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Herakleia Bafa lake 5062.jpg",
-    "w": 4288,
-    "h": 2848,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Herakleia_Bafa_lake_5062.jpg/1920px-Herakleia_Bafa_lake_5062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Herakleia_Bafa_lake_5062.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GSP01": {
-  "wd": {
-   "qid": "Q868012",
-   "label": "Lake Sapanca",
-   "desc": "lake in Turkey",
-   "lat": 40.716666666667,
-   "lng": 30.25,
-   "p18": [
-    "TR Sakarya asv2021-10 img01 Lake Sapanca airview.jpg"
-   ],
-   "cat": "Lake Sapanca"
-  },
-  "cands": [
-   {
-    "file": "TR Sakarya asv2021-10 img01 Lake Sapanca airview.jpg",
-    "w": 5406,
-    "h": 3041,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/TR_Sakarya_asv2021-10_img01_Lake_Sapanca_airview.jpg/1920px-TR_Sakarya_asv2021-10_img01_Lake_Sapanca_airview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:TR_Sakarya_asv2021-10_img01_Lake_Sapanca_airview.jpg",
-    "a": "A.Savin",
-    "l": "FAL",
-    "n": 0
-   },
-   {
-    "file": "Eşme.jpg",
-    "w": 5472,
-    "h": 3078,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/E%C5%9Fme.jpg/1920px-E%C5%9Fme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:E%C5%9Fme.jpg",
-    "a": "Ucandairebaskani",
+    "file": "Lake Nemrut, blue and green lakes.jpg",
+    "w": 5312,
+    "h": 2988,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Lake_Nemrut%2C_blue_and_green_lakes.jpg/1920px-Lake_Nemrut%2C_blue_and_green_lakes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Nemrut,_blue_and_green_lakes.jpg",
+    "a": "Gogo2020g",
     "l": "CC BY-SA 4.0",
     "n": 2
    },
    {
-    "file": "Golde Marti.jpg",
-    "w": 2048,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Golde_Marti.jpg/1920px-Golde_Marti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Golde_Marti.jpg",
-    "a": "gizem keskin",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Gün Batımı Balık Tutmak.jpg",
-    "w": 6000,
-    "h": 4000,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/G%C3%BCn_Bat%C4%B1m%C4%B1_Bal%C4%B1k_Tutmak.jpg/1920px-G%C3%BCn_Bat%C4%B1m%C4%B1_Bal%C4%B1k_Tutmak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:G%C3%BCn_Bat%C4%B1m%C4%B1_Bal%C4%B1k_Tutmak.jpg",
-    "a": "Kocaeli Kameraman Şadi Akdoğan",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Sapanca Lake (2020).jpg",
+    "file": "Lake Nemrut reeds.jpg",
     "w": 4032,
     "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Sapanca_Lake_%282020%29.jpg/1920px-Sapanca_Lake_%282020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sapanca_Lake_(2020).jpg",
-    "a": "Antoloji",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Lake_Nemrut_reeds.jpg/1920px-Lake_Nemrut_reeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Nemrut_reeds.jpg",
+    "a": "Nur Çağlar",
     "l": "CC BY-SA 4.0",
-    "n": 5
+    "n": 3
    },
    {
-    "file": "Sapanca Gölü.jpeg",
-    "w": 13952,
+    "file": "Nemrut Krater Gölü 01.jpg",
+    "w": 3024,
     "h": 4032,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Sapanca_G%C3%B6l%C3%BC.jpeg/1920px-Sapanca_G%C3%B6l%C3%BC.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sapanca_G%C3%B6l%C3%BC.jpeg",
-    "a": "Acar54",
-    "l": "CC BY-SA 3.0",
-    "n": 6
-   },
-   {
-    "file": "Restaurant on Sapanca Lake.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Restaurant_on_Sapanca_Lake.jpg/1920px-Restaurant_on_Sapanca_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Restaurant_on_Sapanca_Lake.jpg",
-    "a": "Antoloji",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GYE01": {
-  "wd": {
-   "qid": "Q6981621",
-   "label": "Yedigöller National Park",
-   "desc": "national park in Bolu Province, Turkey",
-   "lat": 40.940833333333,
-   "lng": 31.756388888889,
-   "p18": [
-    "TR Yedigöller asv2021-10 img16.jpg",
-    "TR Yedigöller asv2021-10 img02.jpg",
-    "DSC 7091 MK.jpg"
-   ],
-   "cat": "Yedigöller National Park"
-  },
-  "cands": [
-   {
-    "file": "TR Yedigöller asv2021-10 img16.jpg",
-    "w": 7680,
-    "h": 4800,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/TR_Yedig%C3%B6ller_asv2021-10_img16.jpg/1920px-TR_Yedig%C3%B6ller_asv2021-10_img16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:TR_Yedig%C3%B6ller_asv2021-10_img16.jpg",
-    "a": "A.Savin",
-    "l": "FAL",
-    "n": 0
-   },
-   {
-    "file": "TR Yedigöller asv2021-10 img02.jpg",
-    "w": 7952,
-    "h": 5304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/TR_Yedig%C3%B6ller_asv2021-10_img02.jpg/1920px-TR_Yedig%C3%B6ller_asv2021-10_img02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:TR_Yedig%C3%B6ller_asv2021-10_img02.jpg",
-    "a": "A.Savin",
-    "l": "FAL",
-    "n": 1
-   },
-   {
-    "file": "DSC 7091 MK.jpg",
-    "w": 3696,
-    "h": 2448,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/DSC_7091_MK.jpg/1920px-DSC_7091_MK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:DSC_7091_MK.jpg",
-    "a": "Mehmet K",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "1150 mt'den görünüm.jpg",
-    "w": 3920,
-    "h": 2940,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/1150_mt%27den_g%C3%B6r%C3%BCn%C3%BCm.jpg/1920px-1150_mt%27den_g%C3%B6r%C3%BCn%C3%BCm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:1150_mt%27den_g%C3%B6r%C3%BCn%C3%BCm.jpg",
-    "a": "Mathplus",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "A lake that is surrounded by green trees in Yedigöller National Park.jpg",
-    "w": 3280,
-    "h": 1848,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/A_lake_that_is_surrounded_by_green_trees_in_Yedig%C3%B6ller_National_Park.jpg/1920px-A_lake_that_is_surrounded_by_green_trees_in_Yedig%C3%B6ller_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:A_lake_that_is_surrounded_by_green_trees_in_Yedig%C3%B6ller_National_Park.jpg",
-    "a": "Bthngzky",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "A river that is between in trees in Yedigöller National Park.jpg",
-    "w": 3280,
-    "h": 1848,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/A_river_that_is_between_in_trees_in_Yedig%C3%B6ller_National_Park.jpg/1920px-A_river_that_is_between_in_trees_in_Yedig%C3%B6ller_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:A_river_that_is_between_in_trees_in_Yedig%C3%B6ller_National_Park.jpg",
-    "a": "Bthngzky",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Ahenk.jpg",
-    "w": 1920,
-    "h": 1280,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ahenk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Ahenk.jpg",
-    "a": "Mustafabinol",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Bolu Yedigoller.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Bolu_Yedigoller.jpg/1920px-Bolu_Yedigoller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bolu_Yedigoller.jpg",
-    "a": "Ömer Davarcı",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GCI01": {
-  "wd": {
-   "qid": "Q272986",
-   "label": "Lake Çıldır",
-   "desc": "lake",
-   "lat": 41.0446,
-   "lng": 43.2556,
-   "p18": [
-    "Lake Cildir NASA.jpg"
-   ],
-   "cat": "Lake Çıldır"
-  },
-  "cands": [
-   {
-    "file": "Lake Cildir NASA.jpg",
-    "w": 1024,
-    "h": 702,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Lake_Cildir_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Cildir_NASA.jpg",
-    "a": "NASA",
-    "l": "Public domain",
-    "n": 0
-   },
-   {
-    "file": "Aktaş gölü.jpg",
-    "w": 4128,
-    "h": 3096,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Akta%C5%9F_g%C3%B6l%C3%BC.jpg/1920px-Akta%C5%9F_g%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Akta%C5%9F_g%C3%B6l%C3%BC.jpg",
-    "a": "Nazlkrdnz",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Ardahan Yaylası 09 1984 Çıldır Gölü östlich Çıldır.jpg",
-    "w": 2666,
-    "h": 1725,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Ardahan_Yaylas%C4%B1_09_1984_%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_%C3%B6stlich_%C3%87%C4%B1ld%C4%B1r.jpg/1920px-Ardahan_Yaylas%C4%B1_09_1984_%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_%C3%B6stlich_%C3%87%C4%B1ld%C4%B1r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ardahan_Yaylas%C4%B1_09_1984_%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_%C3%B6stlich_%C3%87%C4%B1ld%C4%B1r.jpg",
-    "a": "Volker Höhfeld",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Ardahan Çıldır Lake.jpg",
-    "w": 6000,
-    "h": 3376,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Ardahan_%C3%87%C4%B1ld%C4%B1r_Lake.jpg/1920px-Ardahan_%C3%87%C4%B1ld%C4%B1r_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ardahan_%C3%87%C4%B1ld%C4%B1r_Lake.jpg",
-    "a": "Erkan Karagöz",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Atlı Kızak in Çıldır Lake.jpg",
-    "w": 5363,
-    "h": 3575,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Atl%C4%B1_K%C4%B1zak_in_%C3%87%C4%B1ld%C4%B1r_Lake.jpg/1920px-Atl%C4%B1_K%C4%B1zak_in_%C3%87%C4%B1ld%C4%B1r_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Atl%C4%B1_K%C4%B1zak_in_%C3%87%C4%B1ld%C4%B1r_Lake.jpg",
-    "a": "Ringofener",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Çıldır Gölü At.jpg",
-    "w": 5184,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_At.jpg/1920px-%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_At.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_At.jpg",
-    "a": "BilgeKorkmaz",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Çıldır Gölü 1.jpg",
-    "w": 5184,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_1.jpg/1920px-%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_1.jpg",
-    "a": "BilgeKorkmaz",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Çıldır Gölü 2.jpg",
-    "w": 5184,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_2.jpg/1920px-%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC_2.jpg",
-    "a": "BilgeKorkmaz",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GKA01": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Borçka Karagöl (Turkey) banner.jpg",
-    "w": 2100,
-    "h": 300,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Bor%C3%A7ka_Karag%C3%B6l_%28Turkey%29_banner.jpg/1920px-Bor%C3%A7ka_Karag%C3%B6l_%28Turkey%29_banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bor%C3%A7ka_Karag%C3%B6l_(Turkey)_banner.jpg",
-    "a": "Engin Tavlı",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Borçka-Karagöl Nature Park 09.jpg",
-    "w": 4968,
-    "h": 3195,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_09.jpg/1920px-Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_09.jpg",
-    "a": "Valen1988",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Borçka-Karagöl Nature Park 10.jpg",
-    "w": 5184,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_10.jpg/1920px-Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_10.jpg",
-    "a": "Valen1988",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Borçka-Karagöl Nature Park 16.jpg",
-    "w": 5184,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_16.jpg/1920px-Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bor%C3%A7ka-Karag%C3%B6l_Nature_Park_16.jpg",
-    "a": "Valen1988",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Nemrut_Krater_G%C3%B6l%C3%BC_01.jpg/1920px-Nemrut_Krater_G%C3%B6l%C3%BC_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nemrut_Krater_G%C3%B6l%C3%BC_01.jpg",
+    "a": "Zeynep Tağu",
     "l": "CC BY-SA 4.0",
     "n": 4
    }
   ]
  },
- "GHA01": {
+ "KYO01": {
   "wd": {
-   "qid": "Q2380189",
-   "label": "Lake Hazar",
-   "desc": "rift lake in the Taurus Mountains, Turkey",
-   "lat": 38.4845,
-   "lng": 39.4047,
+   "qid": "Q301376",
+   "label": "Buffavento Castle",
+   "desc": "castle in Northern Cyprus",
+   "lat": 35.2875,
+   "lng": 33.41,
    "p18": [
-    "Lake Hazar and Mount Hazar Baba.jpg"
+    "Voufavento castle.jpg"
    ],
-   "cat": "Lake Hazar"
+   "cat": "Buffavento castle"
   },
   "cands": [
    {
-    "file": "Lake Hazar and Mount Hazar Baba.jpg",
-    "w": 3008,
-    "h": 2000,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Lake_Hazar_and_Mount_Hazar_Baba.jpg/1920px-Lake_Hazar_and_Mount_Hazar_Baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Hazar_and_Mount_Hazar_Baba.jpg",
-    "a": "Gakgos",
+    "file": "Voufavento castle.jpg",
+    "w": 4416,
+    "h": 3312,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Voufavento_castle.jpg/1920px-Voufavento_castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Voufavento_castle.jpg",
+    "a": "Dickelbers",
     "l": "CC BY-SA 3.0",
     "n": 0
-   },
-   {
-    "file": "Elazığ Hazar Gölü Eşsiz Cennet.jpg",
-    "w": 3060,
-    "h": 4080,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC_E%C5%9Fsiz_Cennet.jpg/1920px-Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC_E%C5%9Fsiz_Cennet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC_E%C5%9Fsiz_Cennet.jpg",
-    "a": "Cimbom Sat",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Elazığ Hazar Gölü eşsiz cennet.jpg",
-    "w": 4080,
-    "h": 3060,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC_e%C5%9Fsiz_cennet.jpg/1920px-Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC_e%C5%9Fsiz_cennet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC_e%C5%9Fsiz_cennet.jpg",
-    "a": "Cimbom Sat",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Elazığ Hazar Gölü.jpg",
-    "w": 1125,
-    "h": 842,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Elaz%C4%B1%C4%9F_Hazar_G%C3%B6l%C3%BC.jpg",
-    "a": "Zeynep Kılınç",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "HAZAR LAKE NATURE PARK in Elazig.jpg",
-    "w": 4160,
-    "h": 2340,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/HAZAR_LAKE_NATURE_PARK_in_Elazig.jpg/1920px-HAZAR_LAKE_NATURE_PARK_in_Elazig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:HAZAR_LAKE_NATURE_PARK_in_Elazig.jpg",
-    "a": "Stoykimuzhik",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Hazar Lake in April.jpg",
-    "w": 4032,
-    "h": 2268,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Hazar_Lake_in_April.jpg/1920px-Hazar_Lake_in_April.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hazar_Lake_in_April.jpg",
-    "a": "T Lenfosit",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GBE01": {
-  "wd": {
-   "qid": "Q369923",
-   "label": "Lake Beyşehir",
-   "desc": "lake in Turkey",
-   "lat": 37.782,
-   "lng": 31.5076,
-   "p18": [
-    "Lake Beysehir NASA.jpg"
-   ],
-   "cat": "Lake Beyşehir"
-  },
-  "cands": [
-   {
-    "file": "Lake Beysehir NASA.jpg",
-    "w": 1024,
-    "h": 702,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lake_Beysehir_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Beysehir_NASA.jpg",
-    "a": "",
-    "l": "Public domain",
-    "n": 0
-   },
-   {
-    "file": "2019-05-08 02.23.01 1 Beyşehir Gölü, Beyşehir. Konya.jpg",
-    "w": 4128,
-    "h": 2322,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/2019-05-08_02.23.01_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC%2C_Bey%C5%9Fehir._Konya.jpg/1920px-2019-05-08_02.23.01_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC%2C_Bey%C5%9Fehir._Konya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:2019-05-08_02.23.01_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC,_Bey%C5%9Fehir._Konya.jpg",
-    "a": "Naciye horata",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "2019-05-08 02.23.03 1 Beyşehir Gölü.jpg",
-    "w": 3577,
-    "h": 2322,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/2019-05-08_02.23.03_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC.jpg/1920px-2019-05-08_02.23.03_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:2019-05-08_02.23.03_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC.jpg",
-    "a": "Naciye horata",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "2019-05-08 02.23.10 1 Beyşehir Gölü.jpg",
-    "w": 2322,
-    "h": 3513,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2019-05-08_02.23.10_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC.jpg/1920px-2019-05-08_02.23.10_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:2019-05-08_02.23.10_1_Bey%C5%9Fehir_G%C3%B6l%C3%BC.jpg",
-    "a": "Naciye horata",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "32850 Yenişarbademli-Isparta Province, Turkey - panoramio.jpg",
-    "w": 4752,
-    "h": 3168,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/32850_Yeni%C5%9Farbademli-Isparta_Province%2C_Turkey_-_panoramio.jpg/1920px-32850_Yeni%C5%9Farbademli-Isparta_Province%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:32850_Yeni%C5%9Farbademli-Isparta_Province,_Turkey_-_panoramio.jpg",
-    "a": "александр--161",
-    "l": "CC BY 3.0",
-    "n": 4
-   },
-   {
-    "file": "Lake Beyşehir Viewpoint, April 2024 02.jpg",
-    "w": 3456,
-    "h": 4608,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Lake_Bey%C5%9Fehir_Viewpoint%2C_April_2024_02.jpg/1920px-Lake_Bey%C5%9Fehir_Viewpoint%2C_April_2024_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Bey%C5%9Fehir_Viewpoint,_April_2024_02.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Lake Beyşehir seen from the south, April 2024 03.jpg",
-    "w": 4608,
-    "h": 2592,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Lake_Bey%C5%9Fehir_seen_from_the_south%2C_April_2024_03.jpg/1920px-Lake_Bey%C5%9Fehir_seen_from_the_south%2C_April_2024_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Bey%C5%9Fehir_seen_from_the_south,_April_2024_03.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Lake Beyşehir seen from the south, April 2024 08.jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Lake_Bey%C5%9Fehir_seen_from_the_south%2C_April_2024_08.jpg/1920px-Lake_Bey%C5%9Fehir_seen_from_the_south%2C_April_2024_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Bey%C5%9Fehir_seen_from_the_south,_April_2024_08.jpg",
-    "a": "Calistemon",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "GME01": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Meke Lake Crater.jpg",
-    "w": 5184,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Meke_Lake_Crater.jpg/1920px-Meke_Lake_Crater.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Meke_Lake_Crater.jpg",
-    "a": "Josh.artofwayfaring",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Meke Lake Shore.jpg",
-    "w": 4922,
-    "h": 3281,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Meke_Lake_Shore.jpg/1920px-Meke_Lake_Shore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Meke_Lake_Shore.jpg",
-    "a": "Josh.artofwayfaring",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Meke Lake.jpg",
-    "w": 3264,
-    "h": 1836,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Meke_Lake.jpg/1920px-Meke_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Meke_Lake.jpg",
-    "a": ".ilay.bulut",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Meke Lake Cone.jpg",
-    "w": 4869,
-    "h": 3246,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Meke_Lake_Cone.jpg/1920px-Meke_Lake_Cone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Meke_Lake_Cone.jpg",
-    "a": "Josh.artofwayfaring",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Meke Crater Lake, Konya 2018 2.jpg",
-    "w": 5184,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Meke_Crater_Lake%2C_Konya_2018_2.jpg/1920px-Meke_Crater_Lake%2C_Konya_2018_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Meke_Crater_Lake,_Konya_2018_2.jpg",
-    "a": "İrem Türkkan",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   }
-  ]
- },
- "GGO01": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Isparta Gölcük Gölü.jpg",
-    "w": 3696,
-    "h": 2448,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Isparta_G%C3%B6lc%C3%BCk_G%C3%B6l%C3%BC.jpg/1920px-Isparta_G%C3%B6lc%C3%BCk_G%C3%B6l%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Isparta_G%C3%B6lc%C3%BCk_G%C3%B6l%C3%BC.jpg",
-    "a": "Ömer Burak Tercan",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Gölcük Doğa Parkı Uzaktan.jpg",
-    "w": 2304,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1_Uzaktan.jpg/1920px-G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1_Uzaktan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1_Uzaktan.jpg",
-    "a": "Gökçe hayko",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Gölcük Doğa Parkı.jpg",
-    "w": 2304,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1.jpg/1920px-G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1.jpg",
-    "a": "Gökçe hayko",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Gölcük Doğa Parkı Sahil.jpg",
-    "w": 2304,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1_Sahil.jpg/1920px-G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1_Sahil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6lc%C3%BCk_Do%C4%9Fa_Park%C4%B1_Sahil.jpg",
-    "a": "Gökçe hayko",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   }
-  ]
- },
- "KKA01": {
-  "wd": {
-   "qid": "Q1418724",
-   "label": "Karpaz Peninsula",
-   "desc": "peninsula on the island of Cyprus",
-   "lat": 35.527756,
-   "lng": 34.277344,
-   "p18": [
-    "Karpasia.png"
-   ],
-   "cat": "Karpaz Peninsula"
-  },
-  "cands": [
-   {
-    "file": "Karpasia.png",
-    "w": 1269,
-    "h": 799,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/67/Karpasia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Karpasia.png",
-    "a": "NASA Worldwind",
-    "l": "Public domain",
-    "n": 0
-   },
-   {
-    "file": "A road between Yeni Erenköy and Keleburnu, Northern Cyprus.jpg",
-    "w": 5472,
-    "h": 3648,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/A_road_between_Yeni_Erenk%C3%B6y_and_Keleburnu%2C_Northern_Cyprus.jpg/1920px-A_road_between_Yeni_Erenk%C3%B6y_and_Keleburnu%2C_Northern_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:A_road_between_Yeni_Erenk%C3%B6y_and_Keleburnu,_Northern_Cyprus.jpg",
-    "a": "Michal Klajban",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "A road in Karpaz right before storm, Northern Cyprus.jpg",
-    "w": 5131,
-    "h": 3050,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/A_road_in_Karpaz_right_before_storm%2C_Northern_Cyprus.jpg/1920px-A_road_in_Karpaz_right_before_storm%2C_Northern_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:A_road_in_Karpaz_right_before_storm,_Northern_Cyprus.jpg",
-    "a": "Michal Klajban",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "A small chapel in Karpaz, Northern Cyprus.jpg",
-    "w": 5391,
-    "h": 2846,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/A_small_chapel_in_Karpaz%2C_Northern_Cyprus.jpg/1920px-A_small_chapel_in_Karpaz%2C_Northern_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:A_small_chapel_in_Karpaz,_Northern_Cyprus.jpg",
-    "a": "Michal Klajban",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "A stone with a trail mark, Karpas Peninsula, Northern Cyprus.jpg",
-    "w": 4998,
-    "h": 3265,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/A_stone_with_a_trail_mark%2C_Karpas_Peninsula%2C_Northern_Cyprus.jpg/1920px-A_stone_with_a_trail_mark%2C_Karpas_Peninsula%2C_Northern_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:A_stone_with_a_trail_mark,_Karpas_Peninsula,_Northern_Cyprus.jpg",
-    "a": "Michal Klajban",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Karpaz Coast 3.jpg",
-    "w": 3500,
-    "h": 2333,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Karpaz_Coast_3.jpg/1920px-Karpaz_Coast_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Karpaz_Coast_3.jpg",
-    "a": "Julian Nyča",
-    "l": "CC BY-SA 3.0",
-    "n": 5
-   },
-   {
-    "file": "Golden Beach, Karpaz, Northern Cyprus.jpg",
-    "w": 5350,
-    "h": 3567,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Golden_Beach%2C_Karpaz%2C_Northern_Cyprus.jpg/1920px-Golden_Beach%2C_Karpaz%2C_Northern_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Golden_Beach,_Karpaz,_Northern_Cyprus.jpg",
-    "a": "Michal Klajban",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Karpaz banner.jpg",
-    "w": 2100,
-    "h": 300,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Karpaz_banner.jpg/1920px-Karpaz_banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Karpaz_banner.jpg",
-    "a": "Anna Anichkova",
-    "l": "CC BY-SA 3.0",
-    "n": 7
-   }
-  ]
- },
- "KAL01": {
-  "wd": {
-   "qid": "Q133838581",
-   "label": "Alagadi Beach",
-   "desc": "A beach in Northern Cyprus known for its sea turtle nesting sites.",
-   "lat": 35.33442051275731,
-   "lng": 33.49189420966853,
-   "p18": [
-    "Alagadi Turtle Beach in 2020.04.jpg"
-   ],
-   "cat": null
-  },
-  "cands": [
-   {
-    "file": "Alagadi Turtle Beach in 2020.04.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Alagadi_Turtle_Beach_in_2020.04.jpg/1920px-Alagadi_Turtle_Beach_in_2020.04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alagadi_Turtle_Beach_in_2020.04.jpg",
-    "a": "CAPTAIN RAJU",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Alagadi Turtle Beach in 2020.01.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Alagadi_Turtle_Beach_in_2020.01.jpg/1920px-Alagadi_Turtle_Beach_in_2020.01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alagadi_Turtle_Beach_in_2020.01.jpg",
-    "a": "CAPTAIN RAJU",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Alagadi Turtle Beach in 2020.07.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Alagadi_Turtle_Beach_in_2020.07.jpg/1920px-Alagadi_Turtle_Beach_in_2020.07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alagadi_Turtle_Beach_in_2020.07.jpg",
-    "a": "CAPTAIN RAJU",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Alagadi Turtle Beach in 2020.06.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Alagadi_Turtle_Beach_in_2020.06.jpg/1920px-Alagadi_Turtle_Beach_in_2020.06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alagadi_Turtle_Beach_in_2020.06.jpg",
-    "a": "CAPTAIN RAJU",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Alagadi Turtle Beach in 2020.05.jpg",
-    "w": 4032,
-    "h": 3024,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Alagadi_Turtle_Beach_in_2020.05.jpg/1920px-Alagadi_Turtle_Beach_in_2020.05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alagadi_Turtle_Beach_in_2020.05.jpg",
-    "a": "CAPTAIN RAJU",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   }
-  ]
- },
- "KBE01": {
-  "wd": {
-   "qid": "Q909107",
-   "label": "Kyrenia Mountains",
-   "desc": "Mountain range in Cyprus",
-   "lat": 35.283,
-   "lng": 33.534,
-   "p18": [
-    "KyreniaMountainRange.jpg"
-   ],
-   "cat": "Kyrenia mountain range"
-  },
-  "cands": [
-   {
-    "file": "KyreniaMountainRange.jpg",
-    "w": 2272,
-    "h": 1704,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/KyreniaMountainRange.jpg/1920px-KyreniaMountainRange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:KyreniaMountainRange.jpg",
-    "a": "Atak at English Wikipedia",
-    "l": "Public domain",
-    "n": 0
-   },
-   {
-    "file": "Agridaki.JPG",
-    "w": 2500,
-    "h": 1667,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Agridaki.JPG/1920px-Agridaki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Agridaki.JPG",
-    "a": "Julian Nyča",
-    "l": "CC BY-SA 3.0",
-    "n": 1
    },
    {
     "file": "Buffavento 1 C.jpg",
@@ -1709,7 +232,7 @@
     "page": "https://commons.wikimedia.org/wiki/File:Buffavento_1_C.jpg",
     "a": "Gerhard Haubold",
     "l": "CC BY-SA 3.0",
-    "n": 2
+    "n": 1
    },
    {
     "file": "Buffavento 2 C.jpg",
@@ -1719,325 +242,61 @@
     "page": "https://commons.wikimedia.org/wiki/File:Buffavento_2_C.jpg",
     "a": "Gerhard Haubold",
     "l": "CC BY-SA 3.0",
-    "n": 3
-   },
-   {
-    "file": "Cypress Halefka.JPG",
-    "w": 2048,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Cypress_Halefka.JPG/1920px-Cypress_Halefka.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Cypress_Halefka.JPG",
-    "a": "Chneophytou",
-    "l": "CC BY-SA 3.0",
-    "n": 4
-   },
-   {
-    "file": "Pentadaktylos Mt.JPG",
-    "w": 2048,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Pentadaktylos_Mt.JPG/1920px-Pentadaktylos_Mt.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pentadaktylos_Mt.JPG",
-    "a": "Chneophytou at Greek Wikipedia",
-    "l": "CC BY-SA 3.0",
-    "n": 5
-   },
-   {
-    "file": "ארמון אידליון וברקע דאלי והרי קירניה – Idalion palace, Dali and Kyrenia mountains.jpg",
-    "w": 4795,
-    "h": 2867,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%D7%90%D7%A8%D7%9E%D7%95%D7%9F_%D7%90%D7%99%D7%93%D7%9C%D7%99%D7%95%D7%9F_%D7%95%D7%91%D7%A8%D7%A7%D7%A2_%D7%93%D7%90%D7%9C%D7%99_%D7%95%D7%94%D7%A8%D7%99_%D7%A7%D7%99%D7%A8%D7%A0%D7%99%D7%94_%E2%80%93_Idalion_palace%2C_Dali_and_Kyrenia_mountains.jpg/1920px-%D7%90%D7%A8%D7%9E%D7%95%D7%9F_%D7%90%D7%99%D7%93%D7%9C%D7%99%D7%95%D7%9F_%D7%95%D7%91%D7%A8%D7%A7%D7%A2_%D7%93%D7%90%D7%9C%D7%99_%D7%95%D7%94%D7%A8%D7%99_%D7%A7%D7%99%D7%A8%D7%A0%D7%99%D7%94_%E2%80%93_Idalion_palace%2C_Dali_and_Kyrenia_mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%D7%90%D7%A8%D7%9E%D7%95%D7%9F_%D7%90%D7%99%D7%93%D7%9C%D7%99%D7%95%D7%9F_%D7%95%D7%91%D7%A8%D7%A7%D7%A2_%D7%93%D7%90%D7%9C%D7%99_%D7%95%D7%94%D7%A8%D7%99_%D7%A7%D7%99%D7%A8%D7%A0%D7%99%D7%94_%E2%80%93_Idalion_palace,_Dali_and_Kyrenia_mountains.jpg",
-    "a": "פעמי-עליון",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Nicosia 01-2017 img20 View from Shacolas Tower.jpg",
-    "w": 4563,
-    "h": 3042,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Nicosia_01-2017_img20_View_from_Shacolas_Tower.jpg/1920px-Nicosia_01-2017_img20_View_from_Shacolas_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Nicosia_01-2017_img20_View_from_Shacolas_Tower.jpg",
-    "a": "A.Savin",
-    "l": "FAL",
-    "n": 7
-   }
-  ]
- },
- "KYO01": {
-  "wd": {},
-  "cands": []
- },
- "NGU01": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Girlevik Waterfall, Erzincan, Turkey.jpg",
-    "w": 2543,
-    "h": 1774,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Girlevik_Waterfall%2C_Erzincan%2C_Turkey.jpg/1920px-Girlevik_Waterfall%2C_Erzincan%2C_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Girlevik_Waterfall,_Erzincan,_Turkey.jpg",
-    "a": "Medgeorgia",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Girlevik Waterfall, Erzincan.jpg",
-    "w": 3153,
-    "h": 2449,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Girlevik_Waterfall%2C_Erzincan.jpg/1920px-Girlevik_Waterfall%2C_Erzincan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Girlevik_Waterfall,_Erzincan.jpg",
-    "a": "Medgeorgia",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Erzincan şelale - panoramio.jpg",
-    "w": 2592,
-    "h": 1944,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Erzincan_%C5%9Felale_-_panoramio.jpg/1920px-Erzincan_%C5%9Felale_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Erzincan_%C5%9Felale_-_panoramio.jpg",
-    "a": "sabit ince",
-    "l": "CC BY-SA 3.0",
     "n": 2
    },
    {
-    "file": "Çağlayan... - panoramio.jpg",
-    "w": 1024,
-    "h": 768,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/58/%C3%87a%C4%9Flayan..._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%87a%C4%9Flayan..._-_panoramio.jpg",
-    "a": "Sinan Şahin",
-    "l": "CC BY 3.0",
-    "n": 3
-   },
-   {
-    "file": "Girlevik Şelalesi... - panoramio.jpg",
-    "w": 4288,
-    "h": 3216,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Girlevik_%C5%9Eelalesi..._-_panoramio.jpg/1920px-Girlevik_%C5%9Eelalesi..._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Girlevik_%C5%9Eelalesi..._-_panoramio.jpg",
-    "a": "Sinan Şahin",
-    "l": "CC BY 3.0",
-    "n": 4
-   }
-  ]
- },
- "NKP01": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Kapuzbasi Waterfall - panoramio.jpg",
-    "w": 3888,
-    "h": 2592,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kapuzbasi_Waterfall_-_panoramio.jpg/1920px-Kapuzbasi_Waterfall_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Kapuzbasi_Waterfall_-_panoramio.jpg",
-    "a": "Tevfik Teker",
-    "l": "CC BY 3.0",
-    "n": 0
-   },
-   {
-    "file": "Kapuzbaşı Waterfalls - panoramio.jpg",
-    "w": 1024,
-    "h": 1024,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kapuzba%C5%9F%C4%B1_Waterfalls_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Kapuzba%C5%9F%C4%B1_Waterfalls_-_panoramio.jpg",
-    "a": "Melih Rustu CALIKOGL…",
-    "l": "CC BY-SA 3.0",
-    "n": 1
-   },
-   {
-    "file": "Heybetli görkemiyle Kapuzbaşı Şelalesi.jpg",
-    "w": 3968,
-    "h": 2976,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Heybetli_g%C3%B6rkemiyle_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg/1920px-Heybetli_g%C3%B6rkemiyle_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Heybetli_g%C3%B6rkemiyle_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg",
-    "a": "Uefeyik",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Aladağların göz nuru Kapuzbaşı Şelalesi.jpg",
-    "w": 4618,
-    "h": 3464,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Alada%C4%9Flar%C4%B1n_g%C3%B6z_nuru_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg/1920px-Alada%C4%9Flar%C4%B1n_g%C3%B6z_nuru_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alada%C4%9Flar%C4%B1n_g%C3%B6z_nuru_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg",
-    "a": "Uefeyik",
+    "file": "Buffavento Ausblick Unterburg Nov 2018.jpg",
+    "w": 3456,
+    "h": 4608,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Buffavento_Ausblick_Unterburg_Nov_2018.jpg/1920px-Buffavento_Ausblick_Unterburg_Nov_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_Ausblick_Unterburg_Nov_2018.jpg",
+    "a": "Josef Moser",
     "l": "CC BY-SA 4.0",
     "n": 3
    },
    {
-    "file": "Kapuzbaşı Şelalesi - panoramio.jpg",
-    "w": 2304,
-    "h": 1728,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi_-_panoramio.jpg/1920px-Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi_-_panoramio.jpg",
-    "a": "halisyalcinkaya",
-    "l": "CC BY 3.0",
+    "file": "Buffavento Eingangstor.jpg",
+    "w": 3456,
+    "h": 4608,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Buffavento_Eingangstor.jpg/1920px-Buffavento_Eingangstor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffavento_Eingangstor.jpg",
+    "a": "Josef Moser",
+    "l": "CC BY-SA 4.0",
     "n": 4
    }
   ]
  },
- "NUC01": {
-  "wd": {},
-  "cands": []
- },
- "NKK01": {
+ "NKA01": {
   "wd": {
-   "qid": "Q61077683",
-   "label": "Karanlık Canyon",
-   "desc": "canyon in Turkey",
-   "lat": 39.27,
-   "lng": 38.49761111111111,
-   "p18": [
-    "Canyone 2 (32828345).jpeg"
-   ],
+   "qid": "Q10777732",
+   "label": "Kartalkaya",
+   "desc": "village in Gemerek, Sivas, central Turkey",
+   "lat": 39.1443,
+   "lng": 36.2272,
+   "p18": [],
    "cat": null
   },
   "cands": [
    {
-    "file": "Kemaliye Taş Yolu and Karanlik Kanyon.jpg",
-    "w": 4608,
-    "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Kemaliye_Ta%C5%9F_Yolu_and_Karanlik_Kanyon.jpg/1920px-Kemaliye_Ta%C5%9F_Yolu_and_Karanlik_Kanyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Kemaliye_Ta%C5%9F_Yolu_and_Karanlik_Kanyon.jpg",
-    "a": "Bodrumlu60",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   }
-  ]
- },
- "NIL01": {
-  "wd": {
-   "qid": "Q6978160",
-   "label": "Ilgaz Mountains",
-   "desc": "mountain range in Turkey",
-   "lat": 41.08066111111111,
-   "lng": 33.870019444444445,
-   "p18": [
-    "Ilgaz 35.JPG"
-   ],
-   "cat": "Ilgaz Mountains"
-  },
-  "cands": [
-   {
-    "file": "Ilgaz 35.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Ilgaz_35.JPG/1920px-Ilgaz_35.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ilgaz_35.JPG",
-    "a": "Vikiçizer",
-    "l": "CC BY-SA 4.0",
+    "file": "Kartalkaya.jpg",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Kartalkaya.jpg/1280px-Kartalkaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kartalkaya.jpg",
+    "a": "Ozge Utan",
+    "l": "CC BY 2.0",
     "n": 0
    },
    {
-    "file": "18400 Cömert-Ilgaz-Çankırı, Turkey - panoramio.jpg",
-    "w": 2048,
-    "h": 1536,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/18400_C%C3%B6mert-Ilgaz-%C3%87ank%C4%B1r%C4%B1%2C_Turkey_-_panoramio.jpg/1920px-18400_C%C3%B6mert-Ilgaz-%C3%87ank%C4%B1r%C4%B1%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:18400_C%C3%B6mert-Ilgaz-%C3%87ank%C4%B1r%C4%B1,_Turkey_-_panoramio.jpg",
-    "a": "ilhan turun",
-    "l": "CC BY 3.0",
-    "n": 1
-   },
-   {
-    "file": "18400 Ilgaz-Çankırı, Turkey - panoramio.jpg",
-    "w": 1536,
-    "h": 1536,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/18400_Ilgaz-%C3%87ank%C4%B1r%C4%B1%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:18400_Ilgaz-%C3%87ank%C4%B1r%C4%B1,_Turkey_-_panoramio.jpg",
-    "a": "ilhan turun",
-    "l": "CC BY 3.0",
-    "n": 2
-   },
-   {
-    "file": "Ilgaz 1.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ilgaz_1.JPG/1920px-Ilgaz_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ilgaz_1.JPG",
-    "a": "Vikiçizer",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Ilgaz 42.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Ilgaz_42.JPG/1920px-Ilgaz_42.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ilgaz_42.JPG",
-    "a": "Vikiçizer",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   },
-   {
-    "file": "Ilgaz 54.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Ilgaz_54.JPG/1920px-Ilgaz_54.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ilgaz_54.JPG",
-    "a": "Vikiçizer",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Ilgaz 60.JPG",
-    "w": 3072,
-    "h": 2304,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ilgaz_60.JPG/1920px-Ilgaz_60.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ilgaz_60.JPG",
-    "a": "Vikiçizer",
-    "l": "CC BY-SA 4.0",
-    "n": 7
-   }
-  ]
- },
- "NSY01": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Sultans Trail - hiking sticker.jpg",
-    "w": 1726,
-    "h": 2648,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sultans_Trail_-_hiking_sticker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Sultans_Trail_-_hiking_sticker.jpg",
-    "a": "Sultans Trail Foundation",
+    "file": "Köroğlu Dağları 08 06 1990 Kartalkaya Flug.jpg",
+    "w": 2673,
+    "h": 1710,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/K%C3%B6ro%C4%9Flu_Da%C4%9Flar%C4%B1_08_06_1990_Kartalkaya_Flug.jpg/1920px-K%C3%B6ro%C4%9Flu_Da%C4%9Flar%C4%B1_08_06_1990_Kartalkaya_Flug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6ro%C4%9Flu_Da%C4%9Flar%C4%B1_08_06_1990_Kartalkaya_Flug.jpg",
+    "a": "Volker Höhfeld",
     "l": "CC BY-SA 4.0",
     "n": 1
-   },
-   {
-    "file": "Larnaca Salt Lake, Cyprus, approach to Hala Sultan Tekke from north.jpg",
-    "w": 3910,
-    "h": 2933,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Larnaca_Salt_Lake%2C_Cyprus%2C_approach_to_Hala_Sultan_Tekke_from_north.jpg/1920px-Larnaca_Salt_Lake%2C_Cyprus%2C_approach_to_Hala_Sultan_Tekke_from_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Larnaca_Salt_Lake,_Cyprus,_approach_to_Hala_Sultan_Tekke_from_north.jpg",
-    "a": "Gerda Arendt",
-    "l": "CC0",
-    "n": 2
-   },
-   {
-    "file": "TView of Islamabad from hiking trail 5 in Margalla Hills.jpg",
-    "w": 4128,
-    "h": 3096,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/TView_of_Islamabad_from_hiking_trail_5_in_Margalla_Hills.jpg/1920px-TView_of_Islamabad_from_hiking_trail_5_in_Margalla_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:TView_of_Islamabad_from_hiking_trail_5_in_Margalla_Hills.jpg",
-    "a": "Maira sultan",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Islamabad view from Margalla Hills hiking trail 5.jpg",
-    "w": 4128,
-    "h": 3096,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Islamabad_view_from_Margalla_Hills_hiking_trail_5.jpg/1920px-Islamabad_view_from_Margalla_Hills_hiking_trail_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Islamabad_view_from_Margalla_Hills_hiking_trail_5.jpg",
-    "a": "Maira sultan",
-    "l": "CC BY-SA 4.0",
-    "n": 4
    }
   ]
- },
- "NHY01": {
-  "wd": {},
-  "cands": []
  }
 }
