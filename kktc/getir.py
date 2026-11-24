@@ -35,9 +35,9 @@ def info(f):
         return {"file":f,"w":ii.get("width"),"h":ii.get("height"),"thumb":ii.get("thumburl"),"page":ii.get("descriptionurl"),"a":g("Artist")[:120],"l":g("LicenseShortName")}
 os.makedirs("kktc/img",exist_ok=True); out={}
 for line in open("kktc/liste.tsv",encoding="utf-8"):
-    sid,cat,q=line.rstrip("\n").split("\t")
-    w={}
-    cands=list(dict.fromkeys((files_in_cat(cat,5) if cat!="-" else [])+search(q,6)))[:8]
+    sid,lab,q=line.rstrip("\n").split("\t")
+    w=wd(lab); time.sleep(0.5)
+    cands=list(dict.fromkeys(w.get("p18",[])+(files_in_cat(w["cat"],4) if w.get("cat") else [])+search(q,5)))[:8]
     res=[]
     for i,f in enumerate(cands):
         x=info(f)
