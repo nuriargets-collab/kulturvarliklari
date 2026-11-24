@@ -1235,23 +1235,23 @@
 "key": "Adada ancient city",
 "ad": "Adada Antik Kenti",
 "il": "Isparta",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q346649",
+"lat": 37.575161111111,
+"lng": 30.985311111111,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
+"tr": "Adada",
+"en": "Adada",
+"de": "Adada",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
+"trw": "Adada",
+"enw": "Adada (Pisidia)",
 "cat": null,
-"ex_tr": "",
-"ex_en": "",
+"ex_tr": "Adada (Grekçe: Ἄδαδα), Eğirdir'in yaklaşık 40 km güneydoğusunda ve Antalya'nın 80 km kuzeydoğusunda, Isparta ilinin Sütçüler ilçesine bağlı bugünkü Sağrak köyü yakınında, Pisidia'da bulunan antik bir kenttir. Konum, Eğirdir Gölü'nün yaklaşık 35 km güneyinde olup Karabavullu veya Karabavlu olarak da anılır. Günümüzde Isparta-Sütçüler ilçe kara yolu üzerinden ulaşılabilen antik kent, Sağrak köyüne 2 kilometre, il merkezine 90 kilometre uzaklıktadır.\nİlk kez 1842 yılında A. Schönborn tarafından ziyaret edilmiş, daha sonra 1884 yılında Amerikalı John Robert Sitlington Sterrett tarafından yeniden keşfedilmiştir. Alman klasik dönem arkeoloğu Gustav Hirschfeld ve İskoç arkeolog William M. Ramsay yerleşimi 1887'de tanımladılar.\n\n",
+"ex_en": "Adada (Ancient Greek: Ἄδαδα) is an ancient city and archaeological site in ancient Pisidia, north of Selge and east of Kestros River, near the village of Sağrak, in Isparta Province's Sütçüler township. The location was identified as Karabavullu or Karabavli, about 35 km south of Lake Eğirdir.",
 "cands": [
 {
 "file": "Adada Antik Kenti.jpg",
@@ -1263,7 +1263,8 @@
 "l": "CC BY 4.0",
 "n": 0
 }
-]
+],
+"adm": "Pisidya"
 },
 "Y027": {
 "key": "Q174270",
@@ -1713,23 +1714,23 @@
 "key": "Küçüksu Pavilion",
 "ad": "Küçüksu Kasrı",
 "il": "İstanbul",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q1755906",
+"lat": 41.07833333,
+"lng": 29.06472222,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
-"ar": "",
+"tr": "Küçüksu Kasrı",
+"en": "Küçüksu Pavillion",
+"de": "Küçüksu-Palast",
+"es": "Pabellón Küçüksu",
+"ar": "قصر كوجك صو",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Küçüksu Kasrı",
+"enw": "Küçüksu Pavilion",
+"cat": "Küçüksu Palace",
+"ex_tr": "Küçüksu Kasrı veya Göksu Kasrı, İstanbul'un Küçüksu semtinde, Göksu Deresi ile Küçüksu Deresi arasında, Boğaziçi'nde Üsküdar-Beykoz sahilyolu üzerinde yer alan kasır. Sultan Abdülmecid tarafından Nigoğos Balyan'a yaptırılmış, inşaatı 1856 yılında tamamlanmıştır. Eski adı \"Göksu Kasrı\" olan bu yapı, padişahların, Boğaziçi kıyılarındaki biniş kasırlarından biridir. Kasırlar sadece hünkârların malı sayılan ve sarayların haricinde inşa edilen, köşkten büyük binalardır. Devamlı ikamet için kullanılmayan kasırlar, padişahların dinlenmeleri için vakit geçirdikleri yerdir.",
+"ex_en": "Küçüksu Pavilion (Turkish: Küçüksu Kasrı), Littlewater Pavilion a.k.a. Göksu (Skywater) Pavilion, is a summer pavilion in Istanbul, Turkey, situated in the Küçüksu neighborhood of Beykoz district on the Asian shore of the Bosphorus between Anadoluhisarı and the Fatih Sultan Mehmet Bridge. The pavilion was used by Ottoman sultans for short stays during country excursions and hunting.",
 "cands": [
 {
 "file": "İstanbul - Küçüksu Kasrı 0987.jpg",
@@ -1761,7 +1762,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "İstanbul"
 },
 "Y037": {
 "key": "Aynalıkavak Pavilion",
@@ -2122,23 +2124,23 @@
 "key": "Maiden's Tower",
 "ad": "Kız Kulesi",
 "il": "İstanbul",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q61076439",
+"lat": 41.182735,
+"lng": 40.874271,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Kız Kalesi",
+"en": "Kiz Kulesi, Rize",
 "de": "",
 "es": "",
-"ar": "",
+"ar": "قلعة كيز كوليسي",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Kız Kalesi (Rize)",
+"enw": "Kız Kulesi, Rize",
+"cat": "Kiz Kulesi, Rize",
+"ex_tr": "Kız Kalesi veya Kız Kulesi, Rize'nin Pazar ilçesinde bulunan tarihî bir kaledir. Pazar ilçe merkezinin batısında yer alan küçük bir yarımada üzerine inşa edilmiştir. Kara ile bağlantısı kesilmiş olan kale, kayalık bir zemin üzerinde bulunmaktadır. Bazı kaynaklara göre 13-14, bazı kaynaklara göre ise 8. yüzyılda inşa edilmiştir. Dış kenar uzunlukları 9,66 metre ve 9,07 metre uzunluğundadır. Yapının en çok hasar görmüş kısmı, Pazar'a bakan güney kısmıdır. Bu da kalenin birtakım saldırılara maruz kaldığını iddia eden rivayetleri desteklemektedir.",
+"ex_en": "Kız Kulesi is a medieval castle located on small islet, 1 km west of the center of Pazar, Rize Province, Turkey. According to A. Bryer it was built between 13th to 14th centuries, during the time of the Trebizond Empire. According to another sources castle was built by Genoese, as a summer residence for the daughter of a Genoese prince.\nLocal Laz tradition claims that the castle belonged to Queen Tamar of Georgia, who founded the Empire of Trebizond on the Black Sea coast in 1204 after the Georgian expedition to Chaldia.  \n\n",
 "cands": [
 {
 "file": "Kız Kulesi Mars 2013.jpg",
@@ -2170,7 +2172,8 @@
 "l": "CC BY-SA 3.0",
 "n": 2
 }
-]
+],
+"adm": "Pazar"
 },
 "Y045": {
 "key": "Cistern of Philoxenos",
@@ -2396,23 +2399,23 @@
 "key": "Arter (art space)",
 "ad": "Arter",
 "il": "İstanbul",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q25338955",
+"lat": 41.0409,
+"lng": 28.9787,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Arter",
+"en": "Arter",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Arter (sanat mekanı)",
+"enw": "Arter (art center)",
+"cat": "Arter (art center)",
+"ex_tr": "Arter, İstanbul'un Dolapdere semtinde bulunan bir çağdaş sanat müzesidir.\nBir Vehbi Koç Vakfı kuruluşu olan Arter, çağdaş sanat alanında bir sergileme ve üretim mekânı olarak hizmet vermek üzere 2010 yılında açıldı. İstiklâl Caddesi'ndeki binasında 2010–2018 yılları arasında sergiler, yayınlar, söyleşiler, performanslar ve atölyelerle çağdaş sanatın görünürlüğüne katkıda bulunan Arter, 2019 yılının Eylül ayında Grimshaw Mimarlık'ın tasarladığı Dolapdere'de açılan yeni binasına geçti. Dolapdere'de kültür sanat bağlamında açılan ilk kurumdur. Yeni binasıyla beraber süregelen faaliyetlerini ileriye taşıyan Arter, sergilerin yanı sıra farklı sanat disiplinlerinden performans ve etkinliklere de ev sahipliği yapar.\nArter, Mayıs 2010–Eylül 2023 tarihleri arasında toplam 64 sergiyi izleyicilerle buluşturmuş ve bu sergiler kapsamında 210'dan fazla yapıtın üretimine destek sağlamıştır.\n\n",
+"ex_en": "Arter is a contemporary art museum in the Dolapdere district of Istanbul, Turkey.\nA subsidiary of the Vehbi Koç Foundation, Arter was opened in 2010 with the aim of providing a sustainable infrastructure for producing and exhibiting contemporary art. Following eight years of operation during which it contributed to the visibility of contemporary art with a programme featuring exhibitions, publications, talks, performances and workshops at its venue on Istiklal Street, Arter moved to its new home in the Dolapdere district of Istanbul in September 2019. At its new building, Arter continues expanding the range of its activities beyond exhibitions to performances and events across many disciplines.\nArter presented 64 exhibitions and provided support for the production of over 210 artworks between May 2010 and September 2023.",
 "cands": [
 {
 "file": "Arter Dolapdere.jpg",
@@ -2444,7 +2447,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Beyoğlu"
 },
 "Y050": {
 "key": "SALT Galata",
@@ -4236,23 +4240,23 @@
 "key": "Erimtan Archaeology and Arts Museum",
 "ad": "Erimtan Arkeoloji ve Sanat Müzesi",
 "il": "Ankara",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q56435626",
+"lat": 39.938055555556,
+"lng": 32.863055555556,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Erimtan Arkeoloji ve Sanat Müzesi",
+"en": "Erimtan Museum",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Erimtan Arkeoloji ve Sanat Müzesi",
+"enw": "Erimtan Archaeology and Arts Museum",
+"cat": "Erimtan Archaeology and Art Museum",
+"ex_tr": "Erimtan Arkeoloji ve Sanat Müzesi, Ankara'nın Altındağ ilçesinde bulunan özel bir arkeoloji müzesidir.\nİşadamı Yüksel Erimtan'ın koleksiyonunda bulunan Hitit, Urartu, Roma ve Bizans dönemlerine ait objeler sergilenir ve sanatın her dalında disiplinlerarası etkinlikler gerçekleşir. Ankara'nın ilk özel müzesi olan müze, 14 Mart 2015 tarihinde açılmıştır.\n\n",
+"ex_en": "Erimtan Archaeology and Arts Museum (Turkish: Erimtan Arkeoloji ve Sanat Müzesi) is an archaeology museum and music venue in Ankara, Turkey.\n\n",
 "cands": [
 {
 "file": "Ankara - Erimtan Arkeoloji ve Sanat Müzesi 0628.jpg",
@@ -4284,7 +4288,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Altındağ"
 },
 "Y087": {
 "key": "Q2617627",
@@ -4510,23 +4515,23 @@
 "key": "Tofaş Museum of Anatolian Cars",
 "ad": "Tofaş Anadolu Arabaları Müzesi",
 "il": "Bursa",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q6047004",
+"lat": 40.176944444444,
+"lng": 29.071388888889,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Bursa Tofaş Anadolu Arabaları Müzesi",
+"en": "Tofaş Museum of Cars and Anatolian Carriages",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Bursa Tofaş Anadolu Arabaları Müzesi",
+"enw": "Tofaş Museum of Cars and Anatolian Carriages",
+"cat": "Bursa Tofaş Anadolu Arabaları Müzesi",
+"ex_tr": "Bursa Tofaş Anadolu Arabaları Müzesi, Bursa'da tekerleğin at arabasından otomobile gelişimini sergileyen, Türkiye'nin ilk araba müzesidir. Müze, Umurbey Mahallesindeki 17.000 metrekarelik bir alanı kapsayan eski bir ipek fabrikasının Tofaş'ın sosyal sorumluluk projesi adı altında restore edilmesiyle Haziran 2002 tarihinde ziyarete açılmıştır.\n\n",
+"ex_en": "The Tofaş Museum of Cars and Anatolian Carriages (Turkish: Tofaş Anadolu Arabaları Müzesi) is a private transport museum in Bursa, Turkey owned by the Turkish automobile maker Tofaş and dedicated to various carriages (Turkish: Araba) from Turkey and Tofaş-manufactured cars. It was opened on June 30, 2002.\nSituated in the historic Umurbey neighborhood of Yıldırım district, the museum is housed in a renovated building of 17,000 m2 (180,000 sq ft) that was an abandoned silk production plant. The facility was leased to the Bursa-based Tofaş Company for museum purposes by the Metropolitan Municipality of Bursa.\n\nThe museum's collection consists of historic carriages including a two-axle horse-drawn Bursa carriage, oxen drawn carts, canon carriages, wains for hay and firewood, phaetons, powered carriages, Tatar carriage, which are examples of fine carpentry and blacksmithing. The most important exhibit of the museum is the replica of a 6th-century B.C. chariot, which was reproduced between 1998 and 1999 from artifacts unearthed during roadworks in a crypt at Üçpınar Tumulus near Balıkesir. The chariot was formerly on display at the Bursa Archaeological Museum.\n\nFurther museum exhibits are automobiles including the first Murat 124 (Fiat 124) built in Turkey, Tofaş Şahin (Fiat 131), Fiat Uno, Fiat Tipo, Fiat Doblò and Fiat Albea. In a special corner, trophies won by Tofaş in motorsport are on display.\nThe museum also hosts events like temporary exhibitions of technological art as well as jazz concerts during the Bursa International Festival.\nThe museum is open to the public everyday but Mondays from 10:00 to 17:00 hours local time.\n\n",
 "cands": [
 {
 "file": "Tofaş Bursa Anadolu Arabaları Müzesi 2.jpg",
@@ -4558,7 +4563,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Bursa"
 },
 "Y092": {
 "key": "Bursa City Museum",
@@ -5636,24 +5642,36 @@
 "key": "Sultanhanı Caravanserai",
 "ad": "Sultanhanı Kervansarayı",
 "il": "Aksaray",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q3503565",
+"lat": 38.2479,
+"lng": 33.5467,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Sultan Hanı",
+"en": "Sultan Han",
 "de": "",
-"es": "",
-"ar": "",
-"zh": "",
+"es": "Sultan Han",
+"ar": "سلطان خان",
+"zh": "蘇丹汗",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
-"cands": []
+"trw": "Sultan Han (Aksaray)",
+"enw": "Sultan Han",
+"cat": "Sultan Han (Aksaray)",
+"ex_tr": "Sultan Han, Aksaray'da kendi adıyla anılan Sultanhanı ilçesindedir. Anadolu Selçuklu Sultanı I. Alaeddin Keykubad tarafından yaptırılan eser 1229 yılında tamamlanmıştır. Mimarı Şamlı Muhammed bin Havlan'dır. 4800 m² alana yayılan alanı ile Anadolu'daki en büyük Selçuklu kervansarayıdır. Klasik Selçuklu kervansaray şemasının örneklerindendir.\nİlhanlı bağımlılık döneminde isyan eden Türk emirlerinden İlyas Bey'in Aksaray yakınlarındaki Sultan Alâaddin Kervansarayı'na sığınarak, İrenc'in emrindeki 20.000 kişilik İlhanlı ordusuna iki ay süreyle direndiği ve ele geçirilemediğine ya da Memluk sultanı Baybars’ın Anadolu seferi sırasında Sultan I. Alâaddin Kervansarayı'nda konakladığı ve ordusunun ihtiyaçlarını karşıladığına ilişkin kayıtlar, Selçuklu savunma sistemi kapsamında kervansaray yapılarının gerektiğinde kale ya da menzil-derbent işlevinde kullanıldığını ortaya koymaktadır.\n1278 de genişletilmiştir. Dıştan yazlık ve kışlık bölümlerinin boyu 116,90 m'dir. Yazlık kısmının eni ise 49,35 m, boyu 61,75 m'dir. Kışlık kısmının eni ise 32,90 m, boyu 55,15 m'dir. Yazlık ve kışlık kısmının toplamı 4866 m²'yi bulmaktadır.\nYazlık kısmının geometrik şekillerle süslenmiş muhteşem bir ana kapısı vardır. Han içinde bulunan tüm yapı özellikleri itibarıyla Sivas’taki Gök Medrese'ye benzemektedir. Sivri kemerin hemen altında \"Elminnetül Lillah\" yani \"Kudret Allah'ındır\" ifadesi yazılıdır.\nKervansarayın ilk kitabesinde mukarnaslı dış kapı nişini çeviren süs kemerinin iki tarafında altıgen madalyonlar içinde sağda ve solda yer almaktadır. Bir dehlizden geçtikten sonra avluya varılır. Burada arabalara mahsus revak şeklinde yerler, sol tarafında ise kemerli ve yolculara mahsus odalar, salonlar, iki hamam ve ambarlar vardır.\nAvlunun ortasında Sasani ateşgedelerinde olduğu gibi dört kemer üze",
+"ex_en": "Sultan Han is a large and significant 13th-century Seljuk caravanserai located in the town of Sultanhanı, Aksaray Province, Turkey. It is one of the three monumental caravanserais in the neighbourhood of Aksaray and is located about 40 km (25 mi) west of Aksaray on the road to Konya.",
+"cands": [
+{
+"file": "Turkey.Aksaray014.jpg",
+"w": 1280,
+"h": 791,
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/0/04/Turkey.Aksaray014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"page": "https://commons.wikimedia.org/wiki/File:Turkey.Aksaray014.jpg",
+"a": "Georges Jansoone (JoJan)",
+"l": "CC BY 3.0",
+"n": 10
+}
+],
+"adm": "Sultanhanı"
 },
 "Y114": {
 "key": "Ağzıkarahan",
@@ -5794,24 +5812,54 @@
 "key": "Güzelyurt Monastery Valley",
 "ad": "Güzelyurt Manastır Vadisi",
 "il": "Aksaray",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q1004503",
+"lat": 38.277222222222,
+"lng": 34.371944444444,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
+"tr": "Güzelyurt",
+"en": "Güzelyurt",
+"de": "Güzelyurt",
+"es": "Güzelyurt",
 "ar": "",
 "zh": "",
-"hi": ""
+"hi": "गुज़ेलयुर्त"
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Güzelyurt, Aksaray",
+"enw": "Güzelyurt",
+"cat": "Güzelyurt",
+"ex_tr": "Güzelyurt, Aksaray'ın ilçesidir. Aksaray merkeze 45 km, Ihlara Vadisi'ne ise 15 km uzaklıktadır. İlçenin yüzölçümü 285 km²dir. Güzelyurt ilçe merkezinin deniz seviyesinden ortalama yüksekliği 1.501 metredir.\n\n",
+"ex_en": "Güzelyurt, meaning 'beautiful homeland', formerly Gelveri (Cappadocian Greek: Καρβάλη), is a town in Aksaray Province in the Central Anatolia region of Turkey, at a distance of 45 km (28 mi) from the city of Aksaray. It is the seat of Güzelyurt District. Its population is 2,570 (2021). Its elevation is 1,485 m (4,872 ft).\nThis area is part of the ancient region of Cappadocia, near the Ihlara Valley.\n\n",
 "cands": [
+{
+"file": "Guzelyurt vista.jpg",
+"w": 3031,
+"h": 1991,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Guzelyurt_vista.jpg/1920px-Guzelyurt_vista.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Guzelyurt_vista.jpg",
+"a": "GMM",
+"l": "CC BY-SA 4.0",
+"n": 13
+},
+{
+"file": "Donkey My Friend - panoramio.jpg",
+"w": 4857,
+"h": 3238,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Donkey_My_Friend_-_panoramio.jpg/1920px-Donkey_My_Friend_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Donkey_My_Friend_-_panoramio.jpg",
+"a": "Tevfik Teker",
+"l": "CC BY 3.0",
+"n": 12
+},
+{
+"file": "Bad weather by Guzelyurt - panoramio.jpg",
+"w": 1172,
+"h": 772,
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bad_weather_by_Guzelyurt_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"page": "https://commons.wikimedia.org/wiki/File:Bad_weather_by_Guzelyurt_-_panoramio.jpg",
+"a": "Honza and Ivana Ebr",
+"l": "CC BY 3.0",
+"n": 11
+},
 {
 "file": "Lived on and the living.jpg",
 "w": 3999,
@@ -5822,7 +5870,8 @@
 "l": "CC BY-SA 4.0",
 "n": 0
 }
-]
+],
+"adm": "Aksaray"
 },
 "Y118": {
 "key": "Mustafapaşa",
@@ -6303,23 +6352,23 @@
 "key": "Olba ancient city",
 "ad": "Olba Antik Kenti",
 "il": "Mersin",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q157816",
+"lat": 36.58083333,
+"lng": 33.92527778,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
+"tr": "Olba",
+"en": "Olba",
+"de": "Olba und Diokaisareia",
 "es": "",
 "ar": "",
-"zh": "",
+"zh": "奧爾巴 (古代城市)",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Olba",
+"enw": "Olba (ancient city)",
+"cat": "Olba (Anatolia)",
+"ex_tr": "Olba veya Olbe (Grekçe: Ὄλβη; Türkçe: Oura), günümüzde Türkiye'nin güneyinde yer alan, Roma'nın Isauria eyaletinde bulunan antik bir şehir ve ayrıca Katolik Kilisesi'nin Latince itibari yerler listesine dahil bir piskoposluktur. Yaklaşık 1.200 m rakımlı yüksek bir platoda yer almaktadır. Strabon'a göre, Olba, Cyinda ve Soli'ye hâkim dağlık bölgede bulunmaktadır. Olba'ya ayrıca güneybatıda yaklaşık 30 km uzaklıktaki Canytellis (Kanlıdivane) şehri de aitti.",
+"ex_en": "Olba or Olbe (Ancient Greek: Ὄλβη; Turkish: Oura) was an ancient city and bishopric in the Roman province of Isauria, in present-day southern Turkey. It is included in the Catholic Church's list of Latin titular sees.",
 "cands": [
 {
 "file": "Olba Antik Kenti Gece Yarısı.jpg",
@@ -6341,7 +6390,8 @@
 "l": "CC BY-SA 4.0",
 "n": 1
 }
-]
+],
+"adm": "Silifke"
 },
 "Y128": {
 "key": "Q656954",
@@ -6712,24 +6762,66 @@
 "key": "Cleopatra Gate Tarsus",
 "ad": "Tarsus Kleopatra Kapısı ve Antik Yol",
 "il": "Mersin",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q5131719",
+"lat": 36.91302777777778,
+"lng": 34.89205555555556,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Kleopatra Kapısı",
+"en": "Cleopatra's Gate",
 "de": "",
-"es": "",
+"es": "Puerta de Cleopatra",
 "ar": "",
-"zh": "",
+"zh": "克娄巴特拉之门",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
-"cands": []
+"trw": "Kleopatra Kapısı",
+"enw": "Cleopatra's Gate",
+"cat": "Cleopatra gate in Tarsus",
+"ex_tr": "Kleoptra Kapısı veya Deniz Kapısı, adını Mısır kraliçesi VII. Kleopatra'dan alan, Mersin'in Tarsus ilçesinde bulunan bir şehir kapısıdır.\nKleopatra Kapısı, Tarsus'un girişindedir. Bizans Döneminde inşa edilen kent surlarının Dağ Kapısı, Adana Kapısı ve Deniz Kapısı bulunuyordu. Evliya Çelebi Seyahatnamesinde Tarsus'u anlatırken bu kapı için iskele kapısı ismini takmıştır. Kapının yapımında Horasan harcı kullanılmıştır. Kapının kenarı at nalı şeklinde ve yerden yüksekliği 6.17 m derinliği ise 6.18 metredir. Tarsus'un 18. yüzyıl sonlarına kadar oldukça sağlam üç kapılı surları, 1835 yılında Mısırlı İbrahim Paşa tarafından yıktırılmış ve sadece iki ayak üzerinde tek kemerli deniz kapısı kalmıştır.\nMısır'ın ünlü kraliçesi Kleopatra'nın sevgilisi Romalı General Antonius ile Tarsus'ta buluşmak üzere geldiklerinde, o zamanın limanı olan Gözlükule'de büyük bir törenle karşılanmışlar ve Deniz Kapısından şehre geldiği söylenir. Bu nedenle Deniz Kapısına Kleopatra Kapısı da denir.",
+"ex_en": "Cleopatra's Gate is a city gate of Tarsus, in Mersin Province, Turkey, named after the Egyptian (Ptolemaic) queen Cleopatra VII.",
+"cands": [
+{
+"file": "Cleopatra's Gate in Tarsus (02).jpg",
+"w": 4000,
+"h": 2251,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Cleopatra%27s_Gate_in_Tarsus_%2802%29.jpg/1920px-Cleopatra%27s_Gate_in_Tarsus_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Cleopatra%27s_Gate_in_Tarsus_(02).jpg",
+"a": "Jwslubbock",
+"l": "CC BY-SA 3.0",
+"n": 13
+},
+{
+"file": "Cleopatra Gate in Tarsus.JPG",
+"w": 2686,
+"h": 1666,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cleopatra_Gate_in_Tarsus.JPG/1920px-Cleopatra_Gate_in_Tarsus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Cleopatra_Gate_in_Tarsus.JPG",
+"a": "U.S. Air Force photo by Senior Airman Daniel Phelps",
+"l": "Public domain",
+"n": 12
+},
+{
+"file": "Cleopatra Gate in Tarsus, Mersin.jpg",
+"w": 1125,
+"h": 1402,
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/Cleopatra_Gate_in_Tarsus%2C_Mersin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"page": "https://commons.wikimedia.org/wiki/File:Cleopatra_Gate_in_Tarsus,_Mersin.jpg",
+"a": "The Mersinli",
+"l": "CC BY-SA 4.0",
+"n": 11
+},
+{
+"file": "Cleopatra's Gate, Tarsus, Mersin Province.jpg",
+"w": 1928,
+"h": 1446,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Cleopatra%27s_Gate%2C_Tarsus%2C_Mersin_Province.jpg/1920px-Cleopatra%27s_Gate%2C_Tarsus%2C_Mersin_Province.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Cleopatra%27s_Gate,_Tarsus,_Mersin_Province.jpg",
+"a": "Nedim Ardoğa",
+"l": "CC BY-SA 3.0",
+"n": 10
+}
+],
+"adm": "Tarsus"
 },
 "Y136": {
 "key": "Yılankale",
@@ -7035,23 +7127,23 @@
 "key": "Taşköprü Adana",
 "ad": "Taşköprü",
 "il": "Adana",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q1438450",
+"lat": 36.98628,
+"lng": 35.33512,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
+"tr": "Taşköprü",
+"en": "Taşköprü",
+"de": "Taşköprü",
 "es": "",
 "ar": "",
-"zh": "",
+"zh": "阿达纳石桥",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Taşköprü (Adana)",
+"enw": "Stone Bridge (Adana)",
+"cat": "Taşköprü (Adana)",
+"ex_tr": "Taşköprü, Seyhan Nehri üzerinde, Adana kent merkezinde, Adana (Seyhan) ve Karşıyaka (Yüreğir) yakalarını birleştiren ve muhtemelen MS 2. yüzyılın ilk yarısında inşa edilmiş bir Roma köprüsüdür. Köprü, Akdeniz'den Anadolu ve İran'a uzanan antik ticaret yollarında önemli bir bağlantı noktasıydı.",
+"ex_en": "Taşköprü (Italian: Ponte in pietra, English: Stone bridge), historically known as Ponte Sarus, is a Roman bridge spanning the Seyhan River in Adana that was probably built in the first half of the second century AD. The bridge was a key link in ancient trade routes from the Mediterranean Sea to Anatolia and Persia. Until its closure in 2007, it was one of the oldest bridges in the world open to motorized vehicles. Since 2007 it has only carried foot traffic, and now hosts social and cultural events.\nAmong the names used for the bridge during its history are the Saros Bridge, the Bridge of Justinian, the al-Walid Bridge and Taşköprü (\"Stone Bridge\" in Turkish).",
 "cands": [
 {
 "file": "Taşköprü'nün Panoramik Fotoğrafı.jpg",
@@ -7083,7 +7175,8 @@
 "l": "CC BY-SA 2.0",
 "n": 2
 }
-]
+],
+"adm": "Adana"
 },
 "Y143": {
 "key": "Q125537051",
@@ -7419,24 +7512,66 @@
 "key": "Germanicia mosaics",
 "ad": "Germanicia Antik Kenti",
 "il": "Kahramanmaraş",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q134703",
+"lat": 37.5875,
+"lng": 36.945277777778,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
-"ar": "",
-"zh": "",
-"hi": ""
+"tr": "Kahramanmaraş",
+"en": "Kahramanmaraş",
+"de": "Kahramanmaraş",
+"es": "Kahramanmaraş",
+"ar": "مرعش",
+"zh": "卡赫拉曼馬拉什",
+"hi": "कहरमानमराश"
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
-"cands": []
+"trw": "Kahramanmaraş",
+"enw": "Kahramanmaraş",
+"cat": "Kahramanmaraş",
+"ex_tr": "Kahramanmaraş, halk arasındaki kısa adıyla Maraş (Yunanca: Γερμανίκεια Germanikeia, Ermenice: Մարաշ Maraş,) Türkiye'nin Kahramanmaraş ilinin merkezi olan şehirdir. Maraş Muhaberesi sırasında işgale direnişi nedeniyle Türkiye Büyük Millet Meclisi tarafından 05 Nisan 1925 tarihinde şehre İstiklâl Madalyası verilmiştir. Maraş olan adı, 7 Şubat 1973 tarihinde Türk Kurtuluş Savaşı'nın başarı ile sonuçlanmasında dolayı adı Kahramanmaraş olarak değiştirilmiştir.\nGeç Hitit şehri olan Gurgum'un bulunduğu yerde kurulmuştur. Sistematik bir kazı yapılmamış olmasına rağmen birçok Hitit anıtı bulunmuştur.\nOsmanlı seyyahı Evliya Çelebi, Seyahatnamesinde Maraş halkı için, \"kelimatları lisan-ı Türkidir ve ekseriya halkı Türkmendir\" der. Maraş ve çevresi başta Oğuzların Avşar, Bayat ve Beğdili boyları çoğunlukta olmakla birlikte hemen hemen yirmi dört Oğuz boyunun tamamı mevcuttur.\n2012'de çıkarılan 6360 sayılı kanun ile büyükşehir olmuştur. Dövme Dondurması, tarhanası ve biberi şehrin önemli tescilli gıdalarıdır.\nKahramanmaraş il merkezinin deniz seviyesinden yüksekliği 568 metredir.\nKahramanmaraş 31 Ekim 2025'te Paris'te yapılan oylama neticesinde UNESCO yaratıcı şehirler ağında \"Edebiyat Şehri\" olarak dahil edildi.\n\n",
+"ex_en": "Kahramanmaraş (Turkish pronunciation: [kahɾaˈmanmaɾaʃ]), historically Marash (Turkish: Maraş; Armenian: Մարաշ) and Germanicea (Greek: Γερμανίκεια), is a city in the Mediterranean region of Turkey and the administrative centre of Kahramanmaraş province. After 1973, Maraş was officially named Kahramanmaraş with the prefix kahraman (Turkish word meaning \"heroic\") to commemorate the Battle of Marash. The city lies on a plain at the foot of Mount Ahır.\nOn 6 February 2023, much of the city was destroyed in the 2023 Turkey–Syria earthquakes which had their epicentre in Pazarcık and Elbistan in Kahramanmaraş province.",
+"cands": [
+{
+"file": "46000 Çukurhisar-Kahramanmaraş Merkez-Kahramanmaraş, Turkey - panoramio (4).jpg",
+"w": 1600,
+"h": 1074,
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/46000_%C3%87ukurhisar-Kahramanmara%C5%9F_Merkez-Kahramanmara%C5%9F%2C_Turkey_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"page": "https://commons.wikimedia.org/wiki/File:46000_%C3%87ukurhisar-Kahramanmara%C5%9F_Merkez-Kahramanmara%C5%9F,_Turkey_-_panoramio_(4).jpg",
+"a": "Murat1986",
+"l": "CC BY 3.0",
+"n": 13
+},
+{
+"file": "46000 Çukurhisar-Kahramanmaraş Merkez-Kahramanmaraş, Turkey - panoramio (2).jpg",
+"w": 1600,
+"h": 1074,
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f5/46000_%C3%87ukurhisar-Kahramanmara%C5%9F_Merkez-Kahramanmara%C5%9F%2C_Turkey_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"page": "https://commons.wikimedia.org/wiki/File:46000_%C3%87ukurhisar-Kahramanmara%C5%9F_Merkez-Kahramanmara%C5%9F,_Turkey_-_panoramio_(2).jpg",
+"a": "Murat1986",
+"l": "CC BY 3.0",
+"n": 12
+},
+{
+"file": "46000 Çevrepınar-Kahramanmaraş Merkez-Kahramanmaraş, Turkey - panoramio.jpg",
+"w": 2896,
+"h": 1944,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/46000_%C3%87evrep%C4%B1nar-Kahramanmara%C5%9F_Merkez-Kahramanmara%C5%9F%2C_Turkey_-_panoramio.jpg/1920px-46000_%C3%87evrep%C4%B1nar-Kahramanmara%C5%9F_Merkez-Kahramanmara%C5%9F%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:46000_%C3%87evrep%C4%B1nar-Kahramanmara%C5%9F_Merkez-Kahramanmara%C5%9F,_Turkey_-_panoramio.jpg",
+"a": "Murat1986",
+"l": "CC BY 3.0",
+"n": 11
+},
+{
+"file": "Trabzon Caddesi.jpg",
+"w": 1800,
+"h": 1350,
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Trabzon_Caddesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"page": "https://commons.wikimedia.org/wiki/File:Trabzon_Caddesi.jpg",
+"a": "Wiki akt",
+"l": "CC BY-SA 3.0",
+"n": 10
+}
+],
+"adm": "Kahramanmaraş"
 },
 "Y150": {
 "key": "Q769197",
@@ -9234,24 +9369,25 @@
 "key": "Uzunyuva Hecatomnus",
 "ad": "Milas Uzunyuva (Hekatomnos Anıt Mezarı)",
 "il": "Muğla",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q21526234",
+"lat": 37.315,
+"lng": 27.78275,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Hekatomnos Anıt Mezarı",
+"en": "Mausoleum of Hecatomnus",
 "de": "",
-"es": "",
+"es": "Tumba de Hecatomno",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
-"cands": []
+"trw": "Hekatomnos Anıt Mezarı",
+"enw": "Tomb of Hecatomnus",
+"cat": "Hecatomnus' Tomb",
+"ex_tr": "Hekatomnos Anıt Mezarı, Karya'nın kurucu satrapı Hekatomnos'un günümüzde Muğla'nın Milas ilçesinde yer alan anıt mezarı.\nHisarbaşı tepesinin doğu yamacında bulunan mezar, MÖ 4. yüzyıla tarihlenir. 2010 yılında keşfedilen mezar, antik çağ dünyasının en önemli mezar anıtlarındır. Günümüze \"mozole\" kavramını taşıyan ve dünyanın yedi harikasından birisi olan Halikarnas Mozolesi'nin atası kabul edilir.\nHekatomnos Anıt Mezarı; 91 x 110 metre boyutundaki büyük terasın ortasındaki 29,4 x 36 metre taban alanında, 3 metre yüksekliğindeki üst podyumun üzerinde yükselir. Taban ölçüleri Hekatomnos'un oğlu Mausolos adına yapılan Halikarnas Mozolesi ile aynı boyutlardadır.\nMezar odasındaki duvar resimleri ve \"Hekatomnos Frizli Lahdi\" üzerindeki kabarmaları dönemin sanat algısı ve düzeyini göstermesi açısından önemlidir. Ön yüzünde Hekatomnos'un sunu veya bir veda sahnesiyle betimlendiği; arka yüzünde ise oğlu Maussollos aslan avındayken betimlendiği Hektamnos Frizli Lahdi, büyüklüğü, niteliği ve sahibinin kişiliği nedeniyle Anadolu'daki tek örnektir. Lahit odası ise Klasik çağın zirvesindeki duvar resimleriyle kaplıdır.\nAnıt mezar ve kutsal alanı, 2012'de UNESCO tarafından Dünya Mirası Geçici Listesi'ne eklenmiştir.\n2014 yılında mezarın çevresindeki yazıtlarda 121 satırlık bir şiir bulunmuştur. Klasik antik dönemin en uzun şiiri kabul edilen şiir hükümdara hitaben yazılmıştır. Stel üzerindeki klasik dönem yazıtta en çarpıcı ayrıntı şiir'de geçen ''Sen'' diye hitap edilmesi, Hükümdar başarılarının önemini vurguladığı sanılmaktadır.",
+"ex_en": "The Tomb of Hecatomnus or Hekatomnos (Greek: Ἑκατόμνος, Carian: 𐊴𐊭𐊪𐊵𐊫 k̂tmno \"under-son, descendant(?)\") is in the Hisarbaşı District of Milas, one of the most important cities of the Caria region, located in the southwest of Anatolia in present-day Turkey. The tomb was added to the World Heritage Tentative List by UNESCO in 2012.\n\n",
+"cands": [],
+"adm": "Milas"
 },
 "Y186": {
 "key": "Gümüşkesen",
@@ -9512,23 +9648,23 @@
 "key": "Herakleia Latmos",
 "ad": "Herakleia (Latmos) Antik Kenti",
 "il": "Muğla",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q1313279",
+"lat": 37.50194444,
+"lng": 27.52472222,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
+"tr": "Herakleia",
+"en": "Heraclea at Latmus",
+"de": "Herakleia am Latmos",
+"es": "Heraclea del Latmos",
 "ar": "",
 "zh": "",
-"hi": ""
+"hi": "हेराक्लिया एट लाटमस"
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Herakleia",
+"enw": "Heraclea at Latmus",
+"cat": "Heraclea by Latmus",
+"ex_tr": "Herakleia veya Latmos Herakleiası (Grekçe: Ἡράκλεια πρὸς Λάτμῳ veya Ἡράκλεια ὑπὸ Λάτμῳ; Herakleia pros Latmo or Herakleia hupo Latmo), (Latince: Heraclea ad Latmum), Muğla ili Milas ilçesine 39 km uzaklıkta Kapıkırı Köyü sınırları içinde kurulmuş Antik İyonya bölgesi kent yerleşimlerinden biridir. Latmos Dağı'nın (Beşparmak Dağları) batı eteklerinde, Karya ve İyonya sınırında yer alır.\n\n",
+"ex_en": "Heraclea at Latmus or Heraclea under Latmus (Ancient Greek: Ἡράκλεια πρὸς Λάτμῳ or Ἡράκλεια ὑπὸ Λάτμῳ, romanized: Herakleia pros Latmo or Herakleia hupo Latmo; Latin: Heraclea ad Latmum), or simply Heraclea or Herakleia (Ἡράκλεια), also transliterated as Heracleia, was an ancient town situated at the western foot of Mount Latmus, on the border between Caria and Ionia in southwestern Asia Minor (modern Turkey). The site, now occupied by the modern village of Kapıkırı, stands on the shore of Lake Bafa, which in antiquity was part of the Gulf of Latmus before it was silted up by deposits from the river Maeander. Substantial remains of the city and its fortifications still survive.",
 "cands": [
 {
 "file": "Herakleia - Muğla Latmos mezarları.jpg",
@@ -9560,7 +9696,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Milas"
 },
 "Y192": {
 "key": "Q85763253",
@@ -10179,22 +10316,22 @@
 "key": "Vize Hagia Sophia",
 "ad": "Vize Ayasofya (Gazi Süleyman Paşa) Camii",
 "il": "Kırklareli",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q52790862",
+"lat": 41.5764,
+"lng": 27.7672,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Vize Ayasofya Camii",
+"en": "Gazi Süleyman Paşa Mosque",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
+"trw": "Gazi Süleyman Paşa Camii (Vize)",
 "enw": null,
-"cat": null,
-"ex_tr": "",
+"cat": "Hagia Sophia, Vize",
+"ex_tr": "Gazi Süleyman Paşa Camii veya Küçük Ayasofya, Kırklareli'nin Vize ilçesinde bulunan bir camidir. Roma İmparatoru I. Justinianus döneminde inşa edilen 6'ncı yüzyılda bazilika tarzında kilise olarak inşa edilmiş, 15'inci yüzyılda Vize'nin kesin bir şekilde Osmanlı egemeliğine geçtikten sonra camiye çevrildiği düşünülmektedir. Caminin yapısı Ayasofya ve Aya İrini'ye benzetilmektedir. Cami, 2007'de Vakıflar Genel Müdürlüğü tarafından restore edilmiştir.\n\n",
 "ex_en": "",
 "cands": [
 {
@@ -10227,7 +10364,8 @@
 "l": "CC BY-SA 3.0",
 "n": 2
 }
-]
+],
+"adm": "Vize"
 },
 "Y206": {
 "key": "Dupnisa Cave",
@@ -10745,23 +10883,23 @@
 "key": "Sinop Historical Prison",
 "ad": "Sinop Tarihi Cezaevi",
 "il": "Sinop",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q7524921",
+"lat": 42.02444444,
+"lng": 35.14305556,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Tarihî Sinop Cezaevi",
+"en": "Sinop Fortress Prison",
 "de": "",
 "es": "",
-"ar": "",
+"ar": "سجن قلعة سينوب",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Tarihî Sinop Cezaevi",
+"enw": "Sinop Fortress Prison",
+"cat": "Sinop Fortress Prison",
+"ex_tr": "Tarihî Sinop Kapalı Cezaevi ya da resmî adıyla Tarihi Cezaevi, bir dönem \"Anadolu'nun Alcatraz'ı\" tabiri ile de tanınan ve 1999 yılında kapatılmış cezaevidir. 2000'de müzeye çevrilmiştir. 2020'de yerleşkenin içi ve çevresinde restorasyon çalışmalarına başlanmıştır.\n\n",
+"ex_en": "Sinop Fortress Prison (Turkish: Sinop Kale Cezaevi) was a state prison situated in the inside of the Sinop Fortress in Sinop, Turkey. As one of the oldest prisons of Turkey, it was established in 1887 within the inner fortress of the centuries-old fortification located on the northwestern part of Cape Sinop. It is also known as \"The Anatolian Alcatraz\" because it was impossible for prisoners to escape due to location and high security measures. The prison was closed down in 1997 and the inmates were transferred to a modern prison newly built in Sinop.",
 "cands": [
 {
 "file": "Sinop Tarihi Cezaevi 1.JPG",
@@ -10793,7 +10931,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Sinop"
 },
 "Y218": {
 "key": "Pompeiopolis Paphlagonia",
@@ -10932,23 +11071,23 @@
 "key": "Harşena Castle",
 "ad": "Harşena Kalesi",
 "il": "Amasya",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q31188385",
+"lat": 40.655,
+"lng": 35.829,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Harşena Dağı",
+"en": "Mount Harşena",
 "de": "",
 "es": "",
-"ar": "",
+"ar": "جبل هرشينا",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Harşena Dağı",
+"enw": "Mount Harşena",
+"cat": "Harşena Hill",
+"ex_tr": "Harşena Dağı, Amasya il merkezine hakim 272 metre yüksekliğinde bir tepedir. Tepe üzerinde yer alan kalesi ve alt kısımlarındaki kaya mezarları ile 2015 yılında Dünya Mirası Geçici Listesine dahil edilmiştir.\nAmasya, bulunduğu konum itibarıyla, son derece önemli bir kavşak noktada yer almaktadır. Bu özelliği nedeni ile tarih boyunca birçok devlet tarafından yönetilmiştir. Amasya'dan geçen Yeşilırmak Nehri'nin hemen kenarında yer alan Harşena Dağı, binlerce yıldır iskan edilegelmiştir. Bölgeye ait yerleşim Erken Tunç Çağı'na kadar gitmektedir. Bu dönemden sonra bölge, Frigya, İskit-Med, Pers, Pontus, Roma, Doğu Roma, Danişment, İlhanlı, Selçuklu ve Osmanlı hakimiyetine girmiştir.\nPontus Krallığı, M.Ö. 301 yılında Pers satraplarından I. Mithridatis Ktistes tarafından, Amaseia'da (Amasya) kurulmuştur. Amaseia'nın Pontus Krallığı'na başkent ilan edilmesi ile birlikte, Harşena Dağı'na anıt mezarlar inşa edilmeye başlanmıştır. Bu mezarları yükseklikleri 8-15 metre arasında değişmektedir. Kızlar Sarayı bölgesinde, Kurucu Kral I. Mithridatis Ktistes'den I. Farnakes'e kadar hüküm süren beş krala ait kaya mezarları bulunmaktadır.",
+"ex_en": "Mount Harşena (Turkish: Harşena Dağı) is a mountain located in Amasya, the capital of the Amasya Province of Turkey. It has a height of 272 m (892 ft). Mount Harşena was added to the tentative list in the cultural category of UNESCO World Heritage Site on 13 April 2015 alongside the tombs of the kings of Pontus.\nAmasya is located at an extremely important junction. Due to this feature, it has been governed by many states throughout history. Mount Harşena, located right next to the Yeşilırmak river passing through Amasya, has been inhabited for thousands of years. The settlement in the region dates back to the Early Bronze Age. After this period, the region came under Phrygian, Scythian, Persian, Pontus, Roman, Eastern Roman, Danishment, Ilkhanid, Seljuk and Ottoman domination.",
 "cands": [
 {
 "file": "Amasya-Castle-01.JPG",
@@ -10980,7 +11119,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Amasya"
 },
 "Y222": {
 "key": "Q1568666",
@@ -11151,23 +11291,23 @@
 "key": "Kars Castle",
 "ad": "Kars Kalesi",
 "il": "Kars",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q5050393",
+"lat": 40.61361111111111,
+"lng": 43.08972222222222,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
+"tr": "Kars Kalesi",
+"en": "Castle of Kars",
+"de": "Zitadelle von Kars",
+"es": "Castillo de Kars",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Kars Kalesi",
+"enw": "Castle of Kars",
+"cat": "Kars Castle",
+"ex_tr": "Kars Kalesi, 1152 yılında yapılmış kale.\nKitabesinde yer alan bilgiye göre Saltuklu Beyliği döneminde Sultan Melik İzzeddin'in emriyle vezir Firuz Akay tarafından 1152 senesinde yaptırılmıştır. 1386 yılında Timur tarafından yıkılan kale, 1579 yılında III. Murad'ın emriyle Lala Mustafa Paşa tarafından yeniden inşa ettirilmiştir. Kitabenin yazılmasının 27 sene sonrasında 1606 yılında İran Şahı I. Abbas tarafından yıkılmış ardından 1616 ve 1636 tarihlerinde onarım ve tadilat yapılmıştır.\n1877-1878 yılları arasında gerçekleşen 93 Harbi sebebiyle tahrip olan kale onarılmış olup günümüzdeki haline ulaşmıştır.",
+"ex_en": "The Castle of Kars (Turkish: Kars Kalesi, Armenian: Կարսի բերդ) is a former fortification located in Kars, Turkey. It is also known under the name İç Kale (\"Central/Inner Castle\", \"Citadel\").\nIt was first built during the rule of the Armenian Bagratid dynasty and then rebuilt in 1153 by Firuz Akay Commissioned by Sultan Melik Izzeddin Saltuk II.  The outer walls surrounding the city were built in the 12th century. The castle, which was destroyed by Timur in 1386, was rebuilt again in 1579 by Lala Mustafa Pasha, who came to Kars ordered by the Ottoman Sultan Murat III.\nIt is said in the Ottoman sources that the castle was rebuilt with the help of one hundred thousand soldiers and workers. In 1606, the castle was destroyed by the Iranian Shah Abbas I, and in 1616 and in 1636 it was restored twice and new elements were added to it. The castle was badly damaged after the occupation of the Russians after the Ottoman-Russian War of 1877-1878, and partially changed after 40 years of occupation. The walls of the Castle of Kars were made of basalt masonry.",
 "cands": [
 {
 "file": "Kars, Zitadelle (Kars Kalesi) (39670758184).jpg",
@@ -11189,7 +11329,8 @@
 "l": "CC BY 2.0",
 "n": 1
 }
-]
+],
+"adm": "Kars"
 },
 "Y226": {
 "key": "Q48741681",
@@ -11549,12 +11690,12 @@
 "key": "Ten-Eyed Bridge",
 "ad": "On Gözlü (Dicle) Köprüsü",
 "il": "Diyarbakır",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q131402773",
+"lat": 37.7143868,
+"lng": 41.4110044,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Hasankeyf Dicle Köprüsü",
+"en": "Hasankeyf Tigris Bridge",
 "de": "",
 "es": "",
 "ar": "",
@@ -11597,29 +11738,30 @@
 "l": "CC BY-SA 3.0",
 "n": 2
 }
-]
+],
+"adm": "Hasankeyf"
 },
 "Y234": {
 "key": "Hasan Pasha Han",
 "ad": "Hasan Paşa Hanı",
 "il": "Diyarbakır",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q6098185",
+"lat": 37.91272222222222,
+"lng": 40.23716666666667,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Hasan Paşa Hanı",
+"en": "Hasan Paşa Hanı",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Hasan Paşa Hanı",
+"enw": "Hasan Pasha Han, Diyarbakır",
+"cat": "Hasan Paşa Hanı",
+"ex_tr": "Hasan Paşa Hanı, Diyarbakır'da Ulu Camii'nin doğu girişinin karşısında, Gazi Caddesi'nin üzerinde yer alan tarihî han. Hanın iki kitabesinden öğrenildiğine göre, Diyarbakır'ın Osmanlılar tarafından alınmasından sonra üçüncü vali olan Sokollu Mehmet Paşa'nın oğlu Hasan Paşa tarafından 1572 ve 1575 yılları arasında yaptırılmıştır.\n\n",
+"ex_en": "The Hasan Pasha Han (Turkish: Hasan Paşa Hanı) is a historic building and former caravanserai in Diyarbakır, Turkey. It is located near the center of the Sur district (the old walled city), across from the Great Mosque of Diyarbakır. It was built in the 16th century during the Ottoman period of the city. Along with the nearby Delliler Han to the south, it is one of the best preserved Ottoman caravanserais in eastern Turkey. Today the building hosts cafés and shops.",
 "cands": [
 {
 "file": "Diyarbakır Hasan Paşa Han before restoration 2769b.jpg",
@@ -11651,7 +11793,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Diyarbakır"
 },
 "Y235": {
 "key": "Eğil",
@@ -11712,23 +11855,23 @@
 "key": "Dara ancient city",
 "ad": "Dara Antik Kenti",
 "il": "Mardin",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q585145",
+"lat": 37.183333,
+"lng": 40.933333,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
-"ar": "",
-"zh": "",
+"tr": "Dara",
+"en": "Dara",
+"de": "Dara-Anastasiupolis",
+"es": "Dara",
+"ar": "دارا",
+"zh": "达拉_(美索不达米亚)",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Dara (antik kent)",
+"enw": "Dara (Mesopotamia)",
+"cat": "Dara",
+"ex_tr": "Dara veya Dara Antik Kenti; (Kürtçe: Darê; Grekçe: Δάρας; Süryanice: ܕܪܐ), Kuzey Mezopotamya'da, Sasani İmparatorluğu sınırında yer alan önemli bir Doğu Roma kale kentiydi. Büyük stratejik önemi nedeniyle, Roma-Pers çatışmalarında (530, 540, 544, 573 ve 604 yıllarında) öne çıkmıştır.\nEski bir başpiskoposluk merkezi olan Dara, günümüzde Katolik Kilisesi'nin birden fazla unvanlı piskoposluk makamından biri olmaya devam etmektedir.\nDara, Mardin'in 30 kilometre güneydoğusunda, Artuklu ilçesine bağlı eski adı Oğuz olan Dara köyünde yer alan antik kenttir.\n\n",
+"ex_en": "Dara or Daras (Turkish: Dara Antik Kenti;  Greek: Δάρας; Syriac: ܕܪܐ) was an important East Roman fortress city in northern Mesopotamia on the border with the Sassanid Empire. Because of its great strategic importance, it featured prominently in the Roman-Persian conflicts (in 530, 540, 544, 573, and 604). The former archbishopric remains a multiple Catholic titular see. Today, the village of Dara in the Mardin Province occupies its location.",
 "cands": [
 {
 "file": "Dara Antik Kenti.jpg",
@@ -11760,7 +11903,8 @@
 "l": "CC BY-SA 3.0",
 "n": 2
 }
-]
+],
+"adm": "Artuklu"
 },
 "Y237": {
 "key": "Kasımiye Madrasa",
@@ -11821,12 +11965,12 @@
 "key": "Sabancı Mardin City Museum",
 "ad": "Sakıp Sabancı Mardin Kent Müzesi",
 "il": "Mardin",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q125536834",
+"lat": 37.31486782567462,
+"lng": 40.74621070998274,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Mardin Sakıp Sabancı Kent Müzesi",
+"en": "Sakıp Sabancı Mardin City Museum",
 "de": "",
 "es": "",
 "ar": "",
@@ -11835,7 +11979,7 @@
 },
 "trw": null,
 "enw": null,
-"cat": null,
+"cat": "Sakıp Sabancı Mardin Kent Müzesi",
 "ex_tr": "",
 "ex_en": "",
 "cands": [
@@ -11869,28 +12013,29 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Artuklu"
 },
 "Y239": {
 "key": "Zinciriye Madrasa",
 "ad": "Zinciriye Medresesi",
 "il": "Mardin",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q87738983",
+"lat": 37.9122543,
+"lng": 40.2350502,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Zinciriye Medresesi",
+"en": "Zinciriye Medresesi",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
+"trw": "Zinciriye Medresesi (Diyarbakır)",
 "enw": null,
-"cat": null,
-"ex_tr": "",
+"cat": "Zinciriye Medresesi, Diyarbakır",
+"ex_tr": "Zinciriye Medresesi ya da bilinen diğer adıyla Sincariye Medresesi, Diyarbakır'ın Sur ilçesinde yer alan tarihî bir medresedir.",
 "ex_en": "",
 "cands": [
 {
@@ -11923,7 +12068,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Sur"
 },
 "Y240": {
 "key": "Soğmatar",
@@ -11976,11 +12122,11 @@
 "key": "Han el Ba'rur",
 "ad": "Han el Ba'rur Kervansarayı",
 "il": "Şanlıurfa",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q132752923",
+"lat": 36.825386,
+"lng": 39.2901726,
 "labels": {
-"tr": "",
+"tr": "Han-el Barur Kervansarayı, Harran",
 "en": "",
 "de": "",
 "es": "",
@@ -12024,7 +12170,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Harran"
 },
 "Y243": {
 "key": "Hoşap Castle",
@@ -12395,23 +12542,23 @@
 "key": "Alâeddin Mosque Konya",
 "ad": "Alaeddin Camii",
 "il": "Konya",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q2620007",
+"lat": 37.873472222222,
+"lng": 32.492777777778,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
-"ar": "",
-"zh": "",
+"tr": "Alaeddin Camii",
+"en": "Alâeddin Mosque",
+"de": "Alâeddin-Moschee von Konya",
+"es": "mezquita de Alâeddin",
+"ar": "مسجد علاء الدين",
+"zh": "阿拉丁清真寺",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Alâeddin Camii (Konya)",
+"enw": "Alâeddin Mosque",
+"cat": "Alaeddin Mosque (Konya)",
+"ex_tr": "Alâeddin Camii, Konya'da Alâeddin Tepesi adlı höyüğün üstünde Anadolu Selçuklu Devleti devrinde şehrin ulu camisi olarak inşa ettirilmiş yapıdır.\nKonya'nın en büyük ve en eski camisidir. Yapımı iki aşamada gerçekleşmiştir: ilk aşama I. Mesud döneminde başlayıp onun ölümünden sonra yerine geçen II. Kılıçarslan'ın caminin avlusuna bir kümbet inşa etmesi ile son bulmuştu. Yaklaşık 26 yıl sonra I. İzzeddin Keykavus yapıyı genişletmeye başlamış; ölümü üzerine yarım kalan inşaat I. Alaeddin Keykubad'ın saltanatının ilk yıllarında tamamlanmıştır.\nII. Kılıçarslan'ın caminin avlusunda inşa ettirdiği kümbet Selçuklu hanedanının büyük kısmının mezarı olmuştur. I. İzzeddin Keykavus'un yapımını başlattığı ikinci kümbet ise tamamlanamadan kalmıştır.",
+"ex_en": "The Alâeddin Mosque (Turkish: Alâeddin Camii) is the principal monument on Alaaddin Hill (Alaadin Tepesi) in the centre of Konya, Turkey. Part of the hilltop citadel complex that contained the Seljuk Palace, it served as the main prayer hall for the Seljuk Sultans of Rum and its courtyard contains the burial places of several of the sultans. It was constructed in stages between the mid-12th and mid-13th centuries. It is the largest of several Seljuk mosques to survive in Konya.\nBoth the mosque and the hill it stands on are named after the Seljuk Sultan Alaaddin Keykubad I (Alaaddin Tepesi and Alaaddin Camii). The mosque exhibits a distinctive application of Syrian Ablaq design, reflecting the influence of its architect, Muhammad bin Khawlan al-Dimashqi, who hailed from Damascus.",
 "cands": [
 {
 "file": "Alâeddin Mosque, Konya 02.jpg",
@@ -12443,7 +12590,8 @@
 "l": "CC BY-SA 3.0",
 "n": 2
 }
-]
+],
+"adm": "Konya"
 },
 "Y251": {
 "key": "Kayseri Castle",
@@ -12504,12 +12652,12 @@
 "key": "Taşhan Tokat",
 "ad": "Tokat Taşhan",
 "il": "Tokat",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q135010349",
+"lat": 41.0240555,
+"lng": 28.9728146,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Voyvoda Han",
+"en": "Voyvoda Han",
 "de": "",
 "es": "",
 "ar": "",
@@ -12552,7 +12700,8 @@
 "l": "CC BY-SA 4.0",
 "n": 2
 }
-]
+],
+"adm": "Beyoğlu"
 },
 "Y253": {
 "key": "Cinci Han",
@@ -12967,23 +13116,23 @@
 "key": "Church of the Holy Apostles, Kars",
 "ad": "Havariler (Kümbet) Camii",
 "il": "Kars",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q4833028",
+"lat": 40.61130555555555,
+"lng": 43.09144444444444,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
+"tr": "Kümbet Camii",
+"en": "Cathedral of Kars",
+"de": "Kathedrale von Kars",
 "es": "",
 "ar": "",
-"zh": "",
-"hi": ""
+"zh": "卡爾斯軍部附屬大教堂",
+"hi": "कार्स कैथेड्रल"
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
+"trw": "Kümbet Camii",
+"enw": "Cathedral of Kars",
+"cat": "Kümbet Mosque",
+"ex_tr": "Kümbet Camii ya da Havariler Kilisesi (Ermenice: Սուրբ Առաքելոց Եկեղեցի Surb Arakelots' yekeğets'i), Kars'ta yer alan tarihi bir yapı. 10. yüzyılda Ermenilerin katedral kilisesi olarak inşa edilen yapı, Doğu'nun Ayasofya'sı diye nitelendirilir.\n\n",
+"ex_en": "The Cathedral of Kars, also known as the Holy Apostles Church (Armenian: Կարսի Սուրբ Առաքելոց եկեղեցի, Karsi Surb Arakelots' yekeghets'i; Turkish: Aziz Havariler Kilisesi or \"Church of the Twelve Apostles\" 12 Havariler Kilisesi) is a former Armenian Apostolic church in Kars, eastern Turkey. Built in the mid-10th century by the Armenian Bagratid King Abas I (r. 928–953), it was converted into a mosque in 1579. In the 19th and early 20th century it was converted into a Russian Orthodox and later Armenian cathedral. In 1993 it was again converted into a mosque and is called Kümbet Mosque (Turkish: Kümbet Camii, literally \"domed mosque\"). It currently comprises part of a larger Islamic complex that includes the Evliya Mosque, the biggest mosque in Kars.",
 "cands": [
 {
 "file": "Kümbet Camii - Havariler Kilisesi.jpg",
@@ -13005,7 +13154,8 @@
 "l": "CC BY-SA 4.0",
 "n": 1
 }
-]
+],
+"adm": "Kars"
 },
 "Y262": {
 "key": "Giresun Castle",
@@ -13231,23 +13381,23 @@
 "key": "Tripolis on the Meander",
 "ad": "Tripolis Antik Kenti",
 "il": "Denizli",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q4780383",
+"lat": 39.202362,
+"lng": 27.494574,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Apollonia (Mysia)",
+"en": "Apollonia",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
+"trw": "Apollonia (Mysia)",
+"enw": "Apollonia (Mysia)",
 "cat": null,
-"ex_tr": "",
-"ex_en": "",
+"ex_tr": "Apollonia (Antik Yunanca: Ἀπολλωνία) Sardis yolunda Pergamon'nun doğusunda bir tepe üzerinde yer alan eski bir Misya antik kentidir. Görünüşüne göre Mysia ve Lidya sınırlarına yakındı. Strabon Geographika adlı eserinde “ovadan ve kentten doğuya doğru giderken yüksekçe bir yerde kurulmuş Mysia kenti” diye söz etmiştir.\nKsenpphon'un, Anabasis isimli eserine göre kentin MÖ 400 yıllarında var olduğu söylenebilir. Apollonia bölgesi, günümüz Hamidiye ve Dualar kasabaları arasında bulunur. Soma'nın batısında, İzmir'in Kınık ilçesi sınırında, Hamidiyeköyü yakınlarında ve Bakırçay'a su sağlayan Yağcılı Deresi'nin hemen bitişiğindeki bir tepenin zirvesindeki düzlükte konumlanmıştır. Henüz bir arkeolojik kazı gerçekleştirilmemiş olmasına rağmen, tepenin yüzeyinde dağınık halde yapısal kalıntılar ve çanak çömlek parçaları fark edilebilmektedir.\n\n",
+"ex_en": "Apollonia (Ancient Greek: Ἀπολλωνία) was a town of ancient Mysia, Anatolia, situated on an eminence east of Pergamum, on the way to Sardis. It seems to have been near the borders of Mysia and Lydia. \nThe site of Apollonia is located between the modern Turkish towns of Hamidiye and Dualar. The larger town of Soma is just to the east.",
 "cands": []
 },
 "Y267": {
@@ -13474,24 +13624,25 @@
 "key": "Hisart Live History Diorama Museum",
 "ad": "Hisart Canlı Tarih ve Diorama Müzesi",
 "il": "İstanbul",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q3668079",
+"lat": 38.32277777777778,
+"lng": 38.575,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
+"tr": "Hisartepe",
+"en": "Hisartepe",
+"de": "Hisartepe",
+"es": "Hisartepe",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
+"trw": "Hisartepe, Battalgazi",
 "enw": null,
 "cat": null,
-"ex_tr": "",
+"ex_tr": "Yeniköy, Malatya ilinin Battalgazi  ilçesine bağlı bir mahalledir.",
 "ex_en": "",
-"cands": []
+"cands": [],
+"adm": "Battalgazi"
 },
 "Y272": {
 "key": "Rüstem Pasha Mosque",
@@ -13826,24 +13977,66 @@
 "key": "Hadrian's Gate Antalya",
 "ad": "Hadrian Kapısı",
 "il": "Antalya",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q1283114",
+"lat": 36.88531,
+"lng": 30.70835,
 "labels": {
-"tr": "",
-"en": "",
-"de": "",
-"es": "",
+"tr": "Hadrian Kapısı",
+"en": "Hadrian's Gate",
+"de": "Hadrianstor",
+"es": "Puerta de Adriano",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
-"cands": []
+"trw": "Hadrian Kapısı",
+"enw": "Hadrian's Gate",
+"cat": "Hadrian's Gate in Antalya",
+"ex_tr": "Hadrian Kapısı veya Üçkapılar, 130 yılında Roma İmparatoru Hadrianus'un Antalya'yı ziyareti onuruna, kenti çevreleyen sur üzerinde inşa edilmiş anıtsal zafer takı. Her iki cephesinde dörder mermer sütunun bulunduğu üç kemerli kapı ve yanlarında bulunan iki kuleden oluşur.\nKapının üst katı günümüze ulaşamamıştır. 1882'de gün yüzüne çıkarılan kapının alt katı ise 1959'da büyük bir restorasyondan geçirilerek aslına uygun hâle getirilmiştir.\n\n",
+"ex_en": "Hadrian's Gate (Turkish: Üçkapılar, meaning \"The Three Gates\") is a memorial gate located in Antalya, Turkey, which was built in the name of the Roman emperor Hadrian, who visited the city in 130 CE. It was later incorporated in the walls that surround the city and harbor, of which it is the only remaining entrance gate today.\nThe gate was rediscovered by the Irish hydrographer Francis Beaufort in 1817, while commanding on HMS Fridericksteen.",
+"cands": [
+{
+"file": "20180111 HardrianGate 5237 (40078096422).jpg",
+"w": 7952,
+"h": 5304,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/20180111_HardrianGate_5237_%2840078096422%29.jpg/1920px-20180111_HardrianGate_5237_%2840078096422%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:20180111_HardrianGate_5237_(40078096422).jpg",
+"a": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+"l": "CC BY-SA 2.0",
+"n": 13
+},
+{
+"file": "20180111 HardrianGate 5236 (39211586715).jpg",
+"w": 7952,
+"h": 5304,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/20180111_HardrianGate_5236_%2839211586715%29.jpg/1920px-20180111_HardrianGate_5236_%2839211586715%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:20180111_HardrianGate_5236_(39211586715).jpg",
+"a": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+"l": "CC BY-SA 2.0",
+"n": 12
+},
+{
+"file": "20180111 HardrianGate 5235 (40078101132).jpg",
+"w": 7952,
+"h": 5304,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/20180111_HardrianGate_5235_%2840078101132%29.jpg/1920px-20180111_HardrianGate_5235_%2840078101132%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:20180111_HardrianGate_5235_(40078101132).jpg",
+"a": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+"l": "CC BY-SA 2.0",
+"n": 11
+},
+{
+"file": "Hadrian Kapısı (4).JPG",
+"w": 3264,
+"h": 2448,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Hadrian_Kap%C4%B1s%C4%B1_%284%29.JPG/1920px-Hadrian_Kap%C4%B1s%C4%B1_%284%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Hadrian_Kap%C4%B1s%C4%B1_(4).JPG",
+"a": "Cobija",
+"l": "CC0",
+"n": 10
+}
+],
+"adm": "Antalya"
 },
 "Y279": {
 "key": "Yivli Minaret",
@@ -13904,24 +14097,66 @@
 "key": "Kekova sunken city",
 "ad": "Kekova Batık Kent",
 "il": "Antalya",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q2666727",
+"lat": 36.183333333333,
+"lng": 29.883333333333,
 "labels": {
 "tr": "",
 "en": "",
 "de": "",
 "es": "",
-"ar": "",
+"ar": "كيكوفا",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
-"cands": []
+"trw": "Kekova",
+"enw": "Kekova",
+"cat": "Kekova",
+"ex_tr": "Kekova, (Likya dilinde: Dolichiste) Antalya ilinin Demre ilçesi yakınlarında Kaleköy ve Üçağız açıklarındaki küçük, kayalık bir adadır. Kaynaklara çoğu kez \"Kakava\" diye geçmiştir. 4.5 km²'lik yüzölçümü olmakla birlikte bu adada kimse yaşamamaktadır. Üzerinde pansiyonlar ve kafeler bulunan ve teknelerle ulaşım sağlanan kısım adanın karşı kıyısında, anakaraya bağlı Kaleköy' dür.\nİtalyan işgalinden sonra adanın hangi ülkeye ait olacağı konusunda Türkiye ve İtalya arasında bir süre uzlaşılamamış, daha sonra ada 1932 yılındaki anlaşma ile Türkiye'ye bırakılmıştır.\nKuzey tarafında ikinci yüzyılda depremlerle yok olan antik Dolkisthe kentinden kalma batıklara yer yer rastlanır. Kekova, Bizans döneminde yeniden kurulup gelişmiş fakat gelişmesi Arap istilaları yüzünden devam edememiştir.\nKekova ve çevresi 18 Haziran 1990'da Çevre ve Orman Bakanlığı tarafından sit alanı ilan edilmiştir. Tüm yüzüş ve dalışların hükûmet tarafından özel izin alınarak yapılması kararlaştırılmışsa da sonraki yıllarda bu yasak, tarihî batık olanlar haricindeki yerler için kaldırılmıştır.\n\n",
+"ex_en": "Kekova is a small Turkish island near Demre (Demre is the Lycian town of Myra) district of Antalya province which faces the villages of Kaleköy (ancient Simena) and Üçağız (ancient Teimioussa). Kekova has an area of 4.5 km2 (2 sq mi) and is uninhabited. It was known as Dolichiste (Greek: Δολιχίστη) in antiquity.",
+"cands": [
+{
+"file": "2023-11-05 A view from Simena Castle.jpg",
+"w": 5710,
+"h": 3806,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2023-11-05_A_view_from_Simena_Castle.jpg/1920px-2023-11-05_A_view_from_Simena_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:2023-11-05_A_view_from_Simena_Castle.jpg",
+"a": "Alexkom000",
+"l": "CC BY 4.0",
+"n": 13
+},
+{
+"file": "2023-11-05 A view from Kaleköy to Kekova Island.jpg",
+"w": 6000,
+"h": 4000,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/2023-11-05_A_view_from_Kalek%C3%B6y_to_Kekova_Island.jpg/1920px-2023-11-05_A_view_from_Kalek%C3%B6y_to_Kekova_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:2023-11-05_A_view_from_Kalek%C3%B6y_to_Kekova_Island.jpg",
+"a": "Alexkom000",
+"l": "CC BY 4.0",
+"n": 12
+},
+{
+"file": "2013 satellite picture of Demre, Turkey.jpg",
+"w": 4296,
+"h": 2864,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/2013_satellite_picture_of_Demre%2C_Turkey.jpg/1920px-2013_satellite_picture_of_Demre%2C_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:2013_satellite_picture_of_Demre,_Turkey.jpg",
+"a": "NASA",
+"l": "Public domain",
+"n": 11
+},
+{
+"file": "Kekova island and Kalekoey village.jpg",
+"w": 5382,
+"h": 3587,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kekova_island_and_Kalekoey_village.jpg/1920px-Kekova_island_and_Kalekoey_village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Kekova_island_and_Kalekoey_village.jpg",
+"a": "Bjørn Christian Tørrissen",
+"l": "CC BY-SA 4.0",
+"n": 10
+}
+],
+"adm": "Demre"
 },
 "Y281": {
 "key": "Patara",
@@ -14835,24 +15070,66 @@
 "key": "Birgi Çakırağa Mansion",
 "ad": "Birgi Çakırağa Konağı",
 "il": "İzmir",
-"qid": null,
-"lat": null,
-"lng": null,
+"qid": "Q6037478",
+"lat": 38.256,
+"lng": 28.065166666666666,
 "labels": {
-"tr": "",
-"en": "",
+"tr": "Çakırağa Konağı",
+"en": "Çakırağa Mansion",
 "de": "",
 "es": "",
 "ar": "",
 "zh": "",
 "hi": ""
 },
-"trw": null,
-"enw": null,
-"cat": null,
-"ex_tr": "",
-"ex_en": "",
-"cands": []
+"trw": "Çakırağa Konağı",
+"enw": "Çakırağa Mansion",
+"cat": "Çakırağa Mansion",
+"ex_tr": "Birgi Çakırağa Konağı, Ödemiş'in Birgi mahallesinde bulunan Osmanlı sivil mimari örneği konaktır. 1761-1764 yılları arasında, zengin bir tüccar olan Çakıroğlu Mehmet Bey tarafından yaptırılan ahşap konak üç katlıdır. Restore edilerek müze hâline getirilmiştir. Duvar ve tavan süslemeleri, kalem işleri ve ahşap oymalar döneminin üslubunun özel örneklerinden sayılır.\nKonağın alt katında taşlık, mutfak, ahır, misafir ve bekleme odası yer alır. İkinci kat kışlık, üçüncü kat ise yazlık olarak kullanılmıştır.\nKonağın üst katında yer alan odalar, Çakırağa'nın İzmirli ve İstanbullu eşleri için tasarlanmış olup duvarlarında dönemine ait İzmir ve İstanbul panoramik kalem işi süslemeleri barındırmaktadır.\n\n",
+"ex_en": "Çakırağa Mansion (Turkish: Çakırağa Konağı) is an historical mansion in İzmir Province, Turkey. It is in Birgi town of Ödemiş ilçe (district) at 38°15′20″N 28°03′56″E\nIt was commissioned in 1761 by Çakıroğlu Mehmet Bey who was a wealthy merchant. The three storey mansion is situated in a large garden with high embankments. The ground floor is reserved for the stables, the kitchen and the guest room. The first and the second floor are the living quarters. The first floor is the winter and the second floor is the summer floor. A central fireplace heats the first floor. In the second floor there are paintings of Istanbul and İzmir.\n\n",
+"cands": [
+{
+"file": "Birgi 15 05 1988 Çakırağa Konağı Fassadenmalerei Renovierungsphase.jpg",
+"w": 5361,
+"h": 3495,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Birgi_15_05_1988_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1_Fassadenmalerei_Renovierungsphase.jpg/1920px-Birgi_15_05_1988_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1_Fassadenmalerei_Renovierungsphase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Birgi_15_05_1988_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1_Fassadenmalerei_Renovierungsphase.jpg",
+"a": "Volker Höhfeld",
+"l": "CC BY-SA 4.0",
+"n": 13
+},
+{
+"file": "Birgi 10 04 2007 Çakırağa Konağı.jpg",
+"w": 4934,
+"h": 3250,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Birgi_10_04_2007_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1.jpg/1920px-Birgi_10_04_2007_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Birgi_10_04_2007_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1.jpg",
+"a": "Volker Höhfeld",
+"l": "CC BY-SA 4.0",
+"n": 12
+},
+{
+"file": "Birgi 10 04 2007 Çakırağa Konağı großer Salon.jpg",
+"w": 3541,
+"h": 5362,
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Birgi_10_04_2007_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1_gro%C3%9Fer_Salon.jpg/1920px-Birgi_10_04_2007_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1_gro%C3%9Fer_Salon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"page": "https://commons.wikimedia.org/wiki/File:Birgi_10_04_2007_%C3%87ak%C4%B1ra%C4%9Fa_Kona%C4%9F%C4%B1_gro%C3%9Fer_Salon.jpg",
+"a": "Volker Höhfeld",
+"l": "CC BY-SA 4.0",
+"n": 11
+},
+{
+"file": "Çakırağa Mansion.jpg",
+"w": 1080,
+"h": 1079,
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/%C3%87ak%C4%B1ra%C4%9Fa_Mansion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"page": "https://commons.wikimedia.org/wiki/File:%C3%87ak%C4%B1ra%C4%9Fa_Mansion.jpg",
+"a": "Nedim Ardoğa",
+"l": "CC BY-SA 4.0",
+"n": 10
+}
+],
+"adm": "Ödemiş"
 },
 "Y301": {
 "key": "Kaunos",
