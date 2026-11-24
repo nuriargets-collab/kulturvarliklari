@@ -459,3 +459,54 @@
   var tokn = H.getAttribute('data-cf');
   if (tokn) { var sc = document.createElement('script'); sc.defer = true; sc.src = 'https://static.cloudflareinsights.com/beacon.min.js'; sc.setAttribute('data-cf-beacon', JSON.stringify({ token: tokn })); document.head.appendChild(sc); }
 })();
+
+/* ---------- Sesli arama (Web Speech API) ---------- */
+(function () {
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) return;
+  var LC = {tr:'tr-TR', en:'en-US', de:'de-DE', es:'es-ES', ar:'ar-SA', zh:'zh-CN', hi:'hi-IN'};
+  var TIP = {tr:['Sesle ara','Dinleniyor… konuşun','Ses anlaşılamadı, tekrar deneyin','Mikrofon izni verilmedi'],
+    en:['Search by voice','Listening… speak now',"Didn't catch that, try again",'Microphone permission denied'],
+    de:['Sprachsuche','Ich höre zu… bitte sprechen','Nicht verstanden, bitte erneut versuchen','Mikrofonzugriff verweigert'],
+    es:['Buscar por voz','Escuchando… hable ahora','No se entendió, inténtelo de nuevo','Permiso de micrófono denegado'],
+    ar:['البحث بالصوت','جارٍ الاستماع… تحدث الآن','لم يُفهم الصوت، حاول مرة أخرى','تم رفض إذن الميكروفون'],
+    zh:['语音搜索','正在聆听…请说话','没有听清，请再试一次','麦克风权限被拒绝'],
+    hi:['आवाज़ से खोजें','सुन रहे हैं… बोलिए','समझ नहीं आया, फिर कोशिश करें','माइक्रोफ़ोन अनुमति नहीं मिली']};
+  var lang = (document.documentElement.lang || 'tr').slice(0, 2), T = TIP[lang] || TIP.tr;
+  var css = document.createElement('style');
+  css.textContent = '.kvmic{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;margin:0 4px;border:0;border-radius:50%;background:transparent;color:inherit;cursor:pointer;opacity:.75}.kvmic:hover{opacity:1;background:rgba(0,0,0,.06)}.kvmic svg{width:20px;height:20px}.kvmic.on{opacity:1;background:#c0392b;color:#fff;animation:kvpulse 1.2s infinite}@keyframes kvpulse{0%{box-shadow:0 0 0 0 rgba(192,57,43,.5)}100%{box-shadow:0 0 0 12px rgba(192,57,43,0)}}.kvmic-msg{position:absolute;left:0;top:100%;margin-top:6px;background:#16120f;color:#fff;font-size:13px;padding:6px 10px;border-radius:8px;z-index:50;white-space:nowrap}';
+  document.head.appendChild(css);
+  var ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4M8 22h8"/></svg>';
+  function attach(inp) {
+    if (!inp || inp.dataset.kvmic) return; inp.dataset.kvmic = '1';
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'kvmic'; b.innerHTML = ICON;
+    b.title = T[0]; b.setAttribute('aria-label', T[0]);
+    inp.insertAdjacentElement('afterend', b);
+    var host = inp.parentElement; if (getComputedStyle(host).position === 'static') host.style.position = 'relative';
+    var msg = null, rec = null;
+    function say(t, ms) { if (!msg) { msg = document.createElement('div'); msg.className = 'kvmic-msg'; host.appendChild(msg); } msg.textContent = t; msg.style.display = ''; clearTimeout(msg._t); if (ms) msg._t = setTimeout(function () { msg.style.display = 'none'; }, ms); }
+    function stop() { b.classList.remove('on'); if (msg) msg.style.display = 'none'; }
+    b.addEventListener('click', function () {
+      if (rec) { try { rec.abort(); } catch (e) {} rec = null; stop(); return; }
+      rec = new SR(); rec.lang = LC[lang] || 'tr-TR'; rec.interimResults = true; rec.maxAlternatives = 1;
+      b.classList.add('on'); say(T[1]);
+      var got = '';
+      rec.onresult = function (ev) {
+        var s = ''; for (var i = ev.resultIndex; i < ev.results.length; i++) s += ev.results[i][0].transcript;
+        got = s.replace(/[.?!。]+$/, '').trim(); inp.value = got;
+        inp.dispatchEvent(new Event('input', {bubbles: true}));
+      };
+      rec.onerror = function (ev) { var w = ev.error; rec = null; stop(); say(w === 'not-allowed' || w === 'service-not-allowed' ? T[3] : T[2], 3000); };
+      rec.onend = function () {
+        rec = null; stop();
+        if (!got) return;
+        try { window.KV && KV.track && KV.track('sesli-arama'); } catch (e) {}
+        var f = inp.form; if (f) { if (f.requestSubmit) f.requestSubmit(); else f.dispatchEvent(new Event('submit', {cancelable: true})); }
+        else inp.dispatchEvent(new Event('change', {bubbles: true}));
+      };
+      try { rec.start(); } catch (e) { rec = null; stop(); }
+    });
+  }
+  function scan() { ['q', 'xq'].forEach(function (id) { attach(document.getElementById(id)); }); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', scan); else scan();
+})();
