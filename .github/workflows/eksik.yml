@@ -2,7 +2,7 @@ name: Eksik aday
 on:
   push:
     branches: [veri-eksik]
-    paths: [ek/spec.txt]
+    paths: [ek/spec.txt, ek/alt.json]
 permissions:
   contents: write
 jobs:
@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
-      - run: python3 ek/getir.py
+      - run: if [ -f ek/alt.json ] && [ -f ek/meta.json ]; then python3 ek/tekrar.py; else python3 ek/getir.py; fi
       - run: |
           git config user.name github-actions; git config user.email actions@github.com
           git add ek && git commit -m "meta [skip ci]" && git push
