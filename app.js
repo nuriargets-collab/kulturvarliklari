@@ -405,6 +405,17 @@
   })();
 
 
+
+  /* ---------- E-posta bülteni ---------- */
+  document.addEventListener('submit', function (ev) {
+    var f = ev.target; if (!f.matches || !f.matches('form.nlform')) return;
+    ev.preventDefault();
+    var o = f.querySelector('output'), b = f.querySelector('button'), m = f.querySelector('input[type=email]').value;
+    b.disabled = true;
+    fetch(ROOT + 'api/bulten.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ e: m, l: f.getAttribute('data-nl'), k: 1 }) })
+      .then(function (r) { return r.json(); }).then(function (j) { o.textContent = j.ok ? f.getAttribute('data-ok') : f.getAttribute('data-err'); if (j.ok) f.reset(); })
+      .catch(function () { o.textContent = f.getAttribute('data-err'); }).then(function () { b.disabled = false; });
+  });
   /* ---------- Google AdSense + çerez onayı ---------- */
   (function () {
     var A = window.KV_ADS; if (!A || !A.pub) return;
