@@ -1,0 +1,49 @@
+name: Site izleme
+# 30 dakikada bir canlı siteyi yoklar. Site 2 denemede de yanıt vermezse bir "Site erişilemiyor" kaydı (issue) açar;
+# GitHub bunu depo sahibine e-postayla bildirir. Site düzelince kayıt kendiliğinden kapanır.
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+permissions:
+  issues: write
+concurrency: izle
+jobs:
+  kontrol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Sayfaları yokla
+        id: yokla
+        run: |
+          B=https://kulturvarliklari.com.tr
+          HATA=""
+          for p in / /yer/efes.html /en/ /eserler/ /sitemap.xml /ads.txt; do
+            ok=0
+            for i in 1 2; do
+              c=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 -A "kv-izleme" "$B$p" || echo 000)
+              [ "$c" = "200" ] && { ok=1; break; }
+              sleep 20
+            done
+            [ $ok = 1 ] || HATA="$HATA $p:$c"
+          done
+          echo "hata=$HATA" >> "$GITHUB_OUTPUT"
+          echo "Sonuç:${HATA:- hepsi 200}"
+      - name: Kayıt aç / kapat
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HATA: ${{ steps.yokla.outputs.hata }}
+          REPO: ${{ github.repository }}
+        run: |
+          ACIK=$(gh issue list -R "$REPO" --state open --label kesinti --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ -n "$HATA" ]; then
+            if [ -z "$ACIK" ]; then
+              gh label create kesinti -R "$REPO" --color d73a4a --description "Site izleme" 2>/dev/null || true
+              gh issue create -R "$REPO" --label kesinti --title "Site erişilemiyor: kulturvarliklari.com.tr" \
+                --body "$(date -u '+%Y-%m-%d %H:%M UTC') itibarıyla yanıt vermeyen adresler:$HATA. Barındırma (cPanel) durumunu kontrol edin. Site düzelince bu kayıt kendiliğinden kapanır."
+            else
+              gh issue comment "$ACIK" -R "$REPO" --body "$(date -u '+%H:%M UTC'): hâlâ sorun var:$HATA"
+            fi
+          elif [ -n "$ACIK" ]; then
+            gh issue close "$ACIK" -R "$REPO" --comment "$(date -u '+%Y-%m-%d %H:%M UTC'): site yeniden erişilebilir."
+          fi
