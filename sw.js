@@ -1,6 +1,6 @@
 /* kulturvarliklari.com.tr — çevrimdışı destek */
-const V = 'kv-70c6d53fc7';
-const A = 'kv-assets-70c6d53fc7';
+const V = 'kv-38a12976a0';
+const A = 'kv-assets-38a12976a0';
 const CORE = ['./', 'index.html', 'site.css', 'app.js', 'data.json', 'fonts/fonts.css', 'favicon.svg', 'offline.html', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
