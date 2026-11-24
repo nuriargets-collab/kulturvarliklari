@@ -480,7 +480,7 @@ const ITEMS = CATALOG.map(([n,il,region,type,sid,did])=>{
   if(T){ r=Object.assign({id:sid,name:n,en:n,tags:'',tagline:'',lat:null,lng:null},r||{},{period:T.p||(r&&r.period)||'',district:T.d||(r&&r.district)||'',unesco:T.u||(r&&r.unesco)||null,text:{tr:T.s,en:T.s,de:T.s}}); }
   const it={id:sid,name:r?r.name:n,official:n,city:il,region,type,sid,did,rich:r,
     art:(r&&r.art)||TYPES[type].art, bg:(r&&r.bg)||bgFor(type,sid),
-    url:/^(KKTC|IBADET|DIGER|OZEL|DOGA|KAYAK|RAFT|YURUYUS)$/.test(did)?'':`https://muze.gov.tr/muze-detay?SectionId=${sid}&DistId=${did}`, img:imgOf(sid), credit:CREDITS[sid]||null};
+    url:/^(KKTC|IBADET|DIGER|OZEL|ACIK|DOGA|KAYAK|RAFT|YURUYUS)$/.test(did)?'':`https://muze.gov.tr/muze-detay?SectionId=${sid}&DistId=${did}`, img:imgOf(sid), credit:CREDITS[sid]||null};
   it.text=r?r.text:genericText(it);
   return it;
 });

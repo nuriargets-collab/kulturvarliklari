@@ -26,7 +26,7 @@ main{max-width:900px;margin:0 auto;padding:28px clamp(16px,4vw,32px) 70px}main.w
 .tabs select{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:var(--white)}
 .btn{font:inherit;border:0;border-radius:999px;padding:11px 20px;font-weight:600;font-size:14px;cursor:pointer;background:var(--terra);color:#fff;text-decoration:none;display:inline-block}.btn.playing{background:var(--ink)}
 .btn.pulse{animation:pulse 1.4s infinite}@keyframes pulse{50%{box-shadow:0 0 0 10px rgba(181,83,47,.25)}}
-.story{font-size:18px;line-height:1.75;color:var(--ink2)}.note{font-size:12.5px;color:var(--stone);margin-top:8px;min-height:16px}
+.kapali{background:#fdecea;border:1px solid #e0a39b;border-left:5px solid #c0392b;color:#5a1d16;border-radius:10px;padding:12px 14px;margin:12px 0;font-size:15px;line-height:1.55}.story{font-size:18px;line-height:1.75;color:var(--ink2)}.note{font-size:12.5px;color:var(--stone);margin-top:8px;min-height:16px}
 .story[dir=rtl]{font-size:20px}
 .hero .orig{font-size:14px;opacity:.8;margin-top:6px;letter-spacing:.3px}
 html[lang=zh-Hans] body{font-family:Manrope,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
