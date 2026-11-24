@@ -1,1015 +1,1855 @@
 {
- "E01": {
-  "wd": {},
+ "NDU01": {
+  "wd": {
+   "qid": "Q2666468",
+   "label": "Düden Waterfalls",
+   "desc": "group of waterfalls in the province of Antalya, Turkey",
+   "lat": 36.9638,
+   "lng": 30.7269,
+   "p18": [
+    "Upper Duden Falls.jpg",
+    "Lower Duden Falls.jpg",
+    "Duden steps.jpg"
+   ],
+   "cat": "Düden Waterfalls"
+  },
   "cands": [
    {
-    "file": "Seated Woman of Çatalhöyük on black background.jpg",
-    "w": 2244,
-    "h": 2992,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_on_black_background.jpg/1920px-Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_on_black_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_on_black_background.jpg",
-    "a": "Nevit Dilmen (talk)",
+    "file": "Upper Duden Falls.jpg",
+    "w": 2669,
+    "h": 3737,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Upper_Duden_Falls.jpg/1920px-Upper_Duden_Falls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Upper_Duden_Falls.jpg",
+    "a": "Saffron Blaze",
     "l": "CC BY-SA 3.0",
     "n": 0
    },
    {
-    "file": "Ankara Seated Woman of Çatalhöyük From right in 2004 3783.jpg",
-    "w": 2000,
-    "h": 3008,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ankara_Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_From_right_in_2004_3783.jpg/1920px-Ankara_Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_From_right_in_2004_3783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ankara_Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_From_right_in_2004_3783.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Lower Duden Falls.jpg",
+    "w": 2832,
+    "h": 3540,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Lower_Duden_Falls.jpg/1920px-Lower_Duden_Falls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lower_Duden_Falls.jpg",
+    "a": "Saffron Blaze",
+    "l": "CC BY 3.0",
     "n": 1
    },
    {
-    "file": "Ankara Seated Woman of Çatalhöyük Front side in 2004 3782.jpg",
-    "w": 3008,
-    "h": 2000,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ankara_Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_Front_side_in_2004_3782.jpg/1920px-Ankara_Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_Front_side_in_2004_3782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ankara_Seated_Woman_of_%C3%87atalh%C3%B6y%C3%BCk_Front_side_in_2004_3782.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Duden steps.jpg",
+    "w": 2736,
+    "h": 3648,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Duden_steps.jpg/1920px-Duden_steps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Duden_steps.jpg",
+    "a": "karmakolle",
+    "l": "CC0",
     "n": 2
    },
    {
-    "file": "Turkey-1555 (2216634436) (2).jpg",
+    "file": "Antalya, Turkey - panoramio (55).jpg",
     "w": 2448,
     "h": 3264,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Turkey-1555_%282216634436%29_%282%29.jpg/1920px-Turkey-1555_%282216634436%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Turkey-1555_(2216634436)_(2).jpg",
-    "a": "Dennis G. Jarvis",
-    "l": "CC BY-SA 2.0",
-    "n": 4
-   }
-  ]
- },
- "E02": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Museum of Anatolian Civilizations Hattian disk with male deer and two bulls in 2004 05.jpg",
-    "w": 3008,
-    "h": 2000,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_2004_05.jpg/1920px-Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_2004_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_2004_05.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Museum of Anatolian Civilizations Hattian disk with male deer and two bulls in 2014 04.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_2014_04.jpg/1920px-Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_2014_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_2014_04.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Museum of Anatolian Civilizations Hattian disk with male deer and two bullsr in 2014 03.jpg",
-    "w": 2544,
-    "h": 3672,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bullsr_in_2014_03.jpg/1920px-Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bullsr_in_2014_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bullsr_in_2014_03.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Museum of Anatolian Civilizations Hattian disk with male deer and two bulls in 1990's 01.jpg",
-    "w": 6064,
-    "h": 4160,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_1990%27s_01.jpg/1920px-Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_1990%27s_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_1990%27s_01.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Antalya%2C_Turkey_-_panoramio_%2855%29.jpg/1920px-Antalya%2C_Turkey_-_panoramio_%2855%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Antalya,_Turkey_-_panoramio_(55).jpg",
+    "a": "alomeri1978",
+    "l": "CC BY-SA 3.0",
     "n": 3
    },
    {
-    "file": "Museum of Anatolian Civilizations Hattian disk with male deer and two bulls in 1990's 02.jpg",
-    "w": 6367,
-    "h": 4096,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_1990%27s_02.jpg/1920px-Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_1990%27s_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Hattian_disk_with_male_deer_and_two_bulls_in_1990%27s_02.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Museum of Anatolian Civilizations026.jpg",
-    "w": 1474,
-    "h": 1215,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Museum_of_Anatolian_Civilizations026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations026.jpg",
-    "a": "Georges Jansoone (JoJan)",
-    "l": "CC BY 2.5",
-    "n": 5
-   }
-  ]
- },
- "E03": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Balikligol.heykeli.jpg",
-    "w": 3024,
+    "file": "Düden river, Antalya, Turkey, 2023.jpg",
+    "w": 2688,
     "h": 4032,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Balikligol.heykeli.jpg/1920px-Balikligol.heykeli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Balikligol.heykeli.jpg",
-    "a": "Carotisque",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Balikligöl Statue.jpg",
-    "w": 2340,
-    "h": 4160,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Baliklig%C3%B6l_Statue.jpg/1920px-Baliklig%C3%B6l_Statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Baliklig%C3%B6l_Statue.jpg",
-    "a": "Immanuelle",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Sanliurfa June 2010 9170.jpg",
-    "w": 2832,
-    "h": 4256,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Sanliurfa_June_2010_9170.jpg/1920px-Sanliurfa_June_2010_9170.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sanliurfa_June_2010_9170.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Sanliurfa June 2010 9178.jpg",
-    "w": 2832,
-    "h": 4256,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Sanliurfa_June_2010_9178.jpg/1920px-Sanliurfa_June_2010_9178.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sanliurfa_June_2010_9178.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Sanliurfa June 2010 9179.jpg",
-    "w": 2832,
-    "h": 4256,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Sanliurfa_June_2010_9179.jpg/1920px-Sanliurfa_June_2010_9179.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sanliurfa_June_2010_9179.jpg",
-    "a": "Dosseman",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/D%C3%BCden_river%2C_Antalya%2C_Turkey%2C_2023.jpg/1920px-D%C3%BCden_river%2C_Antalya%2C_Turkey%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%BCden_river,_Antalya,_Turkey,_2023.jpg",
+    "a": "Zmaragdinae Caeruleum",
     "l": "CC BY-SA 4.0",
     "n": 4
    },
    {
-    "file": "Urfa museum Urfa man sept 2019 4717.jpg",
-    "w": 4841,
-    "h": 6871,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Urfa_museum_Urfa_man_sept_2019_4717.jpg/1920px-Urfa_museum_Urfa_man_sept_2019_4717.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Urfa_museum_Urfa_man_sept_2019_4717.jpg",
-    "a": "Dosseman",
+    "file": "Düden waterfall cycling road.jpg",
+    "w": 1530,
+    "h": 2040,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/D%C3%BCden_waterfall_cycling_road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%BCden_waterfall_cycling_road.jpg",
+    "a": "Süheylam",
     "l": "CC BY-SA 4.0",
     "n": 5
    },
    {
-    "file": "Urfa museum Urfa Man sept 2019 4882.jpg",
-    "w": 5504,
-    "h": 8256,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Urfa_museum_Urfa_Man_sept_2019_4882.jpg/1920px-Urfa_museum_Urfa_Man_sept_2019_4882.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Urfa_museum_Urfa_Man_sept_2019_4882.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 6
-   },
-   {
-    "file": "Urfa museum Urfa man sept 2019 4708.jpg",
-    "w": 5344,
-    "h": 8016,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Urfa_museum_Urfa_man_sept_2019_4708.jpg/1920px-Urfa_museum_Urfa_man_sept_2019_4708.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Urfa_museum_Urfa_man_sept_2019_4708.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Antalya, Turkey March 2022 - Düden Park - Lower Düden Waterfalls.jpg",
+    "w": 3693,
+    "h": 2670,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Antalya%2C_Turkey_March_2022_-_D%C3%BCden_Park_-_Lower_D%C3%BCden_Waterfalls.jpg/1920px-Antalya%2C_Turkey_March_2022_-_D%C3%BCden_Park_-_Lower_D%C3%BCden_Waterfalls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Antalya,_Turkey_March_2022_-_D%C3%BCden_Park_-_Lower_D%C3%BCden_Waterfalls.jpg",
+    "a": "Sharon Hahn Darlin",
+    "l": "CC BY 2.0",
     "n": 7
    }
   ]
  },
- "E04": {
-  "wd": {},
+ "NMA01": {
+  "wd": {
+   "qid": "Q2574216",
+   "label": "Manavgat Waterfall",
+   "desc": "waterfall in Manavgat, Turkey",
+   "lat": 36.81328,
+   "lng": 31.45449,
+   "p18": [
+    "Manavgat waterfall by tomgensler.JPG"
+   ],
+   "cat": "Manavgat Waterfall"
+  },
   "cands": [
    {
-    "file": "Antep 1250575b.jpg",
-    "w": 2547,
-    "h": 1658,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Antep_1250575b.jpg/1920px-Antep_1250575b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Antep_1250575b.jpg",
-    "a": "Antep_1250575.jpg: Nevit Dilmen (talk)\nderivative work: Durova (talk)",
+    "file": "Manavgat waterfall by tomgensler.JPG",
+    "w": 2304,
+    "h": 1728,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Manavgat_waterfall_by_tomgensler.JPG/1920px-Manavgat_waterfall_by_tomgensler.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Manavgat_waterfall_by_tomgensler.JPG",
+    "a": "Thomas Gensler",
+    "l": "CC BY-SA 2.0 de",
+    "n": 0
+   },
+   {
+    "file": "07600 Çayyazı-Manavgat-Antalya, Turkey - panoramio (1).jpg",
+    "w": 3960,
+    "h": 2640,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya%2C_Turkey_-_panoramio_%281%29.jpg/1920px-07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya%2C_Turkey_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya,_Turkey_-_panoramio_(1).jpg",
+    "a": "Hulagu Turan",
     "l": "CC BY-SA 3.0",
-    "n": 0
-   },
-   {
-    "file": "Antep erased2.jpg",
-    "w": 2547,
-    "h": 1658,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Antep_erased2.jpg/1920px-Antep_erased2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Antep_erased2.jpg",
-    "a": "Antep_1250575_cr.jpg: Nevit Dilmen (talk)\nderivative work: Durova (talk)",
-    "l": "Public domain",
     "n": 1
    },
    {
-    "file": "The Gypsy Girl Mosaic of Zeugma 1250575.png",
-    "w": 2583,
-    "h": 1636,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/The_Gypsy_Girl_Mosaic_of_Zeugma_1250575.png/1920px-The_Gypsy_Girl_Mosaic_of_Zeugma_1250575.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Gypsy_Girl_Mosaic_of_Zeugma_1250575.png",
-    "a": "Nevit Dilmen (talk)",
-    "l": "Public domain",
-    "n": 2
-   },
-   {
-    "file": "Gaziantep Zeugma Museum Gypsy mosaic 7066.jpg",
-    "w": 1600,
-    "h": 1065,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gaziantep_Zeugma_Museum_Gypsy_mosaic_7066.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Gaziantep_Zeugma_Museum_Gypsy_mosaic_7066.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Gaziantep Zeugma Museum Gypsy mosaic 0396.jpg",
-    "w": 1600,
-    "h": 1063,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gaziantep_Zeugma_Museum_Gypsy_mosaic_0396.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Gaziantep_Zeugma_Museum_Gypsy_mosaic_0396.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Gaziantep Zeugma museum Gypsy Girl mosaic Gypsy mosaic in 2019 4110.jpg",
-    "w": 8256,
-    "h": 5504,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Gaziantep_Zeugma_museum_Gypsy_Girl_mosaic_Gypsy_mosaic_in_2019_4110.jpg/1920px-Gaziantep_Zeugma_museum_Gypsy_Girl_mosaic_Gypsy_mosaic_in_2019_4110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Gaziantep_Zeugma_museum_Gypsy_Girl_mosaic_Gypsy_mosaic_in_2019_4110.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   }
-  ]
- },
- "E05": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Alexander Sarcophagus, Istanbul Archaeological Museums 2020.jpg",
-    "w": 4128,
-    "h": 3096,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Alexander_Sarcophagus%2C_Istanbul_Archaeological_Museums_2020.jpg/1920px-Alexander_Sarcophagus%2C_Istanbul_Archaeological_Museums_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alexander_Sarcophagus,_Istanbul_Archaeological_Museums_2020.jpg",
-    "a": "Kingbjelica",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Alexander Sarcophagus, Istanbul Archaeological Museums 2024 (1).jpg",
-    "w": 5712,
-    "h": 4284,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Alexander_Sarcophagus%2C_Istanbul_Archaeological_Museums_2024_%281%29.jpg/1920px-Alexander_Sarcophagus%2C_Istanbul_Archaeological_Museums_2024_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alexander_Sarcophagus,_Istanbul_Archaeological_Museums_2024_(1).jpg",
-    "a": "Bjelica",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Alexander sarcophagus in the Istanbul Archaeological Museums.jpg",
-    "w": 4032,
-    "h": 1908,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Alexander_sarcophagus_in_the_Istanbul_Archaeological_Museums.jpg/1920px-Alexander_sarcophagus_in_the_Istanbul_Archaeological_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Alexander_sarcophagus_in_the_Istanbul_Archaeological_Museums.jpg",
-    "a": "Yair Haklai",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Istanbul Archaeological Museum Alexander Sarcophagus 4033.jpg",
-    "w": 5408,
-    "h": 4041,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Istanbul_Archaeological_Museum_Alexander_Sarcophagus_4033.jpg/1920px-Istanbul_Archaeological_Museum_Alexander_Sarcophagus_4033.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Archaeological_Museum_Alexander_Sarcophagus_4033.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Alexander sarcophagus in the Istanbul Archaeological Museums-3.jpg",
-    "w": 1843,
-    "h": 2414,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Alexander_sarcophagus_in_the_Istanbul_Archaeological_Museums-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Alexander_sarcophagus_in_the_Istanbul_Archaeological_Museums-3.jpg",
-    "a": "Yair Haklai",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Istanbul Archaeological Museum Alexander Sarcophagus Alexander in battle side 4024.jpg",
-    "w": 8256,
-    "h": 5504,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Istanbul_Archaeological_Museum_Alexander_Sarcophagus_Alexander_in_battle_side_4024.jpg/1920px-Istanbul_Archaeological_Museum_Alexander_Sarcophagus_Alexander_in_battle_side_4024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Archaeological_Museum_Alexander_Sarcophagus_Alexander_in_battle_side_4024.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   }
-  ]
- },
- "E06": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "1. Part of the clay tablet of Kadesh Treaty, written in Akkadian. 1269 BCE. From Boğazköy, Turkey. Clay tablet. Museum of the Ancient Orient, Istanbul, Turkey.jpg",
-    "w": 4650,
-    "h": 3604,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/1._Part_of_the_clay_tablet_of_Kadesh_Treaty%2C_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y%2C_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient%2C_Istanbul%2C_Turkey.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:1._Part_of_the_clay_tablet_of_Kadesh_Treaty,_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y,_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient,_Istanbul,_Turkey.jpg",
-    "a": "Osama Shukir Muhammed Amin FRCP(Glasg)",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Kadesh Treaty, written in Akkadian. 1269 BCE. From Boğazköy, Turkey. Clay tablet. Museum of the Ancient Orient, Istanbul, Turkey.jpg",
-    "w": 4016,
-    "h": 6016,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Kadesh_Treaty%2C_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y%2C_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient%2C_Istanbul%2C_Turkey.jpg/1920px-Kadesh_Treaty%2C_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y%2C_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient%2C_Istanbul%2C_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Kadesh_Treaty,_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y,_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient,_Istanbul,_Turkey.jpg",
-    "a": "Osama Shukir Muhammed Amin FRCP(Glasg)",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "2. Part of the clay tablet of Kadesh Treaty, written in Akkadian. 1269 BCE. From Boğazköy, Turkey. Clay tablet. Museum of the Ancient Orient, Istanbul, Turkey.jpg",
-    "w": 6016,
-    "h": 4016,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/2._Part_of_the_clay_tablet_of_Kadesh_Treaty%2C_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y%2C_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient%2C_Istanbul%2C_Turkey.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:2._Part_of_the_clay_tablet_of_Kadesh_Treaty,_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y,_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient,_Istanbul,_Turkey.jpg",
-    "a": "Osama Shukir Muhammed Amin FRCP(Glasg)",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "3. Part of the clay tablet of Kadesh Treaty, written in Akkadian. 1269 BCE. From Boğazköy, Turkey. Clay tablet. Museum of the Ancient Orient, Istanbul, Turkey.jpg",
-    "w": 3562,
-    "h": 3870,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/3._Part_of_the_clay_tablet_of_Kadesh_Treaty%2C_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y%2C_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient%2C_Istanbul%2C_Turkey.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:3._Part_of_the_clay_tablet_of_Kadesh_Treaty,_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y,_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient,_Istanbul,_Turkey.jpg",
-    "a": "Osama Shukir Muhammed Amin FRCP(Glasg)",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Treaty of Kadesh.jpg",
-    "w": 2154,
-    "h": 3617,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Treaty_of_Kadesh.jpg/1920px-Treaty_of_Kadesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Treaty_of_Kadesh.jpg",
-    "a": "Iocanus (talk)",
+    "file": "07600 Çayyazı-Manavgat-Antalya, Turkey - panoramio (2).jpg",
+    "w": 2448,
+    "h": 2448,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya%2C_Turkey_-_panoramio_%282%29.jpg/1920px-07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya%2C_Turkey_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya,_Turkey_-_panoramio_(2).jpg",
+    "a": "hakan kozan",
     "l": "CC BY 3.0",
-    "n": 4
-   }
-  ]
- },
- "E07": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Siloam Inscription from Hezekiahs Tunnel Istanbul Archaeology Museums.jpg",
-    "w": 3264,
-    "h": 2448,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Siloam_Inscription_from_Hezekiahs_Tunnel_Istanbul_Archaeology_Museums.jpg/1920px-Siloam_Inscription_from_Hezekiahs_Tunnel_Istanbul_Archaeology_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Siloam_Inscription_from_Hezekiahs_Tunnel_Istanbul_Archaeology_Museums.jpg",
-    "a": "ywpark2003 (Prof. Yong Woo Park)",
-    "l": "CC0",
-    "n": 0
-   },
-   {
-    "file": "Siloam inscription.jpg",
-    "w": 3264,
-    "h": 2448,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Siloam_inscription.jpg/1920px-Siloam_inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Siloam_inscription.jpg",
-    "a": "oncenawhile",
-    "l": "CC0",
     "n": 2
    },
    {
-    "file": "Istanbul - Museo archeol. - Iscrizione di Siloam (di Ezechia, inizio sec. VII aC) - Foto G. Dall'Orto 28-5-2006.jpg",
-    "w": 1280,
-    "h": 960,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/Istanbul_-_Museo_archeol._-_Iscrizione_di_Siloam_%28di_Ezechia%2C_inizio_sec._VII_aC%29_-_Foto_G._Dall%27Orto_28-5-2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_-_Museo_archeol._-_Iscrizione_di_Siloam_(di_Ezechia,_inizio_sec._VII_aC)_-_Foto_G._Dall%27Orto_28-5-2006.jpg",
-    "a": "",
-    "l": "Attribution",
-    "n": 4
-   },
-   {
-    "file": "Hashiloach.jpg",
-    "w": 2288,
-    "h": 1084,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Hashiloach.jpg/1920px-Hashiloach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hashiloach.jpg",
-    "a": "Picture taken by deror avi on July 2005.",
-    "l": "Attribution",
-    "n": 5
-   }
-  ]
- },
- "E08": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Statue of Hercules from Perge, reproduced in the late 2nd century AD from the 4th century BC original by Lysippos, Antalya Museum, Turkey.jpg",
-    "w": 3216,
-    "h": 4288,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Statue_of_Hercules_from_Perge%2C_reproduced_in_the_late_2nd_century_AD_from_the_4th_century_BC_original_by_Lysippos%2C_Antalya_Museum%2C_Turkey.jpg/1920px-Statue_of_Hercules_from_Perge%2C_reproduced_in_the_late_2nd_century_AD_from_the_4th_century_BC_original_by_Lysippos%2C_Antalya_Museum%2C_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Hercules_from_Perge,_reproduced_in_the_late_2nd_century_AD_from_the_4th_century_BC_original_by_Lysippos,_Antalya_Museum,_Turkey.jpg",
-    "a": "Carole Raddato",
-    "l": "CC BY-SA 2.0",
-    "n": 0
-   },
-   {
-    "file": "Втомлений Геракл 02.jpg",
-    "w": 4000,
-    "h": 6000,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%92%D1%82%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%93%D0%B5%D1%80%D0%B0%D0%BA%D0%BB_02.jpg/1920px-%D0%92%D1%82%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%93%D0%B5%D1%80%D0%B0%D0%BA%D0%BB_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D1%82%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%93%D0%B5%D1%80%D0%B0%D0%BA%D0%BB_02.jpg",
-    "a": "Сарапулов",
-    "l": "CC BY 4.0",
-    "n": 1
-   },
-   {
-    "file": "Втомлений Геракл 01.jpg",
-    "w": 4000,
-    "h": 6000,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%D0%92%D1%82%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%93%D0%B5%D1%80%D0%B0%D0%BA%D0%BB_01.jpg/1920px-%D0%92%D1%82%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%93%D0%B5%D1%80%D0%B0%D0%BA%D0%BB_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D1%82%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%93%D0%B5%D1%80%D0%B0%D0%BA%D0%BB_01.jpg",
-    "a": "Сарапулов",
-    "l": "CC BY 4.0",
-    "n": 2
-   }
-  ]
- },
- "E09": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Artemis of Ephesus statue Ephesus Museum 2024.jpeg",
-    "w": 1920,
-    "h": 2560,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Artemis_of_Ephesus_statue_Ephesus_Museum_2024.jpeg/1920px-Artemis_of_Ephesus_statue_Ephesus_Museum_2024.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Artemis_of_Ephesus_statue_Ephesus_Museum_2024.jpeg",
-    "a": "Furkan Akkurt",
-    "l": "CC BY-SA 4.0",
-    "n": 0
-   },
-   {
-    "file": "Selçuk Museum Beautiful Artemis Collar in 2015 3112.jpg",
-    "w": 3280,
-    "h": 4928,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sel%C3%A7uk_Museum_Beautiful_Artemis_Collar_in_2015_3112.jpg/1920px-Sel%C3%A7uk_Museum_Beautiful_Artemis_Collar_in_2015_3112.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sel%C3%A7uk_Museum_Beautiful_Artemis_Collar_in_2015_3112.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 1
-   },
-   {
-    "file": "Selçuk Museum Beautiful Artemis all in 2015 3149.jpg",
-    "w": 3280,
-    "h": 4928,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sel%C3%A7uk_Museum_Beautiful_Artemis_all_in_2015_3149.jpg/1920px-Sel%C3%A7uk_Museum_Beautiful_Artemis_all_in_2015_3149.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sel%C3%A7uk_Museum_Beautiful_Artemis_all_in_2015_3149.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Selçuk Museum Beautiful Artemis all in 1992 3891.jpg",
-    "w": 2245,
-    "h": 3368,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Sel%C3%A7uk_Museum_Beautiful_Artemis_all_in_1992_3891.jpg/1920px-Sel%C3%A7uk_Museum_Beautiful_Artemis_all_in_1992_3891.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sel%C3%A7uk_Museum_Beautiful_Artemis_all_in_1992_3891.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Selçuk Museum Beautiful Artemis Head in 2011 3883.jpg",
-    "w": 4256,
-    "h": 2832,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Sel%C3%A7uk_Museum_Beautiful_Artemis_Head_in_2011_3883.jpg/1920px-Sel%C3%A7uk_Museum_Beautiful_Artemis_Head_in_2011_3883.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sel%C3%A7uk_Museum_Beautiful_Artemis_Head_in_2011_3883.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Selçuk Museum Beautiful Artemis Collar in 2015 3111.jpg",
-    "w": 3280,
-    "h": 4928,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sel%C3%A7uk_Museum_Beautiful_Artemis_Collar_in_2015_3111.jpg/1920px-Sel%C3%A7uk_Museum_Beautiful_Artemis_Collar_in_2015_3111.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sel%C3%A7uk_Museum_Beautiful_Artemis_Collar_in_2015_3111.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   }
-  ]
- },
- "E10": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Turkey.Bodrum060.jpg",
-    "w": 1280,
-    "h": 960,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/06/Turkey.Bodrum060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Turkey.Bodrum060.jpg",
-    "a": "Georges Jansoone (JoJan",
-    "l": "CC BY-SA 3.0",
-    "n": 1
-   },
-   {
-    "file": "Turkey.Bodrum086.jpg",
-    "w": 1280,
-    "h": 960,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Turkey.Bodrum086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Turkey.Bodrum086.jpg",
-    "a": "Georges Jansoone (Jojan",
-    "l": "CC BY-SA 3.0",
-    "n": 2
-   },
-   {
-    "file": "Turkey.Bodrum091.jpg",
-    "w": 1280,
-    "h": 960,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Turkey.Bodrum091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Turkey.Bodrum091.jpg",
-    "a": "Georges Jansoone (Jojan",
+    "file": "07600 Çayyazı-Manavgat-Antalya, Turkey - panoramio.jpg",
+    "w": 3960,
+    "h": 2640,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya%2C_Turkey_-_panoramio.jpg/1920px-07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:07600_%C3%87ayyaz%C4%B1-Manavgat-Antalya,_Turkey_-_panoramio.jpg",
+    "a": "Hulagu Turan",
     "l": "CC BY-SA 3.0",
     "n": 3
    },
    {
-    "file": "Bodrum Museum Uluburun shipwreck reconstruction in 2015 3707.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3707.jpg/1920px-Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3707.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3707.jpg",
-    "a": "Dosseman",
+    "file": "Flow Manavgat Waterfall (64668).jpg",
+    "w": 2688,
+    "h": 1520,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Flow_Manavgat_Waterfall_%2864668%29.jpg/1920px-Flow_Manavgat_Waterfall_%2864668%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Flow_Manavgat_Waterfall_(64668).jpg",
+    "a": "Lee Vilenski",
     "l": "CC BY-SA 4.0",
     "n": 5
    },
    {
-    "file": "Bodrum Museum Uluburun shipwreck reconstruction in 2015 3704.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3704.jpg/1920px-Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3704.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3704.jpg",
-    "a": "Dosseman",
+    "file": "Flow Manavgat Waterfall (75428).jpg",
+    "w": 2688,
+    "h": 1520,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Flow_Manavgat_Waterfall_%2875428%29.jpg/1920px-Flow_Manavgat_Waterfall_%2875428%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Flow_Manavgat_Waterfall_(75428).jpg",
+    "a": "Lee Vilenski",
     "l": "CC BY-SA 4.0",
     "n": 6
    },
    {
-    "file": "Bodrum Museum Uluburun shipwreck reconstruction in 2015 3714.jpg",
-    "w": 3280,
-    "h": 4928,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3714.jpg/1920px-Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3714.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bodrum_Museum_Uluburun_shipwreck_reconstruction_in_2015_3714.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Manavgat Waterfall (1) Red.jpg",
+    "w": 4288,
+    "h": 2848,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Manavgat_Waterfall_%281%29_Red.jpg/1920px-Manavgat_Waterfall_%281%29_Red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Manavgat_Waterfall_(1)_Red.jpg",
+    "a": "Daniel Åhs Karlsson",
+    "l": "CC BY-SA 3.0",
     "n": 7
    }
   ]
  },
- "E11": {
-  "wd": {},
+ "NKU01": {
+  "wd": {
+   "qid": "Q981506",
+   "label": "Kurşunlu Waterfall",
+   "desc": "waterfall in Turkey",
+   "lat": 37.003,
+   "lng": 30.821,
+   "p18": [
+    "Kursunlu Waterfall 1.jpg"
+   ],
+   "cat": "Kurşunlu Waterfall"
+  },
   "cands": [
    {
-    "file": "Uşak Museum Karun Treasure gold bracelet 2162.jpg",
-    "w": 3280,
-    "h": 4928,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/U%C5%9Fak_Museum_Karun_Treasure_gold_bracelet_2162.jpg/1920px-U%C5%9Fak_Museum_Karun_Treasure_gold_bracelet_2162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Museum_Karun_Treasure_gold_bracelet_2162.jpg",
-    "a": "Dosseman",
+    "file": "Kursunlu Waterfall 1.jpg",
+    "w": 4288,
+    "h": 2848,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Kursunlu_Waterfall_1.jpg/1920px-Kursunlu_Waterfall_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kursunlu_Waterfall_1.jpg",
+    "a": "Burak Küçükarslan",
     "l": "CC BY-SA 4.0",
     "n": 0
    },
    {
-    "file": "Uşak Museum Lydian gold objects and their moulds 2181.jpg",
-    "w": 2593,
-    "h": 2016,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/U%C5%9Fak_Museum_Lydian_gold_objects_and_their_moulds_2181.jpg/1920px-U%C5%9Fak_Museum_Lydian_gold_objects_and_their_moulds_2181.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Museum_Lydian_gold_objects_and_their_moulds_2181.jpg",
-    "a": "Dosseman",
+    "file": "Düden Şelalesi 20190814 121341 HDR.jpg",
+    "w": 5312,
+    "h": 2988,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/D%C3%BCden_%C5%9Eelalesi_20190814_121341_HDR.jpg/1920px-D%C3%BCden_%C5%9Eelalesi_20190814_121341_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%BCden_%C5%9Eelalesi_20190814_121341_HDR.jpg",
+    "a": "Süleyman Sayım",
     "l": "CC BY-SA 4.0",
     "n": 1
    },
    {
-    "file": "Uşak Museum Lydian gold objects and their moulds 2179.jpg",
-    "w": 1184,
-    "h": 1184,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/U%C5%9Fak_Museum_Lydian_gold_objects_and_their_moulds_2179.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Museum_Lydian_gold_objects_and_their_moulds_2179.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Kunsurlu waterfal - panoramio.jpg",
+    "w": 3005,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Kunsurlu_waterfal_-_panoramio.jpg/1920px-Kunsurlu_waterfal_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kunsurlu_waterfal_-_panoramio.jpg",
+    "a": "patano",
+    "l": "CC BY-SA 3.0",
     "n": 2
    },
    {
-    "file": "Uşak Museum Lydian gold objects and their moulds 2180.jpg",
-    "w": 1135,
-    "h": 1005,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/U%C5%9Fak_Museum_Lydian_gold_objects_and_their_moulds_2180.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Museum_Lydian_gold_objects_and_their_moulds_2180.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Kursunlu - in the forest - panoramio.jpg",
+    "w": 4000,
+    "h": 2750,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kursunlu_-_in_the_forest_-_panoramio.jpg/1920px-Kursunlu_-_in_the_forest_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kursunlu_-_in_the_forest_-_panoramio.jpg",
+    "a": "patano",
+    "l": "CC BY-SA 3.0",
     "n": 3
    },
    {
-    "file": "Uşak Museum Karun Treasure 2176.jpg",
-    "w": 2503,
-    "h": 2503,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/U%C5%9Fak_Museum_Karun_Treasure_2176.jpg/1920px-U%C5%9Fak_Museum_Karun_Treasure_2176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Museum_Karun_Treasure_2176.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Kursunlu waterfall - panoramio.jpg",
+    "w": 3264,
+    "h": 2176,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Kursunlu_waterfall_-_panoramio.jpg/1920px-Kursunlu_waterfall_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kursunlu_waterfall_-_panoramio.jpg",
+    "a": "patano",
+    "l": "CC BY-SA 3.0",
     "n": 4
    },
    {
-    "file": "Uşak Museum Karun Treasure 2195.jpg",
-    "w": 3251,
-    "h": 2163,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/U%C5%9Fak_Museum_Karun_Treasure_2195.jpg/1920px-U%C5%9Fak_Museum_Karun_Treasure_2195.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Museum_Karun_Treasure_2195.jpg",
-    "a": "Dosseman",
+    "file": "Kursunlu Waterfall Nature Park in city of Antalya.jpg",
+    "w": 4160,
+    "h": 3120,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Kursunlu_Waterfall_Nature_Park_in_city_of_Antalya.jpg/1920px-Kursunlu_Waterfall_Nature_Park_in_city_of_Antalya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kursunlu_Waterfall_Nature_Park_in_city_of_Antalya.jpg",
+    "a": "Leyla kılınç",
     "l": "CC BY-SA 4.0",
     "n": 5
+   },
+   {
+    "file": "Kurşunlu Waterfall in Antalya 08.11.2023 16.jpg",
+    "w": 3456,
+    "h": 4608,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kur%C5%9Funlu_Waterfall_in_Antalya_08.11.2023_16.jpg/1920px-Kur%C5%9Funlu_Waterfall_in_Antalya_08.11.2023_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kur%C5%9Funlu_Waterfall_in_Antalya_08.11.2023_16.jpg",
+    "a": "Wiki leylek",
+    "l": "CC BY 4.0",
+    "n": 6
+   },
+   {
+    "file": "Kurşunlu Waterfall in Antalya 08.11.2023 04.jpg",
+    "w": 3456,
+    "h": 4608,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kur%C5%9Funlu_Waterfall_in_Antalya_08.11.2023_04.jpg/1920px-Kur%C5%9Funlu_Waterfall_in_Antalya_08.11.2023_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kur%C5%9Funlu_Waterfall_in_Antalya_08.11.2023_04.jpg",
+    "a": "Wiki leylek",
+    "l": "CC BY 4.0",
+    "n": 7
    }
   ]
  },
- "E12": {
-  "wd": {},
+ "NTO01": {
+  "wd": {
+   "qid": "Q1337971",
+   "label": "Tortum Waterfall",
+   "desc": "waterfall",
+   "lat": 40.6607,
+   "lng": 41.6687,
+   "p18": [
+    "Tortum Waterfall (2).jpg"
+   ],
+   "cat": "Tortum Waterfall"
+  },
   "cands": [
    {
-    "file": "Polyxena Sarcophagus Now in Troy Museum 7917.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Polyxena_Sarcophagus_Now_in_Troy_Museum_7917.jpg/1920px-Polyxena_Sarcophagus_Now_in_Troy_Museum_7917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Polyxena_Sarcophagus_Now_in_Troy_Museum_7917.jpg",
-    "a": "Dosseman",
+    "file": "Tortum Waterfall (2).jpg",
+    "w": 2448,
+    "h": 3264,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Tortum_Waterfall_%282%29.jpg/1920px-Tortum_Waterfall_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tortum_Waterfall_(2).jpg",
+    "a": "Jaba1977",
     "l": "CC BY-SA 4.0",
     "n": 0
    },
    {
-    "file": "Polyxena Sarcophagus Now in Troy Museum 7938.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Polyxena_Sarcophagus_Now_in_Troy_Museum_7938.jpg/1920px-Polyxena_Sarcophagus_Now_in_Troy_Museum_7938.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Polyxena_Sarcophagus_Now_in_Troy_Museum_7938.jpg",
-    "a": "Dosseman",
+    "file": "Erzurum tortum şelalesi.jpg",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/04/Erzurum_tortum_%C5%9Felalesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Erzurum_tortum_%C5%9Felalesi.jpg",
+    "a": "Çelikcan",
     "l": "CC BY-SA 4.0",
     "n": 1
    },
    {
-    "file": "Polyxena Sarcophagus Now in Troy Museum 7923.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Polyxena_Sarcophagus_Now_in_Troy_Museum_7923.jpg/1920px-Polyxena_Sarcophagus_Now_in_Troy_Museum_7923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Polyxena_Sarcophagus_Now_in_Troy_Museum_7923.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 2
-   },
-   {
-    "file": "Troy Museum Polyxena Sarcophagus Hecuba mourning 0066.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Troy_Museum_Polyxena_Sarcophagus_Hecuba_mourning_0066.jpg/1920px-Troy_Museum_Polyxena_Sarcophagus_Hecuba_mourning_0066.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Troy_Museum_Polyxena_Sarcophagus_Hecuba_mourning_0066.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 3
-   },
-   {
-    "file": "Troy Museum Polyxena Sarcophagus Hecuba mourning 0065.jpg",
-    "w": 4928,
-    "h": 3280,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Troy_Museum_Polyxena_Sarcophagus_Hecuba_mourning_0065.jpg/1920px-Troy_Museum_Polyxena_Sarcophagus_Hecuba_mourning_0065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Troy_Museum_Polyxena_Sarcophagus_Hecuba_mourning_0065.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Troy Museum (Çanakkale) Polyxena Sarcophagus Hecuba mourning 8046.jpg",
-    "w": 3280,
-    "h": 4928,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Troy_Museum_%28%C3%87anakkale%29_Polyxena_Sarcophagus_Hecuba_mourning_8046.jpg/1920px-Troy_Museum_%28%C3%87anakkale%29_Polyxena_Sarcophagus_Hecuba_mourning_8046.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Troy_Museum_(%C3%87anakkale)_Polyxena_Sarcophagus_Hecuba_mourning_8046.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 5
-   }
-  ]
- },
- "E13": {
-  "wd": {},
-  "cands": [
-   {
-    "file": "Afrodisias - panoramio.jpg",
-    "w": 1600,
-    "h": 1200,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Afrodisias_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Afrodisias_-_panoramio.jpg",
-    "a": "hursitakinci",
-    "l": "CC BY-SA 3.0",
-    "n": 0
-   },
-   {
-    "file": "Afrodisias - Sebastión - Sebasteion.jpg",
-    "w": 3648,
-    "h": 2432,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Afrodisias_-_Sebasti%C3%B3n_-_Sebasteion.jpg/1920px-Afrodisias_-_Sebasti%C3%B3n_-_Sebasteion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Afrodisias_-_Sebasti%C3%B3n_-_Sebasteion.jpg",
-    "a": "Carlos Delgado",
-    "l": "CC BY-SA 3.0",
-    "n": 1
-   },
-   {
-    "file": "Aphrodisias - 2.JPG",
-    "w": 4592,
-    "h": 3056,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Aphrodisias_-_2.JPG/1920px-Aphrodisias_-_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aphrodisias_-_2.JPG",
-    "a": "Gaspar Ros",
-    "l": "CC BY-SA 3.0",
-    "n": 2
-   },
-   {
-    "file": "Aphrodisias - Sebasteion.jpg",
-    "w": 5003,
-    "h": 3384,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Aphrodisias_-_Sebasteion.jpg/1920px-Aphrodisias_-_Sebasteion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aphrodisias_-_Sebasteion.jpg",
-    "a": "Bernard Gagnon",
-    "l": "CC BY-SA 3.0",
-    "n": 3
-   },
-   {
-    "file": "Aphrodisias 2013-03-27zb.jpg",
+    "file": "Green, Blue and Brown -- Yeşil, Mavi ve Kahverengi.jpg",
     "w": 5184,
     "h": 3456,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Aphrodisias_2013-03-27zb.jpg/1920px-Aphrodisias_2013-03-27zb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aphrodisias_2013-03-27zb.jpg",
-    "a": "Rabe!",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Green%2C_Blue_and_Brown_--_Ye%C5%9Fil%2C_Mavi_ve_Kahverengi.jpg/1920px-Green%2C_Blue_and_Brown_--_Ye%C5%9Fil%2C_Mavi_ve_Kahverengi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Green,_Blue_and_Brown_--_Ye%C5%9Fil,_Mavi_ve_Kahverengi.jpg",
+    "a": "Begüm Filiz Öz",
     "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Tortum selale 2.jpg",
+    "w": 1024,
+    "h": 768,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tortum_selale_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Tortum_selale_2.jpg",
+    "a": "Turkyucel",
+    "l": "CC BY-SA 3.0",
     "n": 4
    },
    {
-    "file": "Aphrodisias Museum Sebasteion fragments hall 4667.jpg",
-    "w": 4256,
-    "h": 2832,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Aphrodisias_Museum_Sebasteion_fragments_hall_4667.jpg/1920px-Aphrodisias_Museum_Sebasteion_fragments_hall_4667.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aphrodisias_Museum_Sebasteion_fragments_hall_4667.jpg",
-    "a": "Dosseman",
+    "file": "Tortum Waterfall Erzurum.jpg",
+    "w": 3000,
+    "h": 4000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Tortum_Waterfall_Erzurum.jpg/1920px-Tortum_Waterfall_Erzurum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tortum_Waterfall_Erzurum.jpg",
+    "a": "Ebrarstascii",
     "l": "CC BY-SA 4.0",
     "n": 5
    },
    {
-    "file": "Aphrodisias Sebasteion 4360.jpg",
-    "w": 2599,
-    "h": 3774,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Aphrodisias_Sebasteion_4360.jpg/1920px-Aphrodisias_Sebasteion_4360.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aphrodisias_Sebasteion_4360.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
+    "file": "Tortum Waterfalls.JPG",
+    "w": 3264,
+    "h": 2242,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Tortum_Waterfalls.JPG/1920px-Tortum_Waterfalls.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tortum_Waterfalls.JPG",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 3.0",
     "n": 6
    },
    {
-    "file": "Aphrodisias Sebasteion 4368.jpg",
-    "w": 2832,
-    "h": 4256,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Aphrodisias_Sebasteion_4368.jpg/1920px-Aphrodisias_Sebasteion_4368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aphrodisias_Sebasteion_4368.jpg",
-    "a": "Dosseman",
+    "file": "Թորթումի ջրվեժ.jpg",
+    "w": 1280,
+    "h": 721,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/%D4%B9%D5%B8%D6%80%D5%A9%D5%B8%D6%82%D5%B4%D5%AB_%D5%BB%D6%80%D5%BE%D5%A5%D5%AA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:%D4%B9%D5%B8%D6%80%D5%A9%D5%B8%D6%82%D5%B4%D5%AB_%D5%BB%D6%80%D5%BE%D5%A5%D5%AA.jpg",
+    "a": "Maria1608",
     "l": "CC BY-SA 4.0",
     "n": 7
    }
   ]
  },
- "E14": {
+ "NMU01": {
+  "wd": {
+   "qid": "Q31190849",
+   "label": "Muradiye Waterfall",
+   "desc": null,
+   "lat": 39.05682,
+   "lng": 43.7567,
+   "p18": [
+    "Muradiye şelalesi3.jpg"
+   ],
+   "cat": "Muradiye Waterfalls"
+  },
+  "cands": [
+   {
+    "file": "Muradiye şelalesi3.jpg",
+    "w": 1000,
+    "h": 543,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Muradiye_%C5%9Felalesi3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Muradiye_%C5%9Felalesi3.jpg",
+    "a": "داود مجتهدی",
+    "l": "Public domain",
+    "n": 0
+   },
+   {
+    "file": "65500 Görecek-Muradiye-Van, Turkey - panoramio (1).jpg",
+    "w": 2048,
+    "h": 1148,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/65500_G%C3%B6recek-Muradiye-Van%2C_Turkey_-_panoramio_%281%29.jpg/1920px-65500_G%C3%B6recek-Muradiye-Van%2C_Turkey_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:65500_G%C3%B6recek-Muradiye-Van,_Turkey_-_panoramio_(1).jpg",
+    "a": "Ben Bender",
+    "l": "CC BY-SA 3.0",
+    "n": 1
+   },
+   {
+    "file": "65500 Görecek-Muradiye-Van, Turkey - panoramio (2).jpg",
+    "w": 2048,
+    "h": 1148,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/65500_G%C3%B6recek-Muradiye-Van%2C_Turkey_-_panoramio_%282%29.jpg/1920px-65500_G%C3%B6recek-Muradiye-Van%2C_Turkey_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:65500_G%C3%B6recek-Muradiye-Van,_Turkey_-_panoramio_(2).jpg",
+    "a": "Ben Bender",
+    "l": "CC BY-SA 3.0",
+    "n": 2
+   },
+   {
+    "file": "65500 Görecek-Muradiye-Van, Turkey - panoramio (cropped).jpg",
+    "w": 1638,
+    "h": 997,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/65500_G%C3%B6recek-Muradiye-Van%2C_Turkey_-_panoramio_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:65500_G%C3%B6recek-Muradiye-Van,_Turkey_-_panoramio_(cropped).jpg",
+    "a": "Ben Bender",
+    "l": "CC BY-SA 3.0",
+    "n": 3
+   },
+   {
+    "file": "65500 Görecek-Muradiye-Van, Turkey - panoramio 2 (cropped).jpg",
+    "w": 1638,
+    "h": 1133,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/46/65500_G%C3%B6recek-Muradiye-Van%2C_Turkey_-_panoramio_2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:65500_G%C3%B6recek-Muradiye-Van,_Turkey_-_panoramio_2_(cropped).jpg",
+    "a": "Ben Bender",
+    "l": "CC BY-SA 3.0",
+    "n": 4
+   },
+   {
+    "file": "Muradiye Selalesi.jpg",
+    "w": 2560,
+    "h": 1920,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Muradiye_Selalesi.jpg/1920px-Muradiye_Selalesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Muradiye_Selalesi.jpg",
+    "a": "Vodimivado",
+    "l": "CC BY-SA 3.0",
+    "n": 5
+   },
+   {
+    "file": "Muradiye Falls 1.JPG",
+    "w": 2016,
+    "h": 1134,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Muradiye_Falls_1.JPG/1920px-Muradiye_Falls_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Muradiye_Falls_1.JPG",
+    "a": "Seksen iki yüz kırk beş",
+    "l": "Public domain",
+    "n": 6
+   }
+  ]
+ },
+ "NER01": {
+  "wd": {},
+  "cands": []
+ },
+ "NSU01": {
+  "wd": {
+   "qid": "Q6018935",
+   "label": "Suuçtu Waterfall",
+   "desc": null,
+   "lat": 39.90067,
+   "lng": 28.38438,
+   "p18": [
+    "Suuçtu Waterfall, Mustafakemalpaşa.jpg"
+   ],
+   "cat": "Suuçtu Waterfall"
+  },
+  "cands": [
+   {
+    "file": "16510 Muradiyesarnıç-Mustafakemalpaşa-Bursa, Turkey - panoramio (19).jpg",
+    "w": 2448,
+    "h": 3264,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%2819%29.jpg/1920px-16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa,_Turkey_-_panoramio_(19).jpg",
+    "a": "MERMERCİ ÖZGÜR1",
+    "l": "CC BY 3.0",
+    "n": 1
+   },
+   {
+    "file": "16510 Muradiyesarnıç-Mustafakemalpaşa-Bursa, Turkey - panoramio (2).jpg",
+    "w": 3072,
+    "h": 2304,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%282%29.jpg/1920px-16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa,_Turkey_-_panoramio_(2).jpg",
+    "a": "MERMERCİ ÖZGÜR1",
+    "l": "CC BY 3.0",
+    "n": 2
+   },
+   {
+    "file": "16510 Muradiyesarnıç-Mustafakemalpaşa-Bursa, Turkey - panoramio (5).jpg",
+    "w": 3072,
+    "h": 2304,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%285%29.jpg/1920px-16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa,_Turkey_-_panoramio_(5).jpg",
+    "a": "MERMERCİ ÖZGÜR1",
+    "l": "CC BY 3.0",
+    "n": 3
+   },
+   {
+    "file": "16510 Muradiyesarnıç-Mustafakemalpaşa-Bursa, Turkey - panoramio (6).jpg",
+    "w": 3072,
+    "h": 2304,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%286%29.jpg/1920px-16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa%2C_Turkey_-_panoramio_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:16510_Muradiyesarn%C4%B1%C3%A7-Mustafakemalpa%C5%9Fa-Bursa,_Turkey_-_panoramio_(6).jpg",
+    "a": "MERMERCİ ÖZGÜR1",
+    "l": "CC BY 3.0",
+    "n": 4
+   },
+   {
+    "file": "Suuçtu Waterfalls, Bursa - Turkey.jpg",
+    "w": 5760,
+    "h": 3840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Suu%C3%A7tu_Waterfalls%2C_Bursa_-_Turkey.jpg/1920px-Suu%C3%A7tu_Waterfalls%2C_Bursa_-_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Suu%C3%A7tu_Waterfalls,_Bursa_-_Turkey.jpg",
+    "a": "Eyeintheair",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Suuçtu waterfall-Mustafa Kemal paşa-Bursa - panoramio.jpg",
+    "w": 3872,
+    "h": 2592,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Suu%C3%A7tu_waterfall-Mustafa_Kemal_pa%C5%9Fa-Bursa_-_panoramio.jpg/1920px-Suu%C3%A7tu_waterfall-Mustafa_Kemal_pa%C5%9Fa-Bursa_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Suu%C3%A7tu_waterfall-Mustafa_Kemal_pa%C5%9Fa-Bursa_-_panoramio.jpg",
+    "a": "Haluk Comertel",
+    "l": "CC BY 3.0",
+    "n": 6
+   },
+   {
+    "file": "Suuçtu waterfall-Mustafa Kemal Paşa -Bursa - panoramio.jpg",
+    "w": 2592,
+    "h": 3872,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Suu%C3%A7tu_waterfall-Mustafa_Kemal_Pa%C5%9Fa_-Bursa_-_panoramio.jpg/1920px-Suu%C3%A7tu_waterfall-Mustafa_Kemal_Pa%C5%9Fa_-Bursa_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Suu%C3%A7tu_waterfall-Mustafa_Kemal_Pa%C5%9Fa_-Bursa_-_panoramio.jpg",
+    "a": "Haluk Comertel",
+    "l": "CC BY 3.0",
+    "n": 7
+   }
+  ]
+ },
+ "NSK01": {
+  "wd": {
+   "qid": "Q79753",
+   "label": "Saklıkent Canyon",
+   "desc": "national park in Turkey",
+   "lat": 36.4687843,
+   "lng": 29.4034195,
+   "p18": [
+    "Saklıkent Kanyonu (2).jpg",
+    "Saklıkent Kanyonu.jpg"
+   ],
+   "cat": "Saklıkent Canyon"
+  },
+  "cands": [
+   {
+    "file": "Angel in the gorge Saklikent - panoramio.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Angel_in_the_gorge_Saklikent_-_panoramio.jpg/1920px-Angel_in_the_gorge_Saklikent_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Angel_in_the_gorge_Saklikent_-_panoramio.jpg",
+    "a": "angelius1979",
+    "l": "CC BY-SA 3.0",
+    "n": 2
+   },
+   {
+    "file": "In the canyon (Saklıkent) - panoramio.jpg",
+    "w": 2592,
+    "h": 1944,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/In_the_canyon_%28Sakl%C4%B1kent%29_-_panoramio.jpg/1920px-In_the_canyon_%28Sakl%C4%B1kent%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:In_the_canyon_(Sakl%C4%B1kent)_-_panoramio.jpg",
+    "a": "Melih Rustu CALIKOGL…",
+    "l": "CC BY-SA 3.0",
+    "n": 5
+   },
+   {
+    "file": "Saklikent gorge rock.JPG",
+    "w": 2560,
+    "h": 1920,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Saklikent_gorge_rock.JPG/1920px-Saklikent_gorge_rock.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Saklikent_gorge_rock.JPG",
+    "a": "No machine-readable author provided. Jedyooo assumed (based on copyright claims).",
+    "l": "CC BY-SA 2.5",
+    "n": 6
+   },
+   {
+    "file": "Saklikent Gorge tree house - panoramio.jpg",
+    "w": 1200,
+    "h": 1600,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/Saklikent_Gorge_tree_house_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Saklikent_Gorge_tree_house_-_panoramio.jpg",
+    "a": "taeoakley",
+    "l": "CC BY-SA 3.0",
+    "n": 7
+   }
+  ]
+ },
+ "NKO01": {
+  "wd": {
+   "qid": "Q2090725",
+   "label": "Köprülü Canyon",
+   "desc": "canyon and a national park in Antalya Province, Turkey",
+   "lat": 37.29590555555556,
+   "lng": 31.140747222222224,
+   "p18": [
+    "Köprülü Kanyon.JPG"
+   ],
+   "cat": "Köprülü Kanyon"
+  },
+  "cands": [
+   {
+    "file": "Köprülü Kanyon.JPG",
+    "w": 2048,
+    "h": 1536,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/K%C3%B6pr%C3%BCl%C3%BC_Kanyon.JPG/1920px-K%C3%B6pr%C3%BCl%C3%BC_Kanyon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6pr%C3%BCl%C3%BC_Kanyon.JPG",
+    "a": "Gökhannergiz at Turkish Wikipedia",
+    "l": "Public domain",
+    "n": 0
+   },
+   {
+    "file": "A side valley by the Koprulu canyon - panoramio.jpg",
+    "w": 1172,
+    "h": 772,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fd/A_side_valley_by_the_Koprulu_canyon_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:A_side_valley_by_the_Koprulu_canyon_-_panoramio.jpg",
+    "a": "Honza and Ivana Ebr",
+    "l": "CC BY 3.0",
+    "n": 2
+   },
+   {
+    "file": "Bozyaka 04 05 1998 Köprülü-Canyon.jpg",
+    "w": 2688,
+    "h": 1748,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bozyaka_04_05_1998_K%C3%B6pr%C3%BCl%C3%BC-Canyon.jpg/1920px-Bozyaka_04_05_1998_K%C3%B6pr%C3%BCl%C3%BC-Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bozyaka_04_05_1998_K%C3%B6pr%C3%BCl%C3%BC-Canyon.jpg",
+    "a": "Volker Höhfeld",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Bozyaka 04 1997 Oluk Köprü.jpg",
+    "w": 1747,
+    "h": 2658,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Bozyaka_04_1997_Oluk_K%C3%B6pr%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Bozyaka_04_1997_Oluk_K%C3%B6pr%C3%BC.jpg",
+    "a": "Volker Höhfeld",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Antalya, Köprülü, Kanyon.png",
+    "w": 1067,
+    "h": 570,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Antalya%2C_K%C3%B6pr%C3%BCl%C3%BC%2C_Kanyon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Antalya,_K%C3%B6pr%C3%BCl%C3%BC,_Kanyon.png",
+    "a": "Safiye Aygün",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Köprülü Kanyon.jpg",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/K%C3%B6pr%C3%BCl%C3%BC_Kanyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6pr%C3%BCl%C3%BC_Kanyon.jpg",
+    "a": "Originally created and uploaded to the Turkish Wikipedia by tr:User:Alperx",
+    "l": "Public domain",
+    "n": 7
+   }
+  ]
+ },
+ "NVA01": {
+  "wd": {
+   "qid": "Q20474544",
+   "label": "Valla Canyon",
+   "desc": "canyon in Pınarbaşı, Kastamonu, Turkey",
+   "lat": 41.7490085,
+   "lng": 33.0451819,
+   "p18": [],
+   "cat": "Valla Canyon"
+  },
+  "cands": [
+   {
+    "file": "Valla Canyon.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Valla_Canyon.jpg/1920px-Valla_Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Valla_Canyon.jpg",
+    "a": "KCCan00",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Valla Kanyonu-Pınarbaşı - panoramio.jpg",
+    "w": 1169,
+    "h": 713,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Valla_Kanyonu-P%C4%B1narba%C5%9F%C4%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Valla_Kanyonu-P%C4%B1narba%C5%9F%C4%B1_-_panoramio.jpg",
+    "a": "Halit Edip Özcan",
+    "l": "CC BY-SA 3.0",
+    "n": 1
+   },
+   {
+    "file": "Valla kanyonu.jpg",
+    "w": 1600,
+    "h": 1200,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/Valla_kanyonu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Valla_kanyonu.jpg",
+    "a": "Güzelresimler",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   }
+  ]
+ },
+ "NHO01": {
   "wd": {},
   "cands": [
    {
-    "file": "Hatay Archaeology Museum (7471577636).jpg",
-    "w": 1313,
-    "h": 1313,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hatay_Archaeology_Museum_%287471577636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Hatay_Archaeology_Museum_(7471577636).jpg",
-    "a": "William Neuheisel from DC, US",
+    "file": "Kastamonu Pınarbaşı Horma Kanyonu.jpg",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Kastamonu_P%C4%B1narba%C5%9F%C4%B1_Horma_Kanyonu.jpg/1920px-Kastamonu_P%C4%B1narba%C5%9F%C4%B1_Horma_Kanyonu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kastamonu_P%C4%B1narba%C5%9F%C4%B1_Horma_Kanyonu.jpg",
+    "a": "Theodenist",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Horma Kanyonu Kastamonu.jpg",
+    "w": 1776,
+    "h": 1184,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/35/Horma_Kanyonu_Kastamonu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Horma_Kanyonu_Kastamonu.jpg",
+    "a": "Solmaztopcu",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Horma Canyon-Kastamonu.jpg",
+    "w": 3024,
+    "h": 4032,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Horma_Canyon-Kastamonu.jpg/1920px-Horma_Canyon-Kastamonu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Horma_Canyon-Kastamonu.jpg",
+    "a": "Buse Şabançelebi",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "A Walk in the Canyon.jpg",
+    "w": 5727,
+    "h": 3818,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/A_Walk_in_the_Canyon.jpg/1920px-A_Walk_in_the_Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Walk_in_the_Canyon.jpg",
+    "a": "Cems77",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Hormo kanyon gecidi.jpg",
+    "w": 5984,
+    "h": 3376,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Hormo_kanyon_gecidi.jpg/1920px-Hormo_kanyon_gecidi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hormo_kanyon_gecidi.jpg",
+    "a": "İZZET SARI",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   }
+  ]
+ },
+ "NTZ01": {
+  "wd": {},
+  "cands": []
+ },
+ "NUL01": {
+  "wd": {
+   "qid": "Q12812366",
+   "label": "Ulubey Canyon Nature Park",
+   "desc": "Nature park in Turkey",
+   "lat": 38.38444444,
+   "lng": 29.29972222,
+   "p18": [
+    "Ulubey Canyon Usak Province Turkey.jpg"
+   ],
+   "cat": "Ulubey Canyon Nature Park"
+  },
+  "cands": [
+   {
+    "file": "20230430 Ulubey Kanyonu.jpg",
+    "w": 3024,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/20230430_Ulubey_Kanyonu.jpg/1920px-20230430_Ulubey_Kanyonu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:20230430_Ulubey_Kanyonu.jpg",
+    "a": "Basak",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "A Glorious Place - Ulubey Canyon.jpg",
+    "w": 5601,
+    "h": 3734,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/A_Glorious_Place_-_Ulubey_Canyon.jpg/1920px-A_Glorious_Place_-_Ulubey_Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Glorious_Place_-_Ulubey_Canyon.jpg",
+    "a": "Cems77",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Canyon view.jpg",
+    "w": 3024,
+    "h": 4032,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Canyon_view.jpg/1920px-Canyon_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Canyon_view.jpg",
+    "a": "Elif Mısırlı",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Ulubey Kanyonu Clandras Köprüsü.jpg",
+    "w": 5184,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ulubey_Kanyonu_Clandras_K%C3%B6pr%C3%BCs%C3%BC.jpg/1920px-Ulubey_Kanyonu_Clandras_K%C3%B6pr%C3%BCs%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ulubey_Kanyonu_Clandras_K%C3%B6pr%C3%BCs%C3%BC.jpg",
+    "a": "Hamdigumus",
+    "l": "CC0",
+    "n": 5
+   },
+   {
+    "file": "Uşak Ulubey kanyonu.jpg",
+    "w": 3264,
+    "h": 2448,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/U%C5%9Fak_Ulubey_kanyonu.jpg/1920px-U%C5%9Fak_Ulubey_kanyonu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Ulubey_kanyonu.jpg",
+    "a": "Egalmak",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   },
+   {
+    "file": "Uşak Ulubey kanyonu 2.jpg",
+    "w": 3264,
+    "h": 2448,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/U%C5%9Fak_Ulubey_kanyonu_2.jpg/1920px-U%C5%9Fak_Ulubey_kanyonu_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C5%9Fak_Ulubey_kanyonu_2.jpg",
+    "a": "Egalmak",
+    "l": "CC BY-SA 4.0",
+    "n": 7
+   }
+  ]
+ },
+ "NGO01": {
+  "wd": {
+   "qid": "Q6058426",
+   "label": "Göynük Canyon",
+   "desc": "canyon in the Antalya Province of Turkey",
+   "lat": 36.68277778,
+   "lng": 30.53305556,
+   "p18": [],
+   "cat": "Göynük Canyon"
+  },
+  "cands": [
+   {
+    "file": "2019 Göynük Canyon 1.jpg",
+    "w": 3264,
+    "h": 2448,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2019_G%C3%B6yn%C3%BCk_Canyon_1.jpg/1920px-2019_G%C3%B6yn%C3%BCk_Canyon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2019_G%C3%B6yn%C3%BCk_Canyon_1.jpg",
+    "a": "Qasinka",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "2019 Göynük Canyon 2.jpg",
+    "w": 2448,
+    "h": 3264,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2019_G%C3%B6yn%C3%BCk_Canyon_2.jpg/1920px-2019_G%C3%B6yn%C3%BCk_Canyon_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2019_G%C3%B6yn%C3%BCk_Canyon_2.jpg",
+    "a": "Qasinka",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "BlueTailedLizzard.jpg",
+    "w": 4196,
+    "h": 2793,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/BlueTailedLizzard.jpg/1920px-BlueTailedLizzard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:BlueTailedLizzard.jpg",
+    "a": "Vincent Vega",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Göynük Kanyon - panoramio (1).jpg",
+    "w": 3000,
+    "h": 4000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_%281%29.jpg/1920px-G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_(1).jpg",
+    "a": "Tanya Dedyukhina",
+    "l": "CC BY 3.0",
+    "n": 3
+   },
+   {
+    "file": "Göynük Kanyon Kemer Antalya Turkey.jpg",
+    "w": 2400,
+    "h": 2400,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/G%C3%B6yn%C3%BCk_Kanyon_Kemer_Antalya_Turkey.jpg/1920px-G%C3%B6yn%C3%BCk_Kanyon_Kemer_Antalya_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6yn%C3%BCk_Kanyon_Kemer_Antalya_Turkey.jpg",
+    "a": "Serkanottas",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Göynük Kanyonu- Antalya.jpg",
+    "w": 3024,
+    "h": 4032,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/G%C3%B6yn%C3%BCk_Kanyonu-_Antalya.jpg/1920px-G%C3%B6yn%C3%BCk_Kanyonu-_Antalya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6yn%C3%BCk_Kanyonu-_Antalya.jpg",
+    "a": "Alev Akdağ",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Göynük Kanyon - panoramio (31).jpg",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_%2831%29.jpg/1920px-G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_(31).jpg",
+    "a": "Tanya Dedyukhina",
+    "l": "CC BY 3.0",
+    "n": 6
+   },
+   {
+    "file": "Göynük Kanyon - panoramio (9).jpg",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_%289%29.jpg/1920px-G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6yn%C3%BCk_Kanyon_-_panoramio_(9).jpg",
+    "a": "Tanya Dedyukhina",
+    "l": "CC BY 3.0",
+    "n": 7
+   }
+  ]
+ },
+ "NUD01": {
+  "wd": {
+   "qid": "Q925688",
+   "label": "Uludağ",
+   "desc": "mountain in Bursa, Turkey",
+   "lat": 40.0705295,
+   "lng": 29.222009805555555,
+   "p18": [
+    "Uludag.JPG"
+   ],
+   "cat": "Uludağ"
+  },
+  "cands": [
+   {
+    "file": "Uludag.JPG",
+    "w": 2800,
+    "h": 1867,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Uludag.JPG/1920px-Uludag.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Uludag.JPG",
+    "a": "Julian Nyča",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Ab-ı Hayat çeşmesi.jpg",
+    "w": 2304,
+    "h": 3072,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Ab-%C4%B1_Hayat_%C3%A7e%C5%9Fmesi.jpg/1920px-Ab-%C4%B1_Hayat_%C3%A7e%C5%9Fmesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ab-%C4%B1_Hayat_%C3%A7e%C5%9Fmesi.jpg",
+    "a": "Mskyrider at Turkish Wikipedia",
+    "l": "CC BY-SA 3.0",
+    "n": 1
+   },
+   {
+    "file": "Abies nordmanniana Uludag 1.jpg",
+    "w": 2816,
+    "h": 2112,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Abies_nordmanniana_Uludag_1.jpg/1920px-Abies_nordmanniana_Uludag_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Abies_nordmanniana_Uludag_1.jpg",
+    "a": "Paul",
+    "l": "CC BY-SA 2.0",
+    "n": 2
+   },
+   {
+    "file": "Abies nordmanniana Uludag 2.jpg",
+    "w": 2816,
+    "h": 2112,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Abies_nordmanniana_Uludag_2.jpg/1920px-Abies_nordmanniana_Uludag_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Abies_nordmanniana_Uludag_2.jpg",
+    "a": "Paul",
+    "l": "CC BY-SA 2.0",
+    "n": 3
+   },
+   {
+    "file": "Abies nordmanniana Uludag 3.jpg",
+    "w": 2816,
+    "h": 2112,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Abies_nordmanniana_Uludag_3.jpg/1920px-Abies_nordmanniana_Uludag_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Abies_nordmanniana_Uludag_3.jpg",
+    "a": "Paul",
+    "l": "CC BY-SA 2.0",
+    "n": 4
+   },
+   {
+    "file": "Ski resort Uludag.jpg",
+    "w": 3024,
+    "h": 4032,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ski_resort_Uludag.jpg/1920px-Ski_resort_Uludag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ski_resort_Uludag.jpg",
+    "a": "Javanshir92",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "Ski resort Uludag hotels.jpg",
+    "w": 3024,
+    "h": 4032,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Ski_resort_Uludag_hotels.jpg/1920px-Ski_resort_Uludag_hotels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ski_resort_Uludag_hotels.jpg",
+    "a": "Javanshir92",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   },
+   {
+    "file": "Ski resort under clouds.jpg",
+    "w": 3072,
+    "h": 2048,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Ski_resort_under_clouds.jpg/1920px-Ski_resort_under_clouds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ski_resort_under_clouds.jpg",
+    "a": "Cihaticil",
+    "l": "CC BY-SA 4.0",
+    "n": 7
+   }
+  ]
+ },
+ "NPA01": {
+  "wd": {
+   "qid": "Q6581588",
+   "label": "Palandöken",
+   "desc": "village in Tutak, Ağrı, eastern Turkey",
+   "lat": 39.54388888888889,
+   "lng": 42.915,
+   "p18": [
+    "Gundê Avşîrîn.jpg"
+   ],
+   "cat": "Palandöken, Tutak"
+  },
+  "cands": [
+   {
+    "file": "Palandöken Mt. Erzurum 03.jpg",
+    "w": 4250,
+    "h": 2596,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Paland%C3%B6ken_Mt._Erzurum_03.jpg/1920px-Paland%C3%B6ken_Mt._Erzurum_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paland%C3%B6ken_Mt._Erzurum_03.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Palandöken Mt. Erzurum 08.jpg",
+    "w": 2750,
+    "h": 1600,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Paland%C3%B6ken_Mt._Erzurum_08.jpg/1920px-Paland%C3%B6ken_Mt._Erzurum_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paland%C3%B6ken_Mt._Erzurum_08.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Palandöken Mt. Erzurum 06.jpg",
+    "w": 4250,
+    "h": 2280,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Paland%C3%B6ken_Mt._Erzurum_06.jpg/1920px-Paland%C3%B6ken_Mt._Erzurum_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paland%C3%B6ken_Mt._Erzurum_06.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Palandöken Mt. Erzurum 07.jpg",
+    "w": 2250,
+    "h": 1263,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Paland%C3%B6ken_Mt._Erzurum_07.jpg/1920px-Paland%C3%B6ken_Mt._Erzurum_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paland%C3%B6ken_Mt._Erzurum_07.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "Palandöken Mt. Erzurum 02.jpg",
+    "w": 4250,
+    "h": 2761,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Paland%C3%B6ken_Mt._Erzurum_02.jpg/1920px-Paland%C3%B6ken_Mt._Erzurum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paland%C3%B6ken_Mt._Erzurum_02.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   }
+  ]
+ },
+ "NEC01": {
+  "wd": {
+   "qid": "Q126804",
+   "label": "Mount Erciyes",
+   "desc": "volcano in Kayseri, Turkey",
+   "lat": 38.531666666666666,
+   "lng": 35.45,
+   "p18": [
+    "Turkey.Mount Erciyes01.jpg"
+   ],
+   "cat": "Mount Erciyes"
+  },
+  "cands": [
+   {
+    "file": "Turkey.Mount Erciyes01.jpg",
+    "w": 1465,
+    "h": 1018,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Turkey.Mount_Erciyes01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey.Mount_Erciyes01.jpg",
+    "a": "Georges Jansoone JoJan",
+    "l": "CC BY 3.0",
+    "n": 0
+   },
+   {
+    "file": "2 Dağın üzerindeki bulut göçü.jpg",
+    "w": 2640,
+    "h": 672,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2_Da%C4%9F%C4%B1n_%C3%BCzerindeki_bulut_g%C3%B6%C3%A7%C3%BC.jpg/1920px-2_Da%C4%9F%C4%B1n_%C3%BCzerindeki_bulut_g%C3%B6%C3%A7%C3%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2_Da%C4%9F%C4%B1n_%C3%BCzerindeki_bulut_g%C3%B6%C3%A7%C3%BC.jpg",
+    "a": "NNeo11",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "A mountain under the stars (Unsplash).jpg",
+    "w": 4748,
+    "h": 2671,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/A_mountain_under_the_stars_%28Unsplash%29.jpg/1920px-A_mountain_under_the_stars_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:A_mountain_under_the_stars_(Unsplash).jpg",
+    "a": "Mehmet Kürşat Değer mkd",
+    "l": "CC0",
+    "n": 2
+   },
+   {
+    "file": "Ali dag - panoramio.jpg",
+    "w": 3160,
+    "h": 1469,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Ali_dag_-_panoramio.jpg/1920px-Ali_dag_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ali_dag_-_panoramio.jpg",
+    "a": "brandmaster07",
+    "l": "CC BY 3.0",
+    "n": 3
+   },
+   {
+    "file": "Anadolu'nun En Yüce Dağı.jpg",
+    "w": 2971,
+    "h": 2497,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Anadolu%27nun_En_Y%C3%BCce_Da%C4%9F%C4%B1.jpg/1920px-Anadolu%27nun_En_Y%C3%BCce_Da%C4%9F%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Anadolu%27nun_En_Y%C3%BCce_Da%C4%9F%C4%B1.jpg",
+    "a": "Dilara YAŞAROĞLU",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   },
+   {
+    "file": "KAYAK ERCİYES .jpg",
+    "w": 2176,
+    "h": 1538,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/KAYAK_ERC%C4%B0YES_.jpg/1920px-KAYAK_ERC%C4%B0YES_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:KAYAK_ERC%C4%B0YES_.jpg",
+    "a": "Hmyr2021",
+    "l": "CC BY-SA 4.0",
+    "n": 5
+   },
+   {
+    "file": "At height.jpg",
+    "w": 5184,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/At_height.jpg/1920px-At_height.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:At_height.jpg",
+    "a": "Alina Hedz",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   }
+  ]
+ },
+ "NKA01": {
+  "wd": {
+   "qid": "Q10777732",
+   "label": "Kartalkaya",
+   "desc": "village in Gemerek, Sivas, central Turkey",
+   "lat": 39.1443,
+   "lng": 36.2272,
+   "p18": [],
+   "cat": null
+  },
+  "cands": [
+   {
+    "file": "Kartalkaya.jpg",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Kartalkaya.jpg/1280px-Kartalkaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kartalkaya.jpg",
+    "a": "Ozge Utan",
     "l": "CC BY 2.0",
     "n": 0
    },
    {
-    "file": "Hatay Archeology Museum (08).jpg",
-    "w": 3872,
-    "h": 2592,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Hatay_Archeology_Museum_%2808%29.jpg/1920px-Hatay_Archeology_Museum_%2808%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hatay_Archeology_Museum_(08).jpg",
-    "a": "Zorka Sojka",
+    "file": "Köroğlu Dağları 08 06 1990 Kartalkaya Flug.jpg",
+    "w": 2673,
+    "h": 1710,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/K%C3%B6ro%C4%9Flu_Da%C4%9Flar%C4%B1_08_06_1990_Kartalkaya_Flug.jpg/1920px-K%C3%B6ro%C4%9Flu_Da%C4%9Flar%C4%B1_08_06_1990_Kartalkaya_Flug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6ro%C4%9Flu_Da%C4%9Flar%C4%B1_08_06_1990_Kartalkaya_Flug.jpg",
+    "a": "Volker Höhfeld",
     "l": "CC BY-SA 4.0",
     "n": 1
    },
    {
-    "file": "Hatay Archeology Museum (07).jpg",
-    "w": 3627,
-    "h": 2592,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Hatay_Archeology_Museum_%2807%29.jpg/1920px-Hatay_Archeology_Museum_%2807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hatay_Archeology_Museum_(07).jpg",
-    "a": "Zorka Sojka",
-    "l": "CC BY-SA 4.0",
+    "file": "Barrage de Kartalkaya (2020).jpg",
+    "w": 1420,
+    "h": 640,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Barrage_de_Kartalkaya_%282020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Barrage_de_Kartalkaya_(2020).jpg",
+    "a": "Ali Donat",
+    "l": "CC0",
     "n": 2
    },
    {
-    "file": "Hatay Archeology Museum (17).jpg",
-    "w": 3872,
-    "h": 2592,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Hatay_Archeology_Museum_%2817%29.jpg/1920px-Hatay_Archeology_Museum_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hatay_Archeology_Museum_(17).jpg",
-    "a": "Zorka Sojka",
-    "l": "CC BY-SA 4.0",
+    "file": "Grand Kartal Hotel in Kartalkaya.jpg",
+    "w": 2608,
+    "h": 1952,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Grand_Kartal_Hotel_in_Kartalkaya.jpg/1920px-Grand_Kartal_Hotel_in_Kartalkaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Kartal_Hotel_in_Kartalkaya.jpg",
+    "a": "Melih Rustu CALIKOGL…",
+    "l": "CC BY-SA 3.0",
     "n": 3
-   },
-   {
-    "file": "Hatay Archeology Museum (16).jpg",
-    "w": 3872,
-    "h": 2592,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Hatay_Archeology_Museum_%2816%29.jpg/1920px-Hatay_Archeology_Museum_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hatay_Archeology_Museum_(16).jpg",
-    "a": "Zorka Sojka",
-    "l": "CC BY-SA 4.0",
-    "n": 4
-   },
-   {
-    "file": "Antakya Archaeology Museum Oceanus and Tethys mosaic in 2025 04.jpg",
-    "w": 8256,
-    "h": 6300,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Antakya_Archaeology_Museum_Oceanus_and_Tethys_mosaic_in_2025_04.jpg/1920px-Antakya_Archaeology_Museum_Oceanus_and_Tethys_mosaic_in_2025_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Antakya_Archaeology_Museum_Oceanus_and_Tethys_mosaic_in_2025_04.jpg",
-    "a": "Dosseman",
-    "l": "CC BY-SA 4.0",
-    "n": 5
    }
   ]
  },
- "E15": {
-  "wd": {},
+ "NSA01": {
+  "wd": {
+   "qid": "Q6579116",
+   "label": "Sarıkamış",
+   "desc": "village in central district, Elazığ, eastern Turkey",
+   "lat": 38.596081,
+   "lng": 39.680309,
+   "p18": [],
+   "cat": null
+  },
+  "cands": []
+ },
+ "NDA01": {
+  "wd": {
+   "qid": "Q31526370",
+   "label": "Davraz Tepe",
+   "desc": "mountain in Turkey",
+   "lat": 37.75436,
+   "lng": 30.7237,
+   "p18": [],
+   "cat": null
+  },
+  "cands": []
+ },
+ "NKS01": {
+  "wd": {
+   "qid": "Q6630454",
+   "label": "Kartepe",
+   "desc": "mahalle (administrative quarter) in Kavak, Samsun, northern Turkey",
+   "lat": 41.111759,
+   "lng": 36.04747,
+   "p18": [],
+   "cat": null
+  },
   "cands": [
    {
-    "file": "Base di una colonna, da un peristilio del gran palazzo di costantinopoli, VI secolo ca.,.jpg",
-    "w": 1962,
-    "h": 3312,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Base_di_una_colonna%2C_da_un_peristilio_del_gran_palazzo_di_costantinopoli%2C_VI_secolo_ca.%2C.jpg/1920px-Base_di_una_colonna%2C_da_un_peristilio_del_gran_palazzo_di_costantinopoli%2C_VI_secolo_ca.%2C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Base_di_una_colonna,_da_un_peristilio_del_gran_palazzo_di_costantinopoli,_VI_secolo_ca.,.jpg",
-    "a": "Francesco Bini",
+    "file": "Kartepe kayak Merkezi (1) 02.jpg",
+    "w": 3216,
+    "h": 2136,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kartepe_kayak_Merkezi_%281%29_02.jpg/1920px-Kartepe_kayak_Merkezi_%281%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kartepe_kayak_Merkezi_(1)_02.jpg",
+    "a": "Kocaeligönüllüsü",
     "l": "CC BY-SA 4.0",
     "n": 0
    },
    {
-    "file": "CapCorBizantinoMuseoMosaicoIstanbul1b.jpg",
-    "w": 1032,
-    "h": 953,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5f/CapCorBizantinoMuseoMosaicoIstanbul1b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:CapCorBizantinoMuseoMosaicoIstanbul1b.jpg",
-    "a": "MM",
+    "file": "Kartepe kayak Merkezi (1) 01.jpg",
+    "w": 3872,
+    "h": 2592,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Kartepe_kayak_Merkezi_%281%29_01.jpg/1920px-Kartepe_kayak_Merkezi_%281%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kartepe_kayak_Merkezi_(1)_01.jpg",
+    "a": "Kocaeligönüllüsü",
     "l": "CC BY-SA 4.0",
     "n": 1
    },
    {
-    "file": "CapCorBizantinoMuseoMosaicoIstanbul2-373.jpg",
-    "w": 1185,
-    "h": 831,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/CapCorBizantinoMuseoMosaicoIstanbul2-373.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:CapCorBizantinoMuseoMosaicoIstanbul2-373.jpg",
-    "a": "MM",
+    "file": "KARTEPE (Snowhill) ^©Abdullah Kiyga - panoramio.jpg",
+    "w": 5120,
+    "h": 3840,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/KARTEPE_%28Snowhill%29_%5E%C2%A9Abdullah_Kiyga_-_panoramio.jpg/1920px-KARTEPE_%28Snowhill%29_%5E%C2%A9Abdullah_Kiyga_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:KARTEPE_(Snowhill)_%5E%C2%A9Abdullah_Kiyga_-_panoramio.jpg",
+    "a": "Abdullah kıyga",
+    "l": "CC BY 3.0",
+    "n": 2
+   },
+   {
+    "file": "Greenpark Hotel Kartepe ^©Abdullah Kiyga - panoramio.jpg",
+    "w": 2008,
+    "h": 2218,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Greenpark_Hotel_Kartepe_%5E%C2%A9Abdullah_Kiyga_-_panoramio.jpg/1920px-Greenpark_Hotel_Kartepe_%5E%C2%A9Abdullah_Kiyga_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Greenpark_Hotel_Kartepe_%5E%C2%A9Abdullah_Kiyga_-_panoramio.jpg",
+    "a": "Abdullah kıyga",
+    "l": "CC BY 3.0",
+    "n": 3
+   }
+  ]
+ },
+ "NRC01": {
+  "wd": {
+   "qid": "Q32695898",
+   "label": "Coruh River",
+   "desc": "river in Turkey",
+   "lat": 40.379,
+   "lng": 40.465,
+   "p18": [],
+   "cat": null
+  },
+  "cands": [
+   {
+    "file": "2007-06 Çoruh rafting.jpg",
+    "w": 1280,
+    "h": 853,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2007-06_%C3%87oruh_rafting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:2007-06_%C3%87oruh_rafting.jpg",
+    "a": "Ahmet Bektas (en:User:Pelaides at en.wikipedia)",
+    "l": "CC BY 3.0",
+    "n": 0
+   }
+  ]
+ },
+ "NRM01": {
+  "wd": {
+   "qid": "Q6067556",
+   "label": "Melen River",
+   "desc": "river in Düzce, northwestern Turkey",
+   "lat": 41.074037,
+   "lng": 30.96747,
+   "p18": [
+    "Buyuk-melen-duzce (1).JPG"
+   ],
+   "cat": "Melen River"
+  },
+  "cands": [
+   {
+    "file": "Buyuk-melen-duzce (1).JPG",
+    "w": 3072,
+    "h": 2304,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Buyuk-melen-duzce_%281%29.JPG/1920px-Buyuk-melen-duzce_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buyuk-melen-duzce_(1).JPG",
+    "a": "İncelemeelemani",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "Bolu Dağları 12 09 1983 Yığılca Hasanlar-Talsperre am oberen Melen Cayi.jpg",
+    "w": 2681,
+    "h": 1763,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Bolu_Da%C4%9Flar%C4%B1_12_09_1983_Y%C4%B1%C4%9F%C4%B1lca_Hasanlar-Talsperre_am_oberen_Melen_Cayi.jpg/1920px-Bolu_Da%C4%9Flar%C4%B1_12_09_1983_Y%C4%B1%C4%9F%C4%B1lca_Hasanlar-Talsperre_am_oberen_Melen_Cayi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bolu_Da%C4%9Flar%C4%B1_12_09_1983_Y%C4%B1%C4%9F%C4%B1lca_Hasanlar-Talsperre_am_oberen_Melen_Cayi.jpg",
+    "a": "Volker Höhfeld",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Buyuk-melen-duzce (2).JPG",
+    "w": 3072,
+    "h": 2304,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Buyuk-melen-duzce_%282%29.JPG/1920px-Buyuk-melen-duzce_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Buyuk-melen-duzce_(2).JPG",
+    "a": "İncelemeelemani",
+    "l": "CC BY-SA 3.0",
+    "n": 2
+   },
+   {
+    "file": "Dokuzdeğirmen, 81700 Dokuzdeğirmen-Cumayeri-Düzce, Turkey - panoramio.jpg",
+    "w": 2576,
+    "h": 1932,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dokuzde%C4%9Firmen%2C_81700_Dokuzde%C4%9Firmen-Cumayeri-D%C3%BCzce%2C_Turkey_-_panoramio.jpg/1920px-Dokuzde%C4%9Firmen%2C_81700_Dokuzde%C4%9Firmen-Cumayeri-D%C3%BCzce%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dokuzde%C4%9Firmen,_81700_Dokuzde%C4%9Firmen-Cumayeri-D%C3%BCzce,_Turkey_-_panoramio.jpg",
+    "a": "AYHAN YILDIZ",
+    "l": "CC BY-SA 3.0",
+    "n": 3
+   }
+  ]
+ },
+ "NRZ01": {
+  "wd": {
+   "qid": "Q2560421",
+   "label": "Zamantı River",
+   "desc": "river in Adana, south-central Turkey",
+   "lat": 37.60638888888889,
+   "lng": 35.58527777777778,
+   "p18": [
+    "38500 Balcıçakırı-Yahyalı-Kayseri, Turkey - panoramio.jpg"
+   ],
+   "cat": "Zamantı River"
+  },
+  "cands": [
+   {
+    "file": "38500 Balcıçakırı-Yahyalı-Kayseri, Turkey - panoramio.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/38500_Balc%C4%B1%C3%A7ak%C4%B1r%C4%B1-Yahyal%C4%B1-Kayseri%2C_Turkey_-_panoramio.jpg/1920px-38500_Balc%C4%B1%C3%A7ak%C4%B1r%C4%B1-Yahyal%C4%B1-Kayseri%2C_Turkey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:38500_Balc%C4%B1%C3%A7ak%C4%B1r%C4%B1-Yahyal%C4%B1-Kayseri,_Turkey_-_panoramio.jpg",
+    "a": "nurettingülay(from T…",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "Hutchens-rafting.jpg",
+    "w": 1600,
+    "h": 1200,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hutchens-rafting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Hutchens-rafting.jpg",
+    "a": "Jason Hutchens from Sydney, Australia",
+    "l": "CC BY 2.0",
+    "n": 1
+   },
+   {
+    "file": "Kapubaşı Şelalesi.jpg",
+    "w": 4000,
+    "h": 2650,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Kapuba%C5%9F%C4%B1_%C5%9Eelalesi.jpg/1920px-Kapuba%C5%9F%C4%B1_%C5%9Eelalesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kapuba%C5%9F%C4%B1_%C5%9Eelalesi.jpg",
+    "a": "MUSTAFA TOR",
     "l": "CC BY-SA 4.0",
     "n": 2
    },
    {
-    "file": "CapCorBizKVII-MuseoMosaicoIstanbul1.jpg",
-    "w": 1103,
-    "h": 876,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/CapCorBizKVII-MuseoMosaicoIstanbul1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:CapCorBizKVII-MuseoMosaicoIstanbul1.jpg",
-    "a": "MM",
+    "file": "Zamantı ırmağıyla bir bütün olan Kapuzbaşı Şelalesi.jpg",
+    "w": 3330,
+    "h": 2387,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Zamant%C4%B1_%C4%B1rma%C4%9F%C4%B1yla_bir_b%C3%BCt%C3%BCn_olan_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg/1920px-Zamant%C4%B1_%C4%B1rma%C4%9F%C4%B1yla_bir_b%C3%BCt%C3%BCn_olan_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Zamant%C4%B1_%C4%B1rma%C4%9F%C4%B1yla_bir_b%C3%BCt%C3%BCn_olan_Kapuzba%C5%9F%C4%B1_%C5%9Eelalesi.jpg",
+    "a": "Uefeyik",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   }
+  ]
+ },
+ "NRD01": {
+  "wd": {},
+  "cands": []
+ },
+ "NRF01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Fırtına Deresi@Rize-Turkey.JPG",
+    "w": 2560,
+    "h": 1809,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/F%C4%B1rt%C4%B1na_Deresi%40Rize-Turkey.JPG/1920px-F%C4%B1rt%C4%B1na_Deresi%40Rize-Turkey.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:F%C4%B1rt%C4%B1na_Deresi@Rize-Turkey.JPG",
+    "a": "Dr. Zeynel Cebeci",
+    "l": "CC BY-SA 3.0",
+    "n": 0
+   },
+   {
+    "file": "Fırtına Deresinde Mola 2014.jpg",
+    "w": 3456,
+    "h": 5184,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/F%C4%B1rt%C4%B1na_Deresinde_Mola_2014.jpg/1920px-F%C4%B1rt%C4%B1na_Deresinde_Mola_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:F%C4%B1rt%C4%B1na_Deresinde_Mola_2014.jpg",
+    "a": "Hamdigumus",
+    "l": "CC0",
+    "n": 1
+   },
+   {
+    "file": "Rafting, Fırtına Deresi, Rize 2014.jpg",
+    "w": 5184,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Rafting%2C_F%C4%B1rt%C4%B1na_Deresi%2C_Rize_2014.jpg/1920px-Rafting%2C_F%C4%B1rt%C4%B1na_Deresi%2C_Rize_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rafting,_F%C4%B1rt%C4%B1na_Deresi,_Rize_2014.jpg",
+    "a": "Hamdigumus",
+    "l": "CC0",
+    "n": 2
+   },
+   {
+    "file": "Fırtına River as seen from Zilkale 01.jpg",
+    "w": 3024,
+    "h": 4032,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/F%C4%B1rt%C4%B1na_River_as_seen_from_Zilkale_01.jpg/1920px-F%C4%B1rt%C4%B1na_River_as_seen_from_Zilkale_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:F%C4%B1rt%C4%B1na_River_as_seen_from_Zilkale_01.jpg",
+    "a": "BSRF",
     "l": "CC BY-SA 4.0",
     "n": 3
    },
    {
-    "file": "Mosaic museum Istanbul 2007 021.jpg",
-    "w": 1600,
-    "h": 1200,
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mosaic_museum_Istanbul_2007_021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Mosaic_museum_Istanbul_2007_021.jpg",
-    "a": "Byzantine mosaic artists from the 5th century",
+    "file": "Fırtına River as seen from Zilkale 02.jpg",
+    "w": 3024,
+    "h": 4032,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/F%C4%B1rt%C4%B1na_River_as_seen_from_Zilkale_02.jpg/1920px-F%C4%B1rt%C4%B1na_River_as_seen_from_Zilkale_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:F%C4%B1rt%C4%B1na_River_as_seen_from_Zilkale_02.jpg",
+    "a": "BSRF",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   }
+  ]
+ },
+ "NLY01": {
+  "wd": {
+   "qid": "Q1731039",
+   "label": "Lycian Way",
+   "desc": "long-distance trail",
+   "lat": 36.56677,
+   "lng": 29.13942,
+   "p18": [
+    "Ликийская тропа около Олюдениза.jpg"
+   ],
+   "cat": "Lycian Way"
+  },
+  "cands": [
+   {
+    "file": "Ликийская тропа около Олюдениза.jpg",
+    "w": 4032,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/%D0%9B%D0%B8%D0%BA%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0_%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE_%D0%9E%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D0%B7%D0%B0.jpg/1920px-%D0%9B%D0%B8%D0%BA%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0_%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE_%D0%9E%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D0%B7%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B8%D0%BA%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0_%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE_%D0%9E%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D0%B7%D0%B0.jpg",
+    "a": "Exelentz",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "2023-11-04 A view from Lycian Way near Kaş 1.jpg",
+    "w": 5658,
+    "h": 3773,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_1.jpg/1920px-2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_1.jpg",
+    "a": "Alexkom000",
+    "l": "CC BY 4.0",
+    "n": 1
+   },
+   {
+    "file": "2023-11-04 A view from Lycian Way near Kaş 2.jpg",
+    "w": 5984,
+    "h": 3990,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_2.jpg/1920px-2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_2.jpg",
+    "a": "Alexkom000",
+    "l": "CC BY 4.0",
+    "n": 2
+   },
+   {
+    "file": "2023-11-04 A view from Lycian Way near Kaş 3.jpg",
+    "w": 6000,
+    "h": 4000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_3.jpg/1920px-2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_3.jpg",
+    "a": "Alexkom000",
+    "l": "CC BY 4.0",
+    "n": 3
+   },
+   {
+    "file": "2023-11-04 A view from Lycian Way near Kaş 4.jpg",
+    "w": 6000,
+    "h": 4000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_4.jpg/1920px-2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-11-04_A_view_from_Lycian_Way_near_Ka%C5%9F_4.jpg",
+    "a": "Alexkom000",
+    "l": "CC BY 4.0",
+    "n": 4
+   },
+   {
+    "file": "Lycian-way-waypoint.jpg",
+    "w": 1373,
+    "h": 822,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lycian-way-waypoint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Lycian-way-waypoint.jpg",
+    "a": "Paul Roberts",
     "l": "Public domain",
     "n": 5
    },
    {
-    "file": "Istanbul Mosaic Museum Sector E Children trundling hoops middle side in 2016 01 Panorama.jpg",
-    "w": 11904,
-    "h": 7322,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Istanbul_Mosaic_Museum_Sector_E_Children_trundling_hoops_middle_side_in_2016_01_Panorama.jpg/1920px-Istanbul_Mosaic_Museum_Sector_E_Children_trundling_hoops_middle_side_in_2016_01_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Mosaic_Museum_Sector_E_Children_trundling_hoops_middle_side_in_2016_01_Panorama.jpg",
-    "a": "Dosseman",
+    "file": "The Lycian Way Overview.png",
+    "w": 1169,
+    "h": 827,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/The_Lycian_Way_Overview.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Lycian_Way_Overview.png",
+    "a": "Martin Höpke",
     "l": "CC BY-SA 4.0",
     "n": 6
    },
    {
-    "file": "Istanbul Mosaic Museum Sector E Milking a goat in 2003 06 1208.jpg",
-    "w": 2560,
-    "h": 1920,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Istanbul_Mosaic_Museum_Sector_E_Milking_a_goat_in_2003_06_1208.jpg/1920px-Istanbul_Mosaic_Museum_Sector_E_Milking_a_goat_in_2003_06_1208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Mosaic_Museum_Sector_E_Milking_a_goat_in_2003_06_1208.jpg",
-    "a": "Dosseman",
+    "file": "Lycia Way near Çıralı in late November.jpg",
+    "w": 4240,
+    "h": 2832,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lycia_Way_near_%C3%87%C4%B1ral%C4%B1_in_late_November.jpg/1920px-Lycia_Way_near_%C3%87%C4%B1ral%C4%B1_in_late_November.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lycia_Way_near_%C3%87%C4%B1ral%C4%B1_in_late_November.jpg",
+    "a": "Alexey Komarov",
     "l": "CC BY-SA 4.0",
     "n": 7
    }
   ]
  },
- "E16": {
-  "wd": {},
-  "cands": []
- },
- "E17": {
+ "NAP01": {
   "wd": {},
   "cands": [
    {
-    "file": "Museum Hattusa - Boğazköy Museum, Boğazköy, Çorum, Turkey 02.jpg",
-    "w": 5120,
-    "h": 2368,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Museum_Hattusa_-_Bo%C4%9Fazk%C3%B6y_Museum%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_02.jpg/1920px-Museum_Hattusa_-_Bo%C4%9Fazk%C3%B6y_Museum%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_Hattusa_-_Bo%C4%9Fazk%C3%B6y_Museum,_Bo%C4%9Fazk%C3%B6y,_%C3%87orum,_Turkey_02.jpg",
-    "a": "Murat Özsoy 1958",
+    "file": "King Road at King’s Road.jpg",
+    "w": 4032,
+    "h": 3024,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/King_Road_at_King%E2%80%99s_Road.jpg/1920px-King_Road_at_King%E2%80%99s_Road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:King_Road_at_King%E2%80%99s_Road.jpg",
+    "a": "I.Nazlı",
     "l": "CC BY-SA 4.0",
+    "n": 0
+   }
+  ]
+ },
+ "NKC01": {
+  "wd": {
+   "qid": "Q975280",
+   "label": "Kaçkar Mountains",
+   "desc": "mountain range",
+   "lat": 40.5,
+   "lng": 40,
+   "p18": [
+    "Kackar.jpg"
+   ],
+   "cat": "Kaçkar Dağları"
+  },
+  "cands": [
+   {
+    "file": "Kackar.jpg",
+    "w": 3840,
+    "h": 2160,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Kackar.jpg/1920px-Kackar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kackar.jpg",
+    "a": "Ran Yaniv Hartstein",
+    "l": "CC BY 2.0",
     "n": 0
    },
    {
-    "file": "Sphinx Gate, Hattusa, Boğazkale, Çorum, Turkey.jpg",
-    "w": 5120,
-    "h": 2368,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Sphinx_Gate%2C_Hattusa%2C_Bo%C4%9Fazkale%2C_%C3%87orum%2C_Turkey.jpg/1920px-Sphinx_Gate%2C_Hattusa%2C_Bo%C4%9Fazkale%2C_%C3%87orum%2C_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sphinx_Gate,_Hattusa,_Bo%C4%9Fazkale,_%C3%87orum,_Turkey.jpg",
-    "a": "Murat Özsoy 1958",
-    "l": "CC BY-SA 4.0",
+    "file": "Androsace albana.jpg",
+    "w": 2816,
+    "h": 2112,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Androsace_albana.jpg/1920px-Androsace_albana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Androsace_albana.jpg",
+    "a": "Degoeje",
+    "l": "Public domain",
     "n": 1
    },
    {
-    "file": "Museum Boğazkale Sphinx 06.jpg",
-    "w": 3180,
-    "h": 5070,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Museum_Bo%C4%9Fazkale_Sphinx_06.jpg/1920px-Museum_Bo%C4%9Fazkale_Sphinx_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_Bo%C4%9Fazkale_Sphinx_06.jpg",
-    "a": "Ingeborg Simon",
-    "l": "CC BY-SA 3.0",
+    "file": "Artvin1.jpg",
+    "w": 1024,
+    "h": 768,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/Artvin1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Artvin1.jpg",
+    "a": "Jean &amp; Nathalie",
+    "l": "CC BY 2.0",
     "n": 2
    },
    {
-    "file": "Museum Boğazkale Sphinx 04.jpg",
-    "w": 3456,
-    "h": 5184,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Museum_Bo%C4%9Fazkale_Sphinx_04.jpg/1920px-Museum_Bo%C4%9Fazkale_Sphinx_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_Bo%C4%9Fazkale_Sphinx_04.jpg",
-    "a": "Ingeborg Simon",
-    "l": "CC BY-SA 3.0",
+    "file": "Artvin2.jpg",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Artvin2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Artvin2.jpg",
+    "a": "Jean &amp; Nathalie",
+    "l": "CC BY 2.0",
     "n": 3
    },
    {
-    "file": "Museum Boğazkale Sphinx 05.jpg",
-    "w": 3456,
-    "h": 5184,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Museum_Bo%C4%9Fazkale_Sphinx_05.jpg/1920px-Museum_Bo%C4%9Fazkale_Sphinx_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_Bo%C4%9Fazkale_Sphinx_05.jpg",
-    "a": "Ingeborg Simon",
+    "file": "Ayder Yaylasi @ Rize-Turkey.JPG",
+    "w": 2560,
+    "h": 1920,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ayder_Yaylasi_%40_Rize-Turkey.JPG/1920px-Ayder_Yaylasi_%40_Rize-Turkey.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayder_Yaylasi_@_Rize-Turkey.JPG",
+    "a": "Dr. Zeynel Cebeci",
     "l": "CC BY-SA 3.0",
     "n": 4
    },
    {
-    "file": "Museum Boğazkale Sphinx 01.jpg",
-    "w": 4604,
-    "h": 3332,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Museum_Bo%C4%9Fazkale_Sphinx_01.jpg/1920px-Museum_Bo%C4%9Fazkale_Sphinx_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_Bo%C4%9Fazkale_Sphinx_01.jpg",
-    "a": "Ingeborg Simon",
-    "l": "CC BY-SA 3.0",
+    "file": "KackarDagi fromNorth hory.jpg",
+    "w": 1536,
+    "h": 2048,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9e/KackarDagi_fromNorth_hory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:KackarDagi_fromNorth_hory.jpg",
+    "a": "Wikimol",
+    "l": "CC BY-SA 2.5",
     "n": 5
+   },
+   {
+    "file": "Kaçkar Dağları - Yedigöller - 2.jpg",
+    "w": 4608,
+    "h": 3456,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Ka%C3%A7kar_Da%C4%9Flar%C4%B1_-_Yedig%C3%B6ller_-_2.jpg/1920px-Ka%C3%A7kar_Da%C4%9Flar%C4%B1_-_Yedig%C3%B6ller_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ka%C3%A7kar_Da%C4%9Flar%C4%B1_-_Yedig%C3%B6ller_-_2.jpg",
+    "a": "Tohnjitor",
+    "l": "CC BY-SA 4.0",
+    "n": 6
+   },
+   {
+    "file": "Kaçkar Dağları - Yedigöller - 1.jpg",
+    "w": 2360,
+    "h": 656,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ka%C3%A7kar_Da%C4%9Flar%C4%B1_-_Yedig%C3%B6ller_-_1.jpg/1920px-Ka%C3%A7kar_Da%C4%9Flar%C4%B1_-_Yedig%C3%B6ller_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ka%C3%A7kar_Da%C4%9Flar%C4%B1_-_Yedig%C3%B6ller_-_1.jpg",
+    "a": "Tohnjitor",
+    "l": "CC BY-SA 4.0",
+    "n": 7
+   }
+  ]
+ },
+ "NKR01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Karia yolu - carian trail - карийская тропа.png",
+    "w": 1188,
+    "h": 1150,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Karia_yolu_-_carian_trail_-_%D0%BA%D0%B0%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Karia_yolu_-_carian_trail_-_%D0%BA%D0%B0%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0.png",
+    "a": "Атаман Павлюк",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Muğla 22.JPG",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mu%C4%9Fla_22.JPG/1920px-Mu%C4%9Fla_22.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mu%C4%9Fla_22.JPG",
+    "a": "Perencal",
+    "l": "CC BY-SA 3.0",
+    "n": 1
+   },
+   {
+    "file": "Muğla 87.JPG",
+    "w": 4000,
+    "h": 3000,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Mu%C4%9Fla_87.JPG/1920px-Mu%C4%9Fla_87.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mu%C4%9Fla_87.JPG",
+    "a": "Perencal",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Signs on Carian Trail.jpg",
+    "w": 3888,
+    "h": 2592,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Signs_on_Carian_Trail.jpg/1920px-Signs_on_Carian_Trail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Signs_on_Carian_Trail.jpg",
+    "a": "Altay Özcan",
+    "l": "CC BY-SA 3.0",
+    "n": 3
+   }
+  ]
+ },
+ "NFY01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Phrygian Valley - Frig Vadisi 01.jpg",
+    "w": 2750,
+    "h": 1701,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Phrygian_Valley_-_Frig_Vadisi_01.jpg/1920px-Phrygian_Valley_-_Frig_Vadisi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Phrygian_Valley_-_Frig_Vadisi_01.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 0
+   },
+   {
+    "file": "Phrygian Valley - Frig Vadisi 02.jpg",
+    "w": 2750,
+    "h": 1698,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Phrygian_Valley_-_Frig_Vadisi_02.jpg/1920px-Phrygian_Valley_-_Frig_Vadisi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Phrygian_Valley_-_Frig_Vadisi_02.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Road to Yazılıkaya, Phrygian Valley 2.jpg",
+    "w": 3250,
+    "h": 1965,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Road_to_Yaz%C4%B1l%C4%B1kaya%2C_Phrygian_Valley_2.jpg/1920px-Road_to_Yaz%C4%B1l%C4%B1kaya%2C_Phrygian_Valley_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Road_to_Yaz%C4%B1l%C4%B1kaya,_Phrygian_Valley_2.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 2
+   },
+   {
+    "file": "Road to Yazılıkaya , Phrygian Valley 1.jpg",
+    "w": 3250,
+    "h": 2095,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Road_to_Yaz%C4%B1l%C4%B1kaya_%2C_Phrygian_Valley_1.jpg/1920px-Road_to_Yaz%C4%B1l%C4%B1kaya_%2C_Phrygian_Valley_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Road_to_Yaz%C4%B1l%C4%B1kaya_,_Phrygian_Valley_1.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Phrygian Valley - Frig Vadisi 03.jpg",
+    "w": 2750,
+    "h": 1789,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Phrygian_Valley_-_Frig_Vadisi_03.jpg/1920px-Phrygian_Valley_-_Frig_Vadisi_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Phrygian_Valley_-_Frig_Vadisi_03.jpg",
+    "a": "Zeynel Cebeci",
+    "l": "CC BY-SA 4.0",
+    "n": 4
+   }
+  ]
+ },
+ "NEV01": {
+  "wd": {},
+  "cands": [
+   {
+    "file": "Serafimovski - Evliya Çelebi.jpg",
+    "w": 3240,
+    "h": 3240,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Serafimovski_-_Evliya_%C3%87elebi.jpg/1920px-Serafimovski_-_Evliya_%C3%87elebi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Serafimovski_-_Evliya_%C3%87elebi.jpg",
+    "a": "Gmihail at Serbian Wikipedia",
+    "l": "CC BY-SA 3.0 rs",
+    "n": 0
+   },
+   {
+    "file": "Bursa'daki Evliya Çelebi Çeşmesi.jpg",
+    "w": 3264,
+    "h": 1836,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Bursa%27daki_Evliya_%C3%87elebi_%C3%87e%C5%9Fmesi.jpg/1920px-Bursa%27daki_Evliya_%C3%87elebi_%C3%87e%C5%9Fmesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bursa%27daki_Evliya_%C3%87elebi_%C3%87e%C5%9Fmesi.jpg",
+    "a": "Mkadioglu2020",
+    "l": "CC BY-SA 4.0",
+    "n": 1
+   },
+   {
+    "file": "Evliya Celebi by Piros Rostás Bea (2014) in Eger, 2016 Hungary.jpg",
+    "w": 1704,
+    "h": 2272,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Evliya_Celebi_by_Piros_Rost%C3%A1s_Bea_%282014%29_in_Eger%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Evliya_Celebi_by_Piros_Rost%C3%A1s_Bea_(2014)_in_Eger,_2016_Hungary.jpg",
+    "a": "Globetrotter19",
+    "l": "CC BY-SA 3.0",
+    "n": 2
+   },
+   {
+    "file": "Evlija Čelebija (Evliya Çelebi) street in Skopje.jpg",
+    "w": 4224,
+    "h": 2368,
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Evlija_%C4%8Celebija_%28Evliya_%C3%87elebi%29_street_in_Skopje.jpg/1920px-Evlija_%C4%8Celebija_%28Evliya_%C3%87elebi%29_street_in_Skopje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Evlija_%C4%8Celebija_(Evliya_%C3%87elebi)_street_in_Skopje.jpg",
+    "a": "Resnjari",
+    "l": "CC BY-SA 4.0",
+    "n": 3
+   },
+   {
+    "file": "Evliya çelebi'nin evi müzesi.JPG",
+    "w": 1235,
+    "h": 929,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/Evliya_%C3%A7elebi%27nin_evi_m%C3%BCzesi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Evliya_%C3%A7elebi%27nin_evi_m%C3%BCzesi.JPG",
+    "a": "Ömerserez",
+    "l": "CC BY-SA 3.0",
+    "n": 4
    }
   ]
  }
