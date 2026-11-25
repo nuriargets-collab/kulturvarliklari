@@ -159,7 +159,11 @@
       if (player && !(btn.getAttribute('data-nomp3'))) {
         var my = ++tok, lang = cur;
         if (MP3[lang]) {
-          playUrl(ROOT + MP3[lang], my, function () { askServer(lang, function () {}); speak(); });
+          playUrl(ROOT + MP3[lang], my, function () {
+            if (ttsOff()) { speak(); return; }
+            note.textContent = I.loading;          // kayıt henüz yoksa sunucuda üretilmesini bekle, sonra çal
+            askServer(lang, function (url) { if (my !== tok) return; if (url) playUrl(url + (url.indexOf('?') < 0 ? '?v=1' : ''), my, speak); else speak(); });
+          });
           return;
         }
         if (!ttsOff()) {                       // önce sunucudaki doğal ses (MP3); yoksa tarayıcı sesi
