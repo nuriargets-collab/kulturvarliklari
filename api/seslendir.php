@@ -197,7 +197,7 @@ if (isset($_GET['toplu'])) {
 // ---------- ziyaretçi isteği ----------
 $sid = strtoupper(preg_replace('/[^A-Za-z0-9]/', '', (string)($_GET['sid'] ?? '')));
 $lang = (string)($_GET['lang'] ?? '');
-if (!isset($LANGS[$lang]) || strlen($sid) < 4 || strlen($sid) > 6) out(400, ['error' => 'param']);
+if (!isset($LANGS[$lang]) || strlen($sid) < 3 || strlen($sid) > 6) out(400, ['error' => 'param']);
 $n = name_for($sid, $lang);
 if ($n === null) out(404, ['error' => 'text']);
 if (is_file("$sesRoot/$lang/$n")) out(200, ['url' => "ses/$lang/$n"]);
