@@ -46,7 +46,7 @@ def info(f):
 os.makedirs("ek/img",exist_ok=True); out={}
 for i,line in enumerate(open("ek/spec.txt",encoding="utf-8")):
     key,ad,il,tur,did,per=line.rstrip("\n").split("|")
-    sid="Y%03d"%(i+1)
+    sid="Y%03d"%(i+254)
     q,e,la,lo=resolve(key); c=e.get("claims",{})
     sl=e.get("sitelinks",{})
     rec={"key":key,"ad":ad,"il":il,"qid":q,"lat":la,"lng":lo,"labels":{l:lab(e,l) for l in ("tr","en","de","es","ar","zh","hi")},

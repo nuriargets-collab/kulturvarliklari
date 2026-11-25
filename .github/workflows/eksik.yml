@@ -1,7 +1,7 @@
 name: Eksik aday
 on:
   push:
-    branches: [veri-eksik]
+    branches: [veri-eksik2]
     paths: [ek/spec.txt, ek/alt.json]
 permissions:
   contents: write

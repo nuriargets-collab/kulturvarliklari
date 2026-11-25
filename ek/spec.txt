@@ -1,301 +1,113 @@
-Q232615|Sardes Antik Kenti|Manisa|Ören Yeri|ACIK|Lidya / Roma
-Q6055664|Bin Tepe Lidya Tümülüsleri|Manisa|Ören Yeri|ACIK|Lidya
-Q2085773|Alaşehir St. Jean Kilisesi (Philadelphia)|Manisa|Dini Yapı|ACIK|Bizans
-Q283680|Karkamış Antik Kenti|Gaziantep|Ören Yeri|ACIK|Geç Hitit / Demir Çağı
-Q1039186|Zincirli Höyük (Sam'al)|Gaziantep|Ören Yeri|ACIK|Geç Hitit / Arami
-Q1379828|Tilmen Höyük|Gaziantep|Ören Yeri|ACIK|Tunç Çağı
-Rumkale|Rumkale|Gaziantep|Kale & Tarihi Yapı|ACIK|Roma / Ortaçağ
-Gaziantep Defence Heroism Panorama Museum|Gaziantep Savunması ve Kahramanlık Panorama Müzesi|Gaziantep|Müze|DIGER|Cumhuriyet
-Q6012177|Hasan Süzer Etnografya Müzesi|Gaziantep|Müze|DIGER|Osmanlı
-Emine Göğüş Culinary Museum|Emine Göğüş Mutfak Müzesi|Gaziantep|Müze|DIGER|Osmanlı / Günümüz
-Q615449|Kyzikos Antik Kenti|Balıkesir|Ören Yeri|ACIK|Helenistik / Roma
-Q1171924|Daskyleion Antik Kenti|Balıkesir|Ören Yeri|ACIK|Pers / Helenistik
-Q571082|Antandros Antik Kenti|Balıkesir|Ören Yeri|ACIK|Roma
-Q428732|Phokaia (Foça) Antik Kenti|İzmir|Ören Yeri|ACIK|Arkaik / Roma
-Q723091|Erythrai Antik Kenti|İzmir|Ören Yeri|ACIK|Helenistik / Roma
-Q679305|Kyme Antik Kenti|İzmir|Ören Yeri|ACIK|Arkaik / Roma
-Q119771|Notion Antik Kenti|İzmir|Ören Yeri|ACIK|Helenistik / Roma
-Q4261739|Limantepe Höyüğü (Klazomenai)|İzmir|Ören Yeri|ACIK|Tunç Çağı / Arkaik
-Q1404388|Karabel Kaya Kabartması|İzmir|Ören Yeri|ACIK|Hitit (Arzawa)
-Kadifekale|Kadifekale|İzmir|Kale & Tarihi Yapı|ACIK|Helenistik / Osmanlı
-Q5997141|Arkas Sanat Merkezi|İzmir|Müze|OZEL|Günümüz
-Q6047798|Ahmet Piriştina Kent Arşivi ve Müzesi|İzmir|Müze|DIGER|Cumhuriyet
-Q20949105|Bostanlı Açık Hava Arkeoloji Müzesi|İzmir|Müze|DIGER|Çok Dönemli
-Q8077492|Çamlık Buharlı Lokomotif Müzesi|İzmir|Müze|DIGER|Osmanlı / Cumhuriyet
-Q579468|Pisidia Antiokheia Antik Kenti|Isparta|Ören Yeri|ACIK|Helenistik / Roma
-Adada ancient city|Adada Antik Kenti|Isparta|Ören Yeri|ACIK|Roma
-Q174270|Amorium Antik Kenti|Afyonkarahisar|Ören Yeri|ACIK|Roma / Bizans
-Q20987701|Zafer Müzesi|Afyonkarahisar|Müze|DIGER|Cumhuriyet
-Q20471219|Afyon Mevlevihanesi (Sultan Divani)|Afyonkarahisar|Dini Yapı|DIGER|Selçuklu / Osmanlı
-Q1551419|İmrahor İlyas Bey Camii (Studios Manastırı)|İstanbul|Dini Yapı|DIGER|Bizans
-Q1231380|Çemberlitaş Sütunu (Konstantin Forumu)|İstanbul|Kale & Tarihi Yapı|ACIK|Roma / Bizans
-Q1247291|Theodosius Forumu Kalıntıları|İstanbul|Ören Yeri|ACIK|Bizans
-Q6078807|Fildamı Sarnıcı|İstanbul|Kale & Tarihi Yapı|DIGER|Bizans
-Q794349|Beylerbeyi Sarayı|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı (19. yy)
-Yıldız Palace|Yıldız Sarayı|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı (19. yy)
-Küçüksu Pavilion|Küçüksu Kasrı|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı (19. yy)
-Aynalıkavak Pavilion|Aynalıkavak Kasrı|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı (18. yy)
-Ihlamur Pavilion|Ihlamur Kasrı|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı (19. yy)
-Q6783457|Maslak Kasırları|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı (19. yy)
-Florya Atatürk Marine Mansion|Florya Atatürk Deniz Köşkü|İstanbul|Müze|DIGER|Cumhuriyet
-Q81650|Anadolu Hisarı|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı
-Rumelihisarı|Rumeli Hisarı|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı
-Yedikule Fortress|Yedikule Hisarı|İstanbul|Kale & Tarihi Yapı|DIGER|Bizans / Osmanlı
-Maiden's Tower|Kız Kulesi|İstanbul|Kale & Tarihi Yapı|DIGER|Bizans / Osmanlı
-Cistern of Philoxenos|Binbirdirek Sarnıcı|İstanbul|Kale & Tarihi Yapı|DIGER|Bizans
-Theodosius Cistern|Şerefiye Sarnıcı|İstanbul|Kale & Tarihi Yapı|DIGER|Bizans
-Q6090202|Panorama 1453 Tarih Müzesi|İstanbul|Müze|DIGER|Osmanlı
-Museum of Innocence|Masumiyet Müzesi|İstanbul|Müze|OZEL|Günümüz
-Arter (art space)|Arter|İstanbul|Müze|OZEL|Günümüz
-SALT Galata|SALT Galata|İstanbul|Müze|OZEL|Osmanlı / Günümüz
-Q11787082|İstanbul Deniz Müzesi|İstanbul|Müze|DIGER|Osmanlı / Cumhuriyet
-Q12808583|Askeri Müze|İstanbul|Müze|DIGER|Osmanlı / Cumhuriyet
-Q3300324|Sadberk Hanım Müzesi|İstanbul|Müze|OZEL|Çok Dönemli
-Q7319839|Rezan Has Müzesi|İstanbul|Müze|OZEL|Çok Dönemli
-Q20474042|Adalar Müzesi|İstanbul|Müze|DIGER|Osmanlı / Cumhuriyet
-Q107475211|Müze Gazhane|İstanbul|Müze|DIGER|Osmanlı / Günümüz
-Q2797197|santralistanbul Enerji Müzesi|İstanbul|Müze|OZEL|Cumhuriyet
-Q2112323|Elgiz Çağdaş Sanat Müzesi|İstanbul|Müze|OZEL|Günümüz
-Q2743371|İstanbul Oyuncak Müzesi|İstanbul|Müze|OZEL|Günümüz
-Q3394116|İstanbul Havacılık Müzesi|İstanbul|Müze|DIGER|Cumhuriyet
-Q96756361|Ara Güler Müzesi|İstanbul|Müze|OZEL|Cumhuriyet
-Q3663033|Kandilli Deprem Müzesi|İstanbul|Müze|DIGER|Cumhuriyet
-Q6549659|Türk Vakıf Hat Sanatları Müzesi|İstanbul|Müze|DIGER|Osmanlı
-Q6053818|Türkiye İş Bankası Müzesi|İstanbul|Müze|OZEL|Cumhuriyet
-Q68217803|Beyazıt Hamam Kültürü Müzesi|İstanbul|Müze|DIGER|Osmanlı
-Q3701681|Atatürk Müzesi (Şişli)|İstanbul|Müze|DIGER|Cumhuriyet
-Q123784333|Yahya Kemal Müzesi|İstanbul|Müze|DIGER|Cumhuriyet
-Q6069887|Sait Faik Abasıyanık Müzesi|İstanbul|Müze|DIGER|Cumhuriyet
-Q30623170|İsmet İnönü Evi Müzesi|İstanbul|Müze|DIGER|Cumhuriyet
-Q124363121|Beykoz Cam ve Billur Müzesi|İstanbul|Müze|DIGER|Osmanlı
-Miniatürk|Miniatürk|İstanbul|Müze|DIGER|Günümüz
-Q6074552|Rami Kışlası (Rami Kütüphanesi)|İstanbul|Kale & Tarihi Yapı|DIGER|Osmanlı (18. yy)
-Q615404|Anıtkabir|Ankara|Müze|DIGER|Cumhuriyet
-Q1640233|Augustus Tapınağı|Ankara|Ören Yeri|ACIK|Roma
-Q19610522|Ankara Roma Tiyatrosu|Ankara|Ören Yeri|ACIK|Roma
-Roman Baths of Ankara|Ankara Roma Hamamı|Ankara|Ören Yeri|ACIK|Roma
-Q8077662|Çengelhan Rahmi M. Koç Müzesi|Ankara|Müze|OZEL|Osmanlı / Cumhuriyet
-Q190497|Ulucanlar Cezaevi Müzesi|Ankara|Müze|DIGER|Cumhuriyet
-Q123615433|CerModern|Ankara|Müze|DIGER|Günümüz
-Q7669659|TCDD Açık Hava Buharlı Lokomotif Müzesi|Ankara|Müze|DIGER|Cumhuriyet
-Q93514773|Atatürk Konutu ve Demiryolları Müzesi|Ankara|Müze|DIGER|Cumhuriyet
-Q28220945|Hava Kuvvetleri Müzesi|Ankara|Müze|DIGER|Cumhuriyet
-Q6715515|ODTÜ Bilim ve Teknoloji Müzesi|Ankara|Müze|DIGER|Günümüz
-MTA Şehvar Natural History Museum|MTA Şehvar Doğa Tarihi Müzesi|Ankara|Müze|DIGER|Doğa Tarihi
-Q16334461|Mehmet Akif Ersoy Edebiyat Müze Kütüphanesi|Ankara|Müze|DIGER|Cumhuriyet
-Erimtan Archaeology and Arts Museum|Erimtan Arkeoloji ve Sanat Müzesi|Ankara|Müze|OZEL|Çok Dönemli
-Q2617627|Devlet Mezarlığı|Ankara|Kale & Tarihi Yapı|DIGER|Cumhuriyet
-Q4765968|Türk Hava Kurumu Müzesi|Ankara|Müze|DIGER|Cumhuriyet
-Q28136272|Gökyay Vakfı Satranç Müzesi|Ankara|Müze|OZEL|Günümüz
-Q56440080|Beypazarı Yaşayan Müze|Ankara|Müze|DIGER|Osmanlı
-Tofaş Museum of Anatolian Cars|Tofaş Anadolu Arabaları Müzesi|Bursa|Müze|OZEL|Osmanlı / Cumhuriyet
-Bursa City Museum|Bursa Kent Müzesi|Bursa|Müze|DIGER|Çok Dönemli
-Q619312|Gölyazı (Apollonia ad Rhyndacum)|Bursa|Ören Yeri|ACIK|Helenistik / Roma
-Koza Han|Koza Han|Bursa|Kale & Tarihi Yapı|ACIK|Osmanlı
-Cumalıkızık|Cumalıkızık Köyü|Bursa|Kale & Tarihi Yapı|ACIK|Osmanlı
-Muradiye Complex|Muradiye Külliyesi|Bursa|Dini Yapı|IBADET|Osmanlı
-Q25474853|Odunpazarı Modern Müze|Eskişehir|Müze|OZEL|Günümüz
-Q6044406|Çağdaş Cam Sanatları Müzesi|Eskişehir|Müze|DIGER|Günümüz
-Q30324763|Lületaşı Müzesi|Eskişehir|Müze|DIGER|Osmanlı / Günümüz
-Q29831487|Yılmaz Büyükerşen Balmumu Heykeller Müzesi|Eskişehir|Müze|DIGER|Günümüz
-Q29831881|Eskişehir Kurtuluş Müzesi|Eskişehir|Müze|DIGER|Cumhuriyet
-Q55391788|Devrim Arabaları Müzesi|Eskişehir|Müze|DIGER|Cumhuriyet
-Q12812959|İnönü Savaşları Karargâh Müzesi|Eskişehir|Müze|DIGER|Cumhuriyet
-Q111503839|Nakoleia ve Seyitgazi Külliyesi|Eskişehir|Dini Yapı|ACIK|Selçuklu / Osmanlı
-Konya Panorama Museum|Konya Panorama Müzesi|Konya|Müze|DIGER|Selçuklu
-Q6054013|İzzet Koyunoğlu Şehir Müzesi|Konya|Müze|DIGER|Çok Dönemli
-Q535982|Kilistra Antik Kenti|Konya|Ören Yeri|ACIK|Roma / Bizans
-Sille|Sille ve Aya Elenia Kilisesi|Konya|Dini Yapı|ACIK|Bizans / Osmanlı
-Q844601|Eflatunpınar Hitit Su Anıtı|Konya|Ören Yeri|ACIK|Hitit
-Q6099672|Boncuklu Höyük|Konya|Ören Yeri|ACIK|Neolitik
-Kubadabad Palace|Kubadabad Sarayı|Konya|Ören Yeri|ACIK|Selçuklu
-Zazadin Han|Zazadin Hanı|Konya|Kale & Tarihi Yapı|ACIK|Selçuklu
-Sultanhanı Caravanserai|Sultanhanı Kervansarayı|Aksaray|Kale & Tarihi Yapı|DIGER|Selçuklu
-Ağzıkarahan|Ağzıkara Han|Aksaray|Kale & Tarihi Yapı|ACIK|Selçuklu
-Binbirkilise|Binbir Kilise|Karaman|Ören Yeri|ACIK|Bizans
-Q10842708|Sobesos Antik Kenti (Şahinefendi)|Nevşehir|Ören Yeri|ACIK|Roma / Bizans
-Güzelyurt Monastery Valley|Güzelyurt Manastır Vadisi|Aksaray|Dini Yapı|ACIK|Bizans
-Mustafapaşa|Mustafapaşa (Sinasos) Köyü|Nevşehir|Kale & Tarihi Yapı|ACIK|Osmanlı
-Q132682071|Mimar Sinan ve Kent Müzesi|Kayseri|Müze|DIGER|Osmanlı
-Sahabiye Madrasa|Sahabiye Medresesi|Kayseri|Dini Yapı|ACIK|Selçuklu
-Kerkenes|Kerkenes Antik Kenti|Yozgat|Ören Yeri|ACIK|Frig / Demir Çağı
-Q1423615|Tyana Antik Kenti ve Roma Havuzu (Kemerhisar)|Niğde|Ören Yeri|ACIK|Roma
-Cacabey Madrasa|Cacabey Medresesi|Kırşehir|Dini Yapı|DIGER|Selçuklu
-Q1324870|Elaiussa Sebaste Antik Kenti|Mersin|Ören Yeri|ACIK|Roma
-Q202974|Kanlıdivane (Kanytelis)|Mersin|Ören Yeri|ACIK|Helenistik / Bizans
-Q2167586|Korykos ve Kızkalesi|Mersin|Kale & Tarihi Yapı|ACIK|Roma / Ortaçağ
-Olba ancient city|Olba Antik Kenti|Mersin|Ören Yeri|ACIK|Helenistik / Roma
-Q656954|Soli Pompeiopolis Antik Kenti|Mersin|Ören Yeri|ACIK|Helenistik / Roma
-Q4680158|Adamkayalar|Mersin|Ören Yeri|ACIK|Roma
-Q1738167|Kelenderis Antik Kenti|Mersin|Ören Yeri|ACIK|Roma
-Silifke Castle|Silifke Kalesi|Mersin|Kale & Tarihi Yapı|ACIK|Bizans / Ortaçağ
-Mamure Castle|Mamure Kalesi|Mersin|Kale & Tarihi Yapı|DIGER|Ortaçağ / Osmanlı
-Q4818905|Yumuktepe Höyüğü|Mersin|Ören Yeri|ACIK|Neolitik – Ortaçağ
-Gözlükule|Tarsus Gözlükule|Mersin|Ören Yeri|ACIK|Tunç Çağı – Roma
-Cleopatra Gate Tarsus|Tarsus Kleopatra Kapısı ve Antik Yol|Mersin|Ören Yeri|ACIK|Roma
-Yılankale|Yılankale|Adana|Kale & Tarihi Yapı|ACIK|Kilikya Ermeni Krallığı
-Q555923|Misis (Mopsuestia) Antik Kenti|Adana|Ören Yeri|ACIK|Roma / Bizans
-Q6875685|Misis Mozaik Müzesi|Adana|Müze|DIGER|Roma
-Q11934549|Magarsus Antik Kenti|Adana|Ören Yeri|ACIK|Helenistik / Roma
-Q404231|Ayas (Yumurtalık) Kalesi|Adana|Kale & Tarihi Yapı|ACIK|Ortaçağ
-Varda Bridge|Varda Köprüsü|Adana|Kale & Tarihi Yapı|ACIK|Cumhuriyet öncesi (1912)
-Taşköprü Adana|Taşköprü|Adana|Kale & Tarihi Yapı|ACIK|Roma
-Q125537051|İlter Uzel Tıp ve Diş Hekimliği Müzesi|Adana|Müze|DIGER|Cumhuriyet
-Q18926963|Titus Tüneli (Vespasianus Tüneli)|Hatay|Ören Yeri|DIGER|Roma
-Q799921|Bakras Kalesi|Hatay|Kale & Tarihi Yapı|ACIK|Ortaçağ
-Q575249|Aççana Höyük (Alalah)|Hatay|Ören Yeri|ACIK|Tunç Çağı
-Habib-i Neccar Mosque|Habib-i Neccar Camii|Hatay|Dini Yapı|IBADET|Osmanlı
-Q27058189|Ashab-ı Kehf Külliyesi|Kahramanmaraş|Dini Yapı|IBADET|Selçuklu / Osmanlı
-Germanicia mosaics|Germanicia Antik Kenti|Kahramanmaraş|Ören Yeri|DIGER|Roma
-Q769197|Selge Antik Kenti|Antalya|Ören Yeri|ACIK|Helenistik / Roma
-Q362627|Seleukeia (Pamfilya) Antik Kenti|Antalya|Ören Yeri|ACIK|Helenistik / Roma
-Q647896|Sillyon Antik Kenti|Antalya|Ören Yeri|ACIK|Helenistik / Roma
-Q1434907|Iotape Antik Kenti|Antalya|Ören Yeri|ACIK|Roma
-Q1424724|Selinus Antik Kenti|Antalya|Ören Yeri|ACIK|Roma
-Q579389|Antiokheia ad Cragum Antik Kenti|Antalya|Ören Yeri|ACIK|Roma
-Q618234|Aperlai Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Roma
-Q50812205|Teimiussa Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
-Q1762663|Kyaneai Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Roma
-Q1437057|Sura Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
-Q15183441|Apollonia (Likya) Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
-Q7181244|Phellos Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
-Rhodiapolis|Rhodiapolis Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Roma
-Andriake|Andriake Antik Kenti ve Likya Uygarlıkları Müzesi|Antalya|Ören Yeri|MRK|Likya / Roma
-Q656882|Ariassos Antik Kenti|Antalya|Ören Yeri|ACIK|Roma
-Q846250|Köprüpazar (Aspendos) Köprüsü|Antalya|Kale & Tarihi Yapı|ACIK|Roma / Selçuklu
-Q1012733|Yanartaş (Khimaira)|Antalya|Doğal Alan|ACIK|Antik Çağ
-Q2470666|Kızılkule|Antalya|Kale & Tarihi Yapı|DIGER|Selçuklu
-Antalya Toy Museum|Antalya Oyuncak Müzesi|Antalya|Müze|DIGER|Günümüz
-Q917259|Kremna Antik Kenti|Burdur|Ören Yeri|ACIK|Roma
-Q804692|Balbura Antik Kenti|Burdur|Ören Yeri|ACIK|Roma
-Q908860|Hacılar Höyük|Burdur|Ören Yeri|ACIK|Neolitik / Kalkolitik
-Q186373|Oinoanda Antik Kenti|Muğla|Ören Yeri|ACIK|Likya / Roma
-Q1720985|Kadyanda Antik Kenti|Muğla|Ören Yeri|ACIK|Likya / Roma
-Q4811584|Gemiler Adası (Aziz Nikolaos)|Muğla|Ören Yeri|ACIK|Bizans
-Q117386|Amos Antik Kenti|Muğla|Ören Yeri|ACIK|Helenistik
-Q1720231|Loryma Antik Kenti|Muğla|Ören Yeri|ACIK|Helenistik
-Pinara|Pınara Antik Kenti|Muğla|Ören Yeri|ACIK|Likya
-Sidyma|Sidyma Antik Kenti|Muğla|Ören Yeri|ACIK|Likya / Roma
-Labraunda|Labranda Antik Kenti|Muğla|Ören Yeri|ACIK|Karya / Helenistik
-Euromos|Euromos Antik Kenti|Muğla|Ören Yeri|ACIK|Roma
-Iasos|Iasos Antik Kenti|Muğla|Ören Yeri|ACIK|Karya / Roma
-Myndos|Myndos Antik Kenti|Muğla|Ören Yeri|ACIK|Helenistik
-Q1054607|Keramos Antik Kenti|Muğla|Ören Yeri|ACIK|Karya / Roma
-Pedasa|Pedasa Antik Kenti|Muğla|Ören Yeri|ACIK|Leleg
-Uzunyuva Hecatomnus|Milas Uzunyuva (Hekatomnos Anıt Mezarı)|Muğla|Ören Yeri|DIGER|Karya
-Gümüşkesen|Gümüşkesen Anıt Mezarı|Muğla|Ören Yeri|ACIK|Roma
-Lagina|Lagina Hekate Kutsal Alanı|Muğla|Ören Yeri|ACIK|Helenistik
-Q462630|Tralleis Antik Kenti|Aydın|Ören Yeri|ACIK|Helenistik / Roma
-Alinda|Alinda Antik Kenti|Aydın|Ören Yeri|ACIK|Karya / Helenistik
-Alabanda|Alabanda Antik Kenti|Aydın|Ören Yeri|ACIK|Karya / Roma
-Herakleia Latmos|Herakleia (Latmos) Antik Kenti|Muğla|Ören Yeri|ACIK|Helenistik / Bizans
-Q85763253|Gerga Antik Kenti|Aydın|Ören Yeri|ACIK|Karya
-Q1195800|Myus Antik Kenti|Aydın|Ören Yeri|ACIK|İyon
-Q1411652|Parion Antik Kenti|Çanakkale|Ören Yeri|ACIK|Helenistik / Roma
-Alexandria Troas|Alexandria Troas Antik Kenti|Çanakkale|Ören Yeri|ACIK|Helenistik / Roma
-Kilitbahir Castle|Kilitbahir Kalesi|Çanakkale|Kale & Tarihi Yapı|DIGER|Osmanlı
-Q42171362|Gelibolu Tarihi Alanı (Çanakkale Savaşları)|Çanakkale|Ören Yeri|DIGER|Osmanlı / Birinci Dünya Savaşı
-Q28136355|Çanakkale Deniz Müzesi|Çanakkale|Müze|DIGER|Birinci Dünya Savaşı
-Q6343944|Kabatepe Tanıtım Merkezi|Çanakkale|Müze|DIGER|Birinci Dünya Savaşı
-Q28136539|Gelibolu Savaş Müzesi|Çanakkale|Müze|DIGER|Birinci Dünya Savaşı
-Q39057885|Adatepe Zeytinyağı Müzesi|Çanakkale|Müze|OZEL|Günümüz
-Q14800358|Enez Kalesi (Ainos)|Edirne|Kale & Tarihi Yapı|ACIK|Antik / Bizans / Osmanlı
-Q4874490|Sultan II. Bayezid Külliyesi Sağlık Müzesi|Edirne|Müze|DIGER|Osmanlı
-Q20988531|Lozan Anıtı ve Karaağaç Garı|Edirne|Kale & Tarihi Yapı|DIGER|Osmanlı / Cumhuriyet
-Vize Hagia Sophia|Vize Ayasofya (Gazi Süleyman Paşa) Camii|Kırklareli|Dini Yapı|IBADET|Bizans
-Dupnisa Cave|Dupnisa Mağarası|Kırklareli|Doğal Alan|DIGER|Doğal Alan
-Q6962152|Namık Kemal Evi Müzesi|Tekirdağ|Müze|DIGER|Osmanlı
-Q144629|Justinianus (Beşköprü) Köprüsü|Sakarya|Kale & Tarihi Yapı|ACIK|Bizans
-Q102128005|Prusias ad Hypium (Konuralp) Antik Kenti|Düzce|Ören Yeri|ACIK|Roma
-Q11951926|Tios (Filyos) Antik Kenti|Zonguldak|Ören Yeri|ACIK|Helenistik / Roma
-Amasra Castle|Amasra Kalesi|Bartın|Kale & Tarihi Yapı|ACIK|Bizans / Ceneviz
-Q27890315|SEKA Kâğıt Müzesi|Kocaeli|Müze|DIGER|Cumhuriyet
-Q4232616|Bandırma Vapuru Gemi Müzesi|Samsun|Müze|DIGER|Cumhuriyet
-Q16330562|Amisos Tepesi (Amisos Antik Kenti)|Samsun|Ören Yeri|DIGER|Helenistik
-Q19612689|Tekkeköy Mağaraları|Samsun|Ören Yeri|ACIK|Paleolitik
-Q25475482|Alaçam Mübadele Müzesi|Samsun|Müze|DIGER|Cumhuriyet
-Sinop Historical Prison|Sinop Tarihi Cezaevi|Sinop|Kale & Tarihi Yapı|DIGER|Osmanlı / Cumhuriyet
-Pompeiopolis Paphlagonia|Pompeiopolis Antik Kenti|Kastamonu|Ören Yeri|ACIK|Roma
-Mahmut Bey Mosque|Mahmut Bey Camii|Kastamonu|Dini Yapı|IBADET|Beylikler
-Q16255962|Büyük Ağa Medresesi|Amasya|Dini Yapı|DIGER|Osmanlı
-Harşena Castle|Harşena Kalesi|Amasya|Kale & Tarihi Yapı|ACIK|Pontus / Osmanlı
-Q1568666|Trabzon Ayasofya Camii|Trabzon|Dini Yapı|IBADET|Bizans
-Zilkale|Zilkale|Rize|Kale & Tarihi Yapı|ACIK|Ortaçağ
-Q2211116|Satala Antik Kenti|Gümüşhane|Ören Yeri|ACIK|Roma
-Kars Castle|Kars Kalesi|Kars|Kale & Tarihi Yapı|ACIK|Selçuklu / Osmanlı
-Q48741681|Boğatepe Peynir Müzesi|Kars|Müze|OZEL|Günümüz
-Harput Castle|Harput Kalesi|Elazığ|Kale & Tarihi Yapı|ACIK|Urartu – Osmanlı
-Q1058264|Cendere Köprüsü|Adıyaman|Kale & Tarihi Yapı|ACIK|Roma
-Karakuş Tümülüsü|Karakuş Tümülüsü|Adıyaman|Ören Yeri|ACIK|Kommagene
-Zerzevan Castle|Zerzevan Kalesi|Diyarbakır|Ören Yeri|ACIK|Roma
-Q1329616|Dicle Tüneli (Birkleyn Mağaraları)|Diyarbakır|Ören Yeri|ACIK|Asur / Urartu
-Diyarbakır Fortress|Diyarbakır Surları|Diyarbakır|Kale & Tarihi Yapı|ACIK|Roma – Osmanlı
-Ten-Eyed Bridge|On Gözlü (Dicle) Köprüsü|Diyarbakır|Kale & Tarihi Yapı|ACIK|Mervani
-Hasan Pasha Han|Hasan Paşa Hanı|Diyarbakır|Kale & Tarihi Yapı|ACIK|Osmanlı
-Eğil|Eğil Kalesi ve Peygamber Türbeleri|Diyarbakır|Kale & Tarihi Yapı|ACIK|Asur – Osmanlı
-Dara ancient city|Dara Antik Kenti|Mardin|Ören Yeri|ACIK|Roma / Bizans
-Kasımiye Madrasa|Kasımiye Medresesi|Mardin|Dini Yapı|DIGER|Artuklu / Akkoyunlu
-Sabancı Mardin City Museum|Sakıp Sabancı Mardin Kent Müzesi|Mardin|Müze|OZEL|Osmanlı / Cumhuriyet
-Zinciriye Madrasa|Zinciriye Medresesi|Mardin|Dini Yapı|ACIK|Artuklu
-Soğmatar|Soğmatar Antik Kenti|Şanlıurfa|Ören Yeri|ACIK|Roma / Sabii
-Şuayb City|Şuayb Şehri|Şanlıurfa|Ören Yeri|ACIK|Roma / İslami
-Han el Ba'rur|Han el Ba'rur Kervansarayı|Şanlıurfa|Kale & Tarihi Yapı|ACIK|Selçuklu
-Hoşap Castle|Hoşap Kalesi|Van|Kale & Tarihi Yapı|ACIK|Osmanlı
-Q54571|Ayanis Kalesi|Van|Ören Yeri|ACIK|Urartu
-Ahlat Seljuk Cemetery|Ahlat Selçuklu Meydan Mezarlığı|Bitlis|Ören Yeri|ACIK|Selçuklu
-Bitlis Castle|Bitlis Kalesi|Bitlis|Kale & Tarihi Yapı|ACIK|Ortaçağ / Osmanlı
-Q4343512|Iğdır Soykırım Anıtı ve Müzesi|Iğdır|Müze|DIGER|Cumhuriyet
-Ankara Castle|Ankara Kalesi|Ankara|Kale & Tarihi Yapı|ACIK|Roma – Osmanlı
-Hacı Bayram Mosque|Hacı Bayram Veli Camii|Ankara|Dini Yapı|IBADET|Osmanlı
-Alâeddin Mosque Konya|Alaeddin Camii|Konya|Dini Yapı|IBADET|Selçuklu
-Kayseri Castle|Kayseri Kalesi|Kayseri|Kale & Tarihi Yapı|ACIK|Roma / Selçuklu
-Taşhan Tokat|Tokat Taşhan|Tokat|Kale & Tarihi Yapı|ACIK|Osmanlı
-Cinci Han|Cinci Hanı|Karabük|Kale & Tarihi Yapı|OZEL|Osmanlı
-Yörük, Safranbolu|Yörük Köyü|Karabük|Kale & Tarihi Yapı|ACIK|Osmanlı
-Şirince|Şirince Köyü|İzmir|Kale & Tarihi Yapı|ACIK|Osmanlı
-Kemaliye|Kemaliye (Eğin) Tarihi Kenti|Erzincan|Kale & Tarihi Yapı|ACIK|Osmanlı
-Erzurum Castle|Erzurum Kalesi|Erzurum|Kale & Tarihi Yapı|ACIK|Bizans / Osmanlı
-Üç Kümbetler|Üç Kümbetler|Erzurum|Dini Yapı|ACIK|Saltuklu
-Urfa Castle|Şanlıurfa Kalesi|Şanlıurfa|Kale & Tarihi Yapı|ACIK|Roma – Osmanlı
-Malabadi Bridge|Malabadi Köprüsü|Diyarbakır|Kale & Tarihi Yapı|ACIK|Artuklu
-Church of the Holy Apostles, Kars|Havariler (Kümbet) Camii|Kars|Dini Yapı|IBADET|Bagratlı / Osmanlı
-Giresun Castle|Giresun Kalesi|Giresun|Kale & Tarihi Yapı|ACIK|Pontus / Bizans
-Afyonkarahisar Castle|Afyonkarahisar Kalesi|Afyonkarahisar|Kale & Tarihi Yapı|ACIK|Hitit – Osmanlı
-Kütahya Castle|Kütahya Kalesi|Kütahya|Kale & Tarihi Yapı|ACIK|Bizans / Germiyan
-Q6056682|Kossuth Evi Müzesi|Kütahya|Müze|DIGER|Osmanlı
-Tripolis on the Meander|Tripolis Antik Kenti|Denizli|Ören Yeri|ACIK|Roma / Bizans
-Edirne Palace|Edirne Sarayı (Saray-ı Cedid) Kalıntıları|Edirne|Ören Yeri|ACIK|Osmanlı
-Meriç Bridge|Meriç Köprüsü|Edirne|Kale & Tarihi Yapı|ACIK|Osmanlı (19. yy)
-Irgandı Bridge|Irgandı Köprüsü|Bursa|Kale & Tarihi Yapı|ACIK|Osmanlı
-Emir Sultan Mosque|Emir Sultan Camii|Bursa|Dini Yapı|IBADET|Osmanlı
-Hisart Live History Diorama Museum|Hisart Canlı Tarih ve Diorama Müzesi|İstanbul|Müze|OZEL|Çok Dönemli
-Rüstem Pasha Mosque|Rüstem Paşa Camii|İstanbul|Dini Yapı|IBADET|Osmanlı (16. yy)
-Mihrimah Sultan Mosque (Edirnekapı)|Mihrimah Sultan Camii (Edirnekapı)|İstanbul|Dini Yapı|IBADET|Osmanlı (16. yy)
-Aqueduct of Valens|Bozdoğan Kemeri|İstanbul|Kale & Tarihi Yapı|ACIK|Roma
-Walls of Constantinople|Theodosius Surları|İstanbul|Kale & Tarihi Yapı|ACIK|Bizans
-Hippodrome of Constantinople|Sultanahmet Meydanı (Hipodrom)|İstanbul|Ören Yeri|ACIK|Roma / Bizans
-Şehzade Mosque|Şehzade Camii|İstanbul|Dini Yapı|IBADET|Osmanlı (16. yy)
-Hadrian's Gate Antalya|Hadrian Kapısı|Antalya|Kale & Tarihi Yapı|ACIK|Roma
-Yivli Minaret|Yivli Minare Camii|Antalya|Dini Yapı|IBADET|Selçuklu
-Kekova sunken city|Kekova Batık Kent|Antalya|Ören Yeri|ACIK|Likya / Roma
-Patara|Patara Antik Kenti|Antalya|Ören Yeri|MRK|Likya / Roma
-Letoon|Letoon Kutsal Alanı|Muğla|Ören Yeri|MRK|Likya
-Knidos|Knidos Antik Kenti|Muğla|Ören Yeri|MRK|Helenistik / Roma
-Stratonikeia|Stratonikeia Antik Kenti|Muğla|Ören Yeri|MRK|Helenistik / Roma
-Smyrna Agora|İzmir Agorası|İzmir|Ören Yeri|MRK|Roma
-Harran|Harran Örenyeri|Şanlıurfa|Ören Yeri|MRK|Çok Dönemli
-Karahan Tepe|Karahantepe|Şanlıurfa|Ören Yeri|MRK|Neolitik
-Hasankeyf|Hasankeyf|Batman|Ören Yeri|MRK|Çok Dönemli
-Akdamar Island|Akdamar Kilisesi|Van|Dini Yapı|MRK|Vaspurakan
-Çavuştepe|Çavuştepe Kalesi|Van|Ören Yeri|MRK|Urartu
-Laodicea on the Lycus|Laodikeia Antik Kenti|Denizli|Ören Yeri|MRK|Roma
-Nysa on the Maeander|Nysa Antik Kenti|Aydın|Ören Yeri|MRK|Helenistik / Roma
-Magnesia on the Maeander|Magnesia Antik Kenti|Aydın|Ören Yeri|MRK|Helenistik / Roma
-Teos|Teos Antik Kenti|İzmir|Ören Yeri|MRK|İyon / Roma
-Claros|Klaros Kutsal Alanı|İzmir|Ören Yeri|MRK|İyon / Roma
-Metropolis (Ionia)|Metropolis Antik Kenti|İzmir|Ören Yeri|MRK|Helenistik / Roma
-Şapinuva|Şapinuva|Çorum|Ören Yeri|MRK|Hitit
-Yesemek|Yesemek Açık Hava Müzesi|Gaziantep|Ören Yeri|MRK|Hitit
-Trabzon Atatürk Pavilion|Trabzon Atatürk Köşkü|Trabzon|Müze|DIGER|Cumhuriyet
-Birgi Çakırağa Mansion|Birgi Çakırağa Konağı|İzmir|Kale & Tarihi Yapı|MRK|Osmanlı (18. yy)
-Kaunos|Kaunos|Muğla|Ören Yeri|MRK|Karya
+Q19568927|İdyros Antik Kenti|Antalya|Ören Yeri|ACIK|Roma / Bizans
+Q1142488|Kolophon Antik Kenti|İzmir|Ören Yeri|ACIK|Arkaik / Helenistik
+Q302905|Lebedos Antik Kenti|İzmir|Ören Yeri|ACIK|İyon / Roma
+Q20717624|Derbe Höyüğü|Karaman|Ören Yeri|ACIK|Roma / Bizans
+Q272720|Çayönü Höyüğü|Diyarbakır|Ören Yeri|ACIK|Neolitik
+Q447212|Altıntepe Urartu Kalesi|Erzincan|Ören Yeri|ACIK|Urartu
+Q767968|Tilbaşar Kalesi|Gaziantep|Kale & Tarihi Yapı|ACIK|Roma / Ortaçağ
+Q1801490|Namrun Kalesi|Mersin|Kale & Tarihi Yapı|ACIK|Bizans / Ermeni
+Q3119451|Gıduts Manastırı|Van|Dini Yapı|ACIK|Ortaçağ
+Q9148422|Alişar Höyüğü|Yozgat|Ören Yeri|ACIK|Tunç Çağı / Hitit
+Q2140586|Komana Pontika Antik Kenti|Tokat|Ören Yeri|ACIK|Helenistik / Roma
+Q1329990|Lambousa (Lapithos) Antik Kenti|Girne|Ören Yeri|ACIK|Roma / Bizans
+Q952748|Şar (Komana) Antik Kenti|Adana|Ören Yeri|ACIK|Hitit / Roma
+Q808168|Bargylia Antik Kenti|Muğla|Ören Yeri|ACIK|Helenistik / Roma
+Q4081181|Beycesultan Höyüğü|Denizli|Ören Yeri|ACIK|Tunç Çağı
+Q8438175|Acemhöyük|Aksaray|Ören Yeri|ACIK|Tunç Çağı / Asur Ticaret
+Q482135|Amyzon Antik Kenti|Aydın|Ören Yeri|ACIK|Helenistik
+Q3303460|Maşat Höyük|Tokat|Ören Yeri|ACIK|Hitit
+Q1040082|Sarissa (Kuşaklı) Hitit Kenti|Sivas|Ören Yeri|ACIK|Hitit
+Q4775098|Antiphellos Antik Tiyatrosu (Kaş)|Antalya|Ören Yeri|ACIK|Helenistik / Roma
+Q28221080|Balıkesir Kuvâ-yı Milliye Müzesi|Balıkesir|Müze|DIGER|Cumhuriyet
+Q1370995|Etenna Antik Kenti|Antalya|Ören Yeri|ACIK|Roma / Bizans
+Q6984286|Neandreia Antik Kenti|Çanakkale|Ören Yeri|ACIK|Arkaik / Helenistik
+Q2450857|Trebenna Antik Kenti|Antalya|Ören Yeri|ACIK|Roma / Bizans
+Q20874245|Öküzini Mağarası|Antalya|Ören Yeri|ACIK|Paleolitik
+Q6366659|Kapılıkaya Kaya Mezarı|Çorum|Ören Yeri|ACIK|Paflagonya / Helenistik
+Q6104469|Oluz Höyük|Amasya|Ören Yeri|ACIK|Tunç Çağı / Pers
+Q6074022|Şebinkarahisar Atatürk Evi Müzesi|Giresun|Müze|DIGER|Cumhuriyet
+Q6025192|Idebessos Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Roma
+Q6011242|Tyberissos Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
+Q55605010|Batman Müzesi|Batman|Müze|MRK|Çok Dönemli
+Q55394544|Ahşap Eserler Müzesi|Eskişehir|Müze|DIGER|Osmanlı / Cumhuriyet
+Q55611035|Eğitim Karikatürleri Müzesi|Eskişehir|Müze|DIGER|Cumhuriyet
+Q20949672|Orhan Kemal Müzesi|İstanbul|Müze|OZEL|Cumhuriyet
+Q1926398|Mezgitkale Mezar Anıtı|Mersin|Ören Yeri|ACIK|Roma
+Q1693611|Nymphaion (Nif) Laskaris Sarayı|İzmir|Kale & Tarihi Yapı|ACIK|Bizans
+Q1640541|Hyllarima Antik Kenti|Muğla|Ören Yeri|ACIK|Karya / Helenistik
+Q1561662|Sirkeli Höyüğü ve Muwatalli Kabartması|Adana|Ören Yeri|ACIK|Hitit
+Q1528589|Oylum Höyük|Kilis|Ören Yeri|ACIK|Tunç Çağı
+Q14906213|Akkale Ören Yeri|Mersin|Ören Yeri|ACIK|Roma / Bizans
+Q948459|Pednelissos Antik Kenti|Antalya|Ören Yeri|ACIK|Helenistik / Roma
+Q692995|Arneai Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Roma
+Q8079507|Üçayaklı Villa Rustika|Mersin|Ören Yeri|ACIK|Roma / Bizans
+Q8053378|Yeşilova Höyüğü|İzmir|Ören Yeri|ACIK|Neolitik
+Q6101856|Havza Atatürk Evi Müzesi|Samsun|Müze|DIGER|Cumhuriyet
+Q6079508|Barbarlık Müzesi|Lefkoşa|Müze|DIGER|Kıbrıs Tarihi
+Q6029441|Gagae Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Bizans
+Q6025817|Taşucu Atatürk Evi|Mersin|Müze|DIGER|Cumhuriyet
+Q4938906|Bolaman Kalesi ve Hazinedaroğlu Konağı|Ordu|Kale & Tarihi Yapı|DIGER|Ortaçağ / Osmanlı
+Q30639078|Taşucu Aslan Eyce Amfora Müzesi|Mersin|Müze|OZEL|Antik Çağ
+Q28220752|Softa Kalesi|Mersin|Kale & Tarihi Yapı|ACIK|Bizans / Ermeni
+Q21523967|Akçakoca (Ceneviz) Kalesi|Düzce|Kale & Tarihi Yapı|ACIK|Ceneviz
+Q1917233|Mher Kapısı (Meher Kapı)|Van|Ören Yeri|ACIK|Urartu
+Q18639251|Gökkale Ören Yeri|Mersin|Ören Yeri|ACIK|Roma / Bizans
+Q6014404|Trysa Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
+Q1609020|Lamos Antik Kenti|Antalya|Ören Yeri|ACIK|Roma / Bizans
+Q15949956|Yanıkhan Ören Yeri|Mersin|Ören Yeri|ACIK|Roma / Bizans
+Q15437964|Öküzlü Ören Yeri|Mersin|Ören Yeri|ACIK|Bizans
+Q15263913|Çatıören Antik Yerleşimi|Mersin|Ören Yeri|ACIK|Helenistik / Roma
+Q1266153|Karakabaklı Antik Yerleşimi|Mersin|Ören Yeri|ACIK|Roma / Bizans
+Q1235555|Dülük (Doliche) Antik Kenti|Gaziantep|Ören Yeri|ACIK|Roma / Kommagene
+Q102482756|Herakleia Salbake Antik Kenti|Denizli|Ören Yeri|ACIK|Helenistik / Roma
+Q7684869|Tapureli Antik Kenti|Mersin|Ören Yeri|ACIK|Roma / Bizans
+Q7169524|Perperene Antik Kenti|Balıkesir|Ören Yeri|ACIK|Helenistik / Roma
+Q63372490|Gazi Köşkü|Diyarbakır|Kale & Tarihi Yapı|DIGER|Akkoyunlu / Cumhuriyet
+Q6086521|Tahtakuşlar Etnografya Müzesi|Balıkesir|Müze|OZEL|Türkmen Kültürü
+Q6073348|Beldibi Mağarası|Antalya|Ören Yeri|ACIK|Paleolitik / Mezolitik
+Q6013556|Şarapsa Hanı|Antalya|Kale & Tarihi Yapı|ACIK|Selçuklu
+Q6007692|Alay Han|Aksaray|Kale & Tarihi Yapı|ACIK|Selçuklu
+Q38216880|Ankara Oyuncak Müzesi|Ankara|Müze|DIGER|Cumhuriyet
+Q29831898|Tayfun Talipoğlu Daktilo Müzesi|Eskişehir|Müze|DIGER|Günümüz
+Q28222005|Ege Üniversitesi Tabiat Tarihi Müzesi|İzmir|Müze|DIGER|Doğa Tarihi
+Q28221546|İskenderun Deniz Müzesi|Hatay|Müze|DIGER|Denizcilik
+Q28221511|Ali Demirsoy Doğal Tarih Müzesi|Erzincan|Müze|DIGER|Doğa Tarihi
+Q2225271|Sarıhan Kervansarayı|Nevşehir|Kale & Tarihi Yapı|ACIK|Selçuklu
+Q20717664|Demirköy Dökümhanesi|Kırklareli|Ören Yeri|ACIK|Osmanlı
+Q20191364|Sebastopolis Antik Kenti|Tokat|Ören Yeri|ACIK|Roma
+Q15260707|MİT Casusluk Müzesi|Ankara|Müze|DIGER|Cumhuriyet
+Q1397859|Fasıllar Anıtı|Konya|Ören Yeri|ACIK|Hitit
+Q132681961|Hilmi Nakipoğlu Fotoğraf Makineleri Müzesi|İstanbul|Müze|OZEL|Günümüz
+Q1304132|Alarahan|Antalya|Kale & Tarihi Yapı|ACIK|Selçuklu
+Q105659258|Zengibar Kalesi (Isaura)|Konya|Ören Yeri|ACIK|Roma
+Q6102514|Fenerbahçe Müzesi|İstanbul|Müze|OZEL|Cumhuriyet
+Q6082521|Yıldız Porselen Fabrikası|İstanbul|Müze|DIGER|Osmanlı
+Q6056682|Kossuth Evi Müzesi|Kütahya|Müze|MRK|Osmanlı
+Q6055841|Alagöz Karargâh Müzesi|Ankara|Müze|DIGER|Kurtuluş Savaşı
+Q5995516|Latife Hanım Köşkü Anı Evi|İzmir|Müze|DIGER|Cumhuriyet
+Q56440031|Jandarma Müzesi|Ankara|Müze|DIGER|Osmanlı / Cumhuriyet
+Q56438830|Altınköy Açık Hava Müzesi|Ankara|Müze|DIGER|Anadolu Köy Yaşamı
+Q56438674|TCDD Malıköy Tren İstasyonu Müzesi|Ankara|Müze|DIGER|Kurtuluş Savaşı
+Q56438446|MKE Sanayi ve Teknoloji Müzesi|Ankara|Müze|DIGER|Cumhuriyet
+Q25472494|Key Museum (Klasik Otomobil Müzesi)|İzmir|Müze|OZEL|Günümüz
+Q112584921|Çatalca Mübadele Müzesi|İstanbul|Müze|DIGER|Cumhuriyet
+Q681096|Kandyba Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
+Q6006985|Korydalla Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Roma
+Q15238616|Kitanaura Antik Kenti|Antalya|Ören Yeri|ACIK|Roma
+Q1673973|Isinda Antik Kenti|Antalya|Ören Yeri|ACIK|Pisidya / Roma
+Q415525|Akalissos Antik Kenti|Antalya|Ören Yeri|ACIK|Likya / Roma
+Q65060399|Sebeda Antik Kenti|Antalya|Ören Yeri|ACIK|Likya
+Q6040746|Arsada Antik Kenti|Muğla|Ören Yeri|ACIK|Likya
+Q12811458|Pydnai Kalesi|Muğla|Ören Yeri|ACIK|Likya / Helenistik
+Q7362324|Tarsus Antik Roma Yolu|Mersin|Ören Yeri|ACIK|Roma
+Q6766045|Helles Anıtı (Seddülbahir)|Çanakkale|Ören Yeri|ACIK|Birinci Dünya Savaşı
+Q108923214|Eski Smyrna (Bayraklı Höyüğü)|İzmir|Ören Yeri|ACIK|Arkaik
+Q996022|Kemer Köprüsü (Seydikemer)|Muğla|Kale & Tarihi Yapı|ACIK|Roma
+Q6022598|Kâzım Karabekir Paşa Müzesi|İstanbul|Müze|DIGER|Kurtuluş Savaşı
+Q30682582|Pierre Loti Müzesi|İstanbul|Müze|DIGER|Osmanlı
+Q127689004|Kemal Sunal Müzesi|İstanbul|Müze|DIGER|Cumhuriyet
+Q131861582|İlhan Koman Heykel ve Resim Müzesi|Edirne|Müze|DIGER|Cumhuriyet
+Q118928405|Anadolu Yaşayan Köy Açık Hava Müzesi|Ankara|Müze|DIGER|Anadolu Köy Yaşamı
+Q115611246|Cendere Sanat Müzesi|İstanbul|Müze|DIGER|Çağdaş Sanat
+Q106624186|İzmit Deprem Anma ve Farkındalık Müzesi|Kocaeli|Müze|DIGER|Günümüz
+Q1675450|Juliopolis Nekropolü|Ankara|Ören Yeri|ACIK|Roma / Bizans
