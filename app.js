@@ -162,7 +162,7 @@
           playUrl(ROOT + MP3[lang], my, function () { askServer(lang, function () {}); speak(); });
           return;
         }
-        if (!T[lang] && !ttsOff()) {           // yapay zekâ çevirisi (ru, fr, es, ar)
+        if (!ttsOff()) {                       // önce sunucudaki doğal ses (MP3); yoksa tarayıcı sesi
           note.textContent = I.loading;
           askServer(lang, function (url) { if (my !== tok) return; if (url) playUrl(url, my, speak); else speak(); });
           return;
