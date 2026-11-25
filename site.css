@@ -35,7 +35,7 @@ html[lang=hi] body{font-family:Manrope,"Noto Sans Devanagari","Nirmala UI","Kohi
 html[lang=hi] h1,html[lang=hi] h2,html[lang=hi] h3{font-family:"Cormorant Garamond","Noto Serif Devanagari","Kohinoor Devanagari","Nirmala UI",serif;line-height:1.3}
 html[lang=ar] body{font-family:Manrope,"Noto Naskh Arabic","Geeza Pro","Segoe UI","Tahoma",sans-serif;line-height:1.8}
 html[lang=ar] h1,html[lang=ar] h2,html[lang=ar] h3{font-family:"Cormorant Garamond","Noto Naskh Arabic","Geeza Pro","Times New Roman",serif;line-height:1.35}
-html[lang=zh-Hans] .story,html[lang=hi] .story{font-size:18px;line-height:1.9}html[lang=ar] .story{font-size:20px;line-height:1.95}
+.story,.guidebox li,.guidebox p,.faq p,.faq dd{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}html[lang=zh-Hans] .story,html[lang=hi] .story{font-size:18px;line-height:1.9}html[lang=ar] .story{font-size:20px;line-height:1.95}
 html[lang=zh-Hans] .eyebrow,html[lang=hi] .eyebrow,html[lang=ar] .eyebrow{letter-spacing:.5px}
 [dir=rtl] .logo{margin-right:0;margin-left:auto}[dir=rtl] .langs{border-left:0;padding-left:0;border-right:1px solid #ffffff33;padding-right:10px}
 [dir=rtl] .phinfo{right:auto;left:16px}[dir=rtl] .legend{margin-left:0;margin-right:auto}
