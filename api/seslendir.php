@@ -171,6 +171,17 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') out(405, ['error' => 'method']);
 if (isset($_GET['toplu'])) {
     if ($ADMIN === '' || !hash_equals($ADMIN, (string)$_GET['toplu'])) out(403, ['error' => 'parola']);
     if (!configured()) out(503, ['error' => 'not_configured']);
+    if (isset($_GET['oto'])) {   // kendi kendine devam eden ilerleme sayfası
+        header('Content-Type: text/html; charset=utf-8'); header('Cache-Control: no-store'); header('X-Robots-Tag: noindex');
+        echo '<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Ses üretimi</title>'
+           . '<body style="font:16px system-ui;max-width:560px;margin:40px auto;padding:0 16px"><h2>Sesli anlatım üretiliyor</h2>'
+           . '<p id="d">Başlıyor…</p><p style="color:#777">Bu sekmeyi kapatmayın; iş bitince “Tamamlandı” yazar.</p><pre id="e" style="color:#b00;white-space:pre-wrap"></pre>'
+           . '<script>var u=location.href.replace(/[&?]oto=1/,""),top=0;function go(){fetch(u,{cache:"no-store"}).then(function(r){return r.json()}).then(function(j){top+=j.uretilen||0;'
+           . 'document.getElementById("d").textContent="Üretilen: "+top+" · Kalan: "+j.kalan;if(j.hatalar&&j.hatalar.length)document.getElementById("e").textContent=j.hatalar.join("\\n");'
+           . 'if(j.kalan>0&&!(j.hatalar&&j.hatalar.length>5)&&(j.uretilen>0||!j.hatalar.length))setTimeout(go,1000);else document.getElementById("d").textContent+=(j.kalan?" · Durdu (hatalara bakın)":" · Tamamlandı ✔")})'
+           . '.catch(function(){setTimeout(go,5000)})}go();</script>';
+        exit;
+    }
     $only = (string)($_GET['lang'] ?? '');
     $langs = $only !== '' && isset($LANGS[$only]) ? [$only] : array_values(array_filter(['tr', 'en', 'de', 'zh', 'hi', 'es', 'ar'], fn($l) => isset(reset($texts)[$l])));
     $t0 = microtime(true); $made = 0; $errors = []; $left = 0;
