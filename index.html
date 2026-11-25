@@ -4061,7 +4061,7 @@ function openPlace(id,autoplay){
       </div>
       ${p.sid==='ANT01'?`<div class="kapali" role="alert">⚠️ <b>Ziyarete kapalı:</b> Antalya Müzesi'nin eski binası, depreme dayanıksız bulunduğu gerekçesiyle 16 Temmuz 2025'te kapatıldı ve yıkıldı. Eserler güvenli depolara taşındı; aynı yerde yeni ve daha büyük bir müze inşa ediliyor. Açılış tarihi kesinleşmedi, gitmeden önce resmî duyuruları kontrol edin.</div>`:''}
       ${r?'':`<div class="pending">Bu yer için yapay zeka destekli ayrıntılı tarihçe henüz hazırlanmadı. Şimdilik temel bilgileri gösteriyoruz.</div>`}
-      <div class="langbar">
+      <div class="langbar" translate="no">
         <div class="tabs">${Object.entries(LANGS).map(([k,L])=>`<button class="tab${k==='tr'?' on':''}" data-lang="${k}" lang="${k}">${L.tab}</button>`).join('')}</div>
         <button class="btn listen">${ICON_PLAY}<span class="eq"><i></i><i></i><i></i></span><span class="lbl">Dinle</span></button>
       </div>
