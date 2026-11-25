@@ -91,7 +91,7 @@
     var stop = function () {
       tok++; try { if (s && (s.speaking || s.pending)) s.cancel(); } catch (e) {}
       if (player && !player.paused) { try { player.pause(); } catch (e) {} }
-      on = false; btn.classList.remove('playing'); btn.textContent = I.listen;
+      on = false; btn.classList.remove('playing'); btn.textContent = I.listen; relockIOS();
     };
     var show = function (lang, txt, ai) {
       cur = lang; story.textContent = txt; story.lang = lang === 'zh' ? 'zh-Hans' : lang; story.dir = lang === 'ar' ? 'rtl' : 'ltr';
@@ -113,6 +113,21 @@
         .catch(function () { note.textContent = I.trans_err; sel.value = ''; });
     });
     var KEEP = [], ANDROID = /Android/i.test(navigator.userAgent);
+    /* iOS: tarayıcı sesi (speechSynthesis) sessiz modda hoparlörden çıkmaz; sessiz bir <audio> döngüsü ses oturumunu 'playback'e alır */
+    var SIL = null;
+    var silentUrl = function () {
+      var n = 8000, b = new ArrayBuffer(44 + n), v = new DataView(b), w = function (o, str) { for (var k = 0; k < str.length; k++) v.setUint8(o + k, str.charCodeAt(k)); };
+      w(0, 'RIFF'); v.setUint32(4, 36 + n, true); w(8, 'WAVE'); w(12, 'fmt '); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+      v.setUint32(24, 8000, true); v.setUint32(28, 8000, true); v.setUint16(32, 1, true); v.setUint16(34, 8, true); w(36, 'data'); v.setUint32(40, n, true);
+      for (var k = 0; k < n; k++) v.setUint8(44 + k, 128);
+      return URL.createObjectURL(new Blob([b], { type: 'audio/wav' }));
+    };
+    var unlockIOS = function () {
+      if (!isIOS) return;
+      try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) {}
+      try { if (!SIL) { SIL = new Audio(silentUrl()); SIL.loop = true; SIL.setAttribute('playsinline', ''); } var p = SIL.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
+    };
+    var relockIOS = function () { try { if (SIL && !SIL.paused) SIL.pause(); } catch (e) {} };
     if (s && isIOS) document.addEventListener('touchend', function () { try { var u = new SpeechSynthesisUtterance(' '); u.volume = 0; s.speak(u); } catch (e) {} }, { once: true, capture: true });
     var fail = function (err) {
       stop();
@@ -140,6 +155,7 @@
     };
     btn.addEventListener('click', function () {
       if (on) { stop(); return; }
+      unlockIOS();
       if (player && !(btn.getAttribute('data-nomp3'))) {
         var my = ++tok, lang = cur;
         if (MP3[lang]) {
@@ -156,6 +172,7 @@
     });
     function speak() {
       if (!s || typeof SpeechSynthesisUtterance === 'undefined') { note.textContent = I.no_tts; return; }
+      unlockIOS(); if (isIOS && I.ios_mute) note.textContent = I.ios_mute;
       var my = ++tok, code = VO[cur] || cur, busy = false;
       try { if (s.speaking || s.pending) { s.cancel(); busy = true; } } catch (e) {}
       var vs = s.getVoices();
