@@ -130,6 +130,7 @@ details.langs nav a{justify-content:flex-start;padding:6px 12px;opacity:.85}deta
 .rbox.on{outline:3px solid var(--gold);outline-offset:2px}
 @media(max-width:760px){.rgrid2{grid-template-columns:repeat(2,1fr);gap:8px}.rbox b{font-size:18px}}
 .planbox img{width:100%;height:auto;border-radius:12px;background:#fff;border:1px solid var(--line)}
+.faq details{border-top:1px solid var(--line);padding:10px 0}.faq details:first-of-type{border-top:0}.faq summary{cursor:pointer;font-weight:700}.faq p{margin:8px 0 0}
 .bnav{display:none}
 @media(max-width:980px){.pg{display:flex;flex-direction:column;gap:0}.pg main.pmain{display:contents}.pmain>*{order:0}.pmain>.crumb{margin-top:24px}.pmain>section{order:2}.pside{order:1;position:static;padding:8px 0 0}.pmain>section:last-of-type{margin-bottom:30px}}
 @media(max-width:760px){
