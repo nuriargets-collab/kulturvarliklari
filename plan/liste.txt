@@ -1,0 +1,69 @@
+ADV01|Q219525|Anazarbus
+ADN01|Q207917|Mount Nemrut
+MYR01|Myra|Myra
+OLY01|Q1380189|Olympos
+PTR01|Patara|Patara
+PRG01|Q719815|Perga
+PHS01|Q595329|Phaselis
+SDO01|Side, Turkey|Side
+ASP01|Q633757|Aspendos
+ARY01|Q718048|Arykanda
+LMY02|Limyra|Limyra
+XAN02|Xanthos|Xanthos
+TRM02|Q599462|Termessos
+AFR01|Q618495|Aphrodisias
+MLT01|Q169460|Miletus
+ALI01|Q1848789|Alinda
+AMA02|Q1432674|Magnesia on the Maeander
+NYS02|Q1779332|Nysa on the Maeander
+PRI02|Q142819|Priene
+BKO02|Q1643467|Cibyra
+SAG01|Q279191|Sagalassos
+ASS01|Q744631|Assos
+TRV01|Troy|Troy
+ALC02|Q558861|Alaca Höyük
+BGO02|Q181007|Hattusa
+PMK01|Hierapolis|Hierapolis
+DLO01|Q849709|Laodicea on the Lycus
+DTO01|Q117411|Tripolis on the Meander
+EMO01|Midas City|Midas City
+GZO02|Q196987|Zeugma
+EFS01|Q47611|Ephesus
+AKR01|Pergamon|Pergamon
+ASK01|Asclepieion of Pergamon|Asklepieion Pergamon
+AGR01|Q2827071|Agora of Smyrna
+KLA01|Q1933754|Claros
+TEO02|Q17586|Teos
+ANI01|Q546010|Ani
+KKO01|Kültepe|Kültepe
+KCO01|Q192522|Çatalhöyük
+AIZ02|Q411571|Aizanoi
+MLA02|Q705132|Arslantepe
+SAR02|Sardis|Sardis
+MSA01|Q94668|Alahan Monastery
+SUO02|Diocaesarea Uzuncaburç|Uzuncaburç
+KAU02|Q608095|Kaunos
+KND01|Q690575|Knidos
+LET02|Letoon|Letoon
+MFP01|Pinara|Pinara
+MME02|Q1375099|Euromos
+MMO01|Q279048|Iasos
+MST02|Q1361187|Stratonikeia
+TLO02|Tlos|Tlos
+HAR01|Harran|Harran
+KRH01|Q5996986|Karahantepe
+SGT01|Q214944|Göbekli Tepe
+Y016|Q679305|Kyme
+Y025|Q579468|Antioch of Pisidia
+Y124|Q1324870|Elaiussa Sebaste
+Y125|Q202974|Kanytelis
+Y127|Q157816|Olba
+Y150|Q769197|Selge
+Y152|Q647896|Sillyon
+Y155|Q579389|Antiochia ad Cragum
+Y162|Q2148209|Rhodiapolis
+Y164|Q656882|Ariassos
+Y182|Q18823111|Myndos
+Y191|Q1313279|Heraclea under Latmus
+Y194|Q1411652|Parion
+Y244|Q54571|Ayanis

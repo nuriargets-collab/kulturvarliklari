@@ -1,0 +1,17 @@
+name: Plan topla
+on:
+  push:
+    branches: [plan-topla]
+    paths: [plan/liste.txt, plan/getir.py]
+permissions:
+  contents: write
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 plan/getir.py
+      - run: |
+          git config user.name github-actions; git config user.email actions@github.com
+          git add plan && git commit -m "plan [skip ci]" && git push
