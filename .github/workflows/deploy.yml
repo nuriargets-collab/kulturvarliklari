@@ -39,7 +39,7 @@ jobs:
           echo "::add-mask::$U2"; echo "::add-mask::$P2"
           { echo "user=$U2"; echo "pass=$P2"; } >> "$GITHUB_OUTPUT"
           HOST=""
-          for aday in "$S1" "$S2" "ftp.kulturvarliklari.com.tr" "kulturvarliklari.com.tr"; do
+          for aday in "ftp.kulturvarliklari.com.tr" "$S1" "$S2" "kulturvarliklari.com.tr"; do   # alan adı önce: hosting sunucu IP'si değişirse eski IP ayarı yayını bozmasın
             h=$(temizle "$aday"); [ -z "$h" ] && continue
             if getent hosts "$h" >/dev/null; then HOST="$h"; break; else echo "Bulunamadı: bir sunucu adresi çözülemedi, sıradakine geçiliyor."; fi
           done
