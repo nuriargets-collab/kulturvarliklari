@@ -487,12 +487,13 @@
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   var TOUCH = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
   if (!SR && !TOUCH) return;
-  var LC = {tr:'tr-TR', en:'en-US', de:'de-DE', es:'es-ES', ar:'ar-SA', zh:'zh-CN', hi:'hi-IN'};
+  var LC = {tr:'tr-TR', en:'en-US', de:'de-DE', es:'es-ES', ar:'ar-SA', zh:'zh-CN', hi:'hi-IN', ja:'ja-JP'};
   var TIP = {tr:['Sesle ara','Dinleniyor… konuşun','Ses anlaşılamadı, tekrar deneyin','Mikrofon izni verilmedi','Klavyedeki 🎤 mikrofon tuşuna basıp konuşun'],
     en:['Search by voice','Listening… speak now',"Didn't catch that, try again",'Microphone permission denied','Tap the 🎤 key on your keyboard and speak'],
     de:['Sprachsuche','Ich höre zu… bitte sprechen','Nicht verstanden, bitte erneut versuchen','Mikrofonzugriff verweigert','Tippen Sie auf die 🎤-Taste der Tastatur und sprechen Sie'],
     es:['Buscar por voz','Escuchando… hable ahora','No se entendió, inténtelo de nuevo','Permiso de micrófono denegado','Pulse la tecla 🎤 del teclado y hable'],
     ar:['البحث بالصوت','جارٍ الاستماع… تحدث الآن','لم يُفهم الصوت، حاول مرة أخرى','تم رفض إذن الميكروفون','اضغط زر 🎤 في لوحة المفاتيح وتحدث'],
+    ja:['音声で検索','聞き取り中…話してください','聞き取れませんでした。もう一度お試しください','マイクの使用が許可されていません','キーボードの 🎤 キーを押して話してください'],
     zh:['语音搜索','正在聆听…请说话','没有听清，请再试一次','麦克风权限被拒绝','点击键盘上的 🎤 键并说话'],
     hi:['आवाज़ से खोजें','सुन रहे हैं… बोलिए','समझ नहीं आया, फिर कोशिश करें','माइक्रोफ़ोन अनुमति नहीं मिली','कीबोर्ड पर 🎤 बटन दबाकर बोलें']};
   var lang = (document.documentElement.lang || 'tr').slice(0, 2), T = TIP[lang] || TIP.tr;
