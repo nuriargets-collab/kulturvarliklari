@@ -202,6 +202,38 @@
   }
 
 
+  /* ---------- Zamanda yolculuk: kısa sesli hikâye ---------- */
+  $$('.zplay').forEach(function (b) {
+    var box = b.closest('.zbox'), au = box.querySelector('.zaudio'), lang = b.getAttribute('data-lang'), sid = b.getAttribute('data-zsid');
+    var VZ = { tr: 'tr-TR', en: 'en-US', de: 'de-DE', zh: 'zh-CN', hi: 'hi-IN', es: 'es-ES', ar: 'ar-SA', ja: 'ja-JP' };
+    var on = false, ss = window.speechSynthesis;
+    var reset = function () { on = false; b.textContent = b.getAttribute('data-l'); };
+    var stopAll = function () { try { if (!au.paused) au.pause(); } catch (e) {} try { if (ss && ss.speaking) ss.cancel(); } catch (e) {} reset(); };
+    var speakZ = function () {
+      if (!ss || typeof SpeechSynthesisUtterance === 'undefined') { reset(); return; }
+      var parts = Array.prototype.map.call(box.querySelectorAll('.zstory p'), function (p) { return p.textContent; });
+      var i = 0, next = function () { if (!on || i >= parts.length) { reset(); return; } var u = new SpeechSynthesisUtterance(parts[i++]); u.lang = VZ[lang] || lang; u.rate = 0.95; u.onend = next; u.onerror = reset; ss.speak(u); };
+      next();
+    };
+    var play = function (url, onFail) {
+      au.src = url; au.hidden = false; au.controls = true;
+      au.onended = reset; au.onerror = function () { au.hidden = true; onFail(); };
+      var p = au.play(); if (p && p.catch) p.catch(function () { au.hidden = true; onFail(); });
+    };
+    var ask = function () {
+      fetch(ROOT + 'api/seslendir.php?sid=' + encodeURIComponent(sid) + '&lang=' + lang, { headers: { 'Accept': 'application/json' } })
+        .then(function (r) { return r.json().then(function (j) { return r.ok && j.url ? ROOT + j.url : null; }); })
+        .catch(function () { return null; })
+        .then(function (u) { if (!on) return; if (u) play(u, speakZ); else speakZ(); });
+    };
+    b.addEventListener('click', function () {
+      if (on) { stopAll(); return; }
+      on = true; b.textContent = b.getAttribute('data-s');
+      var m = b.getAttribute('data-mp3');
+      if (m) play(ROOT + m, ask); else ask();
+    });
+  });
+
   /* ---------- Engelsiz erişim bildirimi ---------- */
   var accf = $('#accform');
   if (accf) accf.addEventListener('submit', function (ev) {
