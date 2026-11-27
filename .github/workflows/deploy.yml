@@ -49,7 +49,10 @@ jobs:
           echo "::add-mask::$HOST"
           echo "host=$HOST" >> "$GITHUB_OUTPUT"
           echo "Ayarlar tamam."
-      - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: FTP yükleme (deneme 1)
+        id: f1
+        continue-on-error: true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ steps.ayar.outputs.host }}
           username: ${{ steps.ayar.outputs.user }}
@@ -67,6 +70,61 @@ jobs:
             KURULUM.md
             api/config.php
             ses/**
+      - name: Sunucu bağlantıyı reddettiyse bekle
+        if: steps.f1.outcome == 'failure'
+        run: sleep 300
+      - name: FTP yükleme (deneme 2)
+        id: f2
+        if: steps.f1.outcome == 'failure'
+        continue-on-error: true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ steps.ayar.outputs.host }}
+          username: ${{ steps.ayar.outputs.user }}
+          password: ${{ steps.ayar.outputs.pass }}
+          protocol: ftp           # hosting şifreli FTP (FTPS) desteklemiyor
+          server-dir: public_html/   # FTP hesabı /home/kulturva'ya açılıyor; site kökü public_html
+          timeout: 180000         # yavaş sunucuda bağlantı zaman aşımını önler
+          state-name: .ftp-deploy-sync-state-v3.json   # public_html için yeni durum dosyası
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            .cpanel.yml
+            README.md
+            KURULUM.md
+            api/config.php
+            ses/**
+      - name: Yine olmadıysa bekle
+        if: steps.f1.outcome == 'failure' && steps.f2.outcome == 'failure'
+        run: sleep 600
+      - name: FTP yükleme (deneme 3)
+        id: f3
+        if: steps.f1.outcome == 'failure' && steps.f2.outcome == 'failure'
+        continue-on-error: true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ steps.ayar.outputs.host }}
+          username: ${{ steps.ayar.outputs.user }}
+          password: ${{ steps.ayar.outputs.pass }}
+          protocol: ftp           # hosting şifreli FTP (FTPS) desteklemiyor
+          server-dir: public_html/   # FTP hesabı /home/kulturva'ya açılıyor; site kökü public_html
+          timeout: 180000         # yavaş sunucuda bağlantı zaman aşımını önler
+          state-name: .ftp-deploy-sync-state-v3.json   # public_html için yeni durum dosyası
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            .cpanel.yml
+            README.md
+            KURULUM.md
+            api/config.php
+            ses/**
+      - name: Yükleme sonucu
+        if: steps.f1.outcome == 'failure' && steps.f2.outcome == 'failure' && steps.f3.outcome == 'failure'
+        run: |
+          echo "::error::FTP sunucusu üç denemede de bağlantıyı kabul etmedi."
+          exit 1
       - name: Canlı sitede yeni sürümü doğrula
         run: |
           beklenen=$(grep -o "const V = '[^']*'" sw.js)
