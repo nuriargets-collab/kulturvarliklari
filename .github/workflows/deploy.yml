@@ -69,8 +69,8 @@ jobs:
       - name: Canlı sitede yeni sürümü doğrula
         run: |
           beklenen=$(grep -o "const V = '[^']*'" sw.js)
-          for i in 1 2 3 4 5 6; do
-            canli=$(curl -s "https://kulturvarliklari.com.tr/sw.js?t=$(date +%s)" | grep -o "const V = '[^']*'" || true)
+          for i in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            canli=$(curl -s --max-time 30 -A "kv-izleme" "https://kulturvarliklari.com.tr/sw.js?t=$(date +%s)" | grep -o "const V = '[^']*'" || true)
             [ "$canli" = "$beklenen" ] && { echo "Canlı site güncel: $canli"; exit 0; }
             echo "Bekleniyor… canlı: ${canli:-yok}, beklenen: $beklenen"; sleep 10
           done
