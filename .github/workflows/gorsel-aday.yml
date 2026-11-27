@@ -52,6 +52,46 @@ jobs:
                       if b: open(f"out/t/{sid}_{k}.jpg", "wb").write(b)
                   res[sid] = cands; print(sid, len(cands))
               json.dump(res, open("out/aday.json", "w"), ensure_ascii=False, indent=1)
+          elif mod == "wikidata":
+              res = {}
+              def wd(params):
+                  b = get("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({**params, "format": "json"}))
+                  return json.loads(b) if b else {}
+              strip = re.compile(r"\b(Müzesi|Müze|Örenyeri|Ören Yeri|Antik Kenti|Arkeolojik Alanı|Kalesi)\b", re.I)
+              for line in open(".github/gorsel/wd.txt", encoding="utf-8"):
+                  if not line.strip(): continue
+                  sid, name, city = (line.rstrip("\n").split("|") + ["", ""])[:3]
+                  cands = []; seen = set()
+                  for q in (name, strip.sub("", name).strip(), name + " " + city):
+                      if not q or q in seen: continue
+                      seen.add(q)
+                      r = wd({"action": "wbsearchentities", "search": q, "language": "tr", "uselang": "tr", "limit": 5})
+                      ids = [e["id"] for e in r.get("search", [])][:5]
+                      if not ids: continue
+                      ent = wd({"action": "wbgetentities", "ids": "|".join(ids), "props": "claims|labels|descriptions", "languages": "tr|en"}).get("entities", {})
+                      for qid in ids:
+                          e = ent.get(qid, {}); cl = e.get("claims", {})
+                          ctry = [c["mainsnak"].get("datavalue", {}).get("value", {}).get("id") for c in cl.get("P17", [])]
+                          if not set(ctry) & {"Q43", "Q23681", "Q229"}: continue
+                          for c in cl.get("P18", [])[:1]:
+                              fn = c["mainsnak"].get("datavalue", {}).get("value")
+                              if not fn or ("File:" + fn) in [x["title"] for x in cands]: continue
+                              j = info({"action": "query", "titles": "File:" + fn, "w": 400})
+                              pg = next(iter((j.get("query") or {}).get("pages", {}).values()), {})
+                              ii = (pg.get("imageinfo") or [{}])[0]; m = ii.get("extmetadata") or {}
+                              lic = (m.get("LicenseShortName") or {}).get("value", "")
+                              if not OK.match(lic.strip()) or ii.get("width", 0) < 800: continue
+                              art = re.sub("<[^>]+>", "", (m.get("Artist") or {}).get("value", "")).strip()[:80]
+                              lab = (e.get("labels", {}).get("tr") or e.get("labels", {}).get("en") or {}).get("value", "")
+                              des = (e.get("descriptions", {}).get("tr") or e.get("descriptions", {}).get("en") or {}).get("value", "")
+                              cands.append({"title": "File:" + fn, "qid": qid, "label": lab, "desc": des, "lic": lic, "artist": art, "page": ii.get("descriptionurl"), "thumb": ii.get("thumburl"), "w": ii.get("width"), "h": ii.get("height")})
+                      time.sleep(0.3)
+                      if len(cands) >= 3: break
+                  for k, c in enumerate(cands[:4]):
+                      b = get(c["thumb"])
+                      if b: open(f"out/t/{sid}_{k}.jpg", "wb").write(b)
+                  res[sid] = cands[:4]; print(sid, len(cands))
+              json.dump(res, open("out/aday.json", "w"), ensure_ascii=False, indent=1)
           else:
               sec = json.load(open(".github/gorsel/secim.json", encoding="utf-8"))
               os.makedirs("out/full", exist_ok=True)

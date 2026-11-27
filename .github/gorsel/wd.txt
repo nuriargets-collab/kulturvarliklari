@@ -1,0 +1,130 @@
+ASO01|Sofraz Anıt Mezarı|Adıyaman
+AAM01|Aziz Mercurius Yeraltı Şehri|Aksaray
+AKM02|Aksaray Manastır Vadisi Örenyeri|Aksaray
+OTS01|Kahramankazan 15 Temmuz Şehitleri ve Demokrasi Müzesi|Ankara
+ATM01|Alanya Atatürk Evi Müzesi|Antalya
+AEL01|Elmalı Müzesi|Antalya
+AME01|Mevlevihane Müzesi|Antalya
+NKR02|Antalya Nekropol Müzesi|Antalya
+KDK01|Kadıkalesi Örenyeri|Aydın
+TAM02|Taksiyarhis Anıt Müzesi|Balıkesir
+BAT01|Mehmet Cabir Alper Arkeoloji Müzesi|Batman
+BLC01|Bilecik Müzesi|Bilecik
+BET01|Bitlis Etnografya Müzesi|Bitlis
+BAK01|Akşemsettin Türbesi|Bolu
+DTM02|Doğa Tarihi Müzesi|Burdur
+BIG03|Bursa İznik Göl Bazilikası|Bursa
+BOS01|Osmanlı Evi Müzesi|Bursa
+INH02|Nilüfer Hatun İmareti Türk İslam Eserleri Müzesi|Bursa
+CDT01|Çanakkale Destanı Tanıtım Merkezi|Çanakkale
+CHC01|Çanakkale Hilal-i Ahmer Canlandırma Alanı|Çanakkale
+CHT01|Hamidiye Tabyası ve Çanakkale Savaşları Tarihi Müzesi|Çanakkale
+DAE01|Atatürk Evi Müzesi|Diyarbakır
+DAM01|Silvan Atatürk Evi Müzesi|Diyarbakır
+EIE02|Türk İslam Eserleri Müzesi|Edirne
+HTB02|Edirne Hıdırlık Tabya Balkan Tarihi Müzesi|Edirne
+ELM02|Elazığ Müzesi|Elâzığ
+ERE01|Erzurum Resim Heykel Müzesi|Erzurum
+GMM01|Gümüşhane Müzesi|Gümüşhane
+CEV02|Çevlik Örenyeri|Hatay
+NAM01|Hatay Necmi Asfuroğlu Arkeoloji Müzesi|Hatay
+ISU01|Uluborlu Müzesi|Isparta
+IHM01|İstanbul Havalimanı Müzesi|İstanbul
+EFS03|Efes Deneyim Müzesi|İzmir
+ODM02|Ödemiş Müzesi|İzmir
+EKM02|Elbistan Şehir Müzesi|Kahramanmaraş
+KGM01|Germanicia Mozaikli Alan|Kahramanmaraş
+HPO01|Hadrianopolis Örenyeri|Karabük
+EMM01|Ermenek Ahmet Keleşoğlu Arkeoloji ve Etnografya Müzesi|Karaman
+KSL01|Livapaşa Konağı Etnografya Müzesi|Kastamonu
+KMU01|Mucur Yeraltı Şehri|Kırşehir
+KRU02|Kırşehir Müzesi|Kırşehir
+AYM01|Alaeddin Yavaşça Müze Evi|Kilis
+KLS02|Kilis Müzesi|Kilis
+KOE01|Ereğli Müzesi|Konya
+KUA02|Kütahya Müzesi|Kütahya
+MAT01|Malatya Atatürk Anı Evi ve Etnoğrafya Müzesi|Malatya
+MLB01|Beşkonaklar Etnografya Müzesi ve Geleneksel Malatya Evi|Malatya
+MNA01|Aigai Örenyeri|Manisa
+ANR01|Anamur Müzesi|Mersin
+MTM02|Mersin Tarsus Müzesi|Mersin
+BSA05|Bodrum Serçe Limanı Cam Batığı Sergi Salonu|Muğla
+MRM01|Marmaris Müzesi|Muğla
+MTE01|Milas Taş Eserler Müzesi|Muğla
+MAL01|Malazgirt Müzesi|Muş
+MMU01|Muş Müzesi|Muş
+MAZ02|Mazı Yeraltı Şehri|Nevşehir
+NHA01|Nevşehir Hacıbektaş Atatürk Evi Müzesi|Nevşehir
+NHC01|Nevşehir Hacıbektaş Arkeoloji ve Etnografya Müzesi|Nevşehir
+SBS01|Sobessos Örenyeri|Nevşehir
+NAO02|Niğde Andaval Örenyeri|Niğde
+ORM01|Ordu Müzesi|Ordu
+OSM01|Osmaniye Müzesi|Osmaniye
+SET01|Sinop Arslantorunlar Etnografya Müzesi|Sinop
+TMA01|Tekirdağ Muratlı Atatürk Evi Müzesi|Tekirdağ
+TAT01|Tokat Atatürk Evi ve Etnografya Müzesi|Tokat
+USA01|Atatürk ve Etnografya Müzesi|Uşak
+VAN01|Akdamar Anıt Müzesi|Van
+FLO01|Filyos(Tios) Örenyeri|Zonguldak
+ZMM02|Maden Müzesi|Zonguldak
+QKM01|Kral Mezarları Müzesi ve Örenyeri|Gazimağusa
+QAT01|Ayia Trias Bazilikası|İskele
+WFP01|Fener Rum Patrikhanesi ve Aya Yorgi Kilisesi|İstanbul
+NUC01|Harbiye Şelaleleri|Hatay
+NKA01|Kartalkaya Kayak Merkezi|Bolu
+NDA01|Davraz Kayak Merkezi|Isparta
+NAP01|Aziz Pavlus Yolu|Antalya
+NSY01|Sultanlar Yolu|Edirne
+Y010|Emine Göğüş Mutfak Müzesi|Gaziantep
+Y033|Fildamı Sarnıcı|İstanbul
+Y062|Kandilli Deprem Müzesi|İstanbul
+Y084|Mta Şehvar Doğa Tarihi Müzesi|Ankara
+Y085|Mehmet Akif Ersoy Edebiyat Müze Kütüphanesi|Ankara
+Y103|İnönü Savaşları Karargâh Müzesi|Eskişehir
+Y104|Nakoleia ve Seyitgazi Külliyesi|Eskişehir
+Y170|Balbura Antik Kenti|Burdur
+Y172|Oinoanda Antik Kenti|Muğla
+Y185|Milas Uzunyuva (Hekatomnos Anıt Mezarı)|Muğla
+Y201|Adatepe Zeytinyağı Müzesi|Çanakkale
+Y205|Vize Ayasofya (Gazi Süleyman Paşa) Camii|Kırklareli
+Y207|Namık Kemal Evi Müzesi|Tekirdağ
+Y216|Alaçam Mübadele Müzesi|Samsun
+Y218|Pompeiopolis Antik Kenti|Kastamonu
+Y226|Boğatepe Peynir Müzesi|Kars
+Y240|Soğmatar Antik Kenti|Şanlıurfa
+Y241|Şuayb Şehri|Şanlıurfa
+Y256|Kemaliye (Eğin) Tarihi Kenti|Erzincan
+Y271|Hisart Canlı Tarih ve Diorama Müzesi|İstanbul
+Y300|İdyros Antik Kenti|Antalya
+Y303|Derbe Höyüğü|Karaman
+Y306|Tilbaşar Kalesi|Gaziantep
+Y310|Komana Pontika Antik Kenti|Tokat
+Y311|Lambousa (Lapithos) Antik Kenti|Girne
+Y316|Amyzon Antik Kenti|Aydın
+Y317|Maşat Höyük|Tokat
+Y321|Etenna Antik Kenti|Antalya
+Y322|Neandreia Antik Kenti|Çanakkale
+Y336|Hyllarima Antik Kenti|Muğla
+Y340|Pednelissos Antik Kenti|Antalya
+Y341|Arneai Antik Kenti|Antalya
+Y344|Havza Atatürk Evi Müzesi|Samsun
+Y346|Gagae Antik Kenti|Antalya
+Y355|Lamos Antik Kenti|Antalya
+Y360|Dülük (Doliche) Antik Kenti|Gaziantep
+Y363|Perperene Antik Kenti|Balıkesir
+Y365|Tahtakuşlar Etnografya Müzesi|Balıkesir
+Y366|Beldibi Mağarası|Antalya
+Y370|Tayfun Talipoğlu Daktilo Müzesi|Eskişehir
+Y371|Ege Üniversitesi Tabiat Tarihi Müzesi|İzmir
+Y372|İskenderun Deniz Müzesi|Hatay
+Y373|Ali Demirsoy Doğal Tarih Müzesi|Erzincan
+Y375|Demirköy Dökümhanesi|Kırklareli
+Y376|Sebastopolis Antik Kenti|Tokat
+Y379|Hilmi Nakipoğlu Fotoğraf Makineleri Müzesi|İstanbul
+Y387|Jandarma Müzesi|Ankara
+Y393|Kandyba Antik Kenti|Antalya
+Y394|Korydalla Antik Kenti|Antalya
+Y396|Isinda Antik Kenti|Antalya
+Y397|Akalissos Antik Kenti|Antalya
+Y414|Hakkari Meydan Medresesi|Hakkari
+Y415|Siirt Ulu Camii|Siirt
