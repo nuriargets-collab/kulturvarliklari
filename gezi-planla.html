@@ -49,7 +49,7 @@
 .gp .sheets{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.gp .sheet{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff}
 .gp .sheet b{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:19px;line-height:1.2}
 .gp .check li{list-style:none;padding:8px 0;border-bottom:1px dashed var(--line);display:flex;gap:10px;align-items:flex-start}.gp .check input{margin-top:4px;flex:none}
-.gp .hl{background:#fff3c4}.gp [hidden]{display:none!important}
+.gp .share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 14px;padding:10px 12px;background:var(--sand);border-radius:12px;font-size:14px}.gp .hl{background:#fff3c4}.gp [hidden]{display:none!important}
 @media(max-width:760px){.gp .g3,.gp .sheets{grid-template-columns:1fr}.gp .doc{padding:20px}}
 @media print{body *{visibility:hidden}.gp .printme,.gp .printme *{visibility:visible}.gp .printme{position:absolute;left:0;top:0;border:0;padding:0;max-width:none}}</style>
 <main class="wide gp">
@@ -73,6 +73,7 @@
 <button class="tab2 on" data-t="yazi" type="button">📄 Resmî yazı</button><button class="tab2" data-t="mail" type="button">✉️ E-posta taslağı</button>
 <button class="tab2" data-t="veli" type="button">📝 Veli izin belgesi</button><button class="tab2" data-t="plan" type="button">🕘 Gezi programı</button>
 <button class="tab2" data-t="kontrol" type="button">✅ Kontrol listesi</button><button class="tab2" data-t="kagit" type="button">🧩 Etkinlik kâğıtları</button></div>
+<div class="share" aria-label="Paylaş"><b>Bu belgeyi paylaş:</b><button class="act" id="shNative" type="button" hidden>📤 Paylaş</button><a class="act" id="shWa" href="#" target="_blank" rel="noopener">WhatsApp</a><a class="act" id="shMail" href="#">E-posta</a><a class="act" id="shTg" href="#" target="_blank" rel="noopener">Telegram</a><button class="act" id="shCopy" type="button">📋 Kopyala</button><span class="note" id="shNote"></span></div>
 <div data-p="yazi"><div class="doc" id="yazi"></div><div class="row"><button class="btn pr" data-d="yazi" type="button">🖨 Yazdır / PDF</button></div></div>
 <div data-p="mail" hidden><div class="mail" id="mailbox"></div><div class="row"><a class="btn" id="mailto" href="#">✉️ E-posta programımda aç</a><button class="act" id="kopyala" type="button">📋 Metni kopyala</button><span class="note" id="kop"></span></div>
 <p class="note" id="adresNot" style="margin-top:8px"></p></div>
@@ -151,9 +152,23 @@ function build(){if(!cur)return;const m=cur,ogr=+v("ogr")||0,ref=+v("ref")||0,ta
   +'<div class="sheet"><b>Yer sayfası</b><span class="note">Sesli anlatım, harita, ziyaret bilgisi</span><div class="row" style="margin-top:8px"><a class="act" href="yer/'+esc(m.s)+'.html">Aç ▸</a></div></div>'
   +'<div class="sheet"><b>Tüm etkinlik kâğıtları</b><span class="note">Konu, düzey ve il il kâğıtlar</span><div class="row" style="margin-top:8px"><a class="act" href="ogretmenler.html">Aç ▸</a></div></div>';
  $("out").hidden=false;$("out").scrollIntoView({behavior:"smooth"});}
-document.querySelectorAll(".tab2").forEach(t=>t.onclick=()=>{document.querySelectorAll(".tab2").forEach(x=>x.classList.toggle("on",x===t));document.querySelectorAll("[data-p]").forEach(p=>p.hidden=p.dataset.p!==t.dataset.t);});
+document.querySelectorAll(".tab2").forEach(t=>t.onclick=()=>{tabNow=t.dataset.t;document.querySelectorAll(".tab2").forEach(x=>x.classList.toggle("on",x===t));document.querySelectorAll("[data-p]").forEach(p=>p.hidden=p.dataset.p!==t.dataset.t);shUpd();$("shNote").textContent="";});
 document.querySelectorAll(".pr").forEach(b=>b.onclick=()=>{document.querySelectorAll(".doc").forEach(d=>d.classList.toggle("printme",d.id===b.dataset.d));window.print();});
-$("hazirla").onclick=build;
+let tabNow="yazi";
+const TBL={yazi:"Resmî yazı",mail:"E-posta taslağı",veli:"Veli izin belgesi",plan:"Gezi programı",kontrol:"Kontrol listesi",kagit:"Etkinlik kâğıtları"};
+function shText(){const base=location.origin+location.pathname.replace(/[^/]*$/,"");
+ if(tabNow==="mail")return $("mailbox").textContent;
+ if(tabNow==="kontrol")return [...document.querySelectorAll("#kontrol li")].map(li=>"☐ "+li.textContent.trim()).join("\n");
+ if(tabNow==="kagit")return [...document.querySelectorAll("#kagit .sheet")].map(d=>{const a=d.querySelector("a");return d.querySelector("b").textContent+": "+(a?new URL(a.getAttribute("href"),base).href:"");}).join("\n");
+ return $(tabNow).innerText.replace(/\n{3,}/g,"\n\n").trim();}
+function shUpd(){if(!cur)return;const ttl="Okul gezisi – "+cur.n+" – "+TBL[tabNow];const t=ttl+"\n\n"+shText()+"\n\n(Hazırlayan: kulturvarliklari.com.tr/gezi-planla.html)";
+ $("shWa").href="https://wa.me/?text="+encodeURIComponent(t);$("shTg").href="https://t.me/share/url?url="+encodeURIComponent("https://kulturvarliklari.com.tr/gezi-planla.html#"+cur.s)+"&text="+encodeURIComponent(t);
+ $("shMail").href="mailto:?subject="+encodeURIComponent(ttl)+"&body="+encodeURIComponent(t);return [ttl,t];}
+if(navigator.share)$("shNative").hidden=false;
+$("shNative").onclick=async()=>{const[ttl,t]=shUpd();try{await navigator.share({title:ttl,text:t});}catch(e){}};
+$("shCopy").onclick=async()=>{const[,t]=shUpd();try{await navigator.clipboard.writeText(t);$("shNote").textContent="Kopyalandı.";}catch(e){$("shNote").textContent="Kopyalanamadı.";}};
+["shWa","shTg","shMail"].forEach(i=>$(i).addEventListener("click",shUpd));
+$("hazirla").onclick=()=>{build();shUpd();};
 $("kopyala").onclick=async()=>{try{await navigator.clipboard.writeText($("mailbox").textContent);$("kop").textContent="Kopyalandı.";}catch(e){$("kop").textContent="Kopyalanamadı; metni seçip kopyalayın.";}};
 }
 </script>
