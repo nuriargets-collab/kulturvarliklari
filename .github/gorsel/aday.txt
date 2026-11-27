@@ -1,0 +1,166 @@
+ASO01|Sofraz Anıt Mezarı Adıyaman|
+AAM01|Aziz Mercurius Yeraltı Şehri Aksaray|Aziz Mercurius Underground City
+AKM02|Aksaray Manastır Vadisi Örenyeri Aksaray|Monastery Valley, Aksaray
+CUM02|Kurtuluş Savaşı Müzesi Ankara|Kurtuluş Savaşı Museum
+OTS01|Kahramankazan 15 Temmuz Şehitleri ve Demokrasi Müzesi Ankara|Kahramankazan 15 Temmuz Şehitleri and Demokrasi Museum
+ATM01|Alanya Atatürk Evi Müzesi Antalya|Alanya Atatürk House Museum
+AEL01|Elmalı Müzesi Antalya|Elmalı Museum
+AME01|Mevlevihane Müzesi Antalya|Mevlevihane Museum
+NKR02|Antalya Nekropol Müzesi Antalya|Antalya Nekropol Museum
+KDK01|Kadıkalesi Örenyeri Aydın|Kadıkalesi Archaeological Site
+TAM02|Taksiyarhis Anıt Müzesi Balıkesir|Taksiyarhis Monument Museum
+BAT01|Mehmet Cabir Alper Arkeoloji Müzesi Batman|Mehmet Cabir Alper Archaeology Museum
+BLC01|Bilecik Müzesi Bilecik|Bilecik Museum
+BET01|Bitlis Etnografya Müzesi Bitlis|Bitlis Ethnography Museum
+BAK01|Akşemsettin Türbesi Bolu|Akşemsettin Tomb
+DTM02|Doğa Tarihi Müzesi Burdur|Doğa Tarihi Museum
+BIG03|Bursa İznik Göl Bazilikası Bursa|
+BOS01|Osmanlı Evi Müzesi Bursa|Osmanlı House Museum
+INH02|Nilüfer Hatun İmareti Türk İslam Eserleri Müzesi Bursa|Nilüfer Hatun İmareti Türk İslam Eserleri Museum
+CDT01|Çanakkale Destanı Tanıtım Merkezi Çanakkale|
+CHC01|Çanakkale Hilal-i Ahmer Canlandırma Alanı Çanakkale|
+CHT01|Hamidiye Tabyası ve Çanakkale Savaşları Tarihi Müzesi Çanakkale|Hamidiye Tabyası and Çanakkale Savaşları Tarihi Museum
+DAE01|Atatürk Evi Müzesi Diyarbakır|Atatürk House Museum
+DAM01|Silvan Atatürk Evi Müzesi Diyarbakır|Silvan Atatürk House Museum
+EIE02|Türk İslam Eserleri Müzesi Edirne|Türk İslam Eserleri Museum
+HTB02|Edirne Hıdırlık Tabya Balkan Tarihi Müzesi Edirne|Edirne Hıdırlık Tabya Balkan Tarihi Museum
+ELM02|Elazığ Müzesi Elâzığ|Elazığ Museum
+ERE01|Erzurum Resim Heykel Müzesi Erzurum|Erzurum Resim Heykel Museum
+GRS01|Giresun Müzesi Giresun|Giresun Museum
+GMM01|Gümüşhane Müzesi Gümüşhane|Gümüşhane Museum
+CEV02|Çevlik Örenyeri Hatay|Çevlik Archaeological Site
+NAM01|Hatay Necmi Asfuroğlu Arkeoloji Müzesi Hatay|Hatay Necmi Asfuroğlu Archaeology Museum
+ISU01|Uluborlu Müzesi Isparta|Uluborlu Museum
+IHM01|İstanbul Havalimanı Müzesi İstanbul|İstanbul Havalimanı Museum
+EFS03|Efes Deneyim Müzesi İzmir|Efes Deneyim Museum
+IAT01|İzmir Atatürk Müzesi İzmir|İzmir Atatürk Museum
+IKZ01|Klazomenai Örenyeri İzmir|Klazomenai Archaeological Site
+IRE01|İzmir Resim Heykel Müzesi İzmir|İzmir Resim Heykel Museum
+ITM01|Tire Müzesi İzmir|Tire Museum
+ODM02|Ödemiş Müzesi İzmir|Ödemiş Museum
+EKM02|Elbistan Şehir Müzesi Kahramanmaraş|Elbistan Şehir Museum
+KGM01|Germanicia Mozaikli Alan Kahramanmaraş|
+HPO01|Hadrianopolis Örenyeri Karabük|Hadrianopolis Archaeological Site
+KSF01|Karabük Safranbolu Müzesi Karabük|Karabük Safranbolu Museum
+EMM01|Ermenek Ahmet Keleşoğlu Arkeoloji ve Etnografya Müzesi Karaman|Ermenek Ahmet Keleşoğlu Arkeoloji and Ethnography Museum
+KSL01|Livapaşa Konağı Etnografya Müzesi Kastamonu|Livapaşa Mansion Ethnography Museum
+KST01|Kastamonu Müzesi Kastamonu|Kastamonu Museum
+KRK01|Kırklareli Müzesi Kırklareli|Kırklareli Museum
+KMU01|Mucur Yeraltı Şehri Kırşehir|Mucur Underground City
+KRU02|Kırşehir Müzesi Kırşehir|Kırşehir Museum
+AYM01|Alaeddin Yavaşça Müze Evi Kilis|Alaeddin Yavaşça Müze House
+KLS02|Kilis Müzesi Kilis|Kilis Museum
+KOC02|Kocaeli Arkeoloji Müzesi Kocaeli|Kocaeli Archaeology Museum
+KEM01|Konya Etnografya Müzesi Konya|Konya Ethnography Museum
+KOE01|Ereğli Müzesi Konya|Ereğli Museum
+KUA02|Kütahya Müzesi Kütahya|Kütahya Museum
+MAT01|Malatya Atatürk Anı Evi ve Etnoğrafya Müzesi Malatya|Malatya Atatürk Anı House and Etnoğrafya Museum
+MLB01|Beşkonaklar Etnografya Müzesi ve Geleneksel Malatya Evi Malatya|Beşkonaklar Etnografya Müzesi and Geleneksel Malatya House
+MNA01|Aigai Örenyeri Manisa|Aigai Archaeological Site
+ANR01|Anamur Müzesi Mersin|Anamur Museum
+MER02|Mersin Müzesi Mersin|Mersin Museum
+MTM02|Mersin Tarsus Müzesi Mersin|Mersin Tarsus Museum
+BSA05|Bodrum Serçe Limanı Cam Batığı Sergi Salonu Muğla|
+MFM01|Fethiye Müzesi Muğla|Fethiye Museum
+MMI01|Milas İassos Balık Pazarı Müzesi Muğla|Milas İassos Balık Pazarı Museum
+MRM01|Marmaris Müzesi Muğla|Marmaris Museum
+MTE01|Milas Taş Eserler Müzesi Muğla|Milas Taş Eserler Museum
+MAL01|Malazgirt Müzesi Muş|Malazgirt Museum
+MMU01|Muş Müzesi Muş|Muş Museum
+MAZ02|Mazı Yeraltı Şehri Nevşehir|Mazı Underground City
+NHA01|Nevşehir Hacıbektaş Atatürk Evi Müzesi Nevşehir|Nevşehir Hacıbektaş Atatürk House Museum
+NHC01|Nevşehir Hacıbektaş Arkeoloji ve Etnografya Müzesi Nevşehir|Nevşehir Hacıbektaş Arkeoloji and Ethnography Museum
+NVU01|Ürgüp Müzesi Nevşehir|Ürgüp Museum
+SBS01|Sobessos Örenyeri Nevşehir|Sobessos Archaeological Site
+NAO02|Niğde Andaval Örenyeri Niğde|Niğde Andaval Archaeological Site
+NIG01|Niğde Müzesi Niğde|Niğde Museum
+ORM01|Ordu Müzesi Ordu|Ordu Museum
+OSM01|Osmaniye Müzesi Osmaniye|Osmaniye Museum
+RZM01|Rize Müzesi Rize|Rize Museum
+SBM01|Bafra Müzesi Samsun|Bafra Museum
+SET01|Sinop Arslantorunlar Etnografya Müzesi Sinop|Sinop Arslantorunlar Ethnography Museum
+SIN02|Sinop Müzesi Sinop|Sinop Museum
+SUM02|Şanlıurfa Arkeoloji Müzesi Şanlıurfa|Şanlıurfa Archaeology Museum
+TKM01|Tekirdağ Müzesi Tekirdağ|Tekirdağ Museum
+TMA01|Tekirdağ Muratlı Atatürk Evi Müzesi Tekirdağ|Tekirdağ Muratlı Atatürk House Museum
+TAT01|Tokat Atatürk Evi ve Etnografya Müzesi Tokat|Tokat Atatürk House and Ethnography Museum
+TLK01|Latifoğlu Konağı Tokat|Latifoğlu Mansion
+TRK01|Küçük Ayvasıl St. Anna Kilisesi Trabzon|Küçük Ayvasıl St. Anna Church
+UAR02|Uşak Müzesi Uşak|Uşak Museum
+USA01|Atatürk ve Etnografya Müzesi Uşak|Atatürk and Ethnography Museum
+VAN01|Akdamar Anıt Müzesi Van|Akdamar Monument Museum
+FLO01|Filyos(Tios) Örenyeri Zonguldak|Filyos(Tios) Archaeological Site
+ZCM02|Cehennemağzı Mağaraları Zonguldak|
+ZMM02|Maden Müzesi Zonguldak|Maden Museum
+QKM01|Kral Mezarları Müzesi ve Örenyeri Gazimağusa|Kral Mezarları Museum and Archaeological Site
+QAT01|Ayia Trias Bazilikası İskele|
+WFP01|Fener Rum Patrikhanesi ve Aya Yorgi Kilisesi İstanbul|Fener Rum Patrikhanesi and Aya Yorgi Church
+NUC01|Harbiye Şelaleleri Hatay|
+NTZ01|Tazı Kanyonu Antalya|Tazı Canyon
+NKA01|Kartalkaya Kayak Merkezi Bolu|
+NDA01|Davraz Kayak Merkezi Isparta|
+NAP01|Aziz Pavlus Yolu Antalya|Aziz Pavlus Way
+NSY01|Sultanlar Yolu Edirne|Sultanlar Way
+Y009|Hasan Süzer Etnografya Müzesi Gaziantep|Hasan Süzer Ethnography Museum
+Y010|Emine Göğüş Mutfak Müzesi Gaziantep|Emine Göğüş Mutfak Museum
+Y020|Kadifekale İzmir|
+Y033|Fildamı Sarnıcı İstanbul|Fildamı Cistern
+Y062|Kandilli Deprem Müzesi İstanbul|Kandilli Deprem Museum
+Y084|Mta Şehvar Doğa Tarihi Müzesi Ankara|Mta Şehvar Doğa Tarihi Museum
+Y085|Mehmet Akif Ersoy Edebiyat Müze Kütüphanesi Ankara|
+Y103|İnönü Savaşları Karargâh Müzesi Eskişehir|İnönü Savaşları Karargâh Museum
+Y104|Nakoleia ve Seyitgazi Külliyesi Eskişehir|Nakoleia and Seyitgazi Complex
+Y170|Balbura Antik Kenti Burdur|Ancient City of Balbura
+Y172|Oinoanda Antik Kenti Muğla|Ancient City of Oinoanda
+Y185|Milas Uzunyuva (Hekatomnos Anıt Mezarı) Muğla|
+Y201|Adatepe Zeytinyağı Müzesi Çanakkale|Adatepe Zeytinyağı Museum
+Y202|Enez Kalesi (Ainos) Edirne|Enez Castle (Ainos)
+Y205|Vize Ayasofya (Gazi Süleyman Paşa) Camii Kırklareli|Vize Ayasofya (Gazi Süleyman Paşa) Mosque
+Y207|Namık Kemal Evi Müzesi Tekirdağ|Namık Kemal House Museum
+Y216|Alaçam Mübadele Müzesi Samsun|Alaçam Mübadele Museum
+Y218|Pompeiopolis Antik Kenti Kastamonu|Ancient City of Pompeiopolis
+Y226|Boğatepe Peynir Müzesi Kars|Boğatepe Peynir Museum
+Y233|On Gözlü (Dicle) Köprüsü Diyarbakır|On Gözlü (Dicle) Bridge
+Y240|Soğmatar Antik Kenti Şanlıurfa|Ancient City of Soğmatar
+Y241|Şuayb Şehri Şanlıurfa|Şuayb City (ancient site)
+Y252|Tokat Taşhan Tokat|
+Y256|Kemaliye (Eğin) Tarihi Kenti Erzincan|
+Y271|Hisart Canlı Tarih ve Diorama Müzesi İstanbul|Hisart Canlı Tarih and Diorama Museum
+Y300|İdyros Antik Kenti Antalya|Ancient City of İdyros
+Y303|Derbe Höyüğü Karaman|Derbe Mound
+Y306|Tilbaşar Kalesi Gaziantep|Tilbaşar Castle
+Y310|Komana Pontika Antik Kenti Tokat|Ancient City of Komana Pontika
+Y311|Lambousa (Lapithos) Antik Kenti Girne|Ancient City of Lambousa (Lapithos)
+Y316|Amyzon Antik Kenti Aydın|Ancient City of Amyzon
+Y317|Maşat Höyük Tokat|Maşat Mound
+Y321|Etenna Antik Kenti Antalya|Ancient City of Etenna
+Y322|Neandreia Antik Kenti Çanakkale|Ancient City of Neandreia
+Y336|Hyllarima Antik Kenti Muğla|Ancient City of Hyllarima
+Y340|Pednelissos Antik Kenti Antalya|Ancient City of Pednelissos
+Y341|Arneai Antik Kenti Antalya|Ancient City of Arneai
+Y344|Havza Atatürk Evi Müzesi Samsun|Havza Atatürk House Museum
+Y346|Gagae Antik Kenti Antalya|Ancient City of Gagae
+Y354|Trysa Antik Kenti Antalya|Ancient City of Trysa
+Y355|Lamos Antik Kenti Antalya|Ancient City of Lamos
+Y360|Dülük (Doliche) Antik Kenti Gaziantep|Ancient City of Dülük (Doliche)
+Y363|Perperene Antik Kenti Balıkesir|Ancient City of Perperene
+Y365|Tahtakuşlar Etnografya Müzesi Balıkesir|Tahtakuşlar Ethnography Museum
+Y366|Beldibi Mağarası Antalya|Beldibi Cave
+Y370|Tayfun Talipoğlu Daktilo Müzesi Eskişehir|Tayfun Talipoğlu Daktilo Museum
+Y371|Ege Üniversitesi Tabiat Tarihi Müzesi İzmir|Ege University Natural History Museum
+Y372|İskenderun Deniz Müzesi Hatay|İskenderun Deniz Museum
+Y373|Ali Demirsoy Doğal Tarih Müzesi Erzincan|Ali Demirsoy Doğal Tarih Museum
+Y375|Demirköy Dökümhanesi Kırklareli|Demirköy Iron Foundry
+Y376|Sebastopolis Antik Kenti Tokat|Ancient City of Sebastopolis
+Y379|Hilmi Nakipoğlu Fotoğraf Makineleri Müzesi İstanbul|Hilmi Nakipoğlu Fotoğraf Makineleri Museum
+Y387|Jandarma Müzesi Ankara|Jandarma Museum
+Y393|Kandyba Antik Kenti Antalya|Ancient City of Kandyba
+Y394|Korydalla Antik Kenti Antalya|Ancient City of Korydalla
+Y395|Kitanaura Antik Kenti Antalya|Ancient City of Kitanaura
+Y396|Isinda Antik Kenti Antalya|Ancient City of Isinda
+Y397|Akalissos Antik Kenti Antalya|Ancient City of Akalissos
+Y413|Bingöl Yüzen Adalar Bingöl|Floating Islands of Bingöl
+Y414|Hakkari Meydan Medresesi Hakkari|Meydan Madrasa, Hakkari
+Y415|Siirt Ulu Camii Siirt|Great Mosque of Siirt
+Y416|Cizre Kırmızı Medrese Şırnak|Red Madrasa of Cizre
+Y417|Yürüyen Köşk Yalova|Walking Pavilion (Yürüyen Köşk)

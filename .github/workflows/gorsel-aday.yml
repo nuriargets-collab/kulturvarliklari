@@ -1,0 +1,67 @@
+name: Görsel adaylarını Commons'tan topla
+on:
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "aday (küçük resimler) ya da indir (seçilenler)"
+        default: "aday"
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Commons
+        env:
+          MOD: ${{ github.event.inputs.mod }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, time, urllib.request, urllib.parse
+          UA = {"User-Agent": "KulturVarliklariBot/1.0 (https://kulturvarliklari.com.tr; iletisim@kulturvarliklari.com.tr)"}
+          OK = re.compile(r"^(CC BY(-SA)? ?[0-9.]*|CC0|Public domain|PD.*)$", re.I)
+          def get(u):
+              for i in range(3):
+                  try: return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60).read()
+                  except Exception as e: time.sleep(3)
+              return None
+          def info(params):
+              u = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode({**params, "format": "json", "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": params.pop("w", 400)})
+              b = get(u); return json.loads(b) if b else {}
+          os.makedirs("out/t", exist_ok=True)
+          mod = os.environ.get("MOD", "aday")
+          if mod == "aday":
+              res = {}
+              for line in open(".github/gorsel/aday.txt", encoding="utf-8"):
+                  if not line.strip(): continue
+                  sid, q1, q2 = (line.rstrip("\n").split("|") + ["", ""])[:3]
+                  cands = []
+                  for q in [q for q in (q2, q1) if q]:
+                      j = info({"action": "query", "generator": "search", "gsrnamespace": 6, "gsrsearch": q + " filetype:bitmap", "gsrlimit": 6, "w": 400})
+                      for p in sorted((j.get("query") or {}).get("pages", {}).values(), key=lambda p: p.get("index", 0)):
+                          ii = (p.get("imageinfo") or [{}])[0]; m = ii.get("extmetadata") or {}
+                          lic = (m.get("LicenseShortName") or {}).get("value", "")
+                          if not OK.match(lic.strip()) or ii.get("width", 0) < 1000 or p["title"] in [c["title"] for c in cands]: continue
+                          art = re.sub("<[^>]+>", "", (m.get("Artist") or {}).get("value", "")).strip()[:80]
+                          cands.append({"title": p["title"], "lic": lic, "artist": art, "page": ii.get("descriptionurl"), "thumb": ii.get("thumburl"), "w": ii.get("width"), "h": ii.get("height")})
+                          if len(cands) >= 4: break
+                      if len(cands) >= 4: break
+                      time.sleep(0.5)
+                  for k, c in enumerate(cands):
+                      b = get(c["thumb"])
+                      if b: open(f"out/t/{sid}_{k}.jpg", "wb").write(b)
+                  res[sid] = cands; print(sid, len(cands))
+              json.dump(res, open("out/aday.json", "w"), ensure_ascii=False, indent=1)
+          else:
+              sec = json.load(open(".github/gorsel/secim.json", encoding="utf-8"))
+              os.makedirs("out/full", exist_ok=True)
+              for sid, title in sec.items():
+                  j = info({"action": "query", "titles": title, "w": 1920})
+                  p = next(iter((j.get("query") or {}).get("pages", {}).values()), {})
+                  ii = (p.get("imageinfo") or [{}])[0]
+                  b = get(ii.get("thumburl") or ii.get("url", ""))
+                  if b: open(f"out/full/{sid}.jpg", "wb").write(b); print(sid, "ok")
+                  time.sleep(0.5)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gorsel-${{ github.event.inputs.mod }}
+          path: out/
