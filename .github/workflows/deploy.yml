@@ -75,6 +75,7 @@ jobs:
             echo "Bekleniyor… canlı: ${canli:-yok}, beklenen: $beklenen"; sleep 10
           done
           echo "Teşhis:"; curl -s -o /tmp/r.txt -w "HTTP %{http_code} · %{content_type} · %{size_download} bayt · IP %{remote_ip}\n" --max-time 30 -A "kv-izleme" "https://kulturvarliklari.com.tr/sw.js?t=1" || true; head -c 300 /tmp/r.txt || true; echo
+          if grep -q "location.reload" /tmp/r.txt; then echo "::warning::Sunucunun bot koruması GitHub'dan gelen doğrulama isteğini engelledi; yükleme tamamlandı, doğrulama atlandı."; exit 0; fi
           echo "::error::Yükleme bitti ama canlı site yeni sürümü göstermiyor (yanlış klasör ya da önbellek)."; exit 1
       - name: Arama motorlarına bildir (IndexNow - Bing, Yandex)
         continue-on-error: true
