@@ -249,6 +249,32 @@
       .then(function () { b.disabled = false; });
   });
 
+  /* ---------- Ziyaretçi notları (ön onaylı) ---------- */
+  var nl = $('#notlist');
+  if (nl) fetch(ROOT + 'api/notlar.php?sid=' + encodeURIComponent(nl.getAttribute('data-sid')))
+    .then(function (r) { return r.ok ? r.json() : { notlar: [] }; })
+    .then(function (d) {
+      var a = (d && d.notlar) || [];
+      if (!a.length) { nl.innerHTML = '<p class="note">' + esc(nl.getAttribute('data-none')) + '</p>'; return; }
+      nl.innerHTML = a.map(function (n) {
+        return '<div class="vnote"><div class="note"><b>' + esc(n.ad) + '</b> · ' + esc(n.tarih) + (n.tur === 'soru' ? ' · ' + esc(nl.getAttribute('data-q')) : '') + '</div><p>' + esc(n.metin).replace(/\n/g, '<br>') + '</p>' +
+          (n.cevap ? '<div class="vans"><b>' + esc(nl.getAttribute('data-ans')) + ':</b> ' + esc(n.cevap) + '</div>' : '') + '</div>';
+      }).join('');
+    }).catch(function () { nl.innerHTML = '<p class="note">' + esc(nl.getAttribute('data-none')) + '</p>'; });
+  var nf = $('#notform');
+  if (nf) nf.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var msg = $('#notmsg'), b = nf.querySelector('button[type=submit]');
+    if (nf.metin.value.trim().length < 15) { nf.metin.focus(); msg.textContent = nf.getAttribute('data-err'); return; }
+    if (!nf.onay.checked) { nf.onay.focus(); return; }
+    var d = { sid: nf.getAttribute('data-sid'), dil: nf.getAttribute('data-lang'), onay: true, metin: nf.metin.value, ad: nf.ad.value, web: nf.web.value, tur: (nf.querySelector('input[name=tur]:checked') || {}).value };
+    b.disabled = true; msg.textContent = I.loading || '…';
+    fetch(ROOT + 'api/notlar.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(d) })
+      .then(function (r) { if (!r.ok) throw 0; msg.textContent = nf.getAttribute('data-ok'); nf.reset(); })
+      .catch(function () { msg.textContent = nf.getAttribute('data-err'); })
+      .then(function () { b.disabled = false; });
+  });
+
   /* ---------- Reklam alanı: yakında konaklama ve yemek ---------- */
   var bizBtn = $('#bizbtn'), bizSec = $('#yakinda');
   function openBiz() {
